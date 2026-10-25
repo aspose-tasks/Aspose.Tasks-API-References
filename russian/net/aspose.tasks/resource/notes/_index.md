@@ -1,23 +1,23 @@
 ---
-title: Resource.Notes
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение Notes.
+title: "Заметки"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Получает или задает значение Заметок."
 type: docs
 weight: 520
 url: /ru/net/aspose.tasks/resource/notes/
 ---
 ## Resource.Notes property
 
-Получает или задает значение Notes.
+Получает или задает значение Заметок.
 
 ```csharp
 public string Notes { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
-* class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* class [Resource](../../resource)
+* namespace [Aspose.Tasks](../../resource)
+* assembly [Aspose.Tasks](../../../)
 
-
+<!-- НЕ РЕДАКТИРОВАТЬ: сгенерировано xmldocmd для Aspose.Tasks.dll -->

@@ -1,26 +1,41 @@
 ---
-title: Prj.WorkFormat
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Формат используемый для отображения продолжительности задачи.
+title: "Prj.WorkFormat"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Формат, используемый для отображения продолжительности задачи"
 type: docs
-weight: 780
+weight: 790
 url: /ru/net/aspose.tasks/prj/workformat/
 ---
 ## Prj.WorkFormat field
 
-Формат, используемый для отображения продолжительности задачи.
+Формат, используемый для отображения длительности задачи.
 
 ```csharp
 public static readonly Key<TimeUnitType, PrjKey> WorkFormat;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как получить продолжительность с форматом работы по умолчанию.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+Console.WriteLine("Project's work format: " + project.Get(Prj.WorkFormat));
+
+// создать значение работы с форматом работы проекта по умолчанию
+var work = project.GetWork(2);
+Console.WriteLine("Work: " + work.TimeSpan);
+Console.WriteLine("Time unit: " + work.TimeUnit);
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TimeUnitType](../../timeunittype/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

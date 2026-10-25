@@ -1,7 +1,7 @@
 ---
-title: EntityFieldAttribute.EntityFieldAttribute
-second_title: Справочник по Aspose.Tasks для .NET API
-description: EntityFieldAttribute строитель. Конструктор по умолчанию.
+title: "EntityFieldAttribute.EntityFieldAttribute"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор EntityFieldAttribute. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.attributes/entityfieldattribute/entityfieldattribute/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks.attributes/entityfieldattribute/entityfieldattribute/
 public EntityFieldAttribute()
 ```
 
-### Смотрите также
+### См. также
 
 * class [EntityFieldAttribute](../)
-* пространство имен [Aspose.Tasks.Attributes](../../entityfieldattribute/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Attributes](../../entityfieldattribute/)
+* assembly [Aspose.Tasks](../../../)
 
 

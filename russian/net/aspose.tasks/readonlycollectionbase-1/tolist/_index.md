@@ -1,14 +1,14 @@
 ---
-title: ReadOnlyCollectionBase1.ToList
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ReadOnlyCollectionBase метод. Преобразует объект коллекции в списокVbaModule объекты.
+title: "ReadOnlyCollectionBase1.ToList"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод ReadOnlyCollectionBase. Преобразует коллекцию в список объектов."
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks/readonlycollectionbase-1/tolist/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt;.ToList method
 
-Преобразует объект коллекции в список[`VbaModule`](../../vbamodule/) объекты.
+Преобразует коллекцию в список объектов.
 
 ```csharp
 public List<T> ToList()
@@ -16,12 +16,12 @@ public List<T> ToList()
 
 ### Возвращаемое значение
 
-Список объектов.
+Обобщённый список объектов.
 
-### Смотрите также
+### См. также
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../)
-* пространство имен [Aspose.Tasks](../../readonlycollectionbase-1/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../readonlycollectionbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

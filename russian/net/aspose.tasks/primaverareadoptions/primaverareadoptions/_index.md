@@ -1,23 +1,23 @@
 ---
-title: PrimaveraReadOptions.PrimaveraReadOptions
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PrimaveraReadOptions строитель. Инициализирует новый экземплярPrimaveraReadOptions класс.
+title: "PrimaveraReadOptions.PrimaveraReadOptions"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор PrimaveraReadOptions. Инициализирует новый экземпляр класса PrimaveraReadOptions."
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/primaverareadoptions/primaverareadoptions/
 ---
 ## PrimaveraReadOptions constructor
 
-Инициализирует новый экземпляр[`PrimaveraReadOptions`](../) класс.
+Инициализирует новый экземпляр класса [`PrimaveraReadOptions`](../).
 
 ```csharp
 public PrimaveraReadOptions()
 ```
 
-### Смотрите также
+### См. также
 
 * class [PrimaveraReadOptions](../)
-* пространство имен [Aspose.Tasks](../../primaverareadoptions/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverareadoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

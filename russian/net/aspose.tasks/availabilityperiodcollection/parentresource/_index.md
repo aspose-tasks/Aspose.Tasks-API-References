@@ -1,24 +1,24 @@
 ---
-title: AvailabilityPeriodCollection.ParentResource
-second_title: Справочник по Aspose.Tasks для .NET API
-description: AvailabilityPeriodCollection свойство. Получает родителяResource для этого объекта.  РодительResource объект для этой коллекции.
+title: "AvailabilityPeriodCollection.ParentResource"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "AvailabilityPeriodCollection свойство. Возвращает родительский Resource для этого объекта. Объект родительского Resource для этой коллекции"
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/availabilityperiodcollection/parentresource/
 ---
 ## AvailabilityPeriodCollection.ParentResource property
 
-Получает родителя[`Resource`](../../resource/) для этого объекта.  Родитель[`Resource`](../../resource/) объект для этой коллекции.
+Возвращает родительский [`Resource`](../../resource/) для этого объекта. Объект родительского [`Resource`](../../resource/) для этой коллекции.
 
 ```csharp
 public Resource ParentResource { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../../resource/)
 * class [AvailabilityPeriodCollection](../)
-* пространство имен [Aspose.Tasks](../../availabilityperiodcollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../availabilityperiodcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

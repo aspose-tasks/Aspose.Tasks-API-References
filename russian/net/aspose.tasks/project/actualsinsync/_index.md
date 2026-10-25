@@ -1,24 +1,24 @@
 ---
-title: Project.ActualsInSync
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение указывающее установлен ли ActualsInSync.
+title: "Project.ActualsInSync"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задаёт значение, указывающее, синхронизированы ли ActualsInSync."
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/project/actualsinsync/
 ---
 ## Project.ActualsInSync property
 
-Получает или задает значение, указывающее, установлен ли ActualsInSync.
+Получает или задает значение, указывающее, установлен ли ActualsInSync, или нет.
 
 ```csharp
 public NullableBool ActualsInSync { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

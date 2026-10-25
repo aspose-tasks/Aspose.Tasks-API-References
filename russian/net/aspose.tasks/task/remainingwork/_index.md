@@ -1,24 +1,24 @@
 ---
-title: Task.RemainingWork
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение RemainingWork.
+title: "Task.RemainingWork"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Возвращает или задает значение RemainingWork"
 type: docs
-weight: 1100
+weight: 1090
 url: /ru/net/aspose.tasks/task/remainingwork/
 ---
 ## Task.RemainingWork property
 
-Получает или задает значение RemainingWork.
+Получает или задает значение свойства RemainingWork.
 
 ```csharp
 public Duration RemainingWork { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

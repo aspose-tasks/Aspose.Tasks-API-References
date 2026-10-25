@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.RawDurationType
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PrimaveraTaskProperties свойство. Получает необработанное текстовое представление как в исходном файле поля Тип продолжительности действия.
+title: "PrimaveraTaskProperties.RawDurationType"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство PrimaveraTaskProperties. Возвращает необработанное текстовое представление поля Duration Type активности, как в исходном файле"
 type: docs
-weight: 80
+weight: 240
 url: /ru/net/aspose.tasks/primaverataskproperties/rawdurationtype/
 ---
 ## PrimaveraTaskProperties.RawDurationType property
 
-Получает необработанное текстовое представление (как в исходном файле) поля «Тип продолжительности» действия.
+Получает необработанное текстовое представление (как в исходном файле) поля 'Duration Type' активности.
 
 ```csharp
 public string RawDurationType { get; }
 ```
 
-### Примечания
+## Примечания
 
-Применимо только к действиям (несуммарным задачам).
+Применимо только к активностям (не к сводным задачам).
 
-### Смотрите также
+### См. также
 
 * class [PrimaveraTaskProperties](../)
-* пространство имен [Aspose.Tasks](../../primaverataskproperties/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: License.SetLicense
-second_title: Справочник по Aspose.Tasks для .NET API
-description: License метод. Лицензирует компонент.
+title: "License.SetLicense"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод License. Лицензирует компонент."
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/license/setlicense/
@@ -16,9 +16,9 @@ public void SetLicense(string licenseName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| licenseName | String | Может быть полным или коротким именем файла или именем внедренного ресурса. Используйте пустую строку для переключения в режим оценки. |
+| licenseName | Строка | Может быть полным или коротким именем файла или именем встроенного ресурса. Используйте пустую строку, чтобы переключиться в режим оценки. |
 
-### Примечания
+## Примечания
 
 Пытается найти лицензию в следующих местах:
 
@@ -28,23 +28,23 @@ public void SetLicense(string licenseName)
 
 3. Папка, содержащая вызывающую сборку клиента.
 
-4. Папка, содержащая входную (загрузочную) сборку.
+4. Папка, содержащая входную (запускаемую) сборку.
 
 5. Встроенный ресурс в вызывающей сборке клиента.
 
-**Примечание:**В .NET Compact Framework пытается найти лицензию только в следующих местах:
+**Note:**On the .NET Compact Framework, tries to find the license only in these locations:
 
 1. Явный путь.
 
 2. Встроенный ресурс в вызывающей сборке клиента.
 
-2. Папка, содержащая JAR-файл компонента Aspose.
+2. Папка, содержащая JAR‑файл компонента Aspose.
 
-3. Папка, содержащая JAR-файл вызывающего клиента.
+3. Папка, содержащая JAR‑файл, вызываемый клиентом.
 
-### Примеры
+## Примеры
 
-В этом примере будет предпринята попытка найти файл лицензии с именем MyLicense.lic в папке, содержащей  компонент в папке, содержащей вызывающую сборку, в папке входной сборки, а затем во встроенных ресурсах вызывающей сборки.
+В этом примере будет предпринята попытка найти файл лицензии с именем MyLicense.lic в папке, содержащей компонент, в папке, содержащей вызывающую сборку, в папке входной сборки, а затем во встроенных ресурсах вызывающей сборки.
 
 ```csharp
 [C#]
@@ -60,11 +60,18 @@ License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
-### Смотрите также
+Показывает, как применить лицензию Aspose.Tasks.
+
+```csharp
+var license = new License();
+license.SetLicense("Aspose.Tasks.lic");
+```
+
+### См. также
 
 * class [License](../)
-* пространство имен [Aspose.Tasks](../../license/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../license/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -78,13 +85,13 @@ public void SetLicense(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, содержащий лицензию. |
+| поток | Поток | Поток, содержащий лицензию. |
 
-### Примечания
+## Примечания
 
 Используйте этот метод для загрузки лицензии из потока.
 
-### Примеры
+## Примеры
 
 ```csharp
 [C#]
@@ -102,10 +109,20 @@ License license = new License();
 license.setLicense(myStream);
 ```
 
-### Смотрите также
+Показано, как применить лицензию Aspose.Tasks, прочитанную из &lt;see cref="System.IO.FileStream" /&gt;.
+
+```csharp
+var license = new License();
+using (var stream = new FileStream("Aspose.Tasks.lic", FileMode.Open))
+{
+    license.SetLicense(stream);
+}
+```
+
+### См. также
 
 * class [License](../)
-* пространство имен [Aspose.Tasks](../../license/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../license/)
+* assembly [Aspose.Tasks](../../../)
 
 

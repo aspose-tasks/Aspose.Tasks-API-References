@@ -1,14 +1,14 @@
 ---
-title: Task.Successors
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. ПолучаетTaskCollection объект который содержит всех преемников этого объекта Task.
+title: "Task.Successors"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает объект TaskCollection, содержащий всех последователей этого объекта Task"
 type: docs
 weight: 1200
 url: /ru/net/aspose.tasks/task/successors/
 ---
 ## Task.Successors property
 
-Получает[`TaskCollection`](../../taskcollection/) объект, который содержит всех преемников этого объекта Task.
+Получает объект [`TaskCollection`](../../taskcollection/), содержащий всех последователей этого объекта Task.
 
 ```csharp
 public TaskCollection Successors { get; }
@@ -16,13 +16,30 @@ public TaskCollection Successors { get; }
 
 ### Возвращаемое значение
 
-Доступный только для чтения экземпляр[`TaskCollection`](../../taskcollection/) сорт.
+Экземпляр только для чтения класса [`TaskCollection`](../../taskcollection/).
 
-### Смотрите также
+## Примеры
+
+Показывает, как прочитать последователей задачи.
+
+```csharp
+var project = new Project();
+var pred = project.RootTask.Children.Add("Predecessor");
+var succ = project.RootTask.Children.Add("Successor");
+
+project.TaskLinks.Add(pred, succ);
+
+foreach (var successor in pred.Successors)
+{
+    Console.WriteLine("{0} {1}", successor.Get(Tsk.Id), successor.Get(Tsk.Name));
+}
+```
+
+### См. также
 
 * class [TaskCollection](../../taskcollection/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

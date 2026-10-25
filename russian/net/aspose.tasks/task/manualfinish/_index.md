@@ -1,9 +1,9 @@
 ---
-title: Task.ManualFinish
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение ManualFinish.
+title: "Task.ManualFinish"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение ManualFinish"
 type: docs
-weight: 840
+weight: 830
 url: /ru/net/aspose.tasks/task/manualfinish/
 ---
 ## Task.ManualFinish property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/task/manualfinish/
 public DateTime ManualFinish { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

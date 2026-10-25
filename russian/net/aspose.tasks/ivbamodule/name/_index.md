@@ -1,7 +1,7 @@
 ---
-title: IVbaModule.Name
-second_title: Справочник по Aspose.Tasks для .NET API
-description: IVbaModule свойство. Получает имя модуля VBA
+title: "IVbaModule.Name"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство IVbaModule. Возвращает имя VBA‑модуля"
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/ivbamodule/name/
@@ -14,10 +14,26 @@ url: /ru/net/aspose.tasks/ivbamodule/name/
 public string Name { get; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать модули проекта VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Total Modules Count: " + project.VbaProject.Modules.Count);
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Module Name: " + module.Name);
+    Console.WriteLine("Source Code: " + module.SourceCode);
+}
+```
+
+### См. также
 
 * interface [IVbaModule](../)
-* пространство имен [Aspose.Tasks](../../ivbamodule/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../ivbamodule/)
+* assembly [Aspose.Tasks](../../../)
 
 

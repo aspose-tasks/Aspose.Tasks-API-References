@@ -1,7 +1,7 @@
 ---
-title: GroupCriterion.GroupCriterion
-second_title: Справочник по Aspose.Tasks для .NET API
-description: GroupCriterion строитель. Конструктор по умолчанию.
+title: "GroupCriterion.GroupCriterion"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "GroupCriterion конструктор. Конструктор по умолчанию."
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/groupcriterion/groupcriterion/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/groupcriterion/groupcriterion/
 public GroupCriterion()
 ```
 
-### Смотрите также
+### См. также
 
 * class [GroupCriterion](../)
-* пространство имен [Aspose.Tasks](../../groupcriterion/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcriterion/)
+* assembly [Aspose.Tasks](../../../)
 
 

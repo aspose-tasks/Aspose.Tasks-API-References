@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.RemainingLateFinish
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PrimaveraTaskProperties свойство. Получает оставшуюся дату позднего окончания.
+title: "PrimaveraTaskProperties.RemainingLateFinish"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "PrimaveraTaskProperties свойство. Возвращает оставшуюся позднюю дату завершения"
 type: docs
-weight: 130
+weight: 300
 url: /ru/net/aspose.tasks/primaverataskproperties/remaininglatefinish/
 ---
 ## PrimaveraTaskProperties.RemainingLateFinish property
 
-Получает оставшуюся дату позднего окончания.
+Получает оставшуюся позднюю дату завершения.
 
 ```csharp
 public DateTime RemainingLateFinish { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [PrimaveraTaskProperties](../)
-* пространство имен [Aspose.Tasks](../../primaverataskproperties/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

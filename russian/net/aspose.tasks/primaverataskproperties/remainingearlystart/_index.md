@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.RemainingEarlyStart
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PrimaveraTaskProperties свойство. Получает оставшуюся дату раннего начала  дату когда запланировано начало оставшейся работы для операции.
+title: "PrimaveraTaskProperties.RemainingEarlyStart"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "PrimaveraTaskProperties свойство. Возвращает оставшуюся раннюю дату начала — дату, когда запланировано начало оставшейся работы по активности"
 type: docs
-weight: 110
+weight: 270
 url: /ru/net/aspose.tasks/primaverataskproperties/remainingearlystart/
 ---
 ## PrimaveraTaskProperties.RemainingEarlyStart property
 
-Получает оставшуюся дату раннего начала — дату, когда запланировано начало оставшейся работы для операции.
+Получает оставшуюся раннюю дату начала — дату, когда планируется начать оставшуюся работу по активности.
 
 ```csharp
 public DateTime RemainingEarlyStart { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [PrimaveraTaskProperties](../)
-* пространство имен [Aspose.Tasks](../../primaverataskproperties/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

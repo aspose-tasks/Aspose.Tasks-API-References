@@ -1,26 +1,38 @@
 ---
-title: Prj.BaselineForEarnedValue
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Конкретный базовый уровень используемый для расчета значений отклонения.
+title: "Prj.BaselineForEarnedValue"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Prj field. Конкретная базовая линия, используемая для расчёта значений отклонения"
 type: docs
-weight: 70
+weight: 80
 url: /ru/net/aspose.tasks/prj/baselineforearnedvalue/
 ---
 ## Prj.BaselineForEarnedValue field
 
-Конкретный базовый уровень, используемый для расчета значений отклонения.
+Конкретная базовая линия, используемая для расчёта значений отклонения.
 
 ```csharp
 public static readonly Key<BaselineType, PrjKey> BaselineForEarnedValue;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.BaselineForEarnedValue.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.BaselineForEarnedValue, BaselineType.Baseline);
+
+Console.WriteLine("Baseline For Earned Value: " + project.Get(Prj.BaselineForEarnedValue));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [BaselineType](../../baselinetype/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

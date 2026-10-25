@@ -1,14 +1,14 @@
 ---
-title: Project.SetBaselineSaveTime
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project метод. Устанавливает базовое время сохранения.
+title: "Project.SetBaselineSaveTime"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Project. Устанавливает время сохранения базовой линии."
 type: docs
-weight: 1240
+weight: 1260
 url: /ru/net/aspose.tasks/project/setbaselinesavetime/
 ---
 ## Project.SetBaselineSaveTime method
 
-Устанавливает базовое время сохранения.
+Устанавливает время сохранения базового плана.
 
 ```csharp
 public void SetBaselineSaveTime(BaselineType baselineNumber, DateTime value)
@@ -16,18 +16,34 @@ public void SetBaselineSaveTime(BaselineType baselineNumber, DateTime value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baselineNumber | BaselineType | Номер базовой линии[`BaselineType`](../../baselinetype/). |
-| value | DateTime | Дата и время последнего сохранения базового уровня. |
+| baselineNumber | BaselineType | Номер базовой линии [`BaselineType`](../../baselinetype/). |
+| value | DateTime | Дата и время последнего сохранения базовой линии. |
 
-### Примечания
+## Примечания
 
-Установите значение DateTime.MinValue, если базовый план не был сохранен.
+Установите значение DateTime.MinValue, если базовая линия не была сохранена.
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать время сохранения базовой линии проекта.
+
+```csharp
+var project = new Project();
+var baselineSave = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time before: " + baselineSave);
+
+// установить время сохранения базовой линии
+project.SetBaselineSaveTime(BaselineType.Baseline, DateTime.Today);
+
+var baselineSaveNew = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time after: " + baselineSaveNew);
+```
+
+### См. также
 
 * enum [BaselineType](../../baselinetype/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

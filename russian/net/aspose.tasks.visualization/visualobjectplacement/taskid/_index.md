@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.TaskId
-second_title: Справочник по Aspose.Tasks для .NET API
-description: VisualObjectPlacement свойство. Получает или задает идентификатор задачи если выбран параметр Присоединить к задаче иначе 1.
+title: "VisualObjectPlacement.TaskId"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство VisualObjectPlacement. Получает или задает Id задачи, если выбран параметр Attach to task, иначе 1"
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks.visualization/visualobjectplacement/taskid/
 ---
 ## VisualObjectPlacement.TaskId property
 
-Получает или задает идентификатор задачи, если выбран параметр «Присоединить к задаче», иначе -1.
+Получает или задает Id задачи, если выбран параметр 'Attach to task', иначе -1.
 
 ```csharp
 public int TaskId { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [VisualObjectPlacement](../)
-* пространство имен [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

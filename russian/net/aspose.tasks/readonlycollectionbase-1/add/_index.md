@@ -1,14 +1,14 @@
 ---
-title: ReadOnlyCollectionBase1.Add
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ReadOnlyCollectionBase метод. Это заглушка реализации метода Add ICollection которая выдает только NotSupportedException
+title: "ReadOnlyCollectionBase1.Add"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод ReadOnlyCollectionBase. Это заглушка реализации метода Add интерфейса ICollections, который только бросает NotSupportedException"
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/readonlycollectionbase-1/add/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt;.Add method
 
-Это заглушка реализации метода Add ICollection, которая выдает только NotSupportedException
+Это заглушка реализации метода Add интерфейса ICollection, который только бросает NotSupportedException
 
 ```csharp
 public void Add(T item)
@@ -16,12 +16,12 @@ public void Add(T item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | T | Элемент для добавления. |
+| элемент | T | Элемент для добавления. |
 
-### Смотрите также
+### См. также
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../)
-* пространство имен [Aspose.Tasks](../../readonlycollectionbase-1/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../readonlycollectionbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

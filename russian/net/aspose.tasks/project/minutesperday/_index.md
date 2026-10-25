@@ -1,9 +1,9 @@
 ---
-title: Project.MinutesPerDay
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение MinutesPerDay.
+title: "Project.MinutesPerDay"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение MinutesPerDay"
 type: docs
-weight: 560
+weight: 580
 url: /ru/net/aspose.tasks/project/minutesperday/
 ---
 ## Project.MinutesPerDay property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/project/minutesperday/
 public int MinutesPerDay { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

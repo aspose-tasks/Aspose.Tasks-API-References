@@ -1,14 +1,14 @@
 ---
-title: CalendarException.GetExceptionDates
-second_title: Справочник по Aspose.Tasks для .NET API
-description: CalendarException метод. Возвращает даты для которых применимо исключение календаря.
+title: "CalendarException.GetExceptionDates"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод CalendarException. Возвращает даты, на которые применяется исключение календаря"
 type: docs
 weight: 190
 url: /ru/net/aspose.tasks/calendarexception/getexceptiondates/
 ---
 ## CalendarException.GetExceptionDates method
 
-Возвращает даты, для которых применимо исключение календаря.
+Возвращает даты, на которые применяется исключение календаря.
 
 ```csharp
 public IEnumerable<DateTime> GetExceptionDates()
@@ -16,12 +16,27 @@ public IEnumerable<DateTime> GetExceptionDates()
 
 ### Возвращаемое значение
 
-Возвращает набор дат исключений, для которых применимо исключение календаря.
+Возвращает коллекцию дат-исключений, для которых применимо данное исключение календаря.
 
-### Смотрите также
+## Примеры
+
+Показывает, как получить даты, для которых конкретное исключение календаря действительно.
+
+```csharp
+Project project = new Project(DataDir + "CalendarExceptions.mpp");
+Calendar calendar = project.Calendars.GetByUid(1);
+CalendarException calendarException = calendar.Exceptions[0];
+
+foreach (var date in calendarException.GetExceptionDates())
+{
+    Console.WriteLine(date);
+}
+```
+
+### См. также
 
 * class [CalendarException](../)
-* пространство имен [Aspose.Tasks](../../calendarexception/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexception/)
+* assembly [Aspose.Tasks](../../../)
 
 

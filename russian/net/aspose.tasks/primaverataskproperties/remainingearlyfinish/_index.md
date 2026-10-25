@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.RemainingEarlyFinish
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PrimaveraTaskProperties свойство. Получает оставшуюся дату досрочного окончания  дату на которую запланировано завершение оставшейся работы по операции.
+title: "PrimaveraTaskProperties.RemainingEarlyFinish"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство PrimaveraTaskProperties. Получает оставшуюся дату раннего завершения — дату, когда запланировано завершить оставшуюся работу по активности"
 type: docs
-weight: 100
+weight: 260
 url: /ru/net/aspose.tasks/primaverataskproperties/remainingearlyfinish/
 ---
 ## PrimaveraTaskProperties.RemainingEarlyFinish property
 
-Получает оставшуюся дату досрочного окончания — дату, на которую запланировано завершение оставшейся работы по операции.
+Получает оставшуюся раннюю дату завершения — дату, когда планируется завершить оставшуюся работу по активности.
 
 ```csharp
 public DateTime RemainingEarlyFinish { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [PrimaveraTaskProperties](../)
-* пространство имен [Aspose.Tasks](../../primaverataskproperties/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

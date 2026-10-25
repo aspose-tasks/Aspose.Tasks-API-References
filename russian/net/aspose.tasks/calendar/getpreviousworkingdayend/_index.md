@@ -1,14 +1,14 @@
 ---
-title: Calendar.GetPreviousWorkingDayEnd
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Calendar метод. Вычисляет конец предыдущей рабочей даты от указанной даты.
+title: "Calendar.GetPreviousWorkingDayEnd"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Calendar. Вычисляет конец предыдущего рабочего дня, исходя из указанной даты"
 type: docs
-weight: 170
+weight: 190
 url: /ru/net/aspose.tasks/calendar/getpreviousworkingdayend/
 ---
 ## Calendar.GetPreviousWorkingDayEnd method
 
-Вычисляет конец предыдущей рабочей даты от указанной даты.
+Вычисляет конец предыдущего рабочего дня относительно указанной даты.
 
 ```csharp
 public DateTime GetPreviousWorkingDayEnd(DateTime date)
@@ -16,16 +16,32 @@ public DateTime GetPreviousWorkingDayEnd(DateTime date)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| date | DateTime | указанный экземплярDateTime структура. |
+| дата | DateTime | Дата, для которой вычисляется конец предыдущего рабочего дня. |
 
 ### Возвращаемое значение
 
-Начало предыдущего рабочего дняDateTime
+Конец предыдущего рабочего дня.
 
-### Смотрите также
+## Примеры
+
+Показывает, как получить конец предыдущего рабочего дня, используя календарь.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// получить конец предыдущего рабочего дня
+var previousWorkingDayEnd = calendar.GetPreviousWorkingDayEnd(new DateTime(2020, 4, 10, 13, 0, 0));
+
+// 9 апреля 2020 18:00 PM будет выведено
+Console.WriteLine(previousWorkingDayEnd);
+```
+
+### См. также
 
 * class [Calendar](../)
-* пространство имен [Aspose.Tasks](../../calendar/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,39 +1,53 @@
 ---
-title: Enum RateFormatType
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.RateFormatType перечисление. Указывает единицы используемые Microsoft Project для отображения скорости.
+title: "Перечисление RateFormatType"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.RateFormatType. Указывает единицы, используемые Microsoft Project для отображения ставки"
 type: docs
-weight: 1390
+weight: 1640
 url: /ru/net/aspose.tasks/rateformattype/
 ---
 ## RateFormatType enumeration
 
-Указывает единицы, используемые Microsoft Project для отображения скорости.
+Указывает единицы измерения, используемые Microsoft Project для отображения ставки.
 
 ```csharp
 public enum RateFormatType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| Undefined | `-1` | Значение не было определено в исходном файле проекта. |
-| Minute | `0` | Минуты ("мин") |
-| Hour | `1` | Час ("час") |
-| Day | `2` | День ("день") |
-| Week | `3` | Неделя ("нед") |
-| Month | `4` | Месяц ("mo") |
-| Year | `5` | Год ("лет") |
-| MaterialResourceRate | `6` | Норма ресурса материала (пусто) |
+| Undefined | `-1` | Значение не было определено в оригинальном файле проекта. |
+| Minute | `0` | Минута (\"min\") |
+| Hour | `1` | Час (\"hr\") |
+| Day | `2` | День (\"day\") |
+| Week | `3` | Неделя (\"wk\") |
+| Month | `4` | Месяц (\"mo\") |
+| Year | `5` | Год (\"yr\") |
+| MaterialResourceRate | `6` | Ставка материального ресурса (пусто) |
 
-### Примечания
+## Примечания
 
-При экспорте в XML неопределенные значения будут удалены из результирующего XML.
+При экспорте в XML неопределённые значения будут удалены из результирующего XML.
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как читать/записывать свойство Rsc.StandardRateFormat.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.StandardRateFormat, RateFormatType.Hour);
+
+Console.WriteLine("Standard Rate Format: " + resource.Get(Rsc.StandardRateFormat));
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

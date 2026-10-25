@@ -1,24 +1,24 @@
 ---
-title: BarStyle.InsideField
-second_title: Справочник по Aspose.Tasks для .NET API
-description: BarStyle свойство. Получает или задает поле отображаемое внутри панели.
+title: "BarStyle.InsideField"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство BarStyle. Получает или задает поле, отображаемое внутри полосы"
 type: docs
-weight: 90
+weight: 110
 url: /ru/net/aspose.tasks.visualization/barstyle/insidefield/
 ---
 ## BarStyle.InsideField property
 
-Получает или задает поле, отображаемое внутри панели.
+Получает или задает поле, отображаемое внутри полосы.
 
 ```csharp
 public Field InsideField { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [Field](../../../aspose.tasks/field/)
 * class [BarStyle](../)
-* пространство имен [Aspose.Tasks.Visualization](../../barstyle/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

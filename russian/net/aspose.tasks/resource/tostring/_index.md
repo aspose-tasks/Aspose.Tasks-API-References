@@ -1,14 +1,14 @@
 ---
-title: Resource.ToString
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource метод. Возвращает короткое строковое представление экземпляраResource class. Точные детали представления не указаны и могут быть изменены.
+title: "Resource.ToString"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Resource. Возвращает короткое строковое представление экземпляра класса Resource. Точные детали представления не указаны и могут измениться"
 type: docs
-weight: 880
+weight: 870
 url: /ru/net/aspose.tasks/resource/tostring/
 ---
 ## Resource.ToString method
 
-Возвращает короткое строковое представление экземпляра[`Resource`](../) class. Точные детали представления не указаны и могут быть изменены.
+Возвращает короткое строковое представление экземпляра класса [`Resource`](../). Точные детали представления не указаны и могут измениться.
 
 ```csharp
 public override string ToString()
@@ -16,12 +16,24 @@ public override string ToString()
 
 ### Возвращаемое значение
 
-короткая строка, представляющая ресурсный объект.
+короткая строка, представляющая объект ресурса.
 
-### Смотрите также
+## Примеры
+
+Показывает, как использовать метод ToString ресурса.
+
+```csharp
+var project = new Project();
+var resource = project.Resources.Add("Resource");
+
+// вывести общую информацию о ресурсе
+Console.WriteLine(resource.ToString());
+```
+
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Resource.CostPerUse
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение CostPerUse.
+title: "Resource.CostPerUse"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение CostPerUse"
 type: docs
 weight: 270
 url: /ru/net/aspose.tasks/resource/costperuse/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resource/costperuse/
 public decimal CostPerUse { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

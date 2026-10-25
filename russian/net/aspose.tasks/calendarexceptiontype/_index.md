@@ -1,7 +1,7 @@
 ---
-title: Enum CalendarExceptionType
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.CalendarExceptionType перечисление. Указывает тип исключения календаря.
+title: "Перечисление CalendarExceptionType"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.CalendarExceptionType. Указывает тип исключения календаря."
 type: docs
 weight: 270
 url: /ru/net/aspose.tasks/calendarexceptiontype/
@@ -14,23 +14,45 @@ url: /ru/net/aspose.tasks/calendarexceptiontype/
 public enum CalendarExceptionType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | Daily | `0` | Указывает тип ежедневного исключения. |
-| YearlyByDay | `1` | Указывает тип исключения Ежегодно по дням месяца. |
-| YearlyByPosition | `2` | Указывает ежегодно по типу исключения позиции. |
-| MonthlyByDay | `3` | Указывает тип исключения Ежемесячно по дням месяца. |
-| MonthlyByPosition | `4` | Указывает Ежемесячно по типу исключения позиции. |
+| YearlyByDay | `1` | Указывает тип ежегодного исключения по дню месяца. |
+| YearlyByPosition | `2` | Указывает тип ежегодного исключения по позиции. |
+| MonthlyByDay | `3` | Указывает тип ежемесячного исключения по дню месяца. |
+| MonthlyByPosition | `4` | Указывает тип ежемесячного исключения по позиции. |
 | Weekly | `5` | Указывает тип еженедельного исключения. |
-| ByDayCount | `6` | Указывает тип исключения по подсчету дней. |
-| ByWeekDayCount | `7` | Указывает тип исключения для подсчета по дням недели. |
-| NoExceptionType | `8` | Указывает на отсутствие исключения. |
+| ByDayCount | `6` | Указывает тип исключения по количеству дней. |
+| ByWeekDayCount | `7` | Указывает тип исключения по количеству дней недели. |
+| NoExceptionType | `8` | Указывает тип отсутствия исключения. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как определить исключение календаря по вхождениям.
+
+```csharp
+var project = new Project();
+
+// Определить календарь
+var calendar = project.Calendars.Add("Calendar1");
+
+// Определите исключение и укажите вхождения
+var exception = new CalendarException();
+exception.EnteredByOccurrences = true;
+exception.Occurrences = 5;
+exception.Type = CalendarExceptionType.YearlyByDay;
+exception.MonthDay = 22;
+exception.Month = Month.April;
+
+// Добавить исключение в календарь
+calendar.Exceptions.Add(exception);
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

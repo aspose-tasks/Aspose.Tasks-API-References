@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.VAC
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение VAC.
+title: "ResourceAssignment.VAC"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ResourceAssignment. Получает или задает значение VAC"
 type: docs
 weight: 640
 url: /ru/net/aspose.tasks/resourceassignment/vac/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resourceassignment/vac/
 public double VAC { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

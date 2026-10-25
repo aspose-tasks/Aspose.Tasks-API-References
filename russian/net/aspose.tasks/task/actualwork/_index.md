@@ -1,7 +1,7 @@
 ---
-title: Task.ActualWork
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение ActualWork.
+title: "Task.ActualWork"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение ActualWork"
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks/task/actualwork/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/task/actualwork/
 public Duration ActualWork { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

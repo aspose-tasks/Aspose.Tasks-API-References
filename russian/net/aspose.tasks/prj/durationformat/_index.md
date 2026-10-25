@@ -1,26 +1,38 @@
 ---
-title: Prj.DurationFormat
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Формат для выражения массовой продолжительности.
+title: "Prj.DurationFormat"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Формат выражения общей продолжительности"
 type: docs
-weight: 290
+weight: 300
 url: /ru/net/aspose.tasks/prj/durationformat/
 ---
 ## Prj.DurationFormat field
 
-Формат для выражения массовой продолжительности.
+Формат представления общей продолжительности.
 
 ```csharp
 public static readonly Key<TimeUnitType, PrjKey> DurationFormat;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.DurationFormat.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.DurationFormat, TimeUnitType.Day);
+
+Console.WriteLine("Duration Format: " + project.Get(Prj.DurationFormat));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TimeUnitType](../../timeunittype/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

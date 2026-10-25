@@ -1,14 +1,14 @@
 ---
-title: Class ProjectView
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Visualization.ProjectView сорт. Вид проекта class
+title: "Класс ProjectView"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Aspose.Tasks.Visualization.ProjectView класс. Класс представления проектов"
 type: docs
-weight: 2950
+weight: 3300
 url: /ru/net/aspose.tasks.visualization/projectview/
 ---
 ## ProjectView class
 
-Вид проекта class
+Класс представления проекта
 
 ```csharp
 public class ProjectView
@@ -18,9 +18,9 @@ public class ProjectView
 
 | Имя | Описание |
 | --- | --- |
-| [ProjectView](projectview/)(IEnumerable&lt;ViewColumn&gt;) | Инициализирует новый экземпляр`ProjectView` класс. |
+| [ProjectView](projectview/)(IEnumerable&lt;ViewColumn&gt;) | Инициализирует новый экземпляр класса `ProjectView`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
@@ -30,15 +30,30 @@ public class ProjectView
 
 | Имя | Описание |
 | --- | --- |
-| static [GetDefaultAssignmentView](../../aspose.tasks.visualization/projectview/getdefaultassignmentview/)() | Включает Uid, имя задачи, имя ресурса, работу и столбцы назначения продолжительности. |
-| static [GetDefaultGanttChartView](../../aspose.tasks.visualization/projectview/getdefaultganttchartview/)() | Включает идентификатор, индикаторы, имя, продолжительность, столбцы начала и окончания задачи. |
-| static [GetDefaultResourceSheetView](../../aspose.tasks.visualization/projectview/getdefaultresourcesheetview/)() | Включает Uid, имя ресурса, тип, метку материала, инициалы, группу, максимальное количество единиц, стандартную ставку, ставку сверхурочных, стоимость за использование, накопление в, базовый календарь и столбцы ресурсов кода. |
-| static [GetDefaultResourceUsageView](../../aspose.tasks.visualization/projectview/getdefaultresourceusageview/)() | Включает Uid, имя, начало, конец и столбцы рабочих ресурсов. |
-| static [GetDefaultTaskSheetView](../../aspose.tasks.visualization/projectview/getdefaulttasksheetview/)() | Включает идентификатор, индикаторы, имя, продолжительность, начало, окончание, предшественники и столбцы задач с именами ресурсов. |
+| static [GetDefaultAssignmentView](../../aspose.tasks.visualization/projectview/getdefaultassignmentview/)() | Включает столбцы UID, имя задачи, имя ресурса, работу и продолжительность назначения. |
+| static [GetDefaultGanttChartView](../../aspose.tasks.visualization/projectview/getdefaultganttchartview/)() | Включает столбцы ID, индикаторы, имя, продолжительность, начало и завершение задачи. |
+| static [GetDefaultResourceSheetView](../../aspose.tasks.visualization/projectview/getdefaultresourcesheetview/)() | Включает столбцы UID, имя ресурса, тип, метку материала, инициалы, группу, максимальное количество, стандартную ставку, ставку за сверхурочную работу, стоимость за использование, начисление, базовый календарь и код ресурса. |
+| static [GetDefaultResourceUsageView](../../aspose.tasks.visualization/projectview/getdefaultresourceusageview/)() | Включает столбцы Uid, name, start, finish и work resource. |
+| static [GetDefaultTaskSheetView](../../aspose.tasks.visualization/projectview/getdefaulttasksheetview/)() | Включает столбцы задачи id, indicators, name, duration, start, finish, predecessors и resource names. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как сохранить проект с представлением назначений.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultAssignmentView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_AssignmentView_out.pdf", options);
+```
+
+### См. также
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

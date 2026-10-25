@@ -1,23 +1,23 @@
 ---
-title: Task.PercentWorkComplete
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение PercentWorkComplete.
+title: "Task.PercentWorkComplete"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Возвращает или задает значение PercentWorkComplete"
 type: docs
-weight: 970
+weight: 960
 url: /ru/net/aspose.tasks/task/percentworkcomplete/
 ---
 ## Task.PercentWorkComplete property
 
-Получает или задает значение PercentWorkComplete.
+Получает или задает значение свойства PercentWorkComplete.
 
 ```csharp
 public int PercentWorkComplete { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

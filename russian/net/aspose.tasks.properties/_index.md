@@ -1,33 +1,33 @@
 ---
-title: Aspose.Tasks.Properties
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Содержит классы для работы со свойствами.
+title: "Aspose.Tasks.Properties"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Содержит классы для работы со свойствами"
 type: docs
-weight: 40
+weight: 60
 url: /ru/net/aspose.tasks.properties/
 ---
 Содержит классы для работы со свойствами.
 
 ## Классы
 
-| Учебный класс | Описание |
+| Класс | Описание |
 | --- | --- |
 | [BuiltInProjectProperty](./builtinprojectproperty/) | Представляет встроенное свойство. |
-| [BuiltInProjectPropertyCollection](./builtinprojectpropertycollection/) | Представляет набор встроенных свойств проекта. |
+| [BuiltInProjectPropertyCollection](./builtinprojectpropertycollection/) | Представляет коллекцию встроенных свойств проекта. |
 | [CustomProjectProperty](./customprojectproperty/) | Представляет пользовательское свойство. |
-| [CustomProjectPropertyCollection](./customprojectpropertycollection/) | Представляет набор пользовательских свойств проекта. |
+| [CustomProjectPropertyCollection](./customprojectpropertycollection/) | Представляет коллекцию пользовательских свойств проекта. |
 | [Property](./property/) | Представляет базовый класс свойства. |
-| [PropertyCollection&lt;T&gt;](./propertycollection-1/) | Базовый класс набора свойств. |
-| [PropertyKeyedCollection&lt;T&gt;](./propertykeyedcollection-1/) | Базовый класс набора свойств. |
-## Структуры
+| [PropertyCollection&lt;T&gt;](./propertycollection-1/) | Базовый класс коллекции свойств. |
+| [PropertyKeyedCollection&lt;T&gt;](./propertykeyedcollection-1/) | Базовый класс коллекции свойств. |
+## Structures
 
 | Структура | Описание |
 | --- | --- |
 | [GenericProperty&lt;TKey&gt;](./genericproperty-1/) | Представляет свойство контейнера. |
-## перечисление
+## Перечисление
 
-| перечисление | Описание |
+| Перечисление | Описание |
 | --- | --- |
-| [CustomPropertyType](./custompropertytype/) | Представляет перечисление типов настраиваемых свойств. |
+| [CustomPropertyType](./custompropertytype/) | Представляет перечисление типов пользовательских свойств. |
 
 

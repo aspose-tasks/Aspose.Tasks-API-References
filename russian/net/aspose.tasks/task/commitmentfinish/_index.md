@@ -1,7 +1,7 @@
 ---
-title: Task.CommitmentFinish
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение CommitmentFinish.
+title: "Task.CommitmentFinish"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение CommitmentFinish"
 type: docs
 weight: 200
 url: /ru/net/aspose.tasks/task/commitmentfinish/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/task/commitmentfinish/
 public DateTime CommitmentFinish { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

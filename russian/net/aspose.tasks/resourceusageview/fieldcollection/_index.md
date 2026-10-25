@@ -1,24 +1,38 @@
 ---
-title: ResourceUsageView.FieldCollection
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceUsageView свойство. ПолучаетResourceUsageViewFieldCollection объект этого ResourceUsageView.
+title: "ResourceUsageView.FieldCollection"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ResourceUsageView. Получает объект ResourceUsageViewFieldCollection данного ResourceUsageView."
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/resourceusageview/fieldcollection/
 ---
 ## ResourceUsageView.FieldCollection property
 
-Получает[`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollection/) объект этого ResourceUsageView.
+Получает объект [`ResourceUsageViewFieldCollection`](../../resourceusageviewfieldcollection/) данного ResourceUsageView.
 
 ```csharp
 public ResourceUsageViewFieldCollection FieldCollection { get; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать поля представления использования ресурсов.
+
+```csharp
+var project = new Project(DataDir + "ResourceUsageView.mpp");
+
+var view = (ResourceUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+```
+
+### См. также
 
 * class [ResourceUsageViewFieldCollection](../../resourceusageviewfieldcollection/)
 * class [ResourceUsageView](../)
-* пространство имен [Aspose.Tasks](../../resourceusageview/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceusageview/)
+* assembly [Aspose.Tasks](../../../)
 
 

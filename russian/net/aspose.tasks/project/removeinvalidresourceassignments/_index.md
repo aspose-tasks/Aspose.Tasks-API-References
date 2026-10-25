@@ -1,27 +1,52 @@
 ---
-title: Project.RemoveInvalidResourceAssignments
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project метод. Удаляет недопустимые назначения ресурсов из списка назначений ресурсов проекта.
+title: "Project.RemoveInvalidResourceAssignments"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Project. Удаляет недействительные назначения ресурсов из списка назначений ресурсов проекта."
 type: docs
-weight: 1150
+weight: 1170
 url: /ru/net/aspose.tasks/project/removeinvalidresourceassignments/
 ---
 ## Project.RemoveInvalidResourceAssignments method
 
-Удаляет недопустимые назначения ресурсов из списка назначений ресурсов проекта.
+Удаляет недействительные назначения ресурсов из списка назначений ресурсов проекта.
 
 ```csharp
 public void RemoveInvalidResourceAssignments()
 ```
 
-### Примечания
+## Примечания
 
-MS Project создает пустое назначение ресурсов для каждой задачи. Вызовите метод для их удаления.
+MS Project создает пустое назначение ресурса для каждой задачи. Вызовите метод, чтобы удалить их.
 
-### Смотрите также
+## Примеры
+
+Показывает, как удалить недействительные назначения.
+
+```csharp
+var project = new Project(DataDir + "InvalidResourceAssignments.mpp");
+var invalid = 0;
+
+// ReSharper disable once LoopCanBeConvertedToQuery //ExSkip
+foreach (var ra in project.ResourceAssignments)
+{
+    if (ra.Get(Asn.Resource) == null)
+    {
+        invalid++;
+    }
+}
+
+Console.WriteLine("Count of invalid assignments (before): " + invalid);
+
+// удалить недействительные назначения
+project.RemoveInvalidResourceAssignments();
+
+Console.WriteLine("Count of invalid assignments (after): " + invalid);
+```
+
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

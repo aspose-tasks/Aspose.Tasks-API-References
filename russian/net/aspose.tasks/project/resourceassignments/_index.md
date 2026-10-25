@@ -1,9 +1,9 @@
 ---
-title: Project.ResourceAssignments
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает объект ResourceAssignmentCollection.
+title: "Project.ResourceAssignments"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает объект ResourceAssignmentCollection"
 type: docs
-weight: 720
+weight: 750
 url: /ru/net/aspose.tasks/project/resourceassignments/
 ---
 ## Project.ResourceAssignments property
@@ -14,11 +14,26 @@ url: /ru/net/aspose.tasks/project/resourceassignments/
 public ResourceAssignmentCollection ResourceAssignments { get; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как работать с назначениями ресурсов.
+
+```csharp
+var project = new Project();
+
+// Добавить новую задачу и ресурс
+var task = project.RootTask.Children.Add("Task");
+var resource = project.Resources.Add("Rsc");
+
+// Назначьте ресурс нужной задаче
+project.ResourceAssignments.Add(task, resource);
+```
+
+### См. также
 
 * class [ResourceAssignmentCollection](../../resourceassignmentcollection/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

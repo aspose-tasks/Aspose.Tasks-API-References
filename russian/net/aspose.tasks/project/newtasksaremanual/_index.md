@@ -1,24 +1,24 @@
 ---
-title: Project.NewTasksAreManual
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение указывающее установлен ли NewTasksAreManual или нет.
+title: "Project.NewTasksAreManual"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Возвращает или задает значение, указывающее, установлен ли NewTasksAreManual"
 type: docs
-weight: 640
+weight: 660
 url: /ru/net/aspose.tasks/project/newtasksaremanual/
 ---
 ## Project.NewTasksAreManual property
 
-Получает или задает значение, указывающее, установлен ли NewTasksAreManual или нет.
+Получает или задает значение, указывающее, установлен ли NewTasksAreManual.
 
 ```csharp
 public NullableBool NewTasksAreManual { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: VisualObjectPlacement.AttachmentPoint
-second_title: Справочник по Aspose.Tasks для .NET API
-description: VisualObjectPlacement свойство. Получает или задает выравнивание визуального объекта относительно задачи когда выбраны параметры Присоединить к задаче.
+title: "VisualObjectPlacement.AttachmentPoint"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство VisualObjectPlacement. Получает или задает выравнивание визуального объекта относительно задачи, когда выбран параметр Attach to task"
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks.visualization/visualobjectplacement/attachmentpoint/
 ---
 ## VisualObjectPlacement.AttachmentPoint property
 
-Получает или задает выравнивание визуального объекта относительно задачи, когда выбраны параметры «Присоединить к задаче».
+Получает или задает выравнивание визуального объекта относительно задачи, когда выбран параметр 'Attach to task'.
 
 ```csharp
 public HorizontalAlignment AttachmentPoint { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [HorizontalAlignment](../../horizontalalignment/)
 * class [VisualObjectPlacement](../)
-* пространство имен [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,29 +1,29 @@
 ---
-title: Enum UndefinedConstraintHandlingBehavior
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.UndefinedConstraintHandlingBehavior перечисление. Определяет поведение используемое для обработки задач с неопределенными ограничениями.
+title: "Перечисление UndefinedConstraintHandlingBehavior"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.UndefinedConstraintHandlingBehavior. Указывает поведение, используемое для обработки задач с неопределёнными ограничениями"
 type: docs
-weight: 2320
+weight: 2630
 url: /ru/net/aspose.tasks/undefinedconstrainthandlingbehavior/
 ---
 ## UndefinedConstraintHandlingBehavior enumeration
 
-Определяет поведение, используемое для обработки задач с неопределенными ограничениями.
+Указывает поведение, используемое для обработки задач с неопределёнными ограничениями.
 
 ```csharp
 public enum UndefinedConstraintHandlingBehavior
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| None | `0` | Поведение по умолчанию для загрузки из формата XER. Никаких действий не предпринимается. Тип ограничения задачи установлен на «ConstraintType.Undefined». |
-| SubstituteWithStartNoEarlierThan | `1` | Ограничения с типом ConstraintType.StartNoEarlierThan и датой = Начало добавляются для задач с ограничением Undefined. |
+| None | `0` | Поведение по умолчанию при загрузке из формата XER. Никаких действий не выполняется. Тип ограничения задачи устанавливается в 'ConstraintType.Undefined'. |
+| SubstituteWithStartNoEarlierThan | `1` | Ограничения типа 'ConstraintType.StartNoEarlierThan' и датой = Start добавляются для задач с ограничением 'Undefined'. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

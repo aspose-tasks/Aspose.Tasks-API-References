@@ -1,7 +1,7 @@
 ---
-title: Delegate FontResolveCallbackDelegate
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Представляет обратный вызов метода для обработки события разрешения шрифта.
+title: "Делегат FontResolveCallbackDelegate"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Представляет обратный вызов метода для обработки события разрешения шрифта"
 type: docs
 weight: 660
 url: /ru/net/aspose.tasks/fontresolvecallbackdelegate/
@@ -16,12 +16,12 @@ public delegate void FontResolveCallbackDelegate(FontResolveEventArgs args);
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| args | FontResolveEventArgs | экземпляр[`FontResolveEventArgs`](../fontresolveeventargs/) класс, содержащий данные обратного вызова. |
+| args | FontResolveEventArgs | экземпляр класса [`FontResolveEventArgs`](../fontresolveeventargs/), содержащий данные обратного вызова. |
 
-### Смотрите также
+### См. также
 
 * class [FontResolveEventArgs](../fontresolveeventargs/)
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

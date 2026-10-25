@@ -1,25 +1,39 @@
 ---
-title: Tsk.StatusManager
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Имя корпоративного ресурса который должен получать обновления состояния для текущей задачи от ресурсов.
+title: "Tsk.StatusManager"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Имя корпоративного ресурса, который будет получать обновления статуса текущей задачи от ресурсов"
 type: docs
-weight: 1070
+weight: 1050
 url: /ru/net/aspose.tasks/tsk/statusmanager/
 ---
 ## Tsk.StatusManager field
 
-Имя корпоративного ресурса, который должен получать обновления состояния для текущей задачи от ресурсов.
+Имя корпоративного ресурса, который будет получать обновления статуса текущей задачи от ресурсов.
 
 ```csharp
 public static readonly Key<string, TaskKey> StatusManager;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.StatusManager.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.StatusManager, "John Smith");
+
+Console.WriteLine("Status Manager: " + task.Get(Tsk.StatusManager));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

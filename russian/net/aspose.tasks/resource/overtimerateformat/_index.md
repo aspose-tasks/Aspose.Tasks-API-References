@@ -1,24 +1,24 @@
 ---
-title: Resource.OvertimeRateFormat
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение OvertimeRateFormat.
+title: "Resource.OvertimeRateFormat"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение OvertimeRateFormat"
 type: docs
-weight: 590
+weight: 580
 url: /ru/net/aspose.tasks/resource/overtimerateformat/
 ---
 ## Resource.OvertimeRateFormat property
 
-Получает или задает значение OvertimeRateFormat.
+Получает или задает значение свойства OvertimeRateFormat.
 
 ```csharp
 public RateFormatType OvertimeRateFormat { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [RateFormatType](../../rateformattype/)
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

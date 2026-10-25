@@ -1,22 +1,39 @@
 ---
-title: Class CompoundDocumentHeaderException
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.CompoundDocumentHeaderException сорт. Представляет исключение которое выдается при повреждении заголовка файла MPP.
+title: "Класс CompoundDocumentHeaderException"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.CompoundDocumentHeaderException. Представляет исключение, которое выбрасывается, когда заголовок файла MPP повреждён."
 type: docs
 weight: 280
 url: /ru/net/aspose.tasks/compounddocumentheaderexception/
 ---
 ## CompoundDocumentHeaderException class
 
-Представляет исключение, которое выдается при повреждении заголовка файла MPP.
+Представляет исключение, которое выбрасывается, когда заголовок файла MPP повреждён.
 
 ```csharp
 public class CompoundDocumentHeaderException : ApplicationException
 ```
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как отловить исключение &lt;see cref=\"CompoundDocumentHeaderException\" /&gt;.
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "Project1.mpp");
+
+    Console.WriteLine("Project Name: " + project.Get(Prj.Name));
+}
+catch (CompoundDocumentHeaderException e)
+{
+    Console.WriteLine(e.Message);
+}
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

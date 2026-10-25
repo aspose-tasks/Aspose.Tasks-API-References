@@ -1,25 +1,38 @@
 ---
-title: Rsc.WindowsUserAccount
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Rsc поле. Учетная запись NT связанная с ресурсом.
+title: "Rsc.WindowsUserAccount"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Rsc. NT‑учетная запись, связанная с ресурсом"
 type: docs
-weight: 690
+weight: 680
 url: /ru/net/aspose.tasks/rsc/windowsuseraccount/
 ---
 ## Rsc.WindowsUserAccount field
 
-Учетная запись NT, связанная с ресурсом.
+Учётная запись NT, связанная с ресурсом.
 
 ```csharp
 public static readonly Key<string, RscKey> WindowsUserAccount;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как установить мета‑свойства ресурса.
+
+```csharp
+var project = new Project(DataDir + "Project.mpp");
+
+// Добавить ресурс и установить метаданные ресурса
+var resource = project.Resources.Add("Rsc 1");
+resource.Set(Rsc.EMailAddress, "1@gmail.com");
+resource.Set(Rsc.WindowsUserAccount, "user_acc1");
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* пространство имен [Aspose.Tasks](../../rsc/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: AssignmentBaselineCollection.Add
-second_title: Справочник по Aspose.Tasks для .NET API
-description: AssignmentBaselineCollection метод. Это заглушка реализации метода Add ICollection которая выдает только NotSupportedException
+title: "AssignmentBaselineCollection.Add"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод AssignmentBaselineCollection. Это заглушка реализации метода Add интерфейса ICollections, который только бросает NotSupportedException"
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks/assignmentbaselinecollection/add/
 ---
 ## AssignmentBaselineCollection.Add method
 
-Это заглушка реализации метода Add ICollection, которая выдает только NotSupportedException
+Это заглушка реализации метода Add интерфейса ICollection, который только бросает NotSupportedException
 
 ```csharp
 public void Add(AssignmentBaseline item)
@@ -16,13 +16,13 @@ public void Add(AssignmentBaseline item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | AssignmentBaseline | Элемент для добавления. |
+| элемент | AssignmentBaseline | Элемент для добавления. |
 
-### Смотрите также
+### См. также
 
 * class [AssignmentBaseline](../../assignmentbaseline/)
 * class [AssignmentBaselineCollection](../)
-* пространство имен [Aspose.Tasks](../../assignmentbaselinecollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../assignmentbaselinecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: Project.DefaultTaskType
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение DefaultTaskType.
+title: "Project.DefaultTaskType"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Возвращает или задает значение DefaultTaskType"
 type: docs
-weight: 340
+weight: 350
 url: /ru/net/aspose.tasks/project/defaulttasktype/
 ---
 ## Project.DefaultTaskType property
 
-Получает или задает значение DefaultTaskType.
+Получает или задает значение свойства DefaultTaskType.
 
 ```csharp
 public TaskType DefaultTaskType { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [TaskType](../../tasktype/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

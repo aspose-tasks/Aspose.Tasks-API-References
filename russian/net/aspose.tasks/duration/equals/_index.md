@@ -1,7 +1,7 @@
 ---
-title: Duration.Equals
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Duration метод. Возвращает значение указывающее равен ли этот экземпляр указанному объекту.
+title: "Duration.Equals"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Duration. Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту"
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/duration/equals/
@@ -16,17 +16,36 @@ public bool Equals(Duration other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | Duration | Объект для сравнения с этим экземпляром. |
+| другой | Продолжительность | Объект для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-Возвращает **Истинный**если другой экземпляр Duration имеет те же значения TimeSpan и TimeUnit, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
+Возвращает **True**, если другой экземпляр Duration имеет такие же значения TimeSpan и TimeUnit, как у этого экземпляра; в противном случае **false**.
 
-### Смотрите также
+## Примеры
+
+Показывает, как проверить равенство длительностей.
+
+```csharp
+var project = new Project();
+
+var duration1 = project.GetDuration(1, TimeUnitType.Day);
+var duration2 = project.GetDuration(1, TimeUnitType.Day);
+var duration3 = project.GetDuration(1, TimeUnitType.Hour);
+
+// равенство длительности проверяется относительно базового TimeSpan
+Console.WriteLine("Duration 1: " + duration1.TimeSpan);
+Console.WriteLine("Duration 2: " + duration2.TimeSpan);
+Console.WriteLine("Duration 3: " + duration3.TimeSpan);
+Console.WriteLine("Are durations 1 and 2 equal: " + duration1.Equals(duration2));
+Console.WriteLine("Are durations 1 and 3 equal: " + duration1.Equals(duration3));
+```
+
+### См. также
 
 * struct [Duration](../)
-* пространство имен [Aspose.Tasks](../../duration/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -40,16 +59,35 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Объект для сравнения с этим экземпляром. |
+| obj | Объект | Объект для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-**Истинный** если указанный объект является Duration с теми же значениями TimeSpan и TimeUnit, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
+**True** if the specified object is a Duration that has the same TimeSpan and TimeUnit values as this instance; otherwise, **false**.
 
-### Смотрите также
+## Примеры
+
+Показывает, как проверить равенство длительностей.
+
+```csharp
+var project = new Project();
+
+var duration1 = project.GetDuration(1, TimeUnitType.Day);
+var duration2 = project.GetDuration(1, TimeUnitType.Day);
+var duration3 = project.GetDuration(1, TimeUnitType.Hour);
+
+// равенство длительности проверяется относительно базового TimeSpan
+Console.WriteLine("Duration 1: " + duration1.TimeSpan);
+Console.WriteLine("Duration 2: " + duration2.TimeSpan);
+Console.WriteLine("Duration 3: " + duration3.TimeSpan);
+Console.WriteLine("Are durations 1 and 2 equal: " + duration1.Equals(duration2));
+Console.WriteLine("Are durations 1 and 3 equal: " + duration1.Equals(duration3));
+```
+
+### См. также
 
 * struct [Duration](../)
-* пространство имен [Aspose.Tasks](../../duration/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 

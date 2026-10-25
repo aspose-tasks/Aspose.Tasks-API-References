@@ -1,7 +1,7 @@
 ---
-title: Enum FileFormat
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.FileFormat перечисление. Указывает формат файла проекта.
+title: "Перечисление FileFormat"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.FileFormat. Указывает формат файлов проекта"
 type: docs
 weight: 590
 url: /ru/net/aspose.tasks/fileformat/
@@ -14,13 +14,13 @@ url: /ru/net/aspose.tasks/fileformat/
 public enum FileFormat
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| Undefined | `0` | Невозможно определить. |
-| P6XML | `1` | Представляет XML-формат Primavera P6. |
-| XML | `2` | XML-формат Microsoft Project. |
+| Undefined | `0` | Не может быть определено. |
+| P6XML | `1` | Представляет формат Primavera P6 XML. |
+| XML | `2` | Формат Microsoft Project XML. |
 | MPP8 | `3` | Формат Microsoft Project 2000. |
 | MPP9 | `4` | Формат Microsoft Project 2003. |
 | MPP12 | `5` | Формат Microsoft Project 2007. |
@@ -31,11 +31,22 @@ public enum FileFormat
 | MPX | `10` | Формат файла Mpx |
 | XER | `11` | Представляет формат Primavera XER |
 | HTML | `12` | Представляет формат HTML |
-| ProjectServer | `13` | Проект был прочитан из Project Server или Project Online |
+| ProjectServer | `13` | Проект был считан из Project Server или Project Online |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как читать формат файла проверки проекта.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

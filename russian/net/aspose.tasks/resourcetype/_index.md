@@ -1,30 +1,54 @@
 ---
-title: Enum ResourceType
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.ResourceType перечисление. Определяет тип ресурса.
+title: "Перечисление ResourceType"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Aspose.Tasks.ResourceType enum. Указывает тип ресурса"
 type: docs
-weight: 1550
+weight: 1800
 url: /ru/net/aspose.tasks/resourcetype/
 ---
 ## ResourceType enumeration
 
-Определяет тип ресурса.
+Указывает тип ресурса.
 
 ```csharp
 public enum ResourceType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| Material | `0` | Указывает тип ресурса материала. |
-| Work | `1` | Указывает тип рабочего ресурса. |
-| Cost | `2` | Указывает тип затратного ресурса. |
+| Material | `0` | Указывает тип ресурса Material. |
+| Work | `1` | Указывает тип ресурса Work. |
+| Cost | `2` | Указывает тип ресурса Cost. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как работать с типами ресурсов.
+
+```csharp
+var project = new Project();
+
+// добавить рабочий ресурс
+var work = project.Resources.Add("Work resource");
+work.Set(Rsc.Type, ResourceType.Work);
+
+// добавить материалный ресурс
+var material = project.Resources.Add("Material resource");
+material.Set(Rsc.Type, ResourceType.Material);
+material.Set(Rsc.MaterialLabel, "kg");
+
+// добавить материалный ресурс
+var cost = project.Resources.Add("Cost resource");
+cost.Set(Rsc.Type, ResourceType.Cost);
+cost.Set(Rsc.Cost, 59.99m);
+
+// работа с ресурсами: создавать задачи, назначать ресурсы и т.д.
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

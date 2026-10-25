@@ -1,9 +1,9 @@
 ---
-title: Class RecurrencePatternBase
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.RecurrencePatternBase сорт. Представляет базовый класс шаблона повторения.
+title: "Класс RecurrencePatternBase"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.RecurrencePatternBase. Представляет базовый класс шаблона повторения"
 type: docs
-weight: 1450
+weight: 1700
 url: /ru/net/aspose.tasks/recurrencepatternbase/
 ---
 ## RecurrencePatternBase class
@@ -14,15 +14,43 @@ url: /ru/net/aspose.tasks/recurrencepatternbase/
 public abstract class RecurrencePatternBase
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [RecurrenceRange](../../aspose.tasks/recurrencepatternbase/recurrencerange/) { get; set; } | Получает или задает диапазон повторения. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как работать с повторениями шаблона ежедневного рабочего повторения при создании повторяющихся задач.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "New recurrent task",
+                         RecurrencePattern = new DailyRecurrencePattern
+                                                 {
+                                                     RecurrenceRange = new EndAfterRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 1, 1, 8, 0, 0), OccurrenceNumber = 9
+                                                                           },
+                                                     Repetition = new DailyWorkRepetition { RepetitionInterval = 1 }
+                                                 },
+                         Duration = project.GetDuration(1, TimeUnitType.Hour)
+                     };
+parameters.SetCalendar(project, "Standard");
+
+var task = project.RootTask.Children.Add(parameters);
+task.Set(Tsk.Start, new DateTime(2020, 4, 27, 8, 0, 0));
+
+// работайте с проектом дальше...
+// ...
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

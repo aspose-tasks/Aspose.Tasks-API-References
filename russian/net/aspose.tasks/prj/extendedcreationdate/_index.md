@@ -1,25 +1,37 @@
 ---
-title: Prj.ExtendedCreationDate
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Дата используемая для расчета и отчетности.
+title: "Prj.ExtendedCreationDate"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Prj field. Дата, используемая для расчётов и отчётности"
 type: docs
-weight: 310
+weight: 320
 url: /ru/net/aspose.tasks/prj/extendedcreationdate/
 ---
 ## Prj.ExtendedCreationDate field
 
-Дата, используемая для расчета и отчетности.
+Дата, используемая для расчётов и отчётности.
 
 ```csharp
 public static readonly Key<DateTime, PrjKey> ExtendedCreationDate;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.ExtendedCreationDate.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.ExtendedCreationDate, new DateTime(2020, 4, 10, 9, 0, 0));
+
+Console.WriteLine("Extended Creation Date: " + project.Get(Prj.ExtendedCreationDate));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

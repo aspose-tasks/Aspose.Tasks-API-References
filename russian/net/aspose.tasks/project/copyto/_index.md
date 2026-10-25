@@ -1,9 +1,9 @@
 ---
-title: Project.CopyTo
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project метод. Копирует основные данные и свойства проекта в другой проект.
+title: "Project.CopyTo"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Project. Копирует основные данные и свойства проекта в другой проект."
 type: docs
-weight: 1030
+weight: 1060
 url: /ru/net/aspose.tasks/project/copyto/
 ---
 ## CopyTo(Project) {#copyto}
@@ -16,13 +16,27 @@ public void CopyTo(Project another)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| another | Project | Другой проект для копирования данных. |
+| другой | Project | Другой проект, в который копировать данные. |
 
-### Смотрите также
+## Примеры
+
+Показывает, как скопировать данные проекта в другой проект.
+
+```csharp
+var project = new Project(DataDir + "CopyToProjectEmpty.xml");
+File.Copy(DataDir + "CopyToProjectEmpty.mpp", DataDir + "ProjectCopying_out.mpp", true);
+
+var mppProject = new Project(DataDir + "ProjectCopying_out.mpp");
+
+// пропустить копирование данных представления при копировании общих данных проекта.
+project.CopyTo(mppProject);
+```
+
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -36,14 +50,32 @@ public void CopyTo(Project another, CopyToOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| another | Project | Другой проект для копирования данных. |
-| options | CopyToOptions | Параметры копирования для управления процессом копирования. |
+| другой | Project | Другой проект, в который копировать данные. |
+| опции | CopyToOptions | Параметры копирования для управления процессом копирования. |
 
-### Смотрите также
+## Примеры
+
+Показывает, как скопировать проект с использованием экземпляра &lt;see cref="Aspose.Tasks.CopyToOptions"/&gt;.
+
+```csharp
+var project = new Project(DataDir + "CopyToProjectEmpty.xml");
+File.Copy(DataDir + "CopyToProjectEmpty.mpp", OutDir + "ProjectCopying_out.mpp", true);
+
+var mppProject = new Project(OutDir + "ProjectCopying_out.mpp");
+
+// пропустить копирование данных представления при копировании общих данных проекта.
+var options = new CopyToOptions
+{
+    CopyViewData = false
+};
+project.CopyTo(mppProject, options);
+```
+
+### См. также
 
 * class [CopyToOptions](../../copytooptions/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

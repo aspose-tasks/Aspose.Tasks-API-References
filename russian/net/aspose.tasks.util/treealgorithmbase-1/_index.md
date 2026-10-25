@@ -1,14 +1,14 @@
 ---
-title: Class TreeAlgorithmBaseT
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Util.TreeAlgorithmBase1T сорт. Базовый класс для реализацииITreeAlgorithm
+title: "Класс TreeAlgorithmBaseT"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.Util.TreeAlgorithmBase1T. Базовый класс для реализаций ITreeAlgorithm"
 type: docs
-weight: 2460
+weight: 2780
 url: /ru/net/aspose.tasks.util/treealgorithmbase-1/
 ---
 ## TreeAlgorithmBase&lt;T&gt; class
 
-Базовый класс для реализации[`ITreeAlgorithm`](../itreealgorithm-1/)
+Базовый класс для реализаций [`ITreeAlgorithm`](../itreealgorithm-1/)
 
 ```csharp
 public abstract class TreeAlgorithmBase<T> : ITreeAlgorithm<T>
@@ -26,10 +26,10 @@ public abstract class TreeAlgorithmBase<T> : ITreeAlgorithm<T>
 | virtual [PostAlg](../../aspose.tasks.util/treealgorithmbase-1/postalg/)(T, int) | Вызывается после обработки узла дерева. |
 | virtual [PreAlg](../../aspose.tasks.util/treealgorithmbase-1/prealg/)(T, int) | Вызывается перед обработкой узла дерева. |
 
-### Смотрите также
+### См. также
 
 * interface [ITreeAlgorithm&lt;T&gt;](../itreealgorithm-1/)
-* пространство имен [Aspose.Tasks.Util](../../aspose.tasks.util/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Util](../../aspose.tasks.util/)
+* assembly [Aspose.Tasks](../../)
 
 

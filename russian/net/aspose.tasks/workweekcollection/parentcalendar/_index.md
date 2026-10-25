@@ -1,7 +1,7 @@
 ---
-title: WorkWeekCollection.ParentCalendar
-second_title: Справочник по Aspose.Tasks для .NET API
-description: WorkWeekCollection свойство. Получает родительский календарь.
+title: "WorkWeekCollection.ParentCalendar"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство WorkWeekCollection. Возвращает родительский календарь."
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/workweekcollection/parentcalendar/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/workweekcollection/parentcalendar/
 public Calendar ParentCalendar { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Calendar](../../calendar/)
 * class [WorkWeekCollection](../)
-* пространство имен [Aspose.Tasks](../../workweekcollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workweekcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

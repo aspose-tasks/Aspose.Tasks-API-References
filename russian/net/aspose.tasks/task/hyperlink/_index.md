@@ -1,23 +1,23 @@
 ---
-title: Task.Hyperlink
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение гиперссылки.
+title: "Task.Hyperlink"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает заголовок или пояснительный текст для гиперссылки, связанной с задачей"
 type: docs
 weight: 530
 url: /ru/net/aspose.tasks/task/hyperlink/
 ---
 ## Task.Hyperlink property
 
-Получает или задает значение гиперссылки.
+Получает или задает заголовок или пояснительный текст для гиперссылки, связанной с задачей.
 
 ```csharp
 public string Hyperlink { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

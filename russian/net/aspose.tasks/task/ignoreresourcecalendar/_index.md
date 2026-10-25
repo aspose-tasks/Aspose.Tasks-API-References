@@ -1,24 +1,24 @@
 ---
-title: Task.IgnoreResourceCalendar
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение указывающее установлен ли IgnoreResourceCalendar или нет.
+title: "Task.IgnoreResourceCalendar"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение, указывающее, установлен ли IgnoreResourceCalendar"
 type: docs
 weight: 570
 url: /ru/net/aspose.tasks/task/ignoreresourcecalendar/
 ---
 ## Task.IgnoreResourceCalendar property
 
-Получает или задает значение, указывающее, установлен ли IgnoreResourceCalendar или нет.
+Получает или задает значение, указывающее, установлен ли IgnoreResourceCalendar, или нет.
 
 ```csharp
 public NullableBool IgnoreResourceCalendar { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

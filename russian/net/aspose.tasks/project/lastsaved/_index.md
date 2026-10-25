@@ -1,9 +1,9 @@
 ---
-title: Project.LastSaved
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение LastSaved.
+title: "Project.LastSaved"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение LastSaved."
 type: docs
-weight: 530
+weight: 550
 url: /ru/net/aspose.tasks/project/lastsaved/
 ---
 ## Project.LastSaved property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/project/lastsaved/
 public DateTime LastSaved { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

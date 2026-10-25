@@ -1,24 +1,24 @@
 ---
-title: Task.IsActive
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение указывающее установлен ли IsActive или нет.
+title: "Task.IsActive"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение, указывающее, установлен ли IsActive"
 type: docs
 weight: 590
 url: /ru/net/aspose.tasks/task/isactive/
 ---
 ## Task.IsActive property
 
-Получает или задает значение, указывающее, установлен ли IsActive или нет.
+Получает или задает значение, указывающее, установлен ли IsActive, или нет.
 
 ```csharp
 public NullableBool IsActive { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

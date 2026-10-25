@@ -1,24 +1,24 @@
 ---
-title: Project.NewTasksEstimated
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение указывающее установлен ли параметр NewTasksEstimated или нет.
+title: "Project.NewTasksEstimated"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение, указывающее, установлен ли NewTasksEstimated"
 type: docs
-weight: 660
+weight: 680
 url: /ru/net/aspose.tasks/project/newtasksestimated/
 ---
 ## Project.NewTasksEstimated property
 
-Получает или задает значение, указывающее, установлен ли параметр NewTasksEstimated или нет.
+Получает или задает значение, указывающее, установлен ли NewTasksEstimated.
 
 ```csharp
 public NullableBool NewTasksEstimated { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

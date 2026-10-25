@@ -1,24 +1,24 @@
 ---
-title: Task.IsOverallocated
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение указывающее установлен ли параметр IsOverallocated или нет.
+title: "Task.IsOverallocated"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение, указывающее, установлено ли IsOverallocated"
 type: docs
 weight: 690
 url: /ru/net/aspose.tasks/task/isoverallocated/
 ---
 ## Task.IsOverallocated property
 
-Получает или задает значение, указывающее, установлен ли параметр IsOverallocated или нет.
+Получает или задает значение, указывающее, установлен ли IsOverallocated.
 
 ```csharp
 public NullableBool IsOverallocated { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

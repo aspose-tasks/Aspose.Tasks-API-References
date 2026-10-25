@@ -1,25 +1,39 @@
 ---
-title: Rsc.MaxUnits
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Rsc поле. Максимальное количество единиц представляющее максимальную мощность для которой доступен ресурс для выполнения любых задач в течение текущего периода времени.
+title: "Rsc.MaxUnits"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Rsc. Максимальное количество единиц, представляющих максимальную ёмкость, для которой ресурс доступен для выполнения любых задач в текущий период времени"
 type: docs
 weight: 450
 url: /ru/net/aspose.tasks/rsc/maxunits/
 ---
 ## Rsc.MaxUnits field
 
-Максимальное количество единиц, представляющее максимальную мощность, для которой доступен ресурс для выполнения любых задач в течение текущего периода времени.
+Максимальное количество единиц, представляющих максимальную емкость, в которой ресурс доступен для выполнения любых задач в текущий период времени.
 
 ```csharp
 public static readonly Key<double, RscKey> MaxUnits;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Rsc.MaxUnits.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.MaxUnits, 2);
+
+Console.WriteLine("Max Units: " + resource.Get(Rsc.MaxUnits));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* пространство имен [Aspose.Tasks](../../rsc/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

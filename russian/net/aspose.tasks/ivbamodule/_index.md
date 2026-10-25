@@ -1,9 +1,9 @@
 ---
-title: Interface IVbaModule
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.IVbaModule интерфейс. Представляет модуль с кодом VBA.
+title: "Интерфейс IVbaModule"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Интерфейс Aspose.Tasks.IVbaModule. Представляет модуль с кодом VBA"
 type: docs
-weight: 810
+weight: 880
 url: /ru/net/aspose.tasks/ivbamodule/
 ---
 ## IVbaModule interface
@@ -14,17 +14,33 @@ url: /ru/net/aspose.tasks/ivbamodule/
 public interface IVbaModule
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Attributes](../../aspose.tasks/ivbamodule/attributes/) { get; } | Получает коллекцию[`VbaModuleAttributeCollection`](../vbamoduleattributecollection/) |
+| [Attributes](../../aspose.tasks/ivbamodule/attributes/) { get; } | Получает коллекцию [`VbaModuleAttributeCollection`](../vbamoduleattributecollection/) |
 | [Name](../../aspose.tasks/ivbamodule/name/) { get; } | Получает имя модуля VBA |
-| [SourceCode](../../aspose.tasks/ivbamodule/sourcecode/) { get; } | Получает исходный код модуля VBA |
+| [SourceCode](../../aspose.tasks/ivbamodule/sourcecode/) { get; } | Получает исходный код VBA-модуля |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как читать модули проекта VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Total Modules Count: " + project.VbaProject.Modules.Count);
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Module Name: " + module.Name);
+    Console.WriteLine("Source Code: " + module.SourceCode);
+}
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

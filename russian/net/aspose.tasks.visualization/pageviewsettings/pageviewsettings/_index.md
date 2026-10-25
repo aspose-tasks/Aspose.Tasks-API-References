@@ -1,7 +1,7 @@
 ---
-title: PageViewSettings.PageViewSettings
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PageViewSettings строитель. Конструктор по умолчанию.
+title: "PageViewSettings.PageViewSettings"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор PageViewSettings. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/pageviewsettings/pageviewsettings/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks.visualization/pageviewsettings/pageviewsettings/
 public PageViewSettings()
 ```
 
-### Смотрите также
+### См. также
 
 * class [PageViewSettings](../)
-* пространство имен [Aspose.Tasks.Visualization](../../pageviewsettings/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../pageviewsettings/)
+* assembly [Aspose.Tasks](../../../)
 
 

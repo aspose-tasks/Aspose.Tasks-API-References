@@ -1,25 +1,39 @@
 ---
-title: Tsk.PreleveledFinish
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Дата окончания задачи которая была до выравнивания ресурсов.
+title: "Tsk.PreleveledFinish"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Дата завершения задачи, как она была до выполнения выравнивания ресурсов"
 type: docs
-weight: 930
+weight: 910
 url: /ru/net/aspose.tasks/tsk/preleveledfinish/
 ---
 ## Tsk.PreleveledFinish field
 
-Дата окончания задачи, которая была до выравнивания ресурсов.
+Дата завершения задачи до выполнения выравнивания ресурсов.
 
 ```csharp
 public static readonly Key<DateTime, TaskKey> PreleveledFinish;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.PreleveledFinish.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.PreleveledFinish, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Preleveled Finish: " + task.Get(Tsk.PreleveledFinish));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

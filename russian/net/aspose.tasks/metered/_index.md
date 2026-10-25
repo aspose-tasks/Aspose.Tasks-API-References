@@ -1,14 +1,14 @@
 ---
-title: Class Metered
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Metered сорт. Предоставляет методы для установки измеренного ключа.
+title: "Класс Metered"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.Metered. Предоставляет методы для установки метерного ключа"
 type: docs
-weight: 890
+weight: 1020
 url: /ru/net/aspose.tasks/metered/
 ---
 ## Metered class
 
-Предоставляет методы для установки измеренного ключа.
+Предоставляет методы для установки измеряемого ключа.
 
 ```csharp
 public class Metered
@@ -24,14 +24,15 @@ public class Metered
 
 | Имя | Описание |
 | --- | --- |
-| [ResetMeteredKey](../../aspose.tasks/metered/resetmeteredkey/)() | Удаляет ранее установленную лицензию. |
-| [SetMeteredKey](../../aspose.tasks/metered/setmeteredkey/)(string, string) | Устанавливает лимитированные открытые и закрытые ключи. |
-| static [GetConsumptionCredit](../../aspose.tasks/metered/getconsumptioncredit/)() | Получает потребительский кредит. |
+| [IsLicensed](../../aspose.tasks/metered/islicensed/)() | Проверяет, успешно ли продукт лицензирован с использованием метерной лицензии. |
+| [ResetMeteredKey](../../aspose.tasks/metered/resetmeteredkey/)() | Удаляет ранее настроенную лицензию. |
+| [SetMeteredKey](../../aspose.tasks/metered/setmeteredkey/)(string, string) | Устанавливает публичные и приватные метерные ключи. |
+| static [GetConsumptionCredit](../../aspose.tasks/metered/getconsumptioncredit/)() | Получает кредит потребления. |
 | static [GetConsumptionQuantity](../../aspose.tasks/metered/getconsumptionquantity/)() | Получает размер файла потребления. |
 
-### Примеры
+## Примеры
 
-В этом примере будет предпринята попытка установить лимитированный открытый и закрытый ключ
+В этом примере будет предпринята попытка установить публичный и приватный метерный ключ
 
 ```csharp
 [C#]
@@ -53,9 +54,40 @@ Metered metered = new Metered();
 metered.setMeteredKey("PublicKey", "PrivateKey");
 ```
 
-### Смотрите также
+Показывает, как использовать &lt;see cref="Aspose.Tasks.Metered" /&gt; тип лицензии с Aspose.Tasks.
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+```csharp
+// Давайте используем лицензию с учётом потребления (see https://purchase.aspose.com/faqs/licensing/metered)
+// установить лицензию с учётом потребления
+var metered = new Metered();
+metered.SetMeteredKey("<public key>", "<private key>");
+
+var project = new Project(DataDir + "Project2.mpp");
+Console.WriteLine("Project Name: " + project.Get(Prj.Name));
+
+// ...
+// работать с проектом...
+// ...
+
+// Мы можем получить текущие кредиты и потребление байтов.
+
+try
+{
+    Console.WriteLine("Credits spent: {0}", Metered.GetConsumptionCredit());
+    Console.WriteLine("Bytes consumed: {0}", Metered.GetConsumptionQuantity());
+}
+catch (WebException)
+{
+    // записать исключение
+}
+
+// в последнее время пользователь может сбросить учёт потребления и остановить подсчёт байтов
+metered.ResetMeteredKey();
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

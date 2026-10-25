@@ -1,25 +1,49 @@
 ---
-title: Asn.BCWP
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Asn поле. Сметная стоимость работ выполненных по заданию на сегодняшний день.
+title: "Asn.BCWP"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Asn. Запланированная стоимость выполненной работы в назначении на текущую дату"
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks/asn/bcwp/
 ---
 ## Asn.BCWP field
 
-Сметная стоимость работ, выполненных по заданию на сегодняшний день.
+Запланированная стоимость выполненной работы по назначению на текущую дату.
 
 ```csharp
 public static readonly Key<double, AsnKey> BCWP;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать значения стоимости назначения.
+
+```csharp
+var project = new Project(DataDir + "ResourceAssignmentCosts.mpp");
+
+// Печать стоимостей назначения ресурса
+foreach (var assignment in project.ResourceAssignments)
+{
+    Console.WriteLine(assignment.Get(Asn.Cost));
+    Console.WriteLine(assignment.Get(Asn.ACWP));
+
+    // CV = BCWP - ACWP
+    Console.WriteLine(assignment.Get(Asn.CV));
+
+    Console.WriteLine(assignment.Get(Asn.BCWP));
+    Console.WriteLine(assignment.Get(Asn.BCWS));
+
+    // SV = BCWP - BCWS
+    Console.WriteLine(assignment.Get(Asn.SV));
+}
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [AsnKey](../../asnkey/)
 * class [Asn](../)
-* пространство имен [Aspose.Tasks](../../asn/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../asn/)
+* assembly [Aspose.Tasks](../../../)
 
 

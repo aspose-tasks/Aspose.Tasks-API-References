@@ -1,7 +1,7 @@
 ---
-title: Task.ActualOvertimeWorkProtected
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение ActualOvertimeWorkProtected.
+title: "Task.ActualOvertimeWorkProtected"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение ActualOvertimeWorkProtected."
 type: docs
 weight: 70
 url: /ru/net/aspose.tasks/task/actualovertimeworkprotected/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/task/actualovertimeworkprotected/
 public Duration ActualOvertimeWorkProtected { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.Milestone
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение указывающее установлена ли веха или нет.
+title: "ResourceAssignment.Milestone"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ResourceAssignment. Возвращает или задает значение, указывающее, установлено ли Milestone"
 type: docs
-weight: 370
+weight: 360
 url: /ru/net/aspose.tasks/resourceassignment/milestone/
 ---
 ## ResourceAssignment.Milestone property
 
-Получает или задает значение, указывающее, установлена ли веха или нет.
+Получает или задает значение, указывающее, установлен ли Milestone.
 
 ```csharp
 public bool Milestone { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

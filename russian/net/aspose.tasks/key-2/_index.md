@@ -1,9 +1,9 @@
 ---
-title: Struct KeyTK
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Key2TK структура. Представляет ключ свойства класса указанного типа. Экземпляр этого класса используется при получении или установке свойства контейнера.
+title: "Структура KeyTK"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Структура Aspose.Tasks.Key2TK. Представляет ключ свойства класса указанного типа. Экземпляр этого класса используется при получении или установке свойства контейнера"
 type: docs
-weight: 850
+weight: 930
 url: /ru/net/aspose.tasks/key-2/
 ---
 ## Key&lt;T,K&gt; structure
@@ -20,15 +20,27 @@ public struct Key<T, K>
 | T | Тип значения свойства. |
 | K | Тип ключа свойства. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [KeyType](../../aspose.tasks/key-2/keytype/) { get; } | Получает ключ свойства. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как читать/записывать свойство Prj.ActualsInSync.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.ActualsInSync, true);
+
+Console.WriteLine("Actuals In Sync: " + project.Get(Prj.ActualsInSync));
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

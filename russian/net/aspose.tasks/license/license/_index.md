@@ -1,22 +1,22 @@
 ---
-title: License.License
-second_title: Справочник по Aspose.Tasks для .NET API
-description: License строитель. Инициализирует новый экземплярLicense сорт.
+title: "License.License"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор License. Инициализирует новый экземпляр класса License"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/license/license/
 ---
 ## License constructor
 
-Инициализирует новый экземпляр[`License`](../) сорт.
+Инициализирует новый экземпляр класса [`License`](../).
 
 ```csharp
 public License()
 ```
 
-### Примеры
+## Примеры
 
-В этом примере будет предпринята попытка найти файл лицензии с именем MyLicense.lic в папке, содержащей  компонент в папке, содержащей вызывающую сборку, в папке входной сборки, а затем во встроенных ресурсах вызывающей сборки.
+В этом примере будет предпринята попытка найти файл лицензии с именем MyLicense.lic в папке, содержащей компонент, в папке, содержащей вызывающую сборку, в папке входной сборки, а затем во встроенных ресурсах вызывающей сборки.
 
 ```csharp
 [C#]
@@ -38,10 +38,17 @@ License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
-### Смотрите также
+Показывает, как применить лицензию Aspose.Tasks.
+
+```csharp
+var license = new License();
+license.SetLicense("Aspose.Tasks.lic");
+```
+
+### См. также
 
 * class [License](../)
-* пространство имен [Aspose.Tasks](../../license/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../license/)
+* assembly [Aspose.Tasks](../../../)
 
 

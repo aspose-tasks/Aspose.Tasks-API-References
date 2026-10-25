@@ -1,7 +1,7 @@
 ---
-title: Resource.AssignmentOwnerGuid
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение AssignmentOwnerGuid.
+title: "Resource.AssignmentOwnerGuid"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение AssignmentOwnerGuid"
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks/resource/assignmentownerguid/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resource/assignmentownerguid/
 public string AssignmentOwnerGuid { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

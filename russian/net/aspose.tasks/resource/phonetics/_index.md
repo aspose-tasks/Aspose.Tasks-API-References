@@ -1,23 +1,23 @@
 ---
-title: Resource.Phonetics
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение фонетики.
+title: "Resource.Phonetics"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение Phonetics."
 type: docs
-weight: 640
+weight: 630
 url: /ru/net/aspose.tasks/resource/phonetics/
 ---
 ## Resource.Phonetics property
 
-Получает или задает значение фонетики.
+Получает или задает значение свойства Phonetics.
 
 ```csharp
 public string Phonetics { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

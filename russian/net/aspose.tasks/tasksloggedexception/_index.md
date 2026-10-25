@@ -1,29 +1,49 @@
 ---
-title: Class TasksLoggedException
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.TasksLoggedException сорт. Представляет тип стандартного внутреннего исключения.
+title: "Класс TasksLoggedException"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.TasksLoggedException. Представляет стандартный внутренний тип исключения"
 type: docs
-weight: 2220
+weight: 2530
 url: /ru/net/aspose.tasks/tasksloggedexception/
 ---
 ## TasksLoggedException class
 
-Представляет тип стандартного внутреннего исключения.
+Представляет стандартный внутренний тип исключения.
 
 ```csharp
 public class TasksLoggedException : ApplicationException
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [LogText](../../aspose.tasks/tasksloggedexception/logtext/) { get; } | Получает информацию журнала исключений. |
+| [LogText](../../aspose.tasks/tasksloggedexception/logtext/) { get; } | Получает информацию о журналировании исключения. |
 | [Operation](../../aspose.tasks/tasksloggedexception/operation/) { get; } | Получает информацию об операции исключения. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как читать текст журнала и тип исключения для проверки проблем с экспортом MPP.
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "PrintTaskWritingException.mpp");
+
+    // Экспортировать проект в файл MPP
+    project.Save(OutDir + "PrintTaskWritingException_out.MPP", SaveFileFormat.Mpp);
+}
+catch (TasksWritingException ex)
+{
+    Console.WriteLine("Exception Operation: " + ex.Operation);
+    Console.WriteLine("Exception Log Text: ");
+    Console.WriteLine(ex.LogText);
+}
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

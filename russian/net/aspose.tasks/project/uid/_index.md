@@ -1,9 +1,9 @@
 ---
-title: Project.Uid
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение Uid.
+title: "Project.Uid"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение Uid."
 type: docs
-weight: 960
+weight: 990
 url: /ru/net/aspose.tasks/project/uid/
 ---
 ## Project.Uid property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/project/uid/
 public string Uid { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

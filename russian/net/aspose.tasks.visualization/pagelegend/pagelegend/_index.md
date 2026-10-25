@@ -1,7 +1,7 @@
 ---
-title: PageLegend.PageLegend
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PageLegend строитель. Конструктор по умолчанию.
+title: "PageLegend.PageLegend"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор PageLegend. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/pagelegend/pagelegend/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks.visualization/pagelegend/pagelegend/
 public PageLegend()
 ```
 
-### Смотрите также
+### См. также
 
 * class [PageLegend](../)
-* пространство имен [Aspose.Tasks.Visualization](../../pagelegend/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../pagelegend/)
+* assembly [Aspose.Tasks](../../../)
 
 

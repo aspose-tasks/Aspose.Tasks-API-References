@@ -1,7 +1,7 @@
 ---
-title: Task.CommitmentType
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение CommitmentType.
+title: "Task.CommitmentType"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Возвращает или задает значение CommitmentType."
 type: docs
 weight: 220
 url: /ru/net/aspose.tasks/task/commitmenttype/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/task/commitmenttype/
 public int CommitmentType { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

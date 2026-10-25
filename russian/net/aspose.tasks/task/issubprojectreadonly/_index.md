@@ -1,24 +1,24 @@
 ---
-title: Task.IsSubprojectReadOnly
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение указывающее установлен ли параметр IsSubprojectReadOnly.
+title: "Task.IsSubprojectReadOnly"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение, указывающее, установлено ли IsSubprojectReadOnly"
 type: docs
 weight: 750
 url: /ru/net/aspose.tasks/task/issubprojectreadonly/
 ---
 ## Task.IsSubprojectReadOnly property
 
-Получает или задает значение, указывающее, установлен ли параметр IsSubprojectReadOnly.
+Получает или задает значение, указывающее, установлен ли IsSubprojectReadOnly.
 
 ```csharp
 public NullableBool IsSubprojectReadOnly { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

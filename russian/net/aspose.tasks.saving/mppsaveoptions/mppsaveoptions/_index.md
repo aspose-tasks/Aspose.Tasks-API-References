@@ -1,23 +1,23 @@
 ---
-title: MPPSaveOptions.MPPSaveOptions
-second_title: Справочник по Aspose.Tasks для .NET API
-description: MPPSaveOptions строитель. Конструктор по умолчанию.
+title: "MPPSaveOptions.MPPSaveOptions"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор MPPSaveOptions. Инициализирует новый экземпляр класса MPPSaveOptions."
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/mppsaveoptions/mppsaveoptions/
 ---
 ## MPPSaveOptions constructor
 
-Конструктор по умолчанию.
+Инициализирует новый экземпляр класса [`MPPSaveOptions`](../).
 
 ```csharp
 public MPPSaveOptions()
 ```
 
-### Смотрите также
+### См. также
 
 * class [MPPSaveOptions](../)
-* пространство имен [Aspose.Tasks.Saving](../../mppsaveoptions/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../mppsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

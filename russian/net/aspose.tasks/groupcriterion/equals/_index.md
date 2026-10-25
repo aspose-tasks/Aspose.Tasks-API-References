@@ -1,9 +1,9 @@
 ---
-title: GroupCriterion.Equals
-second_title: Справочник по Aspose.Tasks для .NET API
-description: GroupCriterion метод. Возвращает значение указывающее равен ли этот экземпляр указанному объекту.
+title: "GroupCriterion.Equals"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "GroupCriterion метод. Возвращает значение, указывающее, равен ли данный экземпляр указанному объекту."
 type: docs
-weight: 130
+weight: 110
 url: /ru/net/aspose.tasks/groupcriterion/equals/
 ---
 ## GroupCriterion.Equals method
@@ -16,16 +16,16 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Объект для сравнения с этим экземпляром. |
+| obj | Объект | Объект для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-**Истинный**если o — это GroupCriterion с тем же значением UID, что и у этого экземпляра; в противном случае, **ЛОЖЬ**.
+**True** if o is a GroupCriterion that has the same UID value as this instance; otherwise, **false**.
 
-### Смотрите также
+### См. также
 
 * class [GroupCriterion](../)
-* пространство имен [Aspose.Tasks](../../groupcriterion/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcriterion/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,64 @@
 ---
-title: TaskLinkCollection.Count
-second_title: Справочник по Aspose.Tasks для .NET API
-description: TaskLinkCollection свойство. Получает количество объектов содержащихся в этомTaskLinkCollection объект.
+title: "TaskLinkCollection.Count"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство TaskLinkCollection. Возвращает количество объектов, содержащихся в этом объекте TaskLinkCollection."
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/tasklinkcollection/count/
 ---
 ## TaskLinkCollection.Count property
 
-Получает количество объектов, содержащихся в этом[`TaskLinkCollection`](../) объект.
+Возвращает количество объектов, содержащихся в этом объекте [`TaskLinkCollection`](../).
 
 ```csharp
 public int Count { get; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как работать с коллекциями связей задач.
+
+```csharp
+var project = new Project(DataDir + "SampleProject.mpp");
+
+// получить задачи
+var task1 = project.RootTask.Children.GetById(1);
+var task2 = project.RootTask.Children.GetById(2);
+var task3 = project.RootTask.Children.GetById(3);
+var task4 = project.RootTask.Children.GetById(4);
+var task5 = project.RootTask.Children.GetById(5);
+
+// связать задачи
+project.TaskLinks.Add(task1, task2);
+project.TaskLinks.Add(task2, task3, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task3, task4, TaskLinkType.FinishToStart);
+project.TaskLinks.Add(task4, task5, TaskLinkType.FinishToStart, project.GetDuration(1, TimeUnitType.Day));
+project.TaskLinks.Add(task2, task5, TaskLinkType.FinishToStart, project.GetDuration(2, TimeUnitType.Day));
+
+// вывести ссылки между задачами
+Console.WriteLine("Print task links of " + project.TaskLinks.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Task links count: " + project.TaskLinks.Count);
+foreach (var link in project.TaskLinks)
+{
+    Console.WriteLine("From ID = " + link.PredTask.Get(Tsk.Id) + " => To ID = " + link.SuccTask.Get(Tsk.Id));
+    Console.WriteLine();
+}
+
+// редактировать связь по индексу
+project.TaskLinks[0].LagFormat = TimeUnitType.Hour;
+
+// удалить все связи задач
+List<TaskLink> taskLinks = project.TaskLinks.ToList();
+foreach (var link in taskLinks)
+{
+    project.TaskLinks.Remove(link);
+}
+```
+
+### См. также
 
 * class [TaskLinkCollection](../)
-* пространство имен [Aspose.Tasks](../../tasklinkcollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklinkcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

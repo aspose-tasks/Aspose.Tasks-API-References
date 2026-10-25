@@ -1,25 +1,37 @@
 ---
-title: Prj.Title
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Название проекта.
+title: "Prj.Title"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Prj field. Заголовок проекта"
 type: docs
-weight: 740
+weight: 750
 url: /ru/net/aspose.tasks/prj/title/
 ---
 ## Prj.Title field
 
-Название проекта.
+Заголовок проекта.
 
 ```csharp
 public static readonly Key<string, PrjKey> Title;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.Title.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Title, "MS Project");
+
+Console.WriteLine("Title: " + project.Get(Prj.Title));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

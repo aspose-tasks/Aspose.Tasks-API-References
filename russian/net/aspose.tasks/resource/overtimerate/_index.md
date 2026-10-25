@@ -1,23 +1,23 @@
 ---
-title: Resource.OvertimeRate
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение OvertimeRate.
+title: "Resource.OvertimeRate"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение OvertimeRate"
 type: docs
-weight: 580
+weight: 570
 url: /ru/net/aspose.tasks/resource/overtimerate/
 ---
 ## Resource.OvertimeRate property
 
-Получает или задает значение OvertimeRate.
+Получает или задает значение свойства OvertimeRate.
 
 ```csharp
 public decimal OvertimeRate { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

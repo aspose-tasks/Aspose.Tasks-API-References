@@ -1,14 +1,14 @@
 ---
-title: ProjectView.GetDefaultResourceSheetView
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ProjectView метод. Включает Uid имя ресурса тип метку материала инициалы группу максимальное количество единиц стандартную ставку ставку сверхурочных стоимость за использование накопление в базовый календарь и столбцы ресурсов кода.
+title: "ProjectView.GetDefaultResourceSheetView"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод ProjectView. Включает столбцы ресурса Uid, resource, name, type, material, label, initials, group, max units, standard rate, overtime rate, cost per use, accrue at, base calendar и code"
 type: docs
 weight: 40
 url: /ru/net/aspose.tasks.visualization/projectview/getdefaultresourcesheetview/
 ---
 ## ProjectView.GetDefaultResourceSheetView method
 
-Включает Uid, имя ресурса, тип, метку материала, инициалы, группу, максимальное количество единиц, стандартную ставку, ставку сверхурочных, стоимость за использование, накопление в, базовый календарь и столбцы ресурсов кода.
+Включает столбцы UID, имя ресурса, тип, метку материала, инициалы, группу, максимальное количество, стандартную ставку, ставку за сверхурочную работу, стоимость за использование, начисление, базовый календарь и код ресурса.
 
 ```csharp
 public static ProjectView GetDefaultResourceSheetView()
@@ -16,12 +16,27 @@ public static ProjectView GetDefaultResourceSheetView()
 
 ### Возвращаемое значение
 
-представление, содержащее список[`ResourceViewColumn`](../../resourceviewcolumn/).
+представление, которое содержит список [`ResourceViewColumn`](../../resourceviewcolumn/).
 
-### Смотрите также
+## Примеры
+
+Показывает, как сохранить проект с представлением листа ресурсов.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultResourceSheetView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_ResourceSheetView_out.pdf", options);
+```
+
+### См. также
 
 * class [ProjectView](../)
-* пространство имен [Aspose.Tasks.Visualization](../../projectview/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../projectview/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: Project.FyStartDate
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение FyStartDate.
+title: "Project.FyStartDate"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение FyStartDate"
 type: docs
-weight: 440
+weight: 450
 url: /ru/net/aspose.tasks/project/fystartdate/
 ---
 ## Project.FyStartDate property
 
-Получает или задает значение FyStartDate.
+Получает или задает значение свойства FyStartDate.
 
 ```csharp
 public Month FyStartDate { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [Month](../../month/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: OutlineValue.OutlineValue
-second_title: Справочник по Aspose.Tasks для .NET API
-description: OutlineValue строитель. Конструктор по умолчанию.
+title: "OutlineValue.OutlineValue"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор OutlineValue. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/outlinevalue/outlinevalue/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/outlinevalue/outlinevalue/
 public OutlineValue()
 ```
 
-### Смотрите также
+### См. также
 
 * class [OutlineValue](../)
-* пространство имен [Aspose.Tasks](../../outlinevalue/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../outlinevalue/)
+* assembly [Aspose.Tasks](../../../)
 
 

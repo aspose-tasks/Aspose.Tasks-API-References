@@ -1,23 +1,23 @@
 ---
-title: Class TasksRenderingException
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.TasksRenderingException сорт. Представляет исключение которое может возникнуть при отображении представления проекта в графическом формате.
+title: "Класс TasksRenderingException"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.TasksRenderingException. Представляет исключение, которое может возникнуть при рендеринге представления проекта в графический формат."
 type: docs
-weight: 2240
+weight: 2550
 url: /ru/net/aspose.tasks/tasksrenderingexception/
 ---
 ## TasksRenderingException class
 
-Представляет исключение, которое может возникнуть при отображении представления проекта в графическом формате.
+Представляет исключение, которое может возникнуть при отрисовке представления проекта в графический формат.
 
 ```csharp
 public class TasksRenderingException : TasksException
 ```
 
-### Смотрите также
+### См. также
 
 * class [TasksException](../tasksexception/)
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

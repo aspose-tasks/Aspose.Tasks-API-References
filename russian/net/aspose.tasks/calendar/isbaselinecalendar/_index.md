@@ -1,9 +1,9 @@
 ---
-title: Calendar.IsBaselineCalendar
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Calendar свойство. Получает или задает значение указывающее является ли календарь базовым календарем.
+title: "Calendar.IsBaselineCalendar"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Calendar. Возвращает или задает значение, указывающее, является ли календарь baseline calendar"
 type: docs
-weight: 70
+weight: 80
 url: /ru/net/aspose.tasks/calendar/isbaselinecalendar/
 ---
 ## Calendar.IsBaselineCalendar property
@@ -14,10 +14,22 @@ url: /ru/net/aspose.tasks/calendar/isbaselinecalendar/
 public bool IsBaselineCalendar { get; set; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как проверить, является ли календарь baseline calendar или нет.
+
+```csharp
+var project = new Project(DataDir + "IsBaselineCalendar.mpp");
+
+var calendar = project.Calendars.GetByUid(3);
+
+Console.WriteLine("Is baseline calendar: " + calendar.IsBaselineCalendar);
+```
+
+### См. также
 
 * class [Calendar](../)
-* пространство имен [Aspose.Tasks](../../calendar/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

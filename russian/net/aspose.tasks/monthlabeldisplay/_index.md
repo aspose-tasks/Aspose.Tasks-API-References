@@ -1,9 +1,9 @@
 ---
-title: Enum MonthLabelDisplay
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.MonthLabelDisplay перечисление. Указывает как отображается метка месяца.
+title: "Перечисление MonthLabelDisplay"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.MonthLabelDisplay. Указывает, как отображается метка месяца"
 type: docs
-weight: 930
+weight: 1060
 url: /ru/net/aspose.tasks/monthlabeldisplay/
 ---
 ## MonthLabelDisplay enumeration
@@ -14,17 +14,31 @@ url: /ru/net/aspose.tasks/monthlabeldisplay/
 public enum MonthLabelDisplay
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | Mo | `0` | Устанавливает список месяцев в MS Project как mo. |
 | Mon | `1` | Устанавливает список месяцев в MS Project как mon. |
-| Month | `2` | Устанавливает список месяцев в MS Project как месяц. |
+| Month | `2` | Устанавливает список месяцев в MS Project как month. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как установить метку месяца в параметрах отображения проекта (пример 1).
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// установить, как отображается метка месяца
+project.DisplayOptions.MonthLabel = MonthLabelDisplay.Mo;
+
+// ...
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

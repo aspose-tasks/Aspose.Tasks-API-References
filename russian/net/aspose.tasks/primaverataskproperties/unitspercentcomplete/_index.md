@@ -1,9 +1,9 @@
 ---
-title: PrimaveraTaskProperties.UnitsPercentComplete
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PrimaveraTaskProperties свойство. Получает значение процента завершения единиц.
+title: "PrimaveraTaskProperties.UnitsPercentComplete"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство PrimaveraTaskProperties. Получает значение процента завершения единиц"
 type: docs
-weight: 170
+weight: 360
 url: /ru/net/aspose.tasks/primaverataskproperties/unitspercentcomplete/
 ---
 ## PrimaveraTaskProperties.UnitsPercentComplete property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/primaverataskproperties/unitspercentcomplete/
 public double UnitsPercentComplete { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [PrimaveraTaskProperties](../)
-* пространство имен [Aspose.Tasks](../../primaverataskproperties/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

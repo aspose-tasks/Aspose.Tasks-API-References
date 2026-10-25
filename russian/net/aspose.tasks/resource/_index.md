@@ -1,9 +1,9 @@
 ---
-title: Class Resource
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Resource сорт. Представляет ресурс в проекте.
+title: "Класс Resource"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.Resource. Представляет ресурс в проекте"
 type: docs
-weight: 1490
+weight: 1740
 url: /ru/net/aspose.tasks/resource/
 ---
 ## Resource class
@@ -14,7 +14,7 @@ url: /ru/net/aspose.tasks/resource/
 public class Resource : IEquatable<Resource>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
@@ -29,12 +29,12 @@ public class Resource : IEquatable<Resource>
 | [ACWP](../../aspose.tasks/resource/acwp/) { get; set; } | Получает или задает значение ACWP. |
 | [AssignmentOwner](../../aspose.tasks/resource/assignmentowner/) { get; set; } | Получает или задает значение AssignmentOwner. |
 | [AssignmentOwnerGuid](../../aspose.tasks/resource/assignmentownerguid/) { get; set; } | Получает или задает значение AssignmentOwnerGuid. |
-| [Assignments](../../aspose.tasks/resource/assignments/) { get; } | Получает набор назначений ресурсов для этого объекта. |
-| [AvailabilityPeriods](../../aspose.tasks/resource/availabilityperiods/) { get; } | Получает экземпляр[`AvailabilityPeriodCollection`](../availabilityperiodcollection/) class. Набор периодов, в течение которых ресурс доступен. |
+| [Assignments](../../aspose.tasks/resource/assignments/) { get; } | Получает коллекцию назначений ресурсов для этого объекта. |
+| [AvailabilityPeriods](../../aspose.tasks/resource/availabilityperiods/) { get; } | Получает экземпляр класса [`AvailabilityPeriodCollection`](../availabilityperiodcollection/). Коллекция периодов, в течение которых ресурс доступен. |
 | [AvailableFrom](../../aspose.tasks/resource/availablefrom/) { get; set; } | Получает или задает значение AvailableFrom. |
 | [AvailableTo](../../aspose.tasks/resource/availableto/) { get; set; } | Получает или задает значение AvailableTo. |
 | [Baselines](../../aspose.tasks/resource/baselines/) { get; } | Получает экземпляр BaselineCollection для этого объекта. Базовые значения для ресурса. |
-| [BCWP](../../aspose.tasks/resource/bcwp/) { get; set; } | Получает или задает значение БСВР. |
+| [BCWP](../../aspose.tasks/resource/bcwp/) { get; set; } | Получает или задает значение BCWP. |
 | [BCWS](../../aspose.tasks/resource/bcws/) { get; set; } | Получает или задает значение BCWS. |
 | [BookingType](../../aspose.tasks/resource/bookingtype/) { get; set; } | Получает или задает значение BookingType. |
 | [BudgetCost](../../aspose.tasks/resource/budgetcost/) { get; set; } | Получает или задает значение BudgetCost. |
@@ -53,46 +53,45 @@ public class Resource : IEquatable<Resource>
 | [Finish](../../aspose.tasks/resource/finish/) { get; set; } | Получает или задает значение Finish. |
 | [Group](../../aspose.tasks/resource/group/) { get; set; } | Получает или задает значение Group. |
 | [Guid](../../aspose.tasks/resource/guid/) { get; set; } | Получает или задает значение Guid. |
-| [Hyperlink](../../aspose.tasks/resource/hyperlink/) { get; set; } | Получает или задает значение гиперссылки. |
-| [HyperlinkAddress](../../aspose.tasks/resource/hyperlinkaddress/) { get; set; } | Получает или задает значение HyperlinkAddress. |
-| [HyperlinkSubAddress](../../aspose.tasks/resource/hyperlinksubaddress/) { get; set; } | Получает или задает значение HyperlinkSubAddress. |
-| [Id](../../aspose.tasks/resource/id/) { get; set; } | Получает или задает значение идентификатора. |
-| [Inactive](../../aspose.tasks/resource/inactive/) { get; set; } | Получает или задает значение, указывающее, установлено ли значение Inactive или нет. |
+| [Hyperlink](../../aspose.tasks/resource/hyperlink/) { get; set; } | Получает или задает заголовок или пояснительный текст гиперссылки, связанной с ресурсом. |
+| [HyperlinkAddress](../../aspose.tasks/resource/hyperlinkaddress/) { get; set; } | Получает или задает адрес гиперссылки, связанной с ресурсом. |
+| [HyperlinkSubAddress](../../aspose.tasks/resource/hyperlinksubaddress/) { get; set; } | Получает или задает конкретное местоположение в документе в гиперссылке, связанной с ресурсом. |
+| [Id](../../aspose.tasks/resource/id/) { get; set; } | Получает или задает значение Id. |
+| [Inactive](../../aspose.tasks/resource/inactive/) { get; set; } | Получает или задает значение, указывающее, установлен ли Inactive или нет. |
 | [Initials](../../aspose.tasks/resource/initials/) { get; set; } | Получает или задает значение Initials. |
 | [IsBudget](../../aspose.tasks/resource/isbudget/) { get; set; } | Получает или задает значение, указывающее, установлен ли IsBudget или нет. |
 | [IsCostResource](../../aspose.tasks/resource/iscostresource/) { get; set; } | Получает или задает значение, указывающее, установлен ли IsCostResource или нет. |
 | [IsEnterprise](../../aspose.tasks/resource/isenterprise/) { get; set; } | Получает или задает значение, указывающее, установлен ли IsEnterprise или нет. |
 | [IsGeneric](../../aspose.tasks/resource/isgeneric/) { get; set; } | Получает или задает значение, указывающее, установлен ли IsGeneric или нет. |
-| [IsNull](../../aspose.tasks/resource/isnull/) { get; set; } | Получает или задает значение, указывающее, установлен ли IsNull или нет. |
-| virtual [IsRoot](../../aspose.tasks/resource/isroot/) { get; } | Получает флаг, указывающий, является ли ресурс корневым ресурсом. Корневой ресурс — это специальный ресурс, который предназначен для поддержки внутренних форматов MS Project и не предназначен для использования непосредственно из пользовательского кода. |
-| [IsTeamAssignmentPool](../../aspose.tasks/resource/isteamassignmentpool/) { get; set; } | Получает или задает значение, указывающее, установлен ли IsTeamAssignmentPool или нет. |
-| [MaterialLabel](../../aspose.tasks/resource/materiallabel/) { get; set; } | Получает или задает значение MaterialLabel. |
-| [MaxUnits](../../aspose.tasks/resource/maxunits/) { get; set; } | Получает или задает значение MaxUnits. |
-| [Name](../../aspose.tasks/resource/name/) { get; set; } | Получает или задает значение Name. |
-| [Notes](../../aspose.tasks/resource/notes/) { get; set; } | Получает или задает значение Notes. |
-| [NotesRTF](../../aspose.tasks/resource/notesrtf/) { get; set; } | Получает или задает значение NotesRTF. |
-| [NotesText](../../aspose.tasks/resource/notestext/) { get; set; } | Получает или задает значение NotesText. |
-| [OutlineCode](../../aspose.tasks/resource/outlinecode/) { get; } | Получает объект OutlineCodeCollection. Значение кода схемы. |
-| [Overallocated](../../aspose.tasks/resource/overallocated/) { get; set; } | Получает или задает значение, указывающее, установлен ли параметр Overlocated или нет. |
-| [OvertimeCost](../../aspose.tasks/resource/overtimecost/) { get; set; } | Получает или задает значение OvertimeCost. |
-| [OvertimeRate](../../aspose.tasks/resource/overtimerate/) { get; set; } | Получает или задает значение OvertimeRate. |
-| [OvertimeRateFormat](../../aspose.tasks/resource/overtimerateformat/) { get; set; } | Получает или задает значение OvertimeRateFormat. |
-| [OvertimeWork](../../aspose.tasks/resource/overtimework/) { get; set; } | Получает или задает значение OvertimeWork. |
+| [IsNull](../../aspose.tasks/resource/isnull/) { get; set; } | Получает или задает значение, указывающее, установлен ли IsNull, или нет. |
+| virtual [IsRoot](../../aspose.tasks/resource/isroot/) { get; } | Получает флаг, указывающий, является ли ресурс корневым ресурсом. Корневой ресурс — это специальный ресурс, предназначенный для поддержки внутренностей форматов MS Project и не предназначенный для прямого использования в коде пользователя. |
+| [IsTeamAssignmentPool](../../aspose.tasks/resource/isteamassignmentpool/) { get; set; } | Получает или задает значение, указывающее, установлен ли IsTeamAssignmentPool, или нет. |
+| [MaterialLabel](../../aspose.tasks/resource/materiallabel/) { get; set; } | Получает или задает значение свойства MaterialLabel. |
+| [MaxUnits](../../aspose.tasks/resource/maxunits/) { get; set; } | Получает или задает значение свойства MaxUnits. |
+| [Name](../../aspose.tasks/resource/name/) { get; set; } | Получает или задает значение свойства Name. |
+| [NotesRTF](../../aspose.tasks/resource/notesrtf/) { get; set; } | Получает или задает значение свойства NotesRTF. |
+| [NotesText](../../aspose.tasks/resource/notestext/) { get; set; } | Получает или задает значение свойства NotesText. |
+| [OutlineCode](../../aspose.tasks/resource/outlinecode/) { get; } | Получает объект OutlineCodeCollection. Значение кода структуры. |
+| [Overallocated](../../aspose.tasks/resource/overallocated/) { get; set; } | Получает или задает значение, указывающее, установлен ли Overallocated, или нет. |
+| [OvertimeCost](../../aspose.tasks/resource/overtimecost/) { get; set; } | Получает или задает значение свойства OvertimeCost. |
+| [OvertimeRate](../../aspose.tasks/resource/overtimerate/) { get; set; } | Получает или задает значение свойства OvertimeRate. |
+| [OvertimeRateFormat](../../aspose.tasks/resource/overtimerateformat/) { get; set; } | Получает или задает значение свойства OvertimeRateFormat. |
+| [OvertimeWork](../../aspose.tasks/resource/overtimework/) { get; set; } | Получает или задает значение свойства OvertimeWork. |
 | [ParentProject](../../aspose.tasks/resource/parentproject/) { get; } | Получает родительский проект для этого контейнера. |
-| [PeakUnits](../../aspose.tasks/resource/peakunits/) { get; set; } | Получает или задает значение PeakUnits. |
-| [PercentWorkComplete](../../aspose.tasks/resource/percentworkcomplete/) { get; set; } | Получает или задает значение PercentWorkComplete. |
-| [Phonetics](../../aspose.tasks/resource/phonetics/) { get; set; } | Получает или задает значение фонетики. |
-| [Rates](../../aspose.tasks/resource/rates/) { get; } | Получает экземпляр[`RateCollection`](../ratecollection/) класс для этого объекта. Набор периодов и ставок, связанных с каждым из них. |
-| [RegularWork](../../aspose.tasks/resource/regularwork/) { get; set; } | Получает или задает значение RegularWork. |
-| [RemainingCost](../../aspose.tasks/resource/remainingcost/) { get; set; } | Получает или задает значение RemainingCost. |
-| [RemainingOvertimeCost](../../aspose.tasks/resource/remainingovertimecost/) { get; set; } | Получает или задает значение RemainingOvertimeCost. |
-| [RemainingOvertimeWork](../../aspose.tasks/resource/remainingovertimework/) { get; set; } | Получает или задает значение RemainingOvertimeWork. |
-| [RemainingWork](../../aspose.tasks/resource/remainingwork/) { get; set; } | Получает или задает значение RemainingWork. |
-| [StandardRate](../../aspose.tasks/resource/standardrate/) { get; set; } | Получает или задает значение StandardRate. |
+| [PeakUnits](../../aspose.tasks/resource/peakunits/) { get; set; } | Получает или задает значение свойства PeakUnits. |
+| [PercentWorkComplete](../../aspose.tasks/resource/percentworkcomplete/) { get; set; } | Получает или задает значение свойства PercentWorkComplete. |
+| [Phonetics](../../aspose.tasks/resource/phonetics/) { get; set; } | Получает или задает значение свойства Phonetics. |
+| [Rates](../../aspose.tasks/resource/rates/) { get; } | Получает экземпляр класса [`RateCollection`](../ratecollection/) для этого объекта. Коллекция периодов и ставок, связанных с каждым из них. |
+| [RegularWork](../../aspose.tasks/resource/regularwork/) { get; set; } | Получает или задает значение свойства RegularWork. |
+| [RemainingCost](../../aspose.tasks/resource/remainingcost/) { get; set; } | Получает или задает значение свойства RemainingCost. |
+| [RemainingOvertimeCost](../../aspose.tasks/resource/remainingovertimecost/) { get; set; } | Получает или задает значение свойства RemainingOvertimeCost. |
+| [RemainingOvertimeWork](../../aspose.tasks/resource/remainingovertimework/) { get; set; } | Получает или задает значение свойства RemainingOvertimeWork. |
+| [RemainingWork](../../aspose.tasks/resource/remainingwork/) { get; set; } | Получает или задает значение свойства RemainingWork. |
+| [StandardRate](../../aspose.tasks/resource/standardrate/) { get; set; } | Получает или задает значение свойства StandardRate. |
 | [StandardRateFormat](../../aspose.tasks/resource/standardrateformat/) { get; set; } | Получает или задает значение StandardRateFormat. |
 | [Start](../../aspose.tasks/resource/start/) { get; set; } | Получает или задает значение Start. |
 | [SV](../../aspose.tasks/resource/sv/) { get; set; } | Получает или задает значение SV. |
-| [TimephasedData](../../aspose.tasks/resource/timephaseddata/) { get; set; } | Получает или задает экземпляр[`TimephasedDataCollection`](../timephaseddatacollection/) класс для этого объекта. |
+| [TimephasedData](../../aspose.tasks/resource/timephaseddata/) { get; set; } | Получает или задает экземпляр класса [`TimephasedDataCollection`](../timephaseddatacollection/) для этого объекта. |
 | [Type](../../aspose.tasks/resource/type/) { get; set; } | Получает или задает значение Type. |
 | [Uid](../../aspose.tasks/resource/uid/) { get; set; } | Получает или задает значение Uid. |
 | [WindowsUserAccount](../../aspose.tasks/resource/windowsuseraccount/) { get; set; } | Получает или задает значение WindowsUserAccount. |
@@ -106,18 +105,31 @@ public class Resource : IEquatable<Resource>
 | --- | --- |
 | [Delete](../../aspose.tasks/resource/delete/)() | Удаляет ресурс и его назначения из проекта. |
 | override [Equals](../../aspose.tasks/resource/equals/#equals_1)(object) | Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту. |
-| [Equals](../../aspose.tasks/resource/equals/#equals)(Resource) | Возвращает значение, указывающее, равен ли этот экземпляр указанному экземпляру`Resource` класс. |
-| [Get&lt;T&gt;](../../aspose.tasks/resource/get/)(Key&lt;T, RscKey&gt;) | Возвращает значение, которому сопоставлено свойство в этом контейнере. |
-| override [GetHashCode](../../aspose.tasks/resource/gethashcode/)() | Возвращает значение хеш-кода для экземпляра`Resource` класс. |
-| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata/#gettimephaseddata)(DateTime, DateTime) | Возвращает[`TimephasedDataCollection`](../timephaseddatacollection/) для этого объекта с[`TimephasedData`](./timephaseddata/) значения в пределах заданных дат начала и окончания. |
-| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata/#gettimephaseddata_1)(DateTime, DateTime, TimephasedDataType) | Возвращает экземпляр[`TimephasedDataCollection`](../timephaseddatacollection/) класс для этого объекта с[`TimephasedData`](./timephaseddata/) значения в пределах заданных дат начала и окончания указанных[`TimephasedDataType`](../timephaseddatatype/) . |
+| [Equals](../../aspose.tasks/resource/equals/#equals)(Resource) | Возвращает значение, указывающее, равен ли этот экземпляр указанному экземпляру класса `Resource`. |
+| [Get&lt;T&gt;](../../aspose.tasks/resource/get/)(Key&lt;T, RscKey&gt;) | Возвращает значение, к которому свойство сопоставлено в этом контейнере. |
+| override [GetHashCode](../../aspose.tasks/resource/gethashcode/)() | Возвращает значение хеш‑кода для экземпляра класса `Resource`. |
+| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata/#gettimephaseddata)(DateTime, DateTime) | Возвращает [`TimephasedDataCollection`](../timephaseddatacollection/) для этого объекта со значениями [`TimephasedData`](./timephaseddata/) в заданных начальной и конечной датах. |
+| [GetTimephasedData](../../aspose.tasks/resource/gettimephaseddata/#gettimephaseddata_1)(DateTime, DateTime, TimephasedDataType) | Возвращает экземпляр класса [`TimephasedDataCollection`](../timephaseddatacollection/) для этого объекта со значениями [`TimephasedData`](./timephaseddata/) в заданных начальной и конечной датах указанного [`TimephasedDataType`](../timephaseddatatype/). |
 | [Set](../../aspose.tasks/resource/set/#set)(Key&lt;DateTime, RscKey&gt;, DateTime) | Сопоставляет указанное свойство с указанным значением в этом контейнере. |
 | [Set&lt;T&gt;](../../aspose.tasks/resource/set/#set_1)(Key&lt;T, RscKey&gt;, T) | Сопоставляет указанное свойство с указанным значением в этом контейнере. |
-| override [ToString](../../aspose.tasks/resource/tostring/)() | Возвращает короткое строковое представление экземпляра`Resource` class. Точные детали представления не указаны и могут быть изменены. |
+| override [ToString](../../aspose.tasks/resource/tostring/)() | Возвращает короткое строковое представление экземпляра класса `Resource`. Точные детали представления не указаны и могут изменяться. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как добавить ресурсы проекта.
+
+```csharp
+var project = new Project();
+
+// Добавить ресурсы
+project.Resources.Add("Resource");
+
+project.Save(OutDir + "CreateResources_out.xml", SaveFileFormat.Xml);
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

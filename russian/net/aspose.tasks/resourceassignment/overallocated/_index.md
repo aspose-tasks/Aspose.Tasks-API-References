@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.Overallocated
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение указывающее установлен ли параметр Overlocated или нет.
+title: "ResourceAssignment.Overallocated"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "ResourceAssignment свойство. Получает или задает значение, указывающее, установлено ли Overallocated"
 type: docs
 weight: 390
 url: /ru/net/aspose.tasks/resourceassignment/overallocated/
 ---
 ## ResourceAssignment.Overallocated property
 
-Получает или задает значение, указывающее, установлен ли параметр Overlocated или нет.
+Получает или задает значение, указывающее, установлен ли Overallocated, или нет.
 
 ```csharp
 public bool Overallocated { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

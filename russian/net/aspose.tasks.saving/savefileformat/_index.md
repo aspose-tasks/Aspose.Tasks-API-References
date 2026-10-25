@@ -1,22 +1,22 @@
 ---
-title: Enum SaveFileFormat
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Saving.SaveFileFormat перечисление. Перечисление для сохранения выбора формата проекта.
+title: "Перечисление SaveFileFormat"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.Saving.SaveFileFormat. Перечисление для выбора формата сохранения проекта."
 type: docs
-weight: 1910
+weight: 2180
 url: /ru/net/aspose.tasks.saving/savefileformat/
 ---
 ## SaveFileFormat enumeration
 
-Перечисление для сохранения выбора формата проекта.
+Перечисление для выбора формата сохранения проекта.
 
 ```csharp
 public enum SaveFileFormat
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | Mpp | `0` | Формат MPP. |
 | Xml | `1` | Формат XML. |
@@ -30,17 +30,26 @@ public enum SaveFileFormat
 | Xaml | `9` | Формат XAML. |
 | Svg | `10` | Формат SVG. |
 | Csv | `11` | Формат CSV. |
-| Txt | `12` | Текстовый формат (разделители табуляцией). |
-| Spreadsheet2003 | `13` | Электронная таблица XML (Excel 2003). |
+| Txt | `12` | Текстовый формат (разделённый табуляцией). |
+| Spreadsheet2003 | `13` | Spreadsheet XML (Excel 2003). |
 | Xlsx | `14` | OOXML (Office Open XML, Excel 2007+). |
-| PrimaveraP6Xml | `15` | Формат Primavera P6 Xml. |
-| PrimaveraXer | `16` | Формат Primavera PM XER. |
+| PrimaveraP6Xml | `15` | Primavera P6 Xml формат. |
+| PrimaveraXer | `16` | Primavera PM XER формат. |
 | Mpx | `17` | Формат MPX. |
-| GdHtml | `18` | HTML-формат для сохранения данных проекта в наборе html-таблиц. |
+| GdHtml | `18` | HTML-формат для сохранения данных проекта в наборе HTML-таблиц. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как сохранить проект в формате CSV.
+
+```csharp
+var project = new Project(DataDir + "CreateProject1.mpp");
+project.Save(OutDir + "SaveProjectAsCSV_out.csv", SaveFileFormat.Csv);
+```
+
+### См. также
+
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

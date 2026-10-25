@@ -1,14 +1,14 @@
 ---
-title: PrimaveraXmlReader.GetProjectUids
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PrimaveraXmlReader метод. Возвращает список уникальных идентификаторов проектов.
+title: "GetProjectUids"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Возвращает список уникальных идентификаторов проектов."
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/primaveraxmlreader/getprojectuids/
 ---
 ## PrimaveraXmlReader.GetProjectUids method
 
-Возвращает список уникальных идентификаторов проектов.
+Верните список уникальных идентификаторов проектов.
 
 ```csharp
 public List<int> GetProjectUids()
@@ -18,10 +18,23 @@ public List<int> GetProjectUids()
 
 Список уникальных идентификаторов проектов.
 
-### Смотрите также
+### Примеры
 
-* class [PrimaveraXmlReader](../)
-* пространство имен [Aspose.Tasks](../../primaveraxmlreader/)
-* сборка [Aspose.Tasks](../../../)
+Показывает, как импортировать проект из файла Primavera XML.
 
+```csharp
+var reader = new PrimaveraXmlReader(DataDir + "primavera.xml");
+List<int> projectUids = reader.GetProjectUids();
+foreach (var projectUid in projectUids)
+{
+    Console.WriteLine("Project UID: " + projectUid);
+}
+```
 
+### См. также
+
+* class [PrimaveraXmlReader](../../primaveraxmlreader)
+* namespace [Aspose.Tasks](../../primaveraxmlreader)
+* assembly [Aspose.Tasks](../../../)
+
+<!-- НЕ РЕДАКТИРОВАТЬ: сгенерировано xmldocmd для Aspose.Tasks.dll -->

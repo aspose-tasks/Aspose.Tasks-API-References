@@ -1,9 +1,9 @@
 ---
-title: Project.Template
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение Template.
+title: "Project.Template"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Возвращает или задает значение Template"
 type: docs
-weight: 920
+weight: 950
 url: /ru/net/aspose.tasks/project/template/
 ---
 ## Project.Template property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/project/template/
 public string Template { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

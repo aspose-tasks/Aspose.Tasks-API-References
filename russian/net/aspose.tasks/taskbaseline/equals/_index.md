@@ -1,14 +1,14 @@
 ---
-title: TaskBaseline.Equals
-second_title: Справочник по Aspose.Tasks для .NET API
-description: TaskBaseline метод. Возвращает значение указывающее равен ли этот экземпляр указанному объекту TaskBaseline.
+title: "TaskBaseline.Equals"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод TaskBaseline. Возвращает значение, указывающее, равен ли данный экземпляр указанному объекту TaskBaseline."
 type: docs
-weight: 110
+weight: 100
 url: /ru/net/aspose.tasks/taskbaseline/equals/
 ---
 ## Equals(TaskBaseline) {#equals_1}
 
-Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту TaskBaseline.
+Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту `TaskBaseline`.
 
 ```csharp
 public bool Equals(TaskBaseline other)
@@ -16,17 +16,38 @@ public bool Equals(TaskBaseline other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | TaskBaseline | указанный объект AssignmentBaseline для сравнения с этим экземпляром. |
+| другой | TaskBaseline | указанный объект AssignmentBaseline для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-возвращает true, если этот экземпляр равен указанному объекту TaskBaseline; в противном случае ложно.
+возвращает true, если данный экземпляр равен указанному объекту TaskBaseline; иначе — false.
 
-### Смотрите также
+## Примеры
+
+Показывает, как проверить равенство базовых линий.
+
+```csharp
+var project = new Project();
+
+// создание TaskBaseline
+var task = project.RootTask.Children.Add("Task");
+project.SetBaseline(BaselineType.Baseline);
+
+// отображение длительности базовой линии задачи
+var baseline1 = task.Baselines.ToList()[0];
+var baseline2 = task.Baselines.ToList()[0];
+
+// равенство базовых линий проверяется по числам базовой линии.
+Console.WriteLine("Baseline Number 1: " + baseline1.BaselineNumber);
+Console.WriteLine("Baseline Number 2: " + baseline2.BaselineNumber);
+Console.WriteLine("Are baselines equal: " + baseline1.Equals(baseline2));
+```
+
+### См. также
 
 * class [TaskBaseline](../)
-* пространство имен [Aspose.Tasks](../../taskbaseline/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskbaseline/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -40,16 +61,37 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Объект для сравнения с этим экземпляром. |
+| obj | Объект | Объект для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-**Истинный** если указанный объект является TaskBaseline, который имеет то же значение UID, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
+**True** if the specified object is a TaskBaseline that has the same UID value as this instance; otherwise, **false**.
 
-### Смотрите также
+## Примеры
+
+Показывает, как проверить равенство базовых линий.
+
+```csharp
+var project = new Project();
+
+// создание TaskBaseline
+var task = project.RootTask.Children.Add("Task");
+project.SetBaseline(BaselineType.Baseline);
+
+// отображение длительности базовой линии задачи
+var baseline1 = task.Baselines.ToList()[0];
+var baseline2 = task.Baselines.ToList()[0];
+
+// равенство базовых линий проверяется по числам базовой линии.
+Console.WriteLine("Baseline Number 1: " + baseline1.BaselineNumber);
+Console.WriteLine("Baseline Number 2: " + baseline2.BaselineNumber);
+Console.WriteLine("Are baselines equal: " + baseline1.Equals(baseline2));
+```
+
+### См. также
 
 * class [TaskBaseline](../)
-* пространство имен [Aspose.Tasks](../../taskbaseline/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskbaseline/)
+* assembly [Aspose.Tasks](../../../)
 
 

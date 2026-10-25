@@ -1,14 +1,14 @@
 ---
-title: PrimaveraXerReader.PrimaveraXerReader
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PrimaveraXerReader строитель. Инициализирует новый экземплярPrimaveraXerReader класс.
+title: "PrimaveraXerReader.PrimaveraXerReader"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор PrimaveraXerReader. Инициализирует новый экземпляр класса PrimaveraXerReader"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/primaveraxerreader/primaveraxerreader/
 ---
 ## PrimaveraXerReader(string) {#constructor_1}
 
-Инициализирует новый экземпляр[`PrimaveraXerReader`](../) класс.
+Инициализирует новый экземпляр класса [`PrimaveraXerReader`](../).
 
 ```csharp
 public PrimaveraXerReader(string xerFilePath)
@@ -16,19 +16,36 @@ public PrimaveraXerReader(string xerFilePath)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xerFilePath | String | Путь к файлу .xer, в котором находится проект или проекты Primavera. |
+| xerFilePath | Строка | Путь к файлу .xer, где находятся проект или проекты Primavera. |
 
-### Смотрите также
+## Примеры
+
+Показывает, как просмотреть информацию о кратких проектах из файла Primavera XER.
+
+```csharp
+var reader = new PrimaveraXerReader(DataDir + "MultiprojectWithExternal.xer");
+var projectInfos = reader.GetProjectInfos();
+foreach (var info in projectInfos)
+{
+    Console.WriteLine("{0} - '{1}' - {2}", info.Uid, info.Name, info.ExportFlag);
+}
+
+var project = reader.LoadProject(5494);
+
+Console.WriteLine("Loaded project '{0}' with Uid {1}", project.Name, project.Uid);
+```
+
+### См. также
 
 * class [PrimaveraXerReader](../)
-* пространство имен [Aspose.Tasks](../../primaveraxerreader/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaveraxerreader/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## PrimaveraXerReader(Stream) {#constructor}
 
-Инициализирует новый экземпляр[`PrimaveraXerReader`](../) класс.
+Инициализирует новый экземпляр класса [`PrimaveraXerReader`](../).
 
 ```csharp
 public PrimaveraXerReader(Stream stream)
@@ -36,12 +53,12 @@ public PrimaveraXerReader(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Стрим с контентом Primavera XER. |
+| поток | Поток | Поток с содержимым Primavera XER. |
 
-### Смотрите также
+### См. также
 
 * class [PrimaveraXerReader](../)
-* пространство имен [Aspose.Tasks](../../primaveraxerreader/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaveraxerreader/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,25 +1,43 @@
 ---
-title: Tsk.WBS
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Коды структурной декомпозиции работ WBS.
+title: "Tsk.WBS"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Коды структуры разбивки работ WBS"
 type: docs
-weight: 1150
+weight: 1130
 url: /ru/net/aspose.tasks/tsk/wbs/
 ---
 ## Tsk.WBS field
 
-Коды структурной декомпозиции работ (WBS).
+Коды структуры декомпозиции работ (WBS).
 
 ```csharp
 public static readonly Key<string, TaskKey> WBS;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать коды WBS задачи.
+
+```csharp
+var project = new Project(DataDir + "TaskWBS.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Проанализировать все собранные задачи
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.WBS));
+    Console.WriteLine(task.Get(Tsk.WBSLevel));
+}
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

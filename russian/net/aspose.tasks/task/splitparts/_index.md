@@ -1,9 +1,9 @@
 ---
-title: Task.SplitParts
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает коллекцию SplitPart представляющую части задачи.
+title: "Task.SplitParts"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает коллекцию SplitPart, представляющую части задачи"
 type: docs
-weight: 1120
+weight: 1110
 url: /ru/net/aspose.tasks/task/splitparts/
 ---
 ## Task.SplitParts property
@@ -14,11 +14,29 @@ url: /ru/net/aspose.tasks/task/splitparts/
 public SplitPartCollection SplitParts { get; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как отобразить разделённые части задачи.
+
+```csharp
+var project = new Project(DataDir + "ViewSplitTasks.mpp");
+
+// Доступ к задаче 
+var task = project.RootTask.Children.GetById(4);
+
+// Отобразить разделённые части задачи
+var collection = task.SplitParts;
+foreach (var splitPart in collection)
+{
+    Console.WriteLine("Start: " + splitPart.Start + "\nFinish: " + splitPart.Finish + "\n");
+}
+```
+
+### См. также
 
 * class [SplitPartCollection](../../splitpartcollection/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

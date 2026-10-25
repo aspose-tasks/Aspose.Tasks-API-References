@@ -1,7 +1,7 @@
 ---
-title: Task.FinishVariance
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение FinishVariance.
+title: "Task.FinishVariance"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение FinishVariance."
 type: docs
 weight: 470
 url: /ru/net/aspose.tasks/task/finishvariance/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/task/finishvariance/
 public Duration FinishVariance { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

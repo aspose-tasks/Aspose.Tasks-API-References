@@ -1,24 +1,24 @@
 ---
-title: Project.ProjectExternallyEdited
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение указывающее установлен ли ProjectExternallyEdited или нет.
+title: "Project.ProjectExternallyEdited"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение, указывающее, установлен ли ProjectExternallyEdited"
 type: docs
-weight: 700
+weight: 730
 url: /ru/net/aspose.tasks/project/projectexternallyedited/
 ---
 ## Project.ProjectExternallyEdited property
 
-Получает или задает значение, указывающее, установлен ли ProjectExternallyEdited или нет.
+Получает или задает значение, указывающее, установлен ли ProjectExternallyEdited.
 
 ```csharp
 public NullableBool ProjectExternallyEdited { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

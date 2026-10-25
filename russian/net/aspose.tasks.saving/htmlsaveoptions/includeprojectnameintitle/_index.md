@@ -1,23 +1,46 @@
 ---
-title: HtmlSaveOptions.IncludeProjectNameInTitle
-second_title: Справочник по Aspose.Tasks для .NET API
-description: HtmlSaveOptions свойство. Получает или задает значение указывающее следует ли включать название проекта в заголовок HTML.
+title: "HtmlSaveOptions.IncludeProjectNameInTitle"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство HtmlSaveOptions. Получает или задает значение, указывающее, включать ли имя проекта в заголовок HTML."
 type: docs
-weight: 130
+weight: 120
 url: /ru/net/aspose.tasks.saving/htmlsaveoptions/includeprojectnameintitle/
 ---
 ## HtmlSaveOptions.IncludeProjectNameInTitle property
 
-Получает или задает значение, указывающее, следует ли включать название проекта в заголовок HTML.
+Получает или задает значение, указывающее, включать ли название проекта в заголовок HTML.
 
 ```csharp
 public bool IncludeProjectNameInTitle { get; set; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как задать заголовок/титул HTML-страницы, используя параметры &lt;see cref="P:Aspose.Tasks.Saving.HtmlSaveOptions" /&gt;.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+var options = new HtmlSaveOptions
+{
+    // Определяет, включать ли имя проекта в заголовок HTML (по умолчанию true)
+    IncludeProjectNameInTitle = false,
+
+    // Определяет, включать ли имя проекта в заголовок HTML-страницы (по умолчанию true)
+    IncludeProjectNameInPageHeader = false,
+
+    // установить страницы, которые будут экспортированы
+    Pages = new List<int>
+            {
+                1
+            }
+};
+project.Save(OutDir + "ControlHeaderNameDuringHTMLExport_out.html", options);
+```
+
+### См. также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Tasks.Saving](../../htmlsaveoptions/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../htmlsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

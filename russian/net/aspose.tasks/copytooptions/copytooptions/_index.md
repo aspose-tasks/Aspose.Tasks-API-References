@@ -1,23 +1,39 @@
 ---
-title: CopyToOptions.CopyToOptions
-second_title: Справочник по Aspose.Tasks для .NET API
-description: CopyToOptions строитель. Инициализирует новый экземплярCopyToOptions сорт.
+title: "CopyToOptions.CopyToOptions"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор CopyToOptions. Инициализирует новый экземпляр класса CopyToOptions"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/copytooptions/copytooptions/
 ---
 ## CopyToOptions constructor
 
-Инициализирует новый экземпляр[`CopyToOptions`](../) сорт.
+Инициализирует новый экземпляр класса [`CopyToOptions`](../).
 
 ```csharp
 public CopyToOptions()
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как использовать параметры копирования проекта.
+
+```csharp
+var project = new Project(DataDir + "CopyToProjectEmpty.xml");
+File.Copy(DataDir + "CopyToProjectEmpty.mpp", OutDir + "ProjectCopying_out.mpp", true);
+
+var mppProject = new Project(OutDir + "ProjectCopying_out.mpp");
+
+// пропустить копирование данных представления при копировании общих данных проекта.
+var copyToOptions = new CopyToOptions();
+copyToOptions.CopyViewData = false;
+project.CopyTo(mppProject, copyToOptions);
+```
+
+### См. также
 
 * class [CopyToOptions](../)
-* пространство имен [Aspose.Tasks](../../copytooptions/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../copytooptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

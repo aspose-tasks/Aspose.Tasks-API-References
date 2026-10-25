@@ -1,23 +1,50 @@
 ---
-title: XlsxOptions.Encoding
-second_title: Справочник по Aspose.Tasks для .NET API
-description: XlsxOptions свойство. Получает или задает кодировку результирующего файла XLSX. Значение по умолчаниюUTF8 .
+title: "XlsxOptions.Encoding"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство XlsxOptions. Получает или задает кодировку результирующего файла XLSX. Значение по умолчанию — UTF8."
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.saving/xlsxoptions/encoding/
 ---
 ## XlsxOptions.Encoding property
 
-Получает или задает кодировку результирующего файла XLSX. Значение по умолчаниюUTF8 .
+Получает или задает кодировку результирующего файла XLSX. Значение по умолчанию — UTF8.
 
 ```csharp
 public Encoding Encoding { get; set; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как сохранить проект в файл XLSX, используя параметры &lt;see cref=\"P:Aspose.Tasks.Saving.XlsxOptions\"&gt;Days&lt;/see&gt;.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new XlsxOptions();
+
+// Добавьте нужные столбцы диаграммы Ганта
+var col = new GanttChartColumn("WBS", 100, delegate(Task task) { return task.Get(Tsk.WBS); });
+options.View.Columns.Add(col);
+
+// Добавьте нужные столбцы представления ресурсов
+var rscCol = new ResourceViewColumn("Cost center", 100, delegate(Resource resource) { return resource.Get(Rsc.CostCenter); });
+options.ResourceView.Columns.Add(rscCol);
+
+// Добавьте нужные столбцы представления назначений
+var assnCol = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
+options.AssignmentView.Columns.Add(assnCol);
+
+// установить кодировку
+options.Encoding = Encoding.Unicode;
+
+project.Save(OutDir + "UsingXlsxOptions_out.xlsx", options);
+```
+
+### См. также
 
 * class [XlsxOptions](../)
-* пространство имен [Aspose.Tasks.Saving](../../xlsxoptions/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../xlsxoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

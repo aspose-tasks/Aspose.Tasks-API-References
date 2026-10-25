@@ -1,33 +1,33 @@
 ---
-title: Enum FontStyles
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Visualization.FontStyles перечисление. Определяет информацию о стиле применяемую к тексту.
+title: "Перечисление FontStyles"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Aspose.Tasks.Visualization.FontStyles enum. Указывает информацию о стиле, применяемую к тексту"
 type: docs
-weight: 2690
+weight: 3020
 url: /ru/net/aspose.tasks.visualization/fontstyles/
 ---
 ## FontStyles enumeration
 
-Определяет информацию о стиле, применяемую к тексту.
+Указывает информацию о стиле, применяемую к тексту.
 
 ```csharp
 [Flags]
 public enum FontStyles
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | Regular | `0` | Обычный текст. |
 | Bold | `1` | Жирный текст. |
-| Italic | `2` | Курсив. |
-| Underline | `4` | Подчеркнутый текст. |
-| Strikeout | `8` | Текст с линией посередине. |
+| Italic | `2` | Курсивный текст. |
+| Underline | `4` | Подчёркнутый текст. |
+| Strikeout | `8` | Текст с линией, проведённой посередине. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

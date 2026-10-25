@@ -1,23 +1,41 @@
 ---
-title: PdfSaveOptions.PdfSaveOptions
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PdfSaveOptions строитель. Инициализирует новый экземплярPdfSaveOptionsкласс который можно использовать для сохранения документа вPDF формат.
+title: "PdfSaveOptions.PdfSaveOptions"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор PdfSaveOptions. Инициализирует новый экземпляр класса PdfSaveOptions, который можно использовать для сохранения документа в формате PDF."
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/pdfsaveoptions/pdfsaveoptions/
 ---
 ## PdfSaveOptions constructor
 
-Инициализирует новый экземпляр[`PdfSaveOptions`](../)класс, который можно использовать для сохранения документа в[`PDF`](../../savefileformat/) формат.
+Инициализирует новый экземпляр класса [`PdfSaveOptions`](../), который можно использовать для сохранения документа в формате [`PDF`](../../savefileformat/).
 
 ```csharp
 public PdfSaveOptions()
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как сохранить выбранные страницы проекта в PDF‑файл.
+
+```csharp
+var project = new Project(DataDir + "Software Development Plan.mpp");
+var options = new PdfSaveOptions();
+options.RenderToSinglePage = false;
+options.Pages = new List<int>();
+
+// проверим, сколько страниц можно экспортировать
+Console.WriteLine("Page Count: " + options.PageCount);
+
+options.Pages.Add(1);
+options.Pages.Add(4);
+project.Save(OutDir + "SaveToMultiplePDFFiles_out.pdf", options);
+```
+
+### См. также
 
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Tasks.Saving](../../pdfsaveoptions/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pdfsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

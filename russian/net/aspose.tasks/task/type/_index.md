@@ -1,7 +1,7 @@
 ---
-title: Task.Type
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение Type.
+title: "Task.Type"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение Type"
 type: docs
 weight: 1240
 url: /ru/net/aspose.tasks/task/type/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/task/type/
 public TaskType Type { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [TaskType](../../tasktype/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

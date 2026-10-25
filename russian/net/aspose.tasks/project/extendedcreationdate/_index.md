@@ -1,23 +1,23 @@
 ---
-title: Project.ExtendedCreationDate
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение ExtendedCreationDate.
+title: "Project.ExtendedCreationDate"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение ExtendedCreationDate"
 type: docs
-weight: 410
+weight: 420
 url: /ru/net/aspose.tasks/project/extendedcreationdate/
 ---
 ## Project.ExtendedCreationDate property
 
-Получает или задает значение ExtendedCreationDate.
+Получает или задает значение свойства ExtendedCreationDate.
 
 ```csharp
 public DateTime ExtendedCreationDate { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

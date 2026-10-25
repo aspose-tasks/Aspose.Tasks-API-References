@@ -1,9 +1,9 @@
 ---
-title: Project.Calendar
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение Calendar.
+title: "Project.Calendar"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение Calendar"
 type: docs
-weight: 110
+weight: 120
 url: /ru/net/aspose.tasks/project/calendar/
 ---
 ## Project.Calendar property
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/project/calendar/
 public Calendar Calendar { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Calendar](../../calendar/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

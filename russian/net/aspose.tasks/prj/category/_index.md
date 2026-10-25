@@ -1,9 +1,9 @@
 ---
-title: Prj.Category
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Категория проекта.
+title: "Prj.Category"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Категория проекта"
 type: docs
-weight: 90
+weight: 100
 url: /ru/net/aspose.tasks/prj/category/
 ---
 ## Prj.Category field
@@ -14,12 +14,24 @@ url: /ru/net/aspose.tasks/prj/category/
 public static readonly Key<string, PrjKey> Category;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.Category.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Category, "Special");
+
+Console.WriteLine("Category: " + project.Get(Prj.Category));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

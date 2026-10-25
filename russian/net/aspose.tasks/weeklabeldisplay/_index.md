@@ -1,9 +1,9 @@
 ---
-title: Enum WeekLabelDisplay
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.WeekLabelDisplay перечисление. Указывает как отображается метка недели.
+title: "Перечисление WeekLabelDisplay"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.WeekLabelDisplay. Указывает, как отображается метка недели."
 type: docs
-weight: 3200
+weight: 3560
 url: /ru/net/aspose.tasks/weeklabeldisplay/
 ---
 ## WeekLabelDisplay enumeration
@@ -14,17 +14,31 @@ url: /ru/net/aspose.tasks/weeklabeldisplay/
 public enum WeekLabelDisplay
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| W | `0` | Метка "w". |
-| Wk | `1` | Метка "неделя". |
-| Week | `2` | Метка "неделя". |
+| W | `0` | "w" метка. |
+| Wk | `1` | "wk" метка. |
+| Week | `2` | "week" метка. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как задать метку недели в параметрах отображения проекта (случай 1).
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// задать способ отображения метки недели
+project.DisplayOptions.WeekLabel = WeekLabelDisplay.W;
+
+// ...
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Resource.Start
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение Start.
+title: "Resource.Start"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение Start"
 type: docs
-weight: 730
+weight: 720
 url: /ru/net/aspose.tasks/resource/start/
 ---
 ## Resource.Start property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resource/start/
 public DateTime Start { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

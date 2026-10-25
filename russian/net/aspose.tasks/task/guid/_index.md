@@ -1,7 +1,7 @@
 ---
-title: Task.Guid
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение Guid.
+title: "Task.Guid"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Возвращает или задает значение Guid"
 type: docs
 weight: 510
 url: /ru/net/aspose.tasks/task/guid/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/task/guid/
 public string Guid { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

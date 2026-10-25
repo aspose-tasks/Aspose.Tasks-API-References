@@ -1,7 +1,7 @@
 ---
-title: VisualObjectPlacement.HorizontalOffset
-second_title: Справочник по Aspose.Tasks для .NET API
-description: VisualObjectPlacement свойство. Получает или задает горизонтальное смещение визуального объекта.
+title: "VisualObjectPlacement.HorizontalOffset"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство VisualObjectPlacement. Получает или задает горизонтальное смещение визуального объекта"
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks.visualization/visualobjectplacement/horizontaloffset/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks.visualization/visualobjectplacement/horizontaloffset/
 public double HorizontalOffset { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [VisualObjectPlacement](../)
-* пространство имен [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

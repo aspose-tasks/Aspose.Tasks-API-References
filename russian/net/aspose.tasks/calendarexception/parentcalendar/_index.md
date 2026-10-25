@@ -1,7 +1,7 @@
 ---
-title: CalendarException.ParentCalendar
-second_title: Справочник по Aspose.Tasks для .NET API
-description: CalendarException свойство. Получает родительский календарь для этого объекта.
+title: "CalendarException.ParentCalendar"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство CalendarException. Получает родительский календарь для этого объекта"
 type: docs
 weight: 120
 url: /ru/net/aspose.tasks/calendarexception/parentcalendar/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/calendarexception/parentcalendar/
 public Calendar ParentCalendar { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Calendar](../../calendar/)
 * class [CalendarException](../)
-* пространство имен [Aspose.Tasks](../../calendarexception/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexception/)
+* assembly [Aspose.Tasks](../../../)
 
 

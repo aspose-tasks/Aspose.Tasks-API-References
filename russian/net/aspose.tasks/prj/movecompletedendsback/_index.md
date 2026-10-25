@@ -1,26 +1,38 @@
 ---
-title: Prj.MoveCompletedEndsBack
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Определяет следует ли переместить конец выполненных частей задач запланированных на начало после даты состояния но начатых ранее на дату состояния.
+title: "Prj.MoveCompletedEndsBack"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Определяет, следует ли переместить конец завершённых частей задач, запланированных на начало после даты статуса, но начавшихся ранее, обратно к дате статуса"
 type: docs
-weight: 480
+weight: 490
 url: /ru/net/aspose.tasks/prj/movecompletedendsback/
 ---
 ## Prj.MoveCompletedEndsBack field
 
-Определяет, следует ли переместить конец выполненных частей задач, запланированных на начало после даты состояния, но начатых ранее, на дату состояния.
+Определяет, следует ли переместить конец завершённых частей задач, запланированных на начало после даты статуса, но начавшихся ранее, обратно к дате статуса.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> MoveCompletedEndsBack;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.MoveCompletedEndsBack.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.MoveCompletedEndsBack, true);
+
+Console.WriteLine("Move Completed Ends Back: " + project.Get(Prj.MoveCompletedEndsBack));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

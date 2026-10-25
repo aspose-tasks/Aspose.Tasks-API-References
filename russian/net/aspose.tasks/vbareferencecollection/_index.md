@@ -1,20 +1,20 @@
 ---
-title: Class VbaReferenceCollection
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.VbaReferenceCollection сорт. Представляет наборVbaReference объекты.
+title: "Класс VbaReferenceCollection"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.VbaReferenceCollection. Представляет коллекцию объектов VbaReference"
 type: docs
-weight: 2550
+weight: 2880
 url: /ru/net/aspose.tasks/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
-Представляет набор[`VbaReference`](../vbareference/) объекты.
+Представляет коллекцию объектов [`VbaReference`](../vbareference/).
 
 ```csharp
 public class VbaReferenceCollection : ReadOnlyCollectionBase<VbaReference>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
@@ -29,11 +29,27 @@ public class VbaReferenceCollection : ReadOnlyCollectionBase<VbaReference>
 | [GetEnumerator](../../aspose.tasks/readonlycollectionbase-1/getenumerator/)() |  |
 | [ToList](../../aspose.tasks/readonlycollectionbase-1/tolist/)() |  |
 
-### Смотрите также
+## Примеры
+
+Показывает, как работать с коллекцией ссылок VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Reference count " + project.VbaProject.References.Count);
+
+foreach (var reference in project.VbaProject.References)
+{
+    Console.WriteLine("Identifier: " + reference.LibIdentifier);
+    Console.WriteLine("Name: " + reference.Name);
+}
+```
+
+### См. также
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../readonlycollectionbase-1/)
 * class [VbaReference](../vbareference/)
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,30 +1,30 @@
 ---
-title: Enum Legend
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Visualization.Legend перечисление. Определяет страницы на которых появляется легенда.
+title: "Перечисление Legend"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Aspose.Tasks.Visualization.Legend enum. Указывает возможные варианты, используемые при отрисовке легенды представлений"
 type: docs
-weight: 2840
+weight: 3180
 url: /ru/net/aspose.tasks.visualization/legend/
 ---
 ## Legend enumeration
 
-Определяет страницы, на которых появляется легенда.
+Указывает возможные параметры, используемые при рендеринге легенды представления.
 
 ```csharp
 public enum Legend
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| NoLegend | `0` | Без легенды. |
-| AfterLastPage | `1` | Легенда появляется после последней страницы. |
-| OnEveryPage | `2` | Легенда появляется на каждой странице. |
+| NoLegend | `0` | Легенда не отображается. |
+| AfterLastPage | `1` | Легенда отображается на отдельной странице после последней страницы проекта. |
+| OnEveryPage | `2` | Легенда отображается на каждой странице. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

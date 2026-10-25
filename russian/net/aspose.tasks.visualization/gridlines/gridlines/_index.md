@@ -1,7 +1,7 @@
 ---
-title: Gridlines.Gridlines
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Gridlines строитель. Конструктор по умолчанию.
+title: "Gridlines.Gridlines"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор Gridlines. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/gridlines/gridlines/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks.visualization/gridlines/gridlines/
 public Gridlines()
 ```
 
-### Смотрите также
+### См. также
 
 * class [Gridlines](../)
-* пространство имен [Aspose.Tasks.Visualization](../../gridlines/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../gridlines/)
+* assembly [Aspose.Tasks](../../../)
 
 

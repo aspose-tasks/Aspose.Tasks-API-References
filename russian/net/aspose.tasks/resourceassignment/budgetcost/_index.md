@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.BudgetCost
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение BudgetCost.
+title: "ResourceAssignment.BudgetCost"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ResourceAssignment. Возвращает или задает значение BudgetCost"
 type: docs
 weight: 160
 url: /ru/net/aspose.tasks/resourceassignment/budgetcost/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resourceassignment/budgetcost/
 public decimal BudgetCost { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Rsc.Name
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Rsc поле. Имя ресурса.
+title: "Rsc.Name"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Rsc. Имя ресурса"
 type: docs
 weight: 460
 url: /ru/net/aspose.tasks/rsc/name/
@@ -14,12 +14,26 @@ url: /ru/net/aspose.tasks/rsc/name/
 public static readonly Key<string, RscKey> Name;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Rsc.Name.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Name, "John Smith");
+
+Console.WriteLine("Name: " + resource.Get(Rsc.Name));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* пространство имен [Aspose.Tasks](../../rsc/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

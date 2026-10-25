@@ -1,9 +1,9 @@
 ---
-title: Prj.Manager
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Менеджер проекта.
+title: "Prj.Manager"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Менеджер проекта"
 type: docs
-weight: 440
+weight: 450
 url: /ru/net/aspose.tasks/prj/manager/
 ---
 ## Prj.Manager field
@@ -14,12 +14,24 @@ url: /ru/net/aspose.tasks/prj/manager/
 public static readonly Key<string, PrjKey> Manager;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.Manager.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Manager, "Steve");
+
+Console.WriteLine("Manager: " + project.Get(Prj.Manager));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

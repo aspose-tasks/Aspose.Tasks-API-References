@@ -1,26 +1,40 @@
 ---
-title: Tsk.LevelingDelay
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Время на которое задача должна быть отложена с даты ее раннего начала изза выравнивания ресурсов.
+title: "Tsk.LevelingDelay"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Время, на которое задача должна быть отложена от её ранней даты начала из‑за выравнивания ресурсов"
 type: docs
-weight: 780
+weight: 770
 url: /ru/net/aspose.tasks/tsk/levelingdelay/
 ---
 ## Tsk.LevelingDelay field
 
-Время, на которое задача должна быть отложена с даты ее раннего начала из-за выравнивания ресурсов.
+Время, на которое задача должна быть отложена от своей ранней даты начала из‑за выравнивания ресурсов.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> LevelingDelay;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.LevelingDelay.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.LevelingDelay, project.GetDuration(1, TimeUnitType.Hour));
+
+Console.WriteLine("Leveling Delay: " + task.Get(Tsk.LevelingDelay));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

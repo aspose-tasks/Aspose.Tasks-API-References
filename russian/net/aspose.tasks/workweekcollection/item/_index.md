@@ -1,7 +1,7 @@
 ---
-title: WorkWeekCollection.Item
-second_title: Справочник по Aspose.Tasks для .NET API
-description: WorkWeekCollection свойство. Возвращает элемент по указанному индексу.
+title: "WorkWeekCollection.Item"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство WorkWeekCollection. Возвращает элемент по указанному индексу"
 type: docs
 weight: 20
 url: /ru/net/aspose.tasks/workweekcollection/item/
@@ -16,17 +16,17 @@ public WorkWeek this[int index] { get; set; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Отсчитываемый от нуля индекс элемента, который требуется получить. |
+| индекс | Нулевой индекс элемента, который нужно получить. |
 
 ### Возвращаемое значение
 
 элемент по указанному индексу.
 
-### Смотрите также
+### См. также
 
 * class [WorkWeek](../../workweek/)
 * class [WorkWeekCollection](../)
-* пространство имен [Aspose.Tasks](../../workweekcollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workweekcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,66 @@
 ---
-title: RecurringTaskInfo.YearlyOrdinalMonth
-second_title: Справочник по Aspose.Tasks для .NET API
-description: RecurringTaskInfo свойство. Получает или задает месяц шаблона ежегодного повторения при использовании порядкового дня.  Может быть одним из значенийMonth перечисление.
+title: "RecurringTaskInfo.YearlyOrdinalMonth"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство RecurringTaskInfo. Получает или задает месяц ежегодного шаблона повторения при использовании порядкового дня. Может быть одним из значений перечисления Month."
 type: docs
 weight: 200
 url: /ru/net/aspose.tasks/recurringtaskinfo/yearlyordinalmonth/
 ---
 ## RecurringTaskInfo.YearlyOrdinalMonth property
 
-Получает или задает месяц шаблона ежегодного повторения при использовании порядкового дня.  Может быть одним из значений[`Month`](../../month/) перечисление.
+Получает или задает месяц ежегодного шаблона повторения при использовании порядкового дня. Может быть одним из значений перечисления [`Month`](../../month/).
 
 ```csharp
 public Month YearlyOrdinalMonth { get; set; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать информацию о повторяющихся задачах.
+
+```csharp
+var project = new Project(DataDir + "TestRecurringTask2016.mpp");
+
+// читать информацию о повторяющихся задачах
+foreach (var task in project.RootTask.SelectAllChildTasks())
+{
+    var info = task.RecurringInfo;
+    if (info == null)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Start Date: " + info.StartDate);
+    Console.WriteLine("Duration: " + info.Duration);
+    Console.WriteLine("End Date: " + info.EndDate);
+    Console.WriteLine("Daily Repetitions: " + info.DailyRepetitions);
+    Console.WriteLine("Daily Use Workdays: " + info.DailyUseWorkdays);
+    Console.WriteLine("Monthly Day: " + info.MonthlyDay);
+    Console.WriteLine("Monthly Ordinal Day: " + info.MonthlyOrdinalDay);
+    Console.WriteLine("Monthly Ordinal Number: " + info.MonthlyOrdinalNumber);
+    Console.WriteLine("Monthly Ordinal Repetitions: " + info.MonthlyOrdinalRepetitions);
+    Console.WriteLine("Monthly Repetitions: " + info.MonthlyRepetitions);
+    Console.WriteLine("Monthly Use Ordinal Day: " + info.MonthlyUseOrdinalDay);
+    Console.WriteLine("Occurrences: " + info.Occurrences);
+    Console.WriteLine("Recurrence Pattern: " + info.RecurrencePattern);
+    Console.WriteLine("Parent Task: " + info.Task.Get(Tsk.Name));
+    Console.WriteLine("Use End Date: " + info.UseEndDate);
+    Console.WriteLine("Weekly Days: " + info.WeeklyDays);
+    Console.WriteLine("Weekly Repetitions: " + info.WeeklyRepetitions);
+    Console.WriteLine("Yearly Date: " + info.YearlyDate);
+    Console.WriteLine("Yearly Ordinal Day: " + info.YearlyOrdinalDay);
+    Console.WriteLine("Yearly Ordinal Month: " + info.YearlyOrdinalMonth);
+    Console.WriteLine("Yearly Ordinal Number: " + info.YearlyOrdinalNumber);
+    Console.WriteLine("Yearly Use Ordinal Day: " + info.YearlyUseOrdinalDay);
+    Console.WriteLine();
+}
+```
+
+### См. также
 
 * enum [Month](../../month/)
 * class [RecurringTaskInfo](../)
-* пространство имен [Aspose.Tasks](../../recurringtaskinfo/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../recurringtaskinfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

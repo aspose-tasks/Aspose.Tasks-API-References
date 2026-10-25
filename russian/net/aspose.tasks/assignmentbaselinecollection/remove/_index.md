@@ -1,14 +1,14 @@
 ---
-title: AssignmentBaselineCollection.Remove
-second_title: Справочник по Aspose.Tasks для .NET API
-description: AssignmentBaselineCollection метод. Удаляет базовый уровень из этой коллекции.
+title: "AssignmentBaselineCollection.Remove"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод AssignmentBaselineCollection. Удаляет базовую линию из этой коллекции"
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks/assignmentbaselinecollection/remove/
 ---
 ## AssignmentBaselineCollection.Remove method
 
-Удаляет базовый уровень из этой коллекции.
+Удаляет базовую линию из этой коллекции.
 
 ```csharp
 public bool Remove(AssignmentBaseline item)
@@ -16,17 +16,52 @@ public bool Remove(AssignmentBaseline item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | AssignmentBaseline | Элемент, который необходимо удалить. |
+| элемент | AssignmentBaseline | Элемент для удаления. |
 
 ### Возвращаемое значение
 
-верно, если[`AssignmentBaseline`](../../assignmentbaseline/) экземпляр был успешно удален; в противном случае ложно
+true, если экземпляр [`AssignmentBaseline`](../../assignmentbaseline/) был успешно удалён; иначе — false
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать базовые линии назначений.
+
+```csharp
+var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
+
+// читать информацию о базовой линии назначения
+foreach (var assignment in project.ResourceAssignments)
+{
+    var baselines = assignment.Baselines;
+    Console.WriteLine("Count of assignment baselines: " + baselines.Count);
+    Console.WriteLine("Parent Assignment: " + baselines.ParentAssignment);
+    foreach (var baseline in baselines)
+    {
+        Console.WriteLine("Baseline Start: " + baseline.Start);
+        Console.WriteLine("Baseline Finish: " + baseline.Finish);
+    }
+
+    Console.WriteLine();
+}
+
+Console.WriteLine("Delete all assignment baselines: ");
+
+// удалить базовые линии назначений
+foreach (var assignment in project.ResourceAssignments)
+{
+    List<AssignmentBaseline> baselines = assignment.Baselines.ToList();
+    foreach (var baseline in baselines)
+    {
+        assignment.Baselines.Remove(baseline);
+    }
+}
+```
+
+### См. также
 
 * class [AssignmentBaseline](../../assignmentbaseline/)
 * class [AssignmentBaselineCollection](../)
-* пространство имен [Aspose.Tasks](../../assignmentbaselinecollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../assignmentbaselinecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

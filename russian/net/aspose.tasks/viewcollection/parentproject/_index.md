@@ -1,24 +1,85 @@
 ---
-title: ViewCollection.ParentProject
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ViewCollection свойство. Получает родителя объекта View. Только для чтенияProject .
+title: "ViewCollection.ParentProject"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ViewCollection. Получает родителя объекта View. Только для чтения Project"
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/viewcollection/parentproject/
 ---
 ## ViewCollection.ParentProject property
 
-Получает родителя объекта View. Только для чтения[`Project`](../../project/) .
+Возвращает родительский объект View. Только для чтения [`Project`](../../project/).
 
 ```csharp
 public Project ParentProject { get; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как работать с коллекциями представлений.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+// преобразовать в простой список представлений
+List<View> list = project.Views.ToList();
+for (var index = 0; index < list.Count; index++)
+{
+    var viewToChange = list[index];
+    viewToChange.PageInfo.Header.CenteredText = "Header " + index;
+}
+
+// добавить новое представление
+var view = new GanttChartView();
+if (!project.Views.IsReadOnly)
+{
+    project.Views.Add(view);
+}
+
+// итерация по представлениям
+Console.WriteLine("Iterate over views of " + project.Views.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Project view count: " + project.Views.Count);
+Console.WriteLine();
+foreach (var projectView in project.Views)
+{
+    Console.WriteLine("Name: " + projectView.Name);
+}
+
+// удалить все представления сразу
+project.Views.Clear();
+
+// или по одному
+{
+    // подход 1
+    List<View> listToDelete = project.Views.ToList();
+    foreach (var v in listToDelete)
+    {
+        if (project.Views.Contains(v))
+        {
+            project.Views.Remove(v);
+        }
+    }
+}
+
+{
+    // подход 2
+    var array = new View[project.Views.Count];
+    project.Views.CopyTo(array, 0);
+    foreach (var v in array)
+    {
+        if (project.Views.Contains(v))
+        {
+            project.Views.Remove(v);
+        }
+    }
+}
+```
+
+### См. также
 
 * class [Project](../../project/)
 * class [ViewCollection](../)
-* пространство имен [Aspose.Tasks](../../viewcollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../viewcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

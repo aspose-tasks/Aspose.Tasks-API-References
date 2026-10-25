@@ -1,14 +1,14 @@
 ---
-title: Class RiskAnalyzer
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.RiskAnalysis.RiskAnalyzer сорт. Выполняет моделирование методом МонтеКарло на основе указанных настроек анализа рисков.
+title: "Класс RiskAnalyzer"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Aspose.Tasks.RiskAnalysis.RiskAnalyzer класс. Выполняет моделирование Монте-Карло на основе указанных настроек анализа рисков."
 type: docs
-weight: 1630
+weight: 1890
 url: /ru/net/aspose.tasks.riskanalysis/riskanalyzer/
 ---
 ## RiskAnalyzer class
 
-Выполняет моделирование методом Монте-Карло на основе указанных настроек анализа рисков.
+Выполняет моделирование Монте‑Карло на основе указанных настроек анализа рисков.
 
 ```csharp
 public class RiskAnalyzer
@@ -18,23 +18,92 @@ public class RiskAnalyzer
 
 | Имя | Описание |
 | --- | --- |
-| [RiskAnalyzer](riskanalyzer/)(RiskAnalysisSettings) | Инициализирует новый экземпляр`RiskAnalyzer` класс. |
+| [RiskAnalyzer](riskanalyzer/)(RiskAnalysisSettings) | Инициализирует новый экземпляр класса `RiskAnalyzer`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Settings](../../aspose.tasks.riskanalysis/riskanalyzer/settings/) { get; set; } | Получает или задает экземпляр[`RiskAnalysisSettings`](../riskanalysissettings/) класс, определяющий необходимые настройки для анализа рисков. |
+| [Settings](../../aspose.tasks.riskanalysis/riskanalyzer/settings/) { get; set; } | Получает или задает экземпляр класса [`RiskAnalysisSettings`](../riskanalysissettings/), который определяет необходимые настройки для анализа рисков. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Analyze](../../aspose.tasks.riskanalysis/riskanalyzer/analyze/)(Project) | Выполняет анализ рисков для указанного проекта. Анализ основан на моделировании Монте-Карло, и результатом является пример[`RiskAnalysisResult`](../riskanalysisresult/) класс. |
+| [Analyze](../../aspose.tasks.riskanalysis/riskanalyzer/analyze/)(Project) | Выполняет анализ рисков для указанного проекта. Анализ основан на моделировании Монте-Карло, и результат представляет собой экземпляр класса [`RiskAnalysisResult`](../riskanalysisresult/). |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks.RiskAnalysis](../../aspose.tasks.riskanalysis/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как начать анализ рисков, используя &lt;see cref=\"Aspose.Tasks.RiskAnalysis.RiskAnalysisSettings\" /&gt;.
+
+```csharp
+var settings = new RiskAnalysisSettings
+{
+    IterationsCount = 200
+};
+
+var project = new Project(DataDir + "Software Development Plan-1.mpp");
+var task = project.RootTask.Children.GetById(17);
+
+// Инициализировать шаблон риска
+var pattern = new RiskPattern(task)
+{
+    // Выберите тип распределения для генератора случайных чисел, из которого будут генерироваться возможные значения (в настоящее время поддерживаются только два типа: нормальное и равномерное)            
+    // Для получения дополнительных сведений см. здесь: https://en.wikipedia.org/wiki/Normal_distribution)
+    Distribution = ProbabilityDistributionType.Normal,
+
+    // Установите процент наиболее вероятной продолжительности задачи, который может произойти в наилучшем сценарии проекта 
+    // Значение по умолчанию равно 75, что означает, что если оценочная продолжительность задачи составляет 4 дня, то оптимистичная продолжительность будет 3 дня
+    Optimistic = 70,
+
+    // Установите процент наиболее вероятной продолжительности задачи, который может произойти в наихудшем сценарии проекта 
+    // Значение по умолчанию равно 125, что означает, что если оценочная продолжительность задачи составляет 4 дня, то пессимистичная продолжительность будет 5 дней.
+    Pessimistic = 130,
+
+    // Установите уровень доверия, соответствующий проценту времени, когда фактические значения будут находиться между оптимистичными и пессимистичными оценками. 
+    // Можно рассматривать это как значение стандартного отклонения: чем более неопределены ваши оценки, тем больше значение стандартного отклонения, используемого в генераторе случайных чисел.
+    ConfidenceLevel = ConfidenceLevel.CL75
+};
+settings.Patterns.Add(pattern);
+
+// Анализировать риски проекта
+var analyzer = new RiskAnalyzer(settings);
+var analysisResult = analyzer.Analyze(project);
+var earlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);
+
+Console.WriteLine("Expected value: {0}", earlyFinish.ExpectedValue);
+Console.WriteLine("StandardDeviation: {0}", earlyFinish.StandardDeviation);
+Console.WriteLine("10% Percentile: {0}", earlyFinish.GetPercentile(10));
+Console.WriteLine("50% Percentile: {0}", earlyFinish.GetPercentile(50));
+Console.WriteLine("90% Percentile: {0}", earlyFinish.GetPercentile(90));
+Console.WriteLine("Minimum: {0}", earlyFinish.Minimum);
+Console.WriteLine("Maximum: {0}", earlyFinish.Maximum);
+
+settings = new RiskAnalysisSettings
+{
+    IterationsCount = 300
+};
+
+// изменить настройки
+analyzer.Settings = settings;
+
+analysisResult = analyzer.Analyze(project);
+earlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);
+
+Console.WriteLine("Expected value: {0}", earlyFinish.ExpectedValue);
+Console.WriteLine("StandardDeviation: {0}", earlyFinish.StandardDeviation);
+Console.WriteLine("10% Percentile: {0}", earlyFinish.GetPercentile(10));
+Console.WriteLine("50% Percentile: {0}", earlyFinish.GetPercentile(50));
+Console.WriteLine("90% Percentile: {0}", earlyFinish.GetPercentile(90));
+Console.WriteLine("Minimum: {0}", earlyFinish.Minimum);
+Console.WriteLine("Maximum: {0}", earlyFinish.Maximum);
+
+analysisResult.SaveReport(OutDir + "AnalysisReport_out.pdf");
+```
+
+### См. также
+
+* namespace [Aspose.Tasks.RiskAnalysis](../../aspose.tasks.riskanalysis/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.SV
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение SV.
+title: "ResourceAssignment.SV"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ResourceAssignment. Получает или задает значение SV"
 type: docs
 weight: 580
 url: /ru/net/aspose.tasks/resourceassignment/sv/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/resourceassignment/sv/
 public double SV { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: Project.UpdateManuallyScheduledTasksWhenEditingLinks
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение указывающее установлен ли параметр UpdateManuallyScheduledTasksWhenEditingLinks.
+title: "Project.UpdateManuallyScheduledTasksWhenEditingLinks"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение, указывающее, установлен ли UpdateManuallyScheduledTasksWhenEditingLinks"
 type: docs
-weight: 970
+weight: 1000
 url: /ru/net/aspose.tasks/project/updatemanuallyscheduledtaskswheneditinglinks/
 ---
 ## Project.UpdateManuallyScheduledTasksWhenEditingLinks property
 
-Получает или задает значение, указывающее, установлен ли параметр UpdateManuallyScheduledTasksWhenEditingLinks.
+Получает или задает значение, указывающее, установлен ли UpdateManuallyScheduledTasksWhenEditingLinks.
 
 ```csharp
 public NullableBool UpdateManuallyScheduledTasksWhenEditingLinks { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

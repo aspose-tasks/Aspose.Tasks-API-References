@@ -1,7 +1,7 @@
 ---
-title: Key2.KeyType
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Key свойство. Получает ключ свойства.
+title: "Key2.KeyType"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Key. Получает ключ свойства."
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/key-2/keytype/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/key-2/keytype/
 public K KeyType { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Key&lt;T,K&gt;](../)
-* пространство имен [Aspose.Tasks](../../key-2/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../key-2/)
+* assembly [Aspose.Tasks](../../../)
 
 

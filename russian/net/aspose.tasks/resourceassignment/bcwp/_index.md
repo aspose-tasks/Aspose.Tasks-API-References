@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.BCWP
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение БСВР.
+title: "ResourceAssignment.BCWP"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "ResourceAssignment свойство. Получает или задает значение BCWP"
 type: docs
 weight: 130
 url: /ru/net/aspose.tasks/resourceassignment/bcwp/
 ---
 ## ResourceAssignment.BCWP property
 
-Получает или задает значение БСВР.
+Получает или задает значение BCWP.
 
 ```csharp
 public double BCWP { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

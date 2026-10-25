@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.OleObjectId
-second_title: Справочник по Aspose.Tasks для .NET API
-description: VisualObjectPlacement свойство. Получает или задает идентификаторOleObject объект.
+title: "VisualObjectPlacement.OleObjectId"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство VisualObjectPlacement. Получает или задает Id объекта OleObject"
 type: docs
 weight: 90
 url: /ru/net/aspose.tasks.visualization/visualobjectplacement/oleobjectid/
 ---
 ## VisualObjectPlacement.OleObjectId property
 
-Получает или задает идентификатор[`OleObject`](../../../aspose.tasks/oleobject/) объект.
+Получает или задает Id объекта [`OleObject`](../../../aspose.tasks/oleobject/).
 
 ```csharp
 public int OleObjectId { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [VisualObjectPlacement](../)
-* пространство имен [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

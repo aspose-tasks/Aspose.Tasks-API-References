@@ -1,14 +1,14 @@
 ---
-title: WorkingTimeCollection.Remove
-second_title: Справочник по Aspose.Tasks для .NET API
-description: WorkingTimeCollection метод. УдаляетWorkingTime экземпляр из этой коллекции.
+title: "WorkingTimeCollection.Remove"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод WorkingTimeCollection. Удаляет экземпляр WorkingTime из этой коллекции"
 type: docs
 weight: 80
 url: /ru/net/aspose.tasks/workingtimecollection/remove/
 ---
 ## WorkingTimeCollection.Remove method
 
-Удаляет[`WorkingTime`](../../workingtime/) экземпляр из этой коллекции.
+Удаляет экземпляр [`WorkingTime`](../../workingtime/) из этой коллекции.
 
 ```csharp
 public bool Remove(WorkingTime item)
@@ -16,17 +16,88 @@ public bool Remove(WorkingTime item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | WorkingTime | Элемент, который необходимо удалить. |
+| элемент | WorkingTime | Элемент для удаления. |
 
 ### Возвращаемое значение
 
-Значение true, если экземпляр WorkingTime был успешно удален из этой коллекции; в противном случае ложно.
+true, если экземпляр WorkingTime был успешно удалён из этой коллекции; иначе — false.
 
-### Смотрите также
+## Примеры
+
+Показывает, как работать с коллекцией рабочего времени.
+
+```csharp
+var project = new Project();
+var calendar = project.Calendars.Add("Custom Calendar");
+
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Wednesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Thursday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Friday));
+
+var saturdayWorkingTimes = new List<WorkingTime>
+{
+    new WorkingTime(8, 12),
+    new WorkingTime(13, 15)
+};
+var saturday = new WeekDay(DayType.Saturday);
+foreach (var time in saturdayWorkingTimes)
+{
+    saturday.WorkingTimes.Add(time);
+}
+
+// вывести рабочие часы субботы
+Console.WriteLine("Saturday working period number: " + saturday.WorkingTimes.Count);
+foreach (var time in saturday.WorkingTimes)
+{
+    Console.WriteLine("From Time: " + time.From);
+    Console.WriteLine("To Time: " + time.To);
+}
+
+Console.WriteLine();
+
+var sundayWorkingTimes = new List<WorkingTime>
+{
+    new WorkingTime(10, 15)
+};
+var sunday = new WeekDay(DayType.Sunday, sundayWorkingTimes);
+
+// вывести рабочие часы воскресенья
+List<WorkingTime> workingTimes = sunday.WorkingTimes.ToList();
+Console.WriteLine("Sunday working period number: " + workingTimes.Count);
+for (var index = 0; index < workingTimes.Count; index++)
+{
+    var time = workingTimes[index];
+    Console.WriteLine("From Time: " + time.From);
+    Console.WriteLine("To Time: " + time.To);
+}
+
+Console.WriteLine();
+
+calendar.WeekDays.Add(saturday);
+calendar.WeekDays.Add(sunday);
+
+foreach (var day in calendar.WeekDays)
+{
+    Console.WriteLine(day.DayType + ": ");
+
+    // Вы можете дальше проходить по рабочим часам и отображать их.
+    foreach (var workingTime in day.WorkingTimes)
+    {
+        Console.WriteLine(workingTime.From);
+        Console.WriteLine(workingTime.To);
+    }
+
+    Console.WriteLine();
+}
+```
+
+### См. также
 
 * class [WorkingTime](../../workingtime/)
 * class [WorkingTimeCollection](../)
-* пространство имен [Aspose.Tasks](../../workingtimecollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workingtimecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Task.Clone
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task метод. Создает полную копию задачи без подзадач.
+title: "Task.Clone"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Task. Создает полную копию задачи без подзадач"
 type: docs
 weight: 1310
 url: /ru/net/aspose.tasks/task/clone/
@@ -16,12 +16,25 @@ public object Clone()
 
 ### Возвращаемое значение
 
-Создал копию задачи.
+Создана копия задачи.
 
-### Смотрите также
+## Примеры
+
+Показывает, как клонировать задачу.
+
+```csharp
+var project = new Project();
+
+var originalTask = project.RootTask.Children.Add("Task");
+var cloneTask = (Task)originalTask.Clone();
+
+Console.WriteLine("Are tasks equal: " + cloneTask.Equals(originalTask));
+```
+
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Project.Revision
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение Revision.
+title: "Project.Revision"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение Revision"
 type: docs
-weight: 760
+weight: 790
 url: /ru/net/aspose.tasks/project/revision/
 ---
 ## Project.Revision property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/project/revision/
 public int Revision { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

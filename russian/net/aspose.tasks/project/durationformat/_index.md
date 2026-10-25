@@ -1,24 +1,24 @@
 ---
-title: Project.DurationFormat
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение DurationFormat.
+title: "Project.DurationFormat"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение DurationFormat"
 type: docs
-weight: 380
+weight: 390
 url: /ru/net/aspose.tasks/project/durationformat/
 ---
 ## Project.DurationFormat property
 
-Получает или задает значение DurationFormat.
+Получает или задает значение свойства DurationFormat.
 
 ```csharp
 public TimeUnitType DurationFormat { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [TimeUnitType](../../timeunittype/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

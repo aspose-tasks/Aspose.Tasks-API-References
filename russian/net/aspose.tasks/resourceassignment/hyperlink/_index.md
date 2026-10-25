@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.Hyperlink
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение гиперссылки.
+title: "ResourceAssignment.Hyperlink"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ResourceAssignment. Получает или задает значение Hyperlink"
 type: docs
 weight: 310
 url: /ru/net/aspose.tasks/resourceassignment/hyperlink/
 ---
 ## ResourceAssignment.Hyperlink property
 
-Получает или задает значение гиперссылки.
+Получает или задает значение Hyperlink.
 
 ```csharp
 public string Hyperlink { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

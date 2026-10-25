@@ -1,14 +1,14 @@
 ---
-title: ProjectView.GetDefaultResourceUsageView
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ProjectView метод. Включает Uid имя начало конец и столбцы рабочих ресурсов.
+title: "ProjectView.GetDefaultResourceUsageView"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод ProjectView. Включает столбцы ресурсов: Uid, имя, начало, завершение и работа."
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks.visualization/projectview/getdefaultresourceusageview/
 ---
 ## ProjectView.GetDefaultResourceUsageView method
 
-Включает Uid, имя, начало, конец и столбцы рабочих ресурсов.
+Включает столбцы Uid, name, start, finish и work resource.
 
 ```csharp
 public static ProjectView GetDefaultResourceUsageView()
@@ -16,12 +16,27 @@ public static ProjectView GetDefaultResourceUsageView()
 
 ### Возвращаемое значение
 
-представление, содержащее список[`ResourceViewColumn`](../../resourceviewcolumn/).
+представление, которое содержит список [`ResourceViewColumn`](../../resourceviewcolumn/).
 
-### Смотрите также
+## Примеры
+
+Показывает, как сохранить проект с представлением использования ресурсов.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultResourceUsageView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_ResourceUsageView_out.pdf", options);
+```
+
+### См. также
 
 * class [ProjectView](../)
-* пространство имен [Aspose.Tasks.Visualization](../../projectview/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../projectview/)
+* assembly [Aspose.Tasks](../../../)
 
 

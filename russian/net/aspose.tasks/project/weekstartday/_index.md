@@ -1,9 +1,9 @@
 ---
-title: Project.WeekStartDay
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение WeekStartDay.
+title: "Project.WeekStartDay"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задаёт значение WeekStartDay."
 type: docs
-weight: 1010
+weight: 1040
 url: /ru/net/aspose.tasks/project/weekstartday/
 ---
 ## Project.WeekStartDay property
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/project/weekstartday/
 public DayType WeekStartDay { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [DayType](../../daytype/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

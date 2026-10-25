@@ -1,24 +1,24 @@
 ---
-title: Resource.RegularWork
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение RegularWork.
+title: "Resource.RegularWork"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение RegularWork"
 type: docs
-weight: 660
+weight: 650
 url: /ru/net/aspose.tasks/resource/regularwork/
 ---
 ## Resource.RegularWork property
 
-Получает или задает значение RegularWork.
+Получает или задает значение свойства RegularWork.
 
 ```csharp
 public Duration RegularWork { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Duration](../../duration/)
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

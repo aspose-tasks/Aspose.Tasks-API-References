@@ -1,7 +1,7 @@
 ---
-title: Task.EarlyStart
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение EarlyStart.
+title: "Task.EarlyStart"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение EarlyStart"
 type: docs
 weight: 380
 url: /ru/net/aspose.tasks/task/earlystart/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/task/earlystart/
 public DateTime EarlyStart { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Project.Comments
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение Комментарии.
+title: "Project.Comments"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение Comments"
 type: docs
-weight: 140
+weight: 150
 url: /ru/net/aspose.tasks/project/comments/
 ---
 ## Project.Comments property
 
-Получает или задает значение Комментарии.
+Получает или задает значение Comments.
 
 ```csharp
 public string Comments { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

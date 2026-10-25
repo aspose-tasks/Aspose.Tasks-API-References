@@ -1,7 +1,7 @@
 ---
-title: TaskCollection.Item
-second_title: Справочник по Aspose.Tasks для .NET API
-description: TaskCollection свойство. Возвращает элемент по указанному индексу.
+title: "TaskCollection.Item"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство TaskCollection. Возвращает элемент по указанному индексу."
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/taskcollection/item/
@@ -16,17 +16,17 @@ public Task this[int index] { get; set; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Отсчитываемый от нуля индекс элемента, который требуется получить. |
+| индекс | Нулевой индекс элемента, который нужно получить. |
 
 ### Возвращаемое значение
 
 элемент по указанному индексу.
 
-### Смотрите также
+### См. также
 
 * class [Task](../../task/)
 * class [TaskCollection](../)
-* пространство имен [Aspose.Tasks](../../taskcollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

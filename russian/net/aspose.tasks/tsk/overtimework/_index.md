@@ -1,26 +1,47 @@
 ---
-title: Tsk.OvertimeWork
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Объем сверхурочной работы запланированный для выполнения всеми ресурсами назначенными задаче.
+title: "Tsk.OvertimeWork"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Количество сверхурочной работы, запланированной для выполнения всеми ресурсами, назначенными на задачу"
 type: docs
-weight: 890
+weight: 870
 url: /ru/net/aspose.tasks/tsk/overtimework/
 ---
 ## Tsk.OvertimeWork field
 
-Объем сверхурочной работы, запланированный для выполнения всеми ресурсами, назначенными задаче.
+Количество сверхурочной работы, запланированной для выполнения всеми ресурсами, назначенными на задачу.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> OvertimeWork;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать сверхурочные задачи.
+
+```csharp
+var project = new Project(DataDir + "TaskOvertimes.mpp");
+
+// Читать сверхурочные и процент завершения задач
+foreach (var task in project.RootTask.Children)
+{
+    Console.WriteLine(task.Get(Tsk.OvertimeCost));
+    Console.WriteLine(task.Get(Tsk.OvertimeWork));
+    Console.WriteLine(task.Get(Tsk.PercentComplete));
+    Console.WriteLine(task.Get(Tsk.PercentWorkComplete));
+    Console.WriteLine(task.Get(Tsk.PhysicalPercentComplete));
+
+    // Установить процент завершения
+    task.Set(Tsk.PercentComplete, 100);
+}
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

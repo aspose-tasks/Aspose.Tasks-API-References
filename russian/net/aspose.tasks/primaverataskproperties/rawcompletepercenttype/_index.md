@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.RawCompletePercentType
-second_title: Справочник по Aspose.Tasks для .NET API
-description: PrimaveraTaskProperties свойство. Получает необработанное текстовое представление как в исходном файле поля  Complete Type действия.
+title: "PrimaveraTaskProperties.RawCompletePercentType"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "PrimaveraTaskProperties свойство. Возвращает необработанное текстовое представление, как в исходном файле, поля Тип завершения активности"
 type: docs
-weight: 70
+weight: 230
 url: /ru/net/aspose.tasks/primaverataskproperties/rawcompletepercenttype/
 ---
 ## PrimaveraTaskProperties.RawCompletePercentType property
 
-Получает необработанное текстовое представление (как в исходном файле) поля «% Complete Type» действия.
+Получает необработанное текстовое представление (как в исходном файле) поля '% Complete Type' активности.
 
 ```csharp
 public string RawCompletePercentType { get; }
 ```
 
-### Примечания
+## Примечания
 
-Применимо только к действиям (несуммарным задачам).
+Применимо только к активностям (не к сводным задачам).
 
-### Смотрите также
+### См. также
 
 * class [PrimaveraTaskProperties](../)
-* пространство имен [Aspose.Tasks](../../primaverataskproperties/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

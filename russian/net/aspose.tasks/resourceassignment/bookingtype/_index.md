@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.BookingType
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение BookingType.
+title: "ResourceAssignment.BookingType"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "ResourceAssignment свойство. Получает или задает значение BookingType"
 type: docs
 weight: 150
 url: /ru/net/aspose.tasks/resourceassignment/bookingtype/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/resourceassignment/bookingtype/
 public BookingType BookingType { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [BookingType](../../bookingtype/)
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

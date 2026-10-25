@@ -1,14 +1,14 @@
 ---
-title: Project.GetPredecessors
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project метод. Возвращает набор ссылок на задачи которые являются предшественниками указанной задачи.
+title: "Project.GetPredecessors"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Project. Возвращает коллекцию ссылок задач, которые являются предшественниками указанной задачи"
 type: docs
-weight: 1090
+weight: 1120
 url: /ru/net/aspose.tasks/project/getpredecessors/
 ---
 ## Project.GetPredecessors method
 
-Возвращает набор ссылок на задачи, которые являются предшественниками указанной задачи.
+Возвращает коллекцию связей задач, которые являются предшественниками указанной задачи.
 
 ```csharp
 public TaskLinkCollection GetPredecessors(Task task)
@@ -16,18 +16,36 @@ public TaskLinkCollection GetPredecessors(Task task)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| task | Task | Задача получить предшественников. |
+| задача | Задача | Задача, для которой нужно получить предшественников. |
 
 ### Возвращаемое значение
 
-Список предшественников[`TaskLink`](../../tasklink/).
+Список предшественников [`TaskLink`](../../tasklink/).
 
-### Смотрите также
+## Примеры
+
+Показывает, как получить предшественников для конкретной задачи.
+
+```csharp
+var project = new Project(DataDir + "GetPredecessorSuccessorTasks.mpp");
+var task = project.RootTask.Children.GetById(10);
+
+var predecessors = project.GetPredecessors(task);
+
+// Отобразить имена предшествующей и последующей задач.
+foreach (var predecessor in predecessors)
+{
+    Console.WriteLine("Predecessor " + predecessor.PredTask.Get(Tsk.Name));
+    Console.WriteLine("Successor " + predecessor.SuccTask.Get(Tsk.Name));
+}
+```
+
+### См. также
 
 * class [TaskLinkCollection](../../tasklinkcollection/)
 * class [Task](../../task/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

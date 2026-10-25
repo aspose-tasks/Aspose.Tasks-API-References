@@ -1,41 +1,66 @@
 ---
-title: Enum BackgroundPattern
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.BackgroundPattern перечисление. Определяет фоновый рисунок.
+title: "Перечисление BackgroundPattern"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.BackgroundPattern. Указывает шаблон фона"
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks/backgroundpattern/
 ---
 ## BackgroundPattern enumeration
 
-Определяет фоновый рисунок.
+Указывает шаблон фона.
 
 ```csharp
 public enum BackgroundPattern
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| DarkDiagonalLeft | `7` | Обозначает темный диагональный левый фоновый рисунок. |
-| DarkDiagonalRight | `8` | Указывает на темный диагональный правый фон. |
-| DarkDither | `13` | Обозначает темный фоновый шаблон дизеринга. |
-| DarkFill | `4` | Указывает темный фоновый узор заливки. |
-| DiagonalLeft | `5` | Указывает диагональный левый фоновый рисунок. |
-| DiagonalRight | `6` | Указывает на диагональный правый фоновый рисунок. |
-| Hollow | `0` | Указывает на пустой фоновый узор. |
-| LightDither | `11` | Обозначает фоновый шаблон Light dither. |
-| LightFill | `2` | Обозначает фоновый узор светлой заливки. |
-| MediumDither | `12` | Указывает на фоновый рисунок среднего дизеринга. |
-| MediumFill | `3` | Указывает фоновый узор средней заливки. |
-| MediumVerticalStripe | `10` | Указывает на средний фоновый узор с вертикальными полосами. |
-| SolidFill | `1` | Указывает на фоновый узор сплошной заливки. |
-| ThinVerticalStripe | `9` | Обозначает фоновый рисунок с тонкими вертикальными полосами. |
+| DarkDiagonalLeft | `7` | Указывает темный диагональный левый шаблон фона. |
+| DarkDiagonalRight | `8` | Указывает темный диагональный правый шаблон фона. |
+| DarkDither | `13` | Указывает темный шумовой шаблон фона. |
+| DarkFill | `4` | Указывает темный заливочный шаблон фона. |
+| DiagonalLeft | `5` | Указывает диагональный левый шаблон фона. |
+| DiagonalRight | `6` | Указывает диагональный правый шаблон фона. |
+| Hollow | `0` | Указывает пустой шаблон фона. |
+| LightDither | `11` | Указывает светлый шумовой шаблон фона. |
+| LightFill | `2` | Указывает светлый заливочный шаблон фона. |
+| MediumDither | `12` | Указывает средний шумовой шаблон фона. |
+| MediumFill | `3` | Указывает средний заливочный шаблон фона. |
+| MediumVerticalStripe | `10` | Указывает средний вертикальный полосатый шаблон фона. |
+| SolidFill | `1` | Указывает сплошной заливочный шаблон фона. |
+| ThinVerticalStripe | `9` | Указывает тонкий вертикальный полосатый шаблон фона. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как настраивать стили текста, которые используются для оформления различных текстовых элементов в проекте.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    PresentationFormat = PresentationFormat.ResourceSheet
+};
+
+var style = new TextStyle();
+style.Color = Color.OrangeRed;
+style.Font = new FontDescriptor(FontFamily.GenericMonospace.Name, 10F, FontStyles.Bold | FontStyles.Italic);
+style.ItemType = TextItemType.OverallocatedResources;
+style.BackgroundColor = Color.Aqua;
+style.BackgroundPattern = BackgroundPattern.DarkDither;
+
+options.TextStyles = new List<TextStyle>
+{
+    style
+};
+project.Save(OutDir + "CustomizeTextStyle_out.pdf", options);
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

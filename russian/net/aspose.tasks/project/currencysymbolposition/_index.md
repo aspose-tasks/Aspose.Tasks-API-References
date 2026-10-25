@@ -1,9 +1,9 @@
 ---
-title: Project.CurrencySymbolPosition
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение CurrencySymbolPosition.
+title: "Project.CurrencySymbolPosition"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение CurrencySymbolPosition"
 type: docs
-weight: 220
+weight: 230
 url: /ru/net/aspose.tasks/project/currencysymbolposition/
 ---
 ## Project.CurrencySymbolPosition property
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/project/currencysymbolposition/
 public CurrencySymbolPositionType CurrencySymbolPosition { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [CurrencySymbolPositionType](../../currencysymbolpositiontype/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

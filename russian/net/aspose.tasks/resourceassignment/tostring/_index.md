@@ -1,14 +1,14 @@
 ---
-title: ResourceAssignment.ToString
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment метод. Возвращает короткое строковое представление экземпляраResourceAssignment class. Точные детали представления не указаны и могут быть изменены.
+title: "ResourceAssignment.ToString"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод ResourceAssignment. Возвращает краткое строковое представление экземпляра класса ResourceAssignment. Точные детали представления не указаны и могут измениться"
 type: docs
-weight: 770
+weight: 790
 url: /ru/net/aspose.tasks/resourceassignment/tostring/
 ---
 ## ResourceAssignment.ToString method
 
-Возвращает короткое строковое представление экземпляра[`ResourceAssignment`](../) class. Точные детали представления не указаны и могут быть изменены.
+Возвращает краткое строковое представление экземпляра класса [`ResourceAssignment`](../). Точные детали представления не указаны и могут измениться.
 
 ```csharp
 public override string ToString()
@@ -16,12 +16,31 @@ public override string ToString()
 
 ### Возвращаемое значение
 
-короткая строка, представляющая объект присваивания.
+краткая строка, представляющая объект назначения.
 
-### Смотрите также
+## Примеры
+
+Показывает, как вывести общую информацию о назначении.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // отобразить назначения задачи
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
+
+### См. также
 
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: FontDescriptor.Size
-second_title: Справочник по Aspose.Tasks для .NET API
-description: FontDescriptor свойство. Получает размер шрифта.
+title: "FontDescriptor.Size"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "FontDescriptor свойство. Получает размер шрифта."
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.visualization/fontdescriptor/size/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks.visualization/fontdescriptor/size/
 public float Size { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [FontDescriptor](../)
-* пространство имен [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 

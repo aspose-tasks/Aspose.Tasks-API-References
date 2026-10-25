@@ -1,7 +1,7 @@
 ---
-title: View.Equals
-second_title: Справочник по Aspose.Tasks для .NET API
-description: View метод. Возвращает значение указывающее равен ли этот экземпляр указанному объекту.
+title: "View.Equals"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод View. Возвращает значение, указывающее, равен ли данный экземпляр указанному объекту"
 type: docs
 weight: 150
 url: /ru/net/aspose.tasks/view/equals/
@@ -16,16 +16,16 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Объект для сравнения с этим экземпляром. |
+| obj | Объект | Объект для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-**Истинный** если указанный объект является представлением, которое имеет то же значение Uid, что и этот экземпляр; в противном случае, **ЛОЖЬ**.
+**True** if the specified object is a View that has the same Uid value as this instance; otherwise, **false**.
 
-### Смотрите также
+### См. также
 
 * class [View](../)
-* пространство имен [Aspose.Tasks](../../view/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

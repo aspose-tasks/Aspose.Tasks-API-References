@@ -1,26 +1,41 @@
 ---
-title: Rsc.RemainingWork
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Rsc поле. Время необходимое для выполнения задачи или набора задач.
+title: "Rsc.RemainingWork"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Rsc. Время, необходимое для завершения задачи или набора задач"
 type: docs
-weight: 620
+weight: 610
 url: /ru/net/aspose.tasks/rsc/remainingwork/
 ---
 ## Rsc.RemainingWork field
 
-Время, необходимое для выполнения задачи или набора задач.
+Время, необходимое для завершения задачи или набора задач.
 
 ```csharp
 public static readonly Key<Duration, RscKey> RemainingWork;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Rsc.RemainingWork.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.RemainingWork, project.GetWork(1));
+
+Console.WriteLine("Remaining Work: " + resource.Get(Rsc.RemainingWork));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* пространство имен [Aspose.Tasks](../../rsc/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.ResponsePending
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ResourceAssignment свойство. Получает или задает значение указывающее установлен ли ResponsePending или нет.
+title: "ResourceAssignment.ResponsePending"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ResourceAssignment. Получает или задает значение, указывающее, установлен ли ResponsePending."
 type: docs
 weight: 520
 url: /ru/net/aspose.tasks/resourceassignment/responsepending/
 ---
 ## ResourceAssignment.ResponsePending property
 
-Получает или задает значение, указывающее, установлен ли ResponsePending или нет.
+Получает или задает значение, указывающее, установлен ли ResponsePending.
 
 ```csharp
 public bool ResponsePending { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ResourceAssignment](../)
-* пространство имен [Aspose.Tasks](../../resourceassignment/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

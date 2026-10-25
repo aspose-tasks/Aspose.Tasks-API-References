@@ -1,34 +1,45 @@
 ---
-title: Enum EarnedValueMethodType
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.EarnedValueMethodType перечисление. Указывает метод используемый для расчета освоенного объема.
+title: "Перечисление EarnedValueMethodType"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.EarnedValueMethodType. Указывает метод, используемый для расчёта заработанной стоимости"
 type: docs
 weight: 480
 url: /ru/net/aspose.tasks/earnedvaluemethodtype/
 ---
 ## EarnedValueMethodType enumeration
 
-Указывает метод, используемый для расчета освоенного объема.
+Указывает метод, используемый для расчёта полученной стоимости.
 
 ```csharp
 public enum EarnedValueMethodType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| Undefined | `-1` | Поле не было определено в исходном файле проекта. |
+| Undefined | `-1` | Поле не было определено в оригинальном файле проекта. |
 | PercentComplete | `0` | Процент завершения |
 | PhysicalPercentComplete | `1` | Физический процент завершения |
 
-### Примечания
+## Примечания
 
-При экспорте в XML неопределенные значения будут удалены из результирующего XML.
+При экспорте в XML неопределённые значения будут удалены из результирующего XML.
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как указать метод, используемый для расчёта заработанной стоимости (EarnedValueMethodType.PercentComplete).
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+// установить тип метода заработанной стоимости в 'PercentComplete'
+project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
+// работать с проектом...
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

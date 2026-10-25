@@ -1,14 +1,14 @@
 ---
-title: Filter.GetHashCode
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Filter метод. Возвращает значение хэшкода для фильтра.
+title: "Filter.GetHashCode"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Filter. Возвращает значение хеш‑кода для фильтра"
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks/filter/gethashcode/
 ---
 ## Filter.GetHashCode method
 
-Возвращает значение хэш-кода для фильтра.
+Возвращает значение хеш-кода для фильтра.
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-возвращает значение хеш-кода для этого объекта.
+возвращает значение хеш‑кода для этого объекта.
 
-### Смотрите также
+### См. также
 
 * class [Filter](../)
-* пространство имен [Aspose.Tasks](../../filter/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

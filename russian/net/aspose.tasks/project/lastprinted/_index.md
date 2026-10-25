@@ -1,9 +1,9 @@
 ---
-title: Project.LastPrinted
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение LastPrinted.
+title: "Project.LastPrinted"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение LastPrinted"
 type: docs
-weight: 520
+weight: 540
 url: /ru/net/aspose.tasks/project/lastprinted/
 ---
 ## Project.LastPrinted property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/project/lastprinted/
 public DateTime LastPrinted { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

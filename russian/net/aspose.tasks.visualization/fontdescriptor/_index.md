@@ -1,9 +1,9 @@
 ---
-title: Class FontDescriptor
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Visualization.FontDescriptor сорт. Представляет информацию о шрифте.
+title: "Класс FontDescriptor"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.Visualization.FontDescriptor. Представляет информацию о шрифте."
 type: docs
-weight: 2680
+weight: 3010
 url: /ru/net/aspose.tasks.visualization/fontdescriptor/
 ---
 ## FontDescriptor class
@@ -18,21 +18,21 @@ public sealed class FontDescriptor
 
 | Имя | Описание |
 | --- | --- |
-| [FontDescriptor](fontdescriptor/#constructor)(FontDescriptor, FontStyles) | Инициализирует новый экземпляр`FontDescriptor` класс с указанным шрифтом и стилем. |
-| [FontDescriptor](fontdescriptor/#constructor_1)(string, float) | Инициализирует новый экземпляр`FontDescriptor` класс с указанным семейством шрифтов и размером. |
-| [FontDescriptor](fontdescriptor/#constructor_2)(string, float, FontStyles) | Инициализирует новый экземпляр`FontDescriptor` класс с указанным семейством шрифтов, размером и стилем. |
+| [FontDescriptor](fontdescriptor/#constructor)(FontDescriptor, FontStyles) | Инициализирует новый экземпляр класса `FontDescriptor` с указанным шрифтом и стилем. |
+| [FontDescriptor](fontdescriptor/#constructor_1)(string, float) | Инициализирует новый экземпляр класса `FontDescriptor` с указанным семейством шрифта и размером. |
+| [FontDescriptor](fontdescriptor/#constructor_2)(string, float, FontStyles) | Инициализирует новый экземпляр класса `FontDescriptor` с указанным семейством шрифта, размером и стилем. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [FontFamily](../../aspose.tasks.visualization/fontdescriptor/fontfamily/) { get; } | Получает название семейства шрифтов. |
+| [FontFamily](../../aspose.tasks.visualization/fontdescriptor/fontfamily/) { get; } | Получает название семейства шрифта. |
 | [Size](../../aspose.tasks.visualization/fontdescriptor/size/) { get; } | Получает размер шрифта. |
 | [Style](../../aspose.tasks.visualization/fontdescriptor/style/) { get; } | Получает стиль шрифта. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

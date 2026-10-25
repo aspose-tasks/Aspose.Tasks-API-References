@@ -1,9 +1,9 @@
 ---
-title: Prj.Subject
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Тема проекта.
+title: "Prj.Subject"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Тема проекта"
 type: docs
-weight: 690
+weight: 700
 url: /ru/net/aspose.tasks/prj/subject/
 ---
 ## Prj.Subject field
@@ -14,12 +14,24 @@ url: /ru/net/aspose.tasks/prj/subject/
 public static readonly Key<string, PrjKey> Subject;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.Subject.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Subject, "Subject");
+
+Console.WriteLine("Subject: " + project.Get(Prj.Subject));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

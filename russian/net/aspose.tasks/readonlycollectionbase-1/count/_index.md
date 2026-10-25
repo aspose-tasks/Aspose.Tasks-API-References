@@ -1,7 +1,7 @@
 ---
-title: ReadOnlyCollectionBase1.Count
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ReadOnlyCollectionBase свойство. Получает количество объектов содержащихся в объекте.
+title: "ReadOnlyCollectionBase1.Count"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ReadOnlyCollectionBase. Возвращает количество объектов, содержащихся в объекте."
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/readonlycollectionbase-1/count/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/readonlycollectionbase-1/count/
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../)
-* пространство имен [Aspose.Tasks](../../readonlycollectionbase-1/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../readonlycollectionbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

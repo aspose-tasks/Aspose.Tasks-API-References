@@ -1,24 +1,24 @@
 ---
-title: Project.HonorConstraints
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение указывающее установлены ли ограничения HonorConstraints или нет.
+title: "Project.HonorConstraints"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение, указывающее, включена ли опция HonorConstraints."
 type: docs
-weight: 460
+weight: 480
 url: /ru/net/aspose.tasks/project/honorconstraints/
 ---
 ## Project.HonorConstraints property
 
-Получает или задает значение, указывающее, установлены ли ограничения HonorConstraints или нет.
+Получает или задает значение, указывающее, установлен ли HonorConstraints.
 
 ```csharp
 public NullableBool HonorConstraints { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

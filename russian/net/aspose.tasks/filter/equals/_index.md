@@ -1,7 +1,7 @@
 ---
-title: Filter.Equals
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Filter метод. Возвращает значение указывающее равен ли этот экземпляр указанному объекту AssignmentBaseline.
+title: "Filter.Equals"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Filter. Возвращает значение, указывающее, равен ли этот экземпляр указанному объекту AssignmentBaseline"
 type: docs
 weight: 100
 url: /ru/net/aspose.tasks/filter/equals/
@@ -16,17 +16,34 @@ public bool Equals(Filter other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | Filter | указанный объект AssignmentBaseline для сравнения с этим экземпляром. |
+| другой | Filter | указанный объект AssignmentBaseline для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-возвращает true, если этот экземпляр равен указанному объекту AssignmentBaseline; в противном случае ложно.
+возвращает true, если этот экземпляр равен указанному объекту AssignmentBaseline; в противном случае — false.
 
-### Смотрите также
+## Примеры
+
+Показывает, как проверить равенство фильтров.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+
+var filter1 = filters[0];
+var filter2 = filters[1];
+
+// равенство фильтров проверяется по UID фильтра.
+Console.WriteLine("Filter 1 UID: " + filter1.Uid);
+Console.WriteLine("Filter 2 UID: " + filter2.Uid);
+Console.WriteLine("Are filters equal: " + filter1.Equals(filter2));
+```
+
+### См. также
 
 * class [Filter](../)
-* пространство имен [Aspose.Tasks](../../filter/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -40,16 +57,33 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | указанный объект AssignmentBaseline для сравнения с этим экземпляром. |
+| obj | Объект | указанный объект AssignmentBaseline для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-возвращает true, если этот экземпляр равен указанному объекту AssignmentBaseline; в противном случае ложно.
+возвращает true, если этот экземпляр равен указанному объекту AssignmentBaseline; в противном случае — false.
 
-### Смотрите также
+## Примеры
+
+Показывает, как проверить равенство фильтров.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+
+var filter1 = filters[0];
+var filter2 = filters[1];
+
+// равенство фильтров проверяется по UID фильтра.
+Console.WriteLine("Filter 1 UID: " + filter1.Uid);
+Console.WriteLine("Filter 2 UID: " + filter2.Uid);
+Console.WriteLine("Are filters equal: " + filter1.Equals(filter2));
+```
+
+### См. также
 
 * class [Filter](../)
-* пространство имен [Aspose.Tasks](../../filter/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

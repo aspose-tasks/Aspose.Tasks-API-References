@@ -1,9 +1,9 @@
 ---
-title: Resource.Type
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение Type.
+title: "Resource.Type"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение Type"
 type: docs
-weight: 760
+weight: 750
 url: /ru/net/aspose.tasks/resource/type/
 ---
 ## Resource.Type property
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/resource/type/
 public ResourceType Type { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [ResourceType](../../resourcetype/)
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

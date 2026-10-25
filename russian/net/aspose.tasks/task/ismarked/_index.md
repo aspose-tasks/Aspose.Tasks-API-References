@@ -1,23 +1,23 @@
 ---
-title: Task.IsMarked
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение указывающее установлен ли параметр IsMarked или нет.
+title: "Task.IsMarked"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение, указывающее, установлен ли IsMarked"
 type: docs
 weight: 660
 url: /ru/net/aspose.tasks/task/ismarked/
 ---
 ## Task.IsMarked property
 
-Получает или задает значение, указывающее, установлен ли параметр IsMarked или нет.
+Получает или задает значение, указывающее, установлен ли IsMarked.
 
 ```csharp
 public bool IsMarked { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

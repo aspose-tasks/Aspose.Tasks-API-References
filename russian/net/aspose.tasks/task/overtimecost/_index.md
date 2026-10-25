@@ -1,23 +1,23 @@
 ---
-title: Task.OvertimeCost
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение OvertimeCost.
+title: "Task.OvertimeCost"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Получает или задает значение OvertimeCost"
 type: docs
-weight: 920
+weight: 910
 url: /ru/net/aspose.tasks/task/overtimecost/
 ---
 ## Task.OvertimeCost property
 
-Получает или задает значение OvertimeCost.
+Получает или задает значение свойства OvertimeCost.
 
 ```csharp
 public decimal OvertimeCost { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

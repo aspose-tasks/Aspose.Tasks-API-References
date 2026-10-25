@@ -1,24 +1,24 @@
 ---
-title: Project.NewTasksEffortDriven
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение указывающее установлен ли NewTasksEffortDriven или нет.
+title: "Project.NewTasksEffortDriven"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Получает или задает значение, указывающее, установлен ли NewTasksEffortDriven"
 type: docs
-weight: 650
+weight: 670
 url: /ru/net/aspose.tasks/project/newtaskseffortdriven/
 ---
 ## Project.NewTasksEffortDriven property
 
-Получает или задает значение, указывающее, установлен ли NewTasksEffortDriven или нет.
+Получает или задает значение, указывающее, установлен ли NewTasksEffortDriven.
 
 ```csharp
 public NullableBool NewTasksEffortDriven { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

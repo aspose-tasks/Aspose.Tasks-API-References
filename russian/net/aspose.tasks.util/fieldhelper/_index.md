@@ -1,9 +1,9 @@
 ---
-title: Class FieldHelper
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Util.FieldHelper сорт. Вспомогательный класс предоставляющий полезные операции с полями.
+title: "Класс FieldHelper"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.Util.FieldHelper. Вспомогательный класс, предоставляющий полезные операции с полями"
 type: docs
-weight: 2380
+weight: 2700
 url: /ru/net/aspose.tasks.util/fieldhelper/
 ---
 ## FieldHelper class
@@ -18,11 +18,12 @@ public static class FieldHelper
 
 | Имя | Описание |
 | --- | --- |
-| static [GetDefaultTaskFieldTitle](../../aspose.tasks.util/fieldhelper/getdefaulttaskfieldtitle/)(TaskKey) | Возвращает заголовок по умолчанию для определенного поля задачи. |
+| static [GetDefaultFieldTitle](../../aspose.tasks.util/fieldhelper/getdefaultfieldtitle/)(Field) | Возвращает заголовок по умолчанию для конкретного поля. |
+| static [GetDefaultTaskFieldTitle](../../aspose.tasks.util/fieldhelper/getdefaulttaskfieldtitle/)(TaskKey) | Возвращает заголовок по умолчанию для конкретного поля задачи. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Tasks.Util](../../aspose.tasks.util/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Util](../../aspose.tasks.util/)
+* assembly [Aspose.Tasks](../../)
 
 

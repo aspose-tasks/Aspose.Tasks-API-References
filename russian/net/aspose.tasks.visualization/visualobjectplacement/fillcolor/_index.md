@@ -1,7 +1,7 @@
 ---
-title: VisualObjectPlacement.FillColor
-second_title: Справочник по Aspose.Tasks для .NET API
-description: VisualObjectPlacement свойство. Получает или задает цвет заливки.
+title: "VisualObjectPlacement.FillColor"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство VisualObjectPlacement. Получает или задает цвет заливки"
 type: docs
 weight: 50
 url: /ru/net/aspose.tasks.visualization/visualobjectplacement/fillcolor/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks.visualization/visualobjectplacement/fillcolor/
 public Color FillColor { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [VisualObjectPlacement](../)
-* пространство имен [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

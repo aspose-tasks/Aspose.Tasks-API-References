@@ -1,7 +1,7 @@
 ---
-title: SplitPartCollection.Count
-second_title: Справочник по Aspose.Tasks для .NET API
-description: SplitPartCollection свойство. Получает количество частей в коллекции.
+title: "SplitPartCollection.Count"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство SplitPartCollection. Возвращает количество частей в коллекции"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/splitpartcollection/count/
@@ -14,10 +14,35 @@ url: /ru/net/aspose.tasks/splitpartcollection/count/
 public int Count { get; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как работать с коллекциями частей задачи.
+
+```csharp
+var project = new Project(DataDir + "Splits.mpp");
+
+var task = project.RootTask.Children.GetById(1);
+
+// итерация по частям задачи
+Console.WriteLine("Iterate over split parts");
+Console.WriteLine("Split parts count:" + task.SplitParts.Count);
+foreach (var splitPart in task.SplitParts)
+{
+    Console.WriteLine("Start: " + splitPart.Start);
+    Console.WriteLine("Finish: " + splitPart.Finish);
+}
+
+// получить часть по индексу
+var split = task.SplitParts[0];
+Console.WriteLine("Split start: " + split.Start);
+
+// выполнить некоторые действия с первой частью задачи
+```
+
+### См. также
 
 * class [SplitPartCollection](../)
-* пространство имен [Aspose.Tasks](../../splitpartcollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../splitpartcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

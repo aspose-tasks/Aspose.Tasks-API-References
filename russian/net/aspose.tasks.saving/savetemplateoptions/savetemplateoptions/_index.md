@@ -1,7 +1,7 @@
 ---
-title: SaveTemplateOptions.SaveTemplateOptions
-second_title: Справочник по Aspose.Tasks для .NET API
-description: SaveTemplateOptions строитель. Конструктор по умолчанию.
+title: "SaveTemplateOptions.SaveTemplateOptions"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор SaveTemplateOptions. Конструктор по умолчанию."
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.saving/savetemplateoptions/savetemplateoptions/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks.saving/savetemplateoptions/savetemplateoptions/
 public SaveTemplateOptions()
 ```
 
-### Смотрите также
+### См. также
 
 * class [SaveTemplateOptions](../)
-* пространство имен [Aspose.Tasks.Saving](../../savetemplateoptions/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../savetemplateoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

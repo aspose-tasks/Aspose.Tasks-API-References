@@ -1,14 +1,14 @@
 ---
-title: ProjectFileInfo.GetHashCode
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ProjectFileInfo метод. Возвращает значение хешкода для экземпляраProjectFileInfo класс.
+title: "ProjectFileInfo.GetHashCode"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "ProjectFileInfo метод. Возвращает значение хеш‑кода для экземпляра класса ProjectFileInfo"
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks/projectfileinfo/gethashcode/
 ---
 ## ProjectFileInfo.GetHashCode method
 
-Возвращает значение хеш-кода для экземпляра[`ProjectFileInfo`](../) класс.
+Возвращает значение хеш‑кода для экземпляра класса [`ProjectFileInfo`](../).
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,23 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-возвращает значение хеш-кода для этого объекта.
+возвращает значение хеш‑кода для этого объекта.
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать информацию о файле проекта.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
+### См. также
 
 * class [ProjectFileInfo](../)
-* пространство имен [Aspose.Tasks](../../projectfileinfo/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectfileinfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

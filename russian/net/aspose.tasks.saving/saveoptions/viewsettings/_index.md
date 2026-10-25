@@ -1,14 +1,14 @@
 ---
-title: SaveOptions.ViewSettings
-second_title: Справочник по Aspose.Tasks для .NET API
-description: SaveOptions свойство. Получает или задает представление View  для рендеринга. Вы можете использовать эти параметры чтобы явно указать какое представление должно быть сохранено в форматах PDF HTML или Image. Если это свойство установленоPresentationFormat свойство игнорируется при сохранении проекта. Вид должен быть на одном из следующих экранов Screen  Ганта TaskSheet TaskUsage ResourceSheet ResourceUsage
+title: "SaveOptions.ViewSettings"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство SaveOptions. Получает или задает представление View для рендеринга. Вы можете использовать эту опцию, чтобы явно указать, какое представление следует сохранять в форматы PDF, HTML или Image. Если это свойство задано, свойство PresentationFormat игнорируется при сохранении проекта. Представление должно быть одним из следующих экранов Screen: Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage."
 type: docs
 weight: 240
 url: /ru/net/aspose.tasks.saving/saveoptions/viewsettings/
 ---
 ## SaveOptions.ViewSettings property
 
-Получает или задает представление ([`View`](../view/) ) для рендеринга. Вы можете использовать эти параметры, чтобы явно указать, какое представление должно быть сохранено в форматах PDF, HTML или Image. Если это свойство установлено,[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/) свойство игнорируется при сохранении проекта. Вид должен быть на одном из следующих экранов (([`Screen`](../../../aspose.tasks/view/screen/) )): (Ганта, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage)
+Получает или задает представление ([`View`](../view/)) для рендеринга. Вы можете использовать эту опцию, чтобы явно указать, какое представление следует сохранять в форматы PDF, HTML или Image. Если это свойство задано, свойство [`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/) игнорируется при сохранении проекта. Представление должно быть одним из следующих экранов (([`Screen`](../../../aspose.tasks/view/screen/))): (Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage).
 
 ```csharp
 public View ViewSettings { get; set; }
@@ -18,13 +18,34 @@ public View ViewSettings { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Когда вызывается метод set и предоставляется экземпляр класса View с неподдерживаемым значением свойства Screen. |
+| ArgumentException | Когда вызывается метод set и предоставлен экземпляр класса View с неподдерживаемым значением свойства Screen. |
 
-### Смотрите также
+## Примеры
+
+Показано, как использовать 'SaveOptions.ViewSettings' для указания представления, которое должно быть отрендерено в PDF.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var view = project.Views.First(v => v.Screen == ViewScreen.Gantt);
+Console.WriteLine("Page size specified in view settings: " + view.PageInfo.PageSettings.PaperSize);
+Console.WriteLine("Page orientation: {0}", view.PageInfo.PageSettings.IsPortrait ? "Portrait" : "Landscape");
+
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+saveOptions.PageSize = PageSize.DefinedInView;
+saveOptions.Timescale = Timescale.DefinedInView;
+saveOptions.StartDate = new DateTime(2012, 12, 22);
+saveOptions.EndDate = new DateTime(2013, 05, 10);
+saveOptions.ViewSettings = view;
+
+project.Save(OutDir + "SaveToPdfUsingSpecificView_out.pdf", saveOptions);
+```
+
+### См. также
 
 * class [View](../../../aspose.tasks/view/)
 * class [SaveOptions](../)
-* пространство имен [Aspose.Tasks.Saving](../../saveoptions/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../saveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

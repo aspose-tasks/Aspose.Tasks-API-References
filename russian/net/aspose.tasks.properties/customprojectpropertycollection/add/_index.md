@@ -1,7 +1,7 @@
 ---
-title: CustomProjectPropertyCollection.Add
-second_title: Справочник по Aspose.Tasks для .NET API
-description: CustomProjectPropertyCollection метод. Создает новое пользовательское свойство.
+title: "CustomProjectPropertyCollection.Add"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод CustomProjectPropertyCollection. Создает новое пользовательское свойство"
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks.properties/customprojectpropertycollection/add/
@@ -16,19 +16,65 @@ public CustomProjectProperty Add(string name, string value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя свойства. |
-| value | String | Значение вновь созданного объекта свойства. |
+| name | Строка | Имя свойства. |
+| value | Строка | Значение только что созданного объекта свойства. |
 
 ### Возвращаемое значение
 
-Недавно созданный объект свойства.
+Только что созданный объект свойства.
 
-### Смотрите также
+## Примеры
+
+Показывает, как работать с пользовательскими коллекциями свойств проекта.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// добавим новые пользовательские свойства
+// коллекция поддерживает типы Boolean, DateTime, Double, String
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// пользовательские свойства доступны через типизированную коллекцию
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// получить значение пользовательского свойства
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// перебрать имена пользовательских свойств
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// можно удалить значение по строковому ключу
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// или можно полностью очистить коллекцию
+project.CustomProps.Clear();
+```
+
+### См. также
 
 * class [CustomProjectProperty](../../customprojectproperty/)
 * class [CustomProjectPropertyCollection](../)
-* пространство имен [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -42,19 +88,65 @@ public CustomProjectProperty Add(string name, bool value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя свойства. |
-| value | Boolean | Значение вновь созданного объекта свойства. |
+| name | Строка | Имя свойства. |
+| value | Boolean | Значение только что созданного объекта свойства. |
 
 ### Возвращаемое значение
 
-Недавно созданный объект свойства.
+Только что созданный объект свойства.
 
-### Смотрите также
+## Примеры
+
+Показывает, как работать с пользовательскими коллекциями свойств проекта.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// добавим новые пользовательские свойства
+// коллекция поддерживает типы Boolean, DateTime, Double, String
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// пользовательские свойства доступны через типизированную коллекцию
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// получить значение пользовательского свойства
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// перебрать имена пользовательских свойств
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// можно удалить значение по строковому ключу
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// или можно полностью очистить коллекцию
+project.CustomProps.Clear();
+```
+
+### См. также
 
 * class [CustomProjectProperty](../../customprojectproperty/)
 * class [CustomProjectPropertyCollection](../)
-* пространство имен [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -68,19 +160,65 @@ public CustomProjectProperty Add(string name, double value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя свойства. |
-| value | Double | Значение вновь созданного объекта свойства. |
+| name | Строка | Имя свойства. |
+| value | Double | Значение только что созданного объекта свойства. |
 
 ### Возвращаемое значение
 
-Недавно созданный объект свойства.
+Только что созданный объект свойства.
 
-### Смотрите также
+## Примеры
+
+Показывает, как работать с пользовательскими коллекциями свойств проекта.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// добавим новые пользовательские свойства
+// коллекция поддерживает типы Boolean, DateTime, Double, String
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// пользовательские свойства доступны через типизированную коллекцию
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// получить значение пользовательского свойства
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// перебрать имена пользовательских свойств
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// можно удалить значение по строковому ключу
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// или можно полностью очистить коллекцию
+project.CustomProps.Clear();
+```
+
+### См. также
 
 * class [CustomProjectProperty](../../customprojectproperty/)
 * class [CustomProjectPropertyCollection](../)
-* пространство имен [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -94,18 +232,64 @@ public CustomProjectProperty Add(string name, DateTime value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя свойства. |
-| value | DateTime | Значение вновь созданного объекта свойства. |
+| name | Строка | Имя свойства. |
+| value | DateTime | Значение только что созданного объекта свойства. |
 
 ### Возвращаемое значение
 
-Недавно созданный объект свойства.
+Только что созданный объект свойства.
 
-### Смотрите также
+## Примеры
+
+Показывает, как работать с пользовательскими коллекциями свойств проекта.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// добавим новые пользовательские свойства
+// коллекция поддерживает типы Boolean, DateTime, Double, String
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// пользовательские свойства доступны через типизированную коллекцию
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// получить значение пользовательского свойства
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// перебрать имена пользовательских свойств
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// можно удалить значение по строковому ключу
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// или можно полностью очистить коллекцию
+project.CustomProps.Clear();
+```
+
+### См. также
 
 * class [CustomProjectProperty](../../customprojectproperty/)
 * class [CustomProjectPropertyCollection](../)
-* пространство имен [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Properties](../../customprojectpropertycollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

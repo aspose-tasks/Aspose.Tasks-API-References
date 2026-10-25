@@ -1,7 +1,7 @@
 ---
-title: RecurringInterval.RecurringInterval
-second_title: Справочник по Aspose.Tasks для .NET API
-description: RecurringInterval строитель. Конструктор по умолчанию.
+title: "RecurringInterval.RecurringInterval"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор RecurringInterval. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks.visualization/recurringinterval/recurringinterval/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks.visualization/recurringinterval/recurringinterval/
 public RecurringInterval()
 ```
 
-### Смотрите также
+### См. также
 
 * class [RecurringInterval](../)
-* пространство имен [Aspose.Tasks.Visualization](../../recurringinterval/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../recurringinterval/)
+* assembly [Aspose.Tasks](../../../)
 
 

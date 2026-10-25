@@ -1,50 +1,75 @@
 ---
-title: Enum TextItemType
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Visualization.TextItemType перечисление. Тип элемента для которого нужно изменить стиль текста.
+title: "Перечисление TextItemType"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Aspose.Tasks.Visualization.TextItemType перечисление. Тип элемента для изменения стиля текста"
 type: docs
-weight: 3060
+weight: 3410
 url: /ru/net/aspose.tasks.visualization/textitemtype/
 ---
 ## TextItemType enumeration
 
-Тип элемента, для которого нужно изменить стиль текста.
+Тип элемента, для которого изменяется стиль текста.
 
 ```csharp
 public enum TextItemType
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | RowColumnTitles | `0` | Заголовки строк и столбцов. |
 | CriticalTasks | `1` | Критические задачи. |
 | NoncriticalTasks | `2` | Некритические задачи. |
-| MilestoneTasks | `3` | Вехи задач. |
+| MilestoneTasks | `3` | Контрольные задачи. |
 | InactiveTasks | `4` | Неактивные задачи. |
-| SummaryTasks | `5` | Суммарные задачи. |
+| SummaryTasks | `5` | Сводные задачи. |
 | AssignmentRow | `6` | Строка назначения. |
 | TopTimescaleTier | `7` | Верхний уровень шкалы времени. |
 | BottomTimescaleTier | `8` | Нижний уровень шкалы времени. |
 | MiddleTimescaleTier | `9` | Средний уровень шкалы времени. |
 | Resources | `10` | Лист ресурсов. |
-| OverallocatedResources | `11` | Перераспределенные ресурсы. |
-| TaskFilterHighlight | `12` | Текстовый элемент выделения фильтра задач. |
-| BarTextBottom | `13` | Bar Text Нижний текстовый элемент. |
-| BarTextInside | `14` | Текст строки внутри текстового элемента. |
-| BarTextLeft | `15` | Bar Text Левый текстовый элемент. |
-| BarTextRight | `16` | Bar Text Правый текстовый элемент. |
-| BarTextTop | `17` | Bar Text Верхний текстовый элемент. |
-| MarkedTasks | `18` | Отмеченный текстовый элемент задачи. |
-| ProjectSummary | `19` | Текстовый элемент сводной задачи проекта. |
-| ExternalTasks | `20` | Текстовый элемент внешних задач. |
-| Allocated | `21` | Выделенный текстовый элемент. |
-| ChangedCells | `22` | Изменены ячейки. |
+| OverallocatedResources | `11` | Перераспределённые ресурсы. |
+| TaskFilterHighlight | `12` | Элемент текста выделения фильтра задачи. |
+| BarTextBottom | `13` | Элемент текста нижней части полосы. |
+| BarTextInside | `14` | Элемент текста внутри полосы. |
+| BarTextLeft | `15` | Элемент текста слева от полосы. |
+| BarTextRight | `16` | Элемент текста справа от полосы. |
+| BarTextTop | `17` | Элемент текста верхней части полосы. |
+| MarkedTasks | `18` | Элемент текста отмеченной задачи. |
+| ProjectSummary | `19` | Элемент текста сводной задачи проекта. |
+| ExternalTasks | `20` | Элемент текста внешних задач. |
+| Allocated | `21` | Элемент текста распределения. |
+| ChangedCells | `22` | Изменённые ячейки. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как работать с типами элементов текста.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    PresentationFormat = PresentationFormat.ResourceSheet
+};
+
+var style = new TextStyle(FontStyles.Italic | FontStyles.Bold)
+{
+    Color = Color.OrangeRed
+};
+
+style.ItemType = TextItemType.OverallocatedResources;
+
+options.TextStyles = new List<TextStyle>
+{
+    style
+};
+project.Save(OutDir + "CustomizeTextStyle_out.pdf", options);
+```
+
+### См. также
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

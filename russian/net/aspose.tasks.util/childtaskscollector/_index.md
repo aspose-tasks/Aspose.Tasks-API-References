@@ -1,9 +1,9 @@
 ---
-title: Class ChildTasksCollector
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.Util.ChildTasksCollector сорт. Собирает все дочерние задачи.
+title: "Класс ChildTasksCollector"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.Util.ChildTasksCollector. Сбирает все дочерние задачи"
 type: docs
-weight: 2370
+weight: 2690
 url: /ru/net/aspose.tasks.util/childtaskscollector/
 ---
 ## ChildTasksCollector class
@@ -18,9 +18,9 @@ public class ChildTasksCollector : TreeAlgorithmBase<Task>
 
 | Имя | Описание |
 | --- | --- |
-| [ChildTasksCollector](childtaskscollector/)() | Инициализирует новый экземпляр`ChildTasksCollector` класс. |
+| [ChildTasksCollector](childtaskscollector/)() | Инициализирует новый экземпляр класса `ChildTasksCollector`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
@@ -34,11 +34,28 @@ public class ChildTasksCollector : TreeAlgorithmBase<Task>
 | virtual [PostAlg](../../aspose.tasks.util/treealgorithmbase-1/postalg/)(Task, int) |  |
 | virtual [PreAlg](../../aspose.tasks.util/treealgorithmbase-1/prealg/)(Task, int) |  |
 
-### Смотрите также
+## Примеры
+
+Показывает, как перебрать все задачи в проекте в виде простого списка.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Проанализировать все собранные задачи
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.Name));
+}
+```
+
+### См. также
 
 * class [TreeAlgorithmBase&lt;T&gt;](../treealgorithmbase-1/)
 * class [Task](../../aspose.tasks/task/)
-* пространство имен [Aspose.Tasks.Util](../../aspose.tasks.util/)
-* сборка [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Util](../../aspose.tasks.util/)
+* assembly [Aspose.Tasks](../../)
 
 

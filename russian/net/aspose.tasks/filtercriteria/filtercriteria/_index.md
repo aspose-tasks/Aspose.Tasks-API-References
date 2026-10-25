@@ -1,7 +1,7 @@
 ---
-title: FilterCriteria.FilterCriteria
-second_title: Справочник по Aspose.Tasks для .NET API
-description: FilterCriteria строитель. Конструктор по умолчанию.
+title: "FilterCriteria.FilterCriteria"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор FilterCriteria. Конструктор по умолчанию."
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/filtercriteria/filtercriteria/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/filtercriteria/filtercriteria/
 public FilterCriteria()
 ```
 
-### Смотрите также
+### См. также
 
 * class [FilterCriteria](../)
-* пространство имен [Aspose.Tasks](../../filtercriteria/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filtercriteria/)
+* assembly [Aspose.Tasks](../../../)
 
 

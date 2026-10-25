@@ -1,9 +1,9 @@
 ---
-title: Task.RemainingDuration
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Task свойство. Получает или задает значение RemainingDuration.
+title: "Task.RemainingDuration"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Task. Возвращает или задает значение RemainingDuration"
 type: docs
-weight: 1070
+weight: 1060
 url: /ru/net/aspose.tasks/task/remainingduration/
 ---
 ## Task.RemainingDuration property
@@ -14,11 +14,11 @@ url: /ru/net/aspose.tasks/task/remainingduration/
 public Duration RemainingDuration { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* пространство имен [Aspose.Tasks](../../task/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

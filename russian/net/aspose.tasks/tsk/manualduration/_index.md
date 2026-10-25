@@ -1,26 +1,40 @@
 ---
-title: Tsk.ManualDuration
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Определяет запланированную вручную продолжительность задачи.
+title: "Tsk.ManualDuration"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Определяет вручную запланированную длительность задачи"
 type: docs
-weight: 800
+weight: 780
 url: /ru/net/aspose.tasks/tsk/manualduration/
 ---
 ## Tsk.ManualDuration field
 
-Определяет запланированную вручную продолжительность задачи.
+Определяет вручную запланированную длительность задачи.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> ManualDuration;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.ManualDuration.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.ManualDuration, project.GetDuration(1, TimeUnitType.Hour));
+
+Console.WriteLine("Manual Duration: " + task.Get(Tsk.ManualDuration));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

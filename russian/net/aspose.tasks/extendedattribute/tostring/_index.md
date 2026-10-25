@@ -1,14 +1,14 @@
 ---
-title: ExtendedAttribute.ToString
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ExtendedAttribute метод. Возвращает короткое строковое представление расширенного атрибута.
+title: "ExtendedAttribute.ToString"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод ExtendedAttribute. Возвращает короткое строковое представление расширенного атрибута"
 type: docs
 weight: 110
 url: /ru/net/aspose.tasks/extendedattribute/tostring/
 ---
 ## ExtendedAttribute.ToString method
 
-Возвращает короткое строковое представление расширенного атрибута.
+Возвращает краткое строковое представление расширенного атрибута.
 
 ```csharp
 public override string ToString()
@@ -18,10 +18,28 @@ public override string ToString()
 
 Строковое представление расширенного атрибута.
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать расширенные атрибуты.
+
+```csharp
+var project = new Project(DataDir + "ReadTaskExtendedAttributes.mpp");
+
+// Чтение расширенных атрибутов для задач
+foreach (var task in project.RootTask.Children)
+{
+    foreach (var attribute in task.ExtendedAttributes)
+    {
+        // читать общую информацию о расширенном атрибуте
+        Console.WriteLine("Extended Attribute: " + attribute.ToString());
+    }
+}
+```
+
+### См. также
 
 * class [ExtendedAttribute](../)
-* пространство имен [Aspose.Tasks](../../extendedattribute/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattribute/)
+* assembly [Aspose.Tasks](../../../)
 
 

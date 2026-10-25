@@ -1,9 +1,9 @@
 ---
-title: Prj.Guid
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. GUID проекта.
+title: "Prj.Guid"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. GUID проекта"
 type: docs
-weight: 350
+weight: 360
 url: /ru/net/aspose.tasks/prj/guid/
 ---
 ## Prj.Guid field
@@ -14,12 +14,24 @@ GUID проекта.
 public static readonly Key<Guid, PrjKey> Guid;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.Guid.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Guid, new Guid("efcc0d63-d8e0-4a34-9f3e-9f973f50238a"));
+
+Console.WriteLine("Guid: " + project.Get(Prj.Guid));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

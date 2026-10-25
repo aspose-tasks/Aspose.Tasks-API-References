@@ -1,24 +1,38 @@
 ---
-title: TaskUsageView.FieldCollection
-second_title: Справочник по Aspose.Tasks для .NET API
-description: TaskUsageView свойство. получаетTaskUsageViewFieldCollection объект этого TaskUsageView.
+title: "TaskUsageView.FieldCollection"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство TaskUsageView. Получает объект TaskUsageViewFieldCollection этого TaskUsageView"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/taskusageview/fieldcollection/
 ---
 ## TaskUsageView.FieldCollection property
 
-получает[`TaskUsageViewFieldCollection`](../../taskusageviewfieldcollection/) объект этого TaskUsageView.
+Получает объект [`TaskUsageViewFieldCollection`](../../taskusageviewfieldcollection/) этого TaskUsageView.
 
 ```csharp
 public TaskUsageViewFieldCollection FieldCollection { get; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать поля представления использования задач.
+
+```csharp
+var project = new Project(DataDir + "TaskUsageView.mpp");
+
+var view = (TaskUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+```
+
+### См. также
 
 * class [TaskUsageViewFieldCollection](../../taskusageviewfieldcollection/)
 * class [TaskUsageView](../)
-* пространство имен [Aspose.Tasks](../../taskusageview/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskusageview/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Duration.Add
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Duration метод. Добавляет указанную продолжительность к этой продолжительности.
+title: "Duration.Add"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Duration. Добавляет указанную длительность к этой длительности"
 type: docs
 weight: 60
 url: /ru/net/aspose.tasks/duration/add/
 ---
 ## Add(Duration) {#add}
 
-Добавляет указанную продолжительность к этой продолжительности.
+Добавляет указанную длительность к этой длительности.
 
 ```csharp
 public Duration Add(Duration d)
@@ -16,23 +16,56 @@ public Duration Add(Duration d)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| d | Duration | указанный[`Duration`](../) добавить к этому экземпляру. |
+| d | Duration | указанную [`Duration`](../) для добавления к этому экземпляру. |
 
 ### Возвращаемое значение
 
-Новый объект продолжительности, который представляет значение этого экземпляра плюс указанное значение продолжительности.
+Новый объект длительности, представляющий значение этого экземпляра плюс указанное значение длительности.
 
-### Смотрите также
+## Примеры
+
+Показывает, как обновить длительность задач.
+
+```csharp
+var project = new Project(DataDir + "TaskDurations.mpp");
+
+// получить задачу
+var task1 = project.RootTask.Children.GetById(1);
+
+// обновить длительность задачи
+var duration1 = task1.Get(Tsk.Duration);
+
+// добавить один день к задаче 1
+duration1 = duration1.Add(project.GetDuration(1, TimeUnitType.Day));
+
+// установить новую длительность для задачи
+task1.Set(Tsk.Duration, duration1);
+Console.WriteLine("The duration of task 1: " + task1.Get(Tsk.Duration));
+
+// получить другую задачу
+var task2 = project.RootTask.Children.GetById(2);
+var duration2 = task2.Get(Tsk.Duration);
+
+// изменить длительность, используя фактический тип единицы времени
+Console.WriteLine("The time unit of duration: " + duration2.TimeUnit);
+duration2 = duration2.Add(1d /* the time unit type of duration2 will be used */);
+
+// установить новую длительность для задачи
+task2.Set(Tsk.Duration, duration2);
+Console.WriteLine("The duration of task 2: " + task1.Get(Tsk.Duration));
+```
+
+### См. также
 
 * struct [Duration](../)
-* пространство имен [Aspose.Tasks](../../duration/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(double) {#add_1}
 
-Добавляет указанное двойное значение к этой длительности.
+Добавляет указанное значение double к этой длительности.
 
 ```csharp
 public Duration Add(double val)
@@ -40,16 +73,49 @@ public Duration Add(double val)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| val | Double | указанныйDouble значение для добавления к этому экземпляру. |
+| значение | Double | указанное значение типа Double, которое нужно добавить к этому экземпляру. |
 
 ### Возвращаемое значение
 
-Новый объект продолжительности, который представляет значение этого экземпляра плюс указанное значение продолжительности.
+Новый объект длительности, представляющий значение этого экземпляра плюс указанное значение длительности.
 
-### Смотрите также
+## Примеры
+
+Показывает, как обновить длительность задач.
+
+```csharp
+var project = new Project(DataDir + "TaskDurations.mpp");
+
+// получить задачу
+var task1 = project.RootTask.Children.GetById(1);
+
+// обновить длительность задачи
+var duration1 = task1.Get(Tsk.Duration);
+
+// добавить один день к задаче 1
+duration1 = duration1.Add(project.GetDuration(1, TimeUnitType.Day));
+
+// установить новую длительность для задачи
+task1.Set(Tsk.Duration, duration1);
+Console.WriteLine("The duration of task 1: " + task1.Get(Tsk.Duration));
+
+// получить другую задачу
+var task2 = project.RootTask.Children.GetById(2);
+var duration2 = task2.Get(Tsk.Duration);
+
+// изменить длительность, используя фактический тип единицы времени
+Console.WriteLine("The time unit of duration: " + duration2.TimeUnit);
+duration2 = duration2.Add(1d /* the time unit type of duration2 will be used */);
+
+// установить новую длительность для задачи
+task2.Set(Tsk.Duration, duration2);
+Console.WriteLine("The duration of task 2: " + task1.Get(Tsk.Duration));
+```
+
+### См. также
 
 * struct [Duration](../)
-* пространство имен [Aspose.Tasks](../../duration/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 

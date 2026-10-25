@@ -1,26 +1,38 @@
 ---
-title: Prj.SpreadPercentComplete
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Prj поле. Определяет распространяется ли процент выполнения на дату состояния.
+title: "Prj.SpreadPercentComplete"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Prj. Определяет, распространяется ли процент выполнения на дату статуса"
 type: docs
-weight: 660
+weight: 670
 url: /ru/net/aspose.tasks/prj/spreadpercentcomplete/
 ---
 ## Prj.SpreadPercentComplete field
 
-Определяет, распространяется ли процент выполнения на дату состояния.
+Определяет, распределяется ли процент выполнения по дате статуса.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> SpreadPercentComplete;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Prj.SpreadPercentComplete.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.SpreadPercentComplete, true);
+
+Console.WriteLine("Spread Percent Complete: " + project.Get(Prj.SpreadPercentComplete));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* пространство имен [Aspose.Tasks](../../prj/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

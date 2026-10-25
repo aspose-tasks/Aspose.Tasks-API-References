@@ -1,23 +1,23 @@
 ---
-title: Project.DaysPerMonth
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project свойство. Получает или задает значение DaysPerMonth.
+title: "Project.DaysPerMonth"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Project. Возвращает или задает значение DaysPerMonth"
 type: docs
-weight: 270
+weight: 280
 url: /ru/net/aspose.tasks/project/dayspermonth/
 ---
 ## Project.DaysPerMonth property
 
-Получает или задает значение DaysPerMonth.
+Получает или задает значение свойства DaysPerMonth.
 
 ```csharp
 public int DaysPerMonth { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

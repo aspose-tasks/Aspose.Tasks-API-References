@@ -1,9 +1,9 @@
 ---
-title: Project.EnumerateAllChildTasks
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Project метод. Рекурсивно перечисляет все задачи проекта включая корневую задачу.
+title: "Project.EnumerateAllChildTasks"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Метод Project. Рекурсивно перечисляет все задачи проекта, включая корневую задачу"
 type: docs
-weight: 1040
+weight: 1070
 url: /ru/net/aspose.tasks/project/enumerateallchildtasks/
 ---
 ## Project.EnumerateAllChildTasks method
@@ -18,15 +18,15 @@ public IEnumerable<Task> EnumerateAllChildTasks()
 
 IEnumerable, который можно использовать для перебора всех задач проекта.
 
-### Примечания
+## Примечания
 
-Обеспечивает более легкий способ перебора задач по сравнению с[`SelectAllChildTasks`](../selectallchildtasks/) метод, поскольку он не выделяет память для всех задач.
+Обеспечивает более лёгкий способ перебора задач по сравнению с методом [`SelectAllChildTasks`](../selectallchildtasks/), так как не выделяет память для всех задач.
 
-### Смотрите также
+### См. также
 
 * class [Task](../../task/)
 * class [Project](../)
-* пространство имен [Aspose.Tasks](../../project/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

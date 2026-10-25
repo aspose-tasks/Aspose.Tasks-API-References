@@ -1,35 +1,51 @@
 ---
-title: Class PrimaveraXmlReader
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.PrimaveraXmlReader сорт. Представляет средство чтения которое позволяет извлекать UID проекта из файла Primavera Xml.
+title: "Класс PrimaveraXmlReader"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.PrimaveraXmlReader. Представляет считыватель, который позволяет извлекать UID проектов из файла Primavera Xml"
 type: docs
-weight: 1160
+weight: 1400
 url: /ru/net/aspose.tasks/primaveraxmlreader/
 ---
 ## PrimaveraXmlReader class
 
-Представляет средство чтения, которое позволяет извлекать UID проекта из файла Primavera Xml.
+Представляет считыватель, который позволяет получать UID проектов из файла Primavera Xml.
 
 ```csharp
-public class PrimaveraXmlReader
+public class PrimaveraXmlReader : PrimaveraBaseReader
 ```
 
 ## Конструкторы
 
 | Имя | Описание |
 | --- | --- |
-| [PrimaveraXmlReader](primaveraxmlreader/#constructor)(Stream) | Инициализирует новый экземпляр`PrimaveraXmlReader` класс. |
-| [PrimaveraXmlReader](primaveraxmlreader/#constructor_1)(string) | Инициализирует новый экземпляр`PrimaveraXmlReader` класс. |
+| [PrimaveraXmlReader](primaveraxmlreader/#constructor)(Stream) | Инициализирует новый экземпляр класса `PrimaveraXmlReader`. |
+| [PrimaveraXmlReader](primaveraxmlreader/#constructor_1)(string) | Инициализирует новый экземпляр класса `PrimaveraXmlReader`. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetProjectUids](../../aspose.tasks/primaveraxmlreader/getprojectuids/)() | Возвращает список уникальных идентификаторов проектов. |
+| [GetProjectInfos](../../aspose.tasks/primaverabasereader/getprojectinfos/)() | Возвращает список объектов с краткой информацией о проекте. |
+| [GetProjectUids](../../aspose.tasks/primaverabasereader/getprojectuids/)() | Верните список уникальных идентификаторов проектов. |
+| virtual [LoadProject](../../aspose.tasks/primaverabasereader/loadproject/)(int) | Загружает проект с указанным уникальным идентификатором. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как просмотреть информацию о коротких проектах из файла Primavera XML.
+
+```csharp
+var reader = new PrimaveraXmlReader(DataDir + "MultiprojectWithExternal.xml");
+var projectInfos = reader.GetProjectInfos();
+foreach (var info in projectInfos)
+{
+    Console.WriteLine("{0} - '{1}' - {2}", info.Uid, info.Name, info.ExportFlag);
+}
+```
+
+### См. также
+
+* class [PrimaveraBaseReader](../primaverabasereader/)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

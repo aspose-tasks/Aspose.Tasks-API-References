@@ -1,6 +1,6 @@
 ---
-title: Aspose.Tasks.Attributes
-second_title: Справочник по Aspose.Tasks для .NET API
+title: "Aspose.Tasks.Attributes"
+second_title: "Справочник API Aspose.Tasks for .NET"
 description: 
 type: docs
 weight: 20
@@ -10,8 +10,8 @@ url: /ru/net/aspose.tasks.attributes/
 
 ## Классы
 
-| Учебный класс | Описание |
+| Класс | Описание |
 | --- | --- |
-| [EntityFieldAttribute](./entityfieldattribute/) | Представляет атрибут для свойств объекта. |
+| [EntityFieldAttribute](./entityfieldattribute/) | Представляет атрибут для свойств сущности. |
 
 

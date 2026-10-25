@@ -1,7 +1,7 @@
 ---
-title: Filter.FilterType
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Filter свойство. Получает тип фильтра.
+title: "Filter.FilterType"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Filter. Получает тип фильтра"
 type: docs
 weight: 30
 url: /ru/net/aspose.tasks/filter/filtertype/
@@ -11,14 +11,40 @@ url: /ru/net/aspose.tasks/filter/filtertype/
 Получает тип фильтра.
 
 ```csharp
-public ItemType FilterType { get; }
+public ItemType FilterType { get; set; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как работать с фильтрами.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+Console.WriteLine("Task filters count: " + filters.Count);
+foreach (var filter in filters)
+{
+    Console.WriteLine("Uid: " + filter.Uid);
+    Console.WriteLine("Index: " + filter.Index);
+    Console.WriteLine("Name: " + filter.Name);
+    Console.WriteLine("Type: " + filter.FilterType);
+    Console.WriteLine("Show In Menu: " + filter.ShowInMenu);
+    Console.WriteLine("Show Related Summary Rows: " + filter.ShowRelatedSummaryRows);
+}
+
+// проверьте фильтры ресурсов
+List<Filter> resourceFilters = project.ResourceFilters.ToList();
+Console.WriteLine("Project.ResourceFilters count: " + resourceFilters.Count);
+Console.WriteLine("Resource Filter Item Type: Item.ResourceType: " + resourceFilters[0].FilterType);
+Console.WriteLine("Resource filter ShowInMenu" + resourceFilters[0].ShowInMenu);
+Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + resourceFilters[0].ShowRelatedSummaryRows);
+```
+
+### См. также
 
 * enum [ItemType](../../itemtype/)
 * class [Filter](../)
-* пространство имен [Aspose.Tasks](../../filter/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

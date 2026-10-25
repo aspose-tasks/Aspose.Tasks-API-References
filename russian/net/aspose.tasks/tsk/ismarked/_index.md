@@ -1,9 +1,9 @@
 ---
-title: Tsk.IsMarked
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Показывает помечена ли задача для дальнейших действий или какойлибо идентификации.
+title: "Tsk.IsMarked"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Показывает, помечена ли задача для дальнейших действий или какого-либо типа идентификации"
 type: docs
-weight: 630
+weight: 620
 url: /ru/net/aspose.tasks/tsk/ismarked/
 ---
 ## Tsk.IsMarked field
@@ -14,16 +14,30 @@ url: /ru/net/aspose.tasks/tsk/ismarked/
 public static readonly Key<bool, TaskKey> IsMarked;
 ```
 
-### Примечания
+## Примечания
 
-Применяется только к формату файла mpp.
+Применяется только к формату файлов mpp.
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.IsMarked.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsMarked, true);
+
+Console.WriteLine("Is Marked: " + task.Get(Tsk.IsMarked));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

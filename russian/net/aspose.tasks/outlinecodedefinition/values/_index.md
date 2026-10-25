@@ -1,24 +1,78 @@
 ---
-title: OutlineCodeDefinition.Values
-second_title: Справочник по Aspose.Tasks для .NET API
-description: OutlineCodeDefinition свойство. Получает объект OutlineValueCollection. Значения таблицы связанные с этим кодом схемы.
+title: "OutlineCodeDefinition.Values"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "OutlineCodeDefinition свойство. Получает объект OutlineValueCollection. Значения таблицы, связанной с этим кодом структуры"
 type: docs
 weight: 150
 url: /ru/net/aspose.tasks/outlinecodedefinition/values/
 ---
 ## OutlineCodeDefinition.Values property
 
-Получает объект OutlineValueCollection. Значения таблицы, связанные с этим кодом схемы.
+Получает объект OutlineValueCollection. Значения таблицы, связанные с этим кодом структуры.
 
 ```csharp
 public OutlineValueCollection Values { get; }
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как создавать новые коды структуры.
+
+```csharp
+var project = new Project(DataDir + "project.mpp");
+
+// Определите код структуры и его маску структуры
+var code1 = new OutlineCodeDefinition();
+code1.Alias = "New task outline code1";
+code1.FieldId = ((int)ExtendedAttributeTask.OutlineCode1).ToString();
+code1.FieldName = "Outline Code1";
+var mask = new OutlineMask();
+mask.Separator = "+";
+mask.Level = 1;
+mask.Type = MaskType.Numbers;
+code1.Masks.Add(mask);
+
+// Добавить значение структуры
+var value = new OutlineValue();
+value.Description = "Value description";
+value.ValueId = 1;
+value.Value = "123456";
+value.Type = OutlineValueType.Number;
+code1.Values.Add(value);
+
+// Добавить код структуры в проект
+project.OutlineCodes.Add(code1);
+
+// Определите код структуры и его маску структуры
+var code2 = new OutlineCodeDefinition();
+code2.Alias = "New rsc outline code2";
+code2.FieldId = ((int)ExtendedAttributeResource.OutlineCode2).ToString();
+code2.FieldName = "Outline Code2";
+var mask2 = new OutlineMask();
+mask2.Separator = "/";
+mask2.Level = 1;
+mask2.Type = MaskType.Numbers;
+code2.Masks.Add(mask2);
+
+// Добавить значение структуры
+var value2 = new OutlineValue();
+value2.Description = "Value2 description";
+value2.ValueId = 2;
+value2.Value = "987654";
+value2.Type = OutlineValueType.Number;
+code2.Values.Add(value2);
+
+// Добавить код структуры в проект
+project.OutlineCodes.Add(code2);
+
+project.Save(OutDir + "Updated_project_out.mpp", SaveFileFormat.Mpp);
+```
+
+### См. также
 
 * class [OutlineValueCollection](../../outlinevaluecollection/)
 * class [OutlineCodeDefinition](../)
-* пространство имен [Aspose.Tasks](../../outlinecodedefinition/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../outlinecodedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: ProjectServerManager.ProjectServerManager
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ProjectServerManager строитель. Инициализирует новый экземплярProjectServerManager класс.
+title: "ProjectServerManager.ProjectServerManager"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор ProjectServerManager. Инициализирует новый экземпляр класса ProjectServerManager."
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/projectservermanager/projectservermanager/
 ---
 ## ProjectServerManager constructor
 
-Инициализирует новый экземпляр[`ProjectServerManager`](../) класс.
+Инициализирует новый экземпляр класса [`ProjectServerManager`](../).
 
 ```csharp
 public ProjectServerManager(ProjectServerCredentials credentials)
@@ -16,9 +16,9 @@ public ProjectServerManager(ProjectServerCredentials credentials)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| credentials | ProjectServerCredentials | Учетные данные, используемые для подключения к учетной записи Project Online. |
+| учетные данные | ProjectServerCredentials | Учетные данные, используемые для подключения к учетной записи Project Online. |
 
-### Примеры
+## Примеры
 
 В этом примере показано, как создать экземпляр ProjectServerManager для доступа к локальному экземпляру Project Server.
 
@@ -30,19 +30,38 @@ var projectServerCredentials = new ProjectServerCredentials(site, windowsCredent
 ProjectServerManager manager = new ProjectServerManager(projectServerCredentials);
 ```
 
-В этом примере показано, как создать экземпляр ProjectServerManager для доступа к учетной записи в службе Project Online.
+В этом примере показано, как создать экземпляр ProjectServerManager для доступа к учетной записи в сервисе Project Online.
 
 ```csharp
 [C#]
-var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "пароль");
+var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
 ProjectServerManager manager = new ProjectServerManager(projectServerCredentials);
 ```
 
-### Смотрите также
+Показывает, как прочитать проект из Microsoft Project Online.
+
+```csharp
+const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+const string UserName = "admin@contoso.onmicrosoft.com";
+const string Password = "MyPassword";
+
+var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+var manager = new ProjectServerManager(credentials);
+IEnumerable<ProjectInfo> list = manager.GetProjectList();
+
+foreach (var info in list)
+{
+    var project = manager.GetProject(info.Id);
+    Console.WriteLine("{0} - {1} - {2}", info.Name, info.CreatedDate, info.LastSavedDate);
+    Console.WriteLine("Resources count: {0}", project.Resources.Count);
+}
+```
+
+### См. также
 
 * class [ProjectServerCredentials](../../projectservercredentials/)
 * class [ProjectServerManager](../)
-* пространство имен [Aspose.Tasks](../../projectservermanager/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservermanager/)
+* assembly [Aspose.Tasks](../../../)
 
 

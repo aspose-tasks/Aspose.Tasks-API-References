@@ -1,9 +1,9 @@
 ---
-title: Tsk.StartText
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Возвращает начальный текст задачи.
+title: "Tsk.StartText"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Возвращает начальный текст задачи."
 type: docs
-weight: 1050
+weight: 1030
 url: /ru/net/aspose.tasks/tsk/starttext/
 ---
 ## Tsk.StartText field
@@ -14,12 +14,26 @@ url: /ru/net/aspose.tasks/tsk/starttext/
 public static readonly Key<string, TaskKey> StartText;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.StartText.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.StartText, "Start Task Text");
+
+Console.WriteLine("Start Text: " + task.Get(Tsk.StartText));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

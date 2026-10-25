@@ -1,23 +1,23 @@
 ---
-title: Resource.RemainingOvertimeCost
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение RemainingOvertimeCost.
+title: "Resource.RemainingOvertimeCost"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение RemainingOvertimeCost"
 type: docs
-weight: 680
+weight: 670
 url: /ru/net/aspose.tasks/resource/remainingovertimecost/
 ---
 ## Resource.RemainingOvertimeCost property
 
-Получает или задает значение RemainingOvertimeCost.
+Получает или задает значение свойства RemainingOvertimeCost.
 
 ```csharp
 public decimal RemainingOvertimeCost { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

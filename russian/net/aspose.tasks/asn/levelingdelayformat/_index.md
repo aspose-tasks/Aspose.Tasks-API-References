@@ -1,7 +1,7 @@
 ---
-title: Asn.LevelingDelayFormat
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Asn поле. Формат длительности задержки.
+title: "LevelingDelayFormat"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Формат длительности задержки."
 type: docs
 weight: 320
 url: /ru/net/aspose.tasks/asn/levelingdelayformat/
@@ -14,13 +14,34 @@ url: /ru/net/aspose.tasks/asn/levelingdelayformat/
 public static readonly Key<TimeUnitType, AsnKey> LevelingDelayFormat;
 ```
 
-### Смотрите также
+### Примеры
 
-* struct [Key&lt;T,K&gt;](../../key-2/)
-* enum [TimeUnitType](../../timeunittype/)
-* enum [AsnKey](../../asnkey/)
-* class [Asn](../)
-* пространство имен [Aspose.Tasks](../../asn/)
-* сборка [Aspose.Tasks](../../../)
+Показывает, как читать/записывать свойства Asn.Delay, Asn.LevelingDelay и Asn.LevelingDelayFormat.
 
+```csharp
+var project = new Project();
 
+var task = project.RootTask.Children.Add("Task 1");
+task.Set(Tsk.Start, new DateTime(2000, 1, 3, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(8));
+
+var resource = project.Resources.Add("Resource 1");
+
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.Delay, project.GetDuration(0, TimeUnitType.Day));
+
+Console.WriteLine("Delay: " + assignment.Get(Asn.Delay));
+Console.WriteLine("Leveling Delay: " + assignment.Get(Asn.LevelingDelay));
+Console.WriteLine("Leveling Delay Format: " + assignment.Get(Asn.LevelingDelayFormat));
+```
+
+### См. также
+
+* struct [Key&lt;T,K&gt;](../../key-2)
+* enum [TimeUnitType](../../timeunittype)
+* enum [AsnKey](../../asnkey)
+* class [Asn](../../asn)
+* namespace [Aspose.Tasks](../../asn)
+* assembly [Aspose.Tasks](../../../)
+
+<!-- НЕ РЕДАКТИРОВАТЬ: сгенерировано xmldocmd для Aspose.Tasks.dll -->

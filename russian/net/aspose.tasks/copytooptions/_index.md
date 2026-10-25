@@ -1,7 +1,7 @@
 ---
-title: Class CopyToOptions
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.CopyToOptions сорт. Позволяет указать дополнительные параметры при копировании данных проекта.
+title: "Класс CopyToOptions"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Класс Aspose.Tasks.CopyToOptions. Позволяет указать дополнительные параметры при копировании данных проекта"
 type: docs
 weight: 340
 url: /ru/net/aspose.tasks/copytooptions/
@@ -18,17 +18,33 @@ public class CopyToOptions
 
 | Имя | Описание |
 | --- | --- |
-| [CopyToOptions](copytooptions/)() | Инициализирует новый экземпляр`CopyToOptions` сорт. |
+| [CopyToOptions](copytooptions/)() | Инициализирует новый экземпляр класса `CopyToOptions`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [CopyViewData](../../aspose.tasks/copytooptions/copyviewdata/) { get; set; } | Получает или задает значение, указывающее, следует ли копировать данные представления при копировании данных проекта. Значение по умолчанию — true. |
+| [CopyViewData](../../aspose.tasks/copytooptions/copyviewdata/) { get; set; } | Получает или задаёт значение, указывающее, копировать ли данные представления при копировании данных проекта. Значение по умолчанию — true. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как использовать параметры копирования проекта.
+
+```csharp
+var project = new Project(DataDir + "CopyToProjectEmpty.xml");
+File.Copy(DataDir + "CopyToProjectEmpty.mpp", OutDir + "ProjectCopying_out.mpp", true);
+
+var mppProject = new Project(OutDir + "ProjectCopying_out.mpp");
+
+// пропустить копирование данных представления при копировании общих данных проекта.
+var copyToOptions = new CopyToOptions();
+copyToOptions.CopyViewData = false;
+project.CopyTo(mppProject, copyToOptions);
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

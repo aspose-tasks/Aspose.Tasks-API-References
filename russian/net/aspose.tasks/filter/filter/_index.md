@@ -1,7 +1,7 @@
 ---
-title: Filter.Filter
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Filter строитель. Конструктор по умолчанию.
+title: "Filter.Filter"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Конструктор Filter. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.tasks/filter/filter/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.tasks/filter/filter/
 public Filter()
 ```
 
-### Смотрите также
+### См. также
 
 * class [Filter](../)
-* пространство имен [Aspose.Tasks](../../filter/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

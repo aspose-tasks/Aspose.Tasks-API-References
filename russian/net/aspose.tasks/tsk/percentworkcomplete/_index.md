@@ -1,9 +1,9 @@
 ---
-title: Tsk.PercentWorkComplete
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Tsk поле. Текущий статус задачи выраженный в процентах выполненной работы.
+title: "Tsk.PercentWorkComplete"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Поле Tsk. Текущее состояние задачи, выраженное в процентах выполненной работы"
 type: docs
-weight: 910
+weight: 890
 url: /ru/net/aspose.tasks/tsk/percentworkcomplete/
 ---
 ## Tsk.PercentWorkComplete field
@@ -14,12 +14,26 @@ url: /ru/net/aspose.tasks/tsk/percentworkcomplete/
 public static readonly Key<int, TaskKey> PercentWorkComplete;
 ```
 
-### Смотрите также
+## Примеры
+
+Показывает, как читать/записывать свойство Tsk.PercentWorkComplete.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.PercentWorkComplete, 10);
+
+Console.WriteLine("Percent Work Complete: " + task.Get(Tsk.PercentWorkComplete));
+```
+
+### См. также
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* пространство имен [Aspose.Tasks](../../tsk/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,34 +1,64 @@
 ---
-title: Enum GanttBarSize
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Aspose.Tasks.GanttBarSize перечисление. Задает высоту столбца в пунктах.
+title: "Перечисление GanttBarSize"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Перечисление Aspose.Tasks.GanttBarSize. Указывает высоту полосы в пунктах"
 type: docs
-weight: 690
+weight: 700
 url: /ru/net/aspose.tasks/ganttbarsize/
 ---
 ## GanttBarSize enumeration
 
-Задает высоту столбца в пунктах.
+Указывает высоту полосы в пунктах.
 
 ```csharp
 public enum GanttBarSize
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| BarSize6 | `0` | Размер бара 6 пунктов. |
-| BarSize8 | `1` | Размер бара 8 пунктов. |
-| BarSize10 | `2` | Размер бара 10 пунктов. |
-| BarSize12 | `3` | Размер бара 12 пунктов. |
-| BarSize14 | `4` | Размер бара 14 пунктов. |
-| BarSize18 | `5` | Размер бара 18 пунктов. |
-| BarSize24 | `6` | Размер бара 24 точки. |
+| BarSize6 | `0` | Размер полосы 6 пунктов. |
+| BarSize8 | `1` | Размер полосы 8 пунктов. |
+| BarSize10 | `2` | Размер полосы 10 пунктов. |
+| BarSize12 | `3` | Размер полосы 12 пунктов. |
+| BarSize14 | `4` | Размер полосы 14 пунктов. |
+| BarSize18 | `5` | Размер полосы 18 пунктов. |
+| BarSize24 | `6` | Размер полосы 24 пунктов. |
 
-### Смотрите также
+## Примеры
 
-* пространство имен [Aspose.Tasks](../../aspose.tasks/)
-* сборка [Aspose.Tasks](../../)
+Показывает, как установить некоторые полезные свойства представления диаграммы Ганта.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+project.Set(Prj.StatusDate, project.Get(Prj.StartDate));
+
+var view = (GanttChartView)project.Views.ToList()[0];
+
+// установить значение, указывающее, округляются ли полосы до ближайшего дня
+view.BarRounding = false;
+// установить высоту, в пунктах, полос Ганта в диаграмме Ганта
+view.BarSize = GanttBarSize.BarSize24;
+// установить значение, указывающее, будут ли скрыты сводные полосы при раскрытии сводовой задачи
+view.HideRollupBarsWhenSummaryExpanded = true;
+// установить цвет нерабочего времени
+view.NonWorkingTimeColor = Color.Azure;
+// установить значение, указывающее, должны ли полосы на диаграмме Ганта быть свернуты
+view.RollUpGanttBars = true;
+// установить значение, указывающее, должны ли отображаться разрывы задач на диаграмме Ганта
+view.ShowBarSplits = true;
+// установить значение, указывающее, должны ли отображаться чертежи на диаграмме Ганта
+view.ShowDrawings = true;
+// установить процент для уменьшения или увеличения интервала между единицами на уровне шкалы времени
+view.TimescaleSizePercentage = 10;
+
+project.Save(OutDir + "WorkWithGanttChartViews_out.pdf", SaveFileFormat.Pdf);
+```
+
+### См. также
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

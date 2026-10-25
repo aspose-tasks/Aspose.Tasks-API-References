@@ -1,24 +1,24 @@
 ---
-title: ImageSaveOptions.PageSavingCallback
-second_title: Справочник по Aspose.Tasks для .NET API
-description: ImageSaveOptions свойство. Получает или задает определяемый пользователем обратный вызов который используется для получения выходного потока для каждой отображаемой страницы.
+title: "ImageSaveOptions.PageSavingCallback"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство ImageSaveOptions. Получает или задает пользовательский обратный вызов, который используется для получения выходного потока для каждой отрисованной страницы"
 type: docs
-weight: 70
+weight: 60
 url: /ru/net/aspose.tasks.saving/imagesaveoptions/pagesavingcallback/
 ---
 ## ImageSaveOptions.PageSavingCallback property
 
-Получает или задает определяемый пользователем обратный вызов, который используется для получения выходного потока для каждой отображаемой страницы.
+Получает или задает пользовательский обратный вызов, используемый для получения выходного потока для каждой отрисованной страницы.
 
 ```csharp
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [ImageSaveOptions](../)
-* пространство имен [Aspose.Tasks.Saving](../../imagesaveoptions/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../imagesaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

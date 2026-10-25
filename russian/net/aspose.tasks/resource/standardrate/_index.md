@@ -1,23 +1,23 @@
 ---
-title: Resource.StandardRate
-second_title: Справочник по Aspose.Tasks для .NET API
-description: Resource свойство. Получает или задает значение StandardRate.
+title: "Resource.StandardRate"
+second_title: "Справочник API Aspose.Tasks for .NET"
+description: "Свойство Resource. Получает или задает значение StandardRate"
 type: docs
-weight: 710
+weight: 700
 url: /ru/net/aspose.tasks/resource/standardrate/
 ---
 ## Resource.StandardRate property
 
-Получает или задает значение StandardRate.
+Получает или задает значение свойства StandardRate.
 
 ```csharp
 public decimal StandardRate { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Resource](../)
-* пространство имен [Aspose.Tasks](../../resource/)
-* сборка [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 
