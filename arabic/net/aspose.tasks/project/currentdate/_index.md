@@ -1,23 +1,23 @@
 ---
-title: Project.CurrentDate
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تحديد قيمة CurrentDate .
+title: "Project.CurrentDate"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة CurrentDate."
 type: docs
-weight: 230
+weight: 240
 url: /ar/net/aspose.tasks/project/currentdate/
 ---
 ## Project.CurrentDate property
 
-الحصول على أو تحديد قيمة CurrentDate .
+يحصل أو يعيّن قيمة لـ CurrentDate.
 
 ```csharp
 public DateTime CurrentDate { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: PageLegend.PageLegend
-second_title: Aspose.Tasks لمرجع .NET API
-description: PageLegend البناء. Default_Constructor
+title: "PageLegend.PageLegend"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ PageLegend. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks.visualization/pagelegend/pagelegend/
 ---
 ## PageLegend constructor
 
-Default_Constructor
+المنشئ الافتراضي.
 
 ```csharp
 public PageLegend()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageLegend](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../pagelegend/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../pagelegend/)
+* assembly [Aspose.Tasks](../../../)
 
 

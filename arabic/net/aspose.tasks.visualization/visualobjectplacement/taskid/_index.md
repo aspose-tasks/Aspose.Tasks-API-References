@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.TaskId
-second_title: Aspose.Tasks لمرجع .NET API
-description: VisualObjectPlacement ملكية. الحصول على معرف المهمة أو تعيينه إذا تم تحديد خيارات إرفاق بالمهمة  1 بخلاف ذلك.
+title: "VisualObjectPlacement.TaskId"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية VisualObjectPlacement. يسترجع أو يعيّن معرف المهمة إذا تم اختيار خيار Attach to task options وإلا 1"
 type: docs
 weight: 100
 url: /ar/net/aspose.tasks.visualization/visualobjectplacement/taskid/
 ---
 ## VisualObjectPlacement.TaskId property
 
-الحصول على معرف المهمة أو تعيينه إذا تم تحديد خيارات "إرفاق بالمهمة" ، -1 بخلاف ذلك.
+يحصل أو يضبط معرف المهمة إذا تم اختيار خيار 'Attach to task'، -1 خلاف ذلك.
 
 ```csharp
 public int TaskId { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [VisualObjectPlacement](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

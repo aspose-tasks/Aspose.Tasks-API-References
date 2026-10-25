@@ -1,30 +1,44 @@
 ---
-title: Enum MinuteLabelDisplay
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.MinuteLabelDisplay تعداد. يحدد كيفية عرض تسمية الدقيقة .
+title: "تعداد MinuteLabelDisplay"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "تعداد Aspose.Tasks.MinuteLabelDisplay. يحدد كيفية عرض تسمية الدقيقة"
 type: docs
-weight: 900
+weight: 1030
 url: /ar/net/aspose.tasks/minutelabeldisplay/
 ---
 ## MinuteLabelDisplay enumeration
 
-يحدد كيفية عرض تسمية الدقيقة .
+يحدد كيفية عرض تسمية الدقيقة.
 
 ```csharp
 public enum MinuteLabelDisplay
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| M | `0` | يعين قائمة الدقائق في MS Project كـ m. |
-| Min | `1` | تعيين قائمة الدقائق في مشروع MS على أنها min . |
-| Minute | `2` | يعين قائمة الدقائق في مشروع MS على أنها دقيقة. |
+| M | `0` | يعيّن قائمة الدقائق في MS Project كـ m. |
+| Min | `1` | يعيّن قائمة الدقائق في MS Project كـ min. |
+| Minute | `2` | يعيّن قائمة الدقائق في MS Project كـ minute. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية تعيين تسمية الدقيقة لخيارات عرض المشروع (الحالة 1).
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// تعيين كيفية عرض تسمية الدقيقة
+project.DisplayOptions.MinuteLabel = MinuteLabelDisplay.M;
+
+// ...
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

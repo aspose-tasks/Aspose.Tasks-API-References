@@ -1,23 +1,23 @@
 ---
-title: Task.Finish
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على قيمة Finish أو تعيينها .
+title: "Task.Finish"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط قيمة Finish"
 type: docs
 weight: 440
 url: /ar/net/aspose.tasks/task/finish/
 ---
 ## Task.Finish property
 
-الحصول على قيمة Finish أو تعيينها .
+يحصل أو يعيّن قيمة Finish.
 
 ```csharp
 public DateTime Finish { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

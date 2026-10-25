@@ -1,23 +1,23 @@
 ---
-title: OleObject.OleObject
-second_title: Aspose.Tasks لمرجع .NET API
-description: OleObject البناء. يقوم بتهيئة مثيل جديد لملفOleObject فئة .
+title: "OleObject.OleObject"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ OleObject. يهيئ نسخة جديدة من فئة OleObject"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/oleobject/oleobject/
 ---
 ## OleObject constructor
 
-يقوم بتهيئة مثيل جديد لملف[`OleObject`](../) فئة .
+يهيئ نسخة جديدة من الفئة [`OleObject`](../).
 
 ```csharp
 public OleObject()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [OleObject](../)
-* مساحة الاسم [Aspose.Tasks](../../oleobject/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../oleobject/)
+* assembly [Aspose.Tasks](../../../)
 
 

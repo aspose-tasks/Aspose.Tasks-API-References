@@ -1,14 +1,14 @@
 ---
-title: Calendar.GetHashCode
-second_title: Aspose.Tasks لمرجع .NET API
-description: Calendar طريقة. إرجاع رمز تجزئة لمثيل الفئة.
+title: "Calendar.GetHashCode"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Calendar. تُرجع hash code للنسخة من الفئة"
 type: docs
-weight: 150
+weight: 170
 url: /ar/net/aspose.tasks/calendar/gethashcode/
 ---
 ## Calendar.GetHashCode method
 
-إرجاع رمز تجزئة لمثيل الفئة.
+يعيد رمز تجزئة (hash) لنسخة الفئة.
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-رمز تجزئة لهذا الكائن.
+قيمة تجزئة لهذا الكائن.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Calendar](../)
-* مساحة الاسم [Aspose.Tasks](../../calendar/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

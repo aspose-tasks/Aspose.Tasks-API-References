@@ -1,23 +1,43 @@
 ---
-title: TasksLoggedException.Operation
-second_title: Aspose.Tasks لمرجع .NET API
-description: TasksLoggedException ملكية. يحصل على معلومات عملية الاستثناء .
+title: "TasksLoggedException.Operation"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية TasksLoggedException. تحصل على معلومات عملية الاستثناء"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks/tasksloggedexception/operation/
 ---
 ## TasksLoggedException.Operation property
 
-يحصل على معلومات عملية الاستثناء .
+يحصل على معلومات عملية الاستثناء.
 
 ```csharp
 public string Operation { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة نص السجل ونوع الاستثناء للتحقق من المشكلات مع تصدير MPP.
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "PrintTaskWritingException.mpp");
+
+    // تصدير المشروع كملف MPP
+    project.Save(OutDir + "PrintTaskWritingException_out.MPP", SaveFileFormat.Mpp);
+}
+catch (TasksWritingException ex)
+{
+    Console.WriteLine("Exception Operation: " + ex.Operation);
+    Console.WriteLine("Exception Log Text: ");
+    Console.WriteLine(ex.LogText);
+}
+```
+
+### انظر أيضًا
 
 * class [TasksLoggedException](../)
-* مساحة الاسم [Aspose.Tasks](../../tasksloggedexception/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasksloggedexception/)
+* assembly [Aspose.Tasks](../../../)
 
 

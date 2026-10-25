@@ -1,23 +1,23 @@
 ---
-title: Task.RemainingCost
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تحديد قيمة RemainingCost .
+title: "Task.RemainingCost"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط قيمة RemainingCost"
 type: docs
-weight: 1060
+weight: 1050
 url: /ar/net/aspose.tasks/task/remainingcost/
 ---
 ## Task.RemainingCost property
 
-الحصول على أو تحديد قيمة RemainingCost .
+يحصل أو يعيّن قيمة لـ RemainingCost.
 
 ```csharp
 public decimal RemainingCost { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

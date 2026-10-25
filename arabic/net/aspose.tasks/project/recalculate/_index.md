@@ -1,43 +1,83 @@
 ---
-title: Project.Recalculate
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project طريقة. إعادة جدولة جميع معرفات مهام المشروع  ومستويات المخطط التفصيلي  وتواريخ البدء / الانتهاء  وتعيين التواريخ المبكرة / المتأخرة  وحساب فترات الركود  وحقول العمل والتكلفة.
+title: "Project.Recalculate"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Project. يعيد جدولة جميع مهام المشروع ids مستويات المخطط تواريخ البدء/الانتهاء يحدد تواريخ مبكرة/متأخرة يحسب الفجوات العمل وحقول التكلفة"
 type: docs
-weight: 1120
+weight: 1150
 url: /ar/net/aspose.tasks/project/recalculate/
 ---
 ## Recalculate() {#recalculate}
 
-إعادة جدولة جميع معرفات مهام المشروع ، ومستويات المخطط التفصيلي ، وتواريخ البدء / الانتهاء ، وتعيين التواريخ المبكرة / المتأخرة ، وحساب فترات الركود ، وحقول العمل والتكلفة.
+يعيد جدولة جميع معرفات مهام المشروع، مستويات المخطط، تواريخ البدء/الانتهاء، يحدد تواريخ مبكرة/متأخرة، يحسب الفجوات، حقول العمل والتكلفة.
 
 ```csharp
 public void Recalculate()
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية إعادة جدولة المشروع من تاريخ البدء بدلاً من تاريخ الانتهاء.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+project.Set(Prj.ScheduleFromStart, true);
+project.Set(Prj.StartDate, new DateTime(2014, 1, 1));
+
+// الآن يتم حساب جميع تواريخ المهام (Start, Finish, EarlyStart, EarlyFinish, LateStart, LateFinish). للحصول على المسار الحرج نحتاج إلى حساب الفواصل (يمكن استدعاؤها في خيط منفصل، ولكن فقط بعد حساب جميع تواريخ البدء/الانتهاء المبكرة والمتأخرة).
+project.Recalculate();
+
+foreach (var task in project.CriticalPath)
+{
+    Console.WriteLine(task.Get(Tsk.Id));
+    Console.WriteLine(task.Get(Tsk.Name));
+}
+```
+
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Recalculate(bool) {#recalculate_1}
 
-إعادة جدولة جميع معرفات مهام المشروع ، ومستويات المخطط التفصيلي ، وتواريخ البدء / الانتهاء ، وتعيين التواريخ المبكرة / المتأخرة ، وحساب فترات السماح وحقول العمل والتكلفة باستخدام التحقق الاختياري.
+يعيد جدولة جميع معرفات مهام المشروع، مستويات المخطط، تواريخ البدء/الانتهاء، يحدد تواريخ مبكرة/متأخرة، يحسب الفجوات، حقول العمل والتكلفة مع التحقق الاختياري.
 
 ```csharp
 public void Recalculate(bool validate)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| validate | Boolean | إذا كان هذا صحيحًا ، فسيتم إجراء التحقق من إعادة الحساب. ما هي البيانات التي تم التحقق من صحتها: في الوقت الحالي ، يتم تنفيذ التحقق الأساسي فقط من نطاقات تواريخ ارتباط المهمة والمهمة. نطاقات تاريخ المهمة (مثل ActualStart - ActualFinish ، EarlyStart - EarlyFinish ، إلخ. ) وكذلك سيتم التحقق من تواريخ ارتباطات المهام مقابل معايير التاريخ التي يكون فيها تاريخ البدء أقل أو يساوي تاريخ الانتهاء. في حالة فشل أي من الشروط الموضحة أعلاه ،[`RecalculationValidationException`](../../recalculationvalidationexception/)سيتم طرحه. |
+| validate | Boolean | إذا كان صحيحًا سيتم إجراء التحقق من إعادة الحساب. ما البيانات التي يتم التحقق منها: في الوقت الحالي يتم تنفيذ التحقق الأساسي من نطاقات تواريخ المهمة وروابط المهمة فقط. سيتم فحص نطاقات تواريخ المهمة (مثل ActualStart - ActualFinish، EarlyStart - EarlyFinish، إلخ) وكذلك تواريخ روابط المهمة مقابل معيار التاريخ الذي يكون فيه تاريخ البدء أقل أو يساوي تاريخ الانتهاء. إذا فشل أي من الشروط المذكورة أعلاه سيتم رمي الاستثناء [`RecalculationValidationException`](../../recalculationvalidationexception/). |
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية إعادة حساب المشروع مع التحقق اللاحق.
+
+```csharp
+var project = new Project();
+var task = project.RootTask.Children.Add("t1");
+task.Set(Tsk.CommitmentStart, new DateTime(2017, 6, 19, 8, 0, 0));
+task.Set(Tsk.CommitmentFinish, new DateTime(2017, 6, 18, 17, 0, 0));
+
+try
+{
+    // إعادة حساب المشروع مع التحقق اللاحق
+    project.Recalculate(true);
+}
+catch (TaskValidationException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

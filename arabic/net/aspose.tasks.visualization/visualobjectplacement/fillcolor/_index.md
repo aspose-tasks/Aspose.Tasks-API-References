@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.FillColor
-second_title: Aspose.Tasks لمرجع .NET API
-description: VisualObjectPlacement ملكية. الحصول على لون التعبئة أو تعيينه.
+title: "VisualObjectPlacement.FillColor"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية VisualObjectPlacement. يسترجع أو يعيّن لون التعبئة"
 type: docs
 weight: 50
 url: /ar/net/aspose.tasks.visualization/visualobjectplacement/fillcolor/
 ---
 ## VisualObjectPlacement.FillColor property
 
-الحصول على لون التعبئة أو تعيينه.
+يحصل أو يضبط لون التعبئة.
 
 ```csharp
 public Color FillColor { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [VisualObjectPlacement](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

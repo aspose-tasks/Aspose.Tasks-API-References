@@ -1,23 +1,23 @@
 ---
-title: Resource.Start
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على قيمة البداية أو تعيينها .
+title: "Resource.Start"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. يحصل أو يعيّن قيمة لـ Start"
 type: docs
-weight: 730
+weight: 720
 url: /ar/net/aspose.tasks/resource/start/
 ---
 ## Resource.Start property
 
-الحصول على قيمة البداية أو تعيينها .
+يحصل أو يعيّن قيمة لـ Start.
 
 ```csharp
 public DateTime Start { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

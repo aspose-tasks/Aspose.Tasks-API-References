@@ -1,23 +1,23 @@
 ---
-title: Task.Uid
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على قيمة Uid أو تعيينها .
+title: "Task.Uid"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصل أو تعين قيمة Uid"
 type: docs
 weight: 1250
 url: /ar/net/aspose.tasks/task/uid/
 ---
 ## Task.Uid property
 
-الحصول على قيمة Uid أو تعيينها .
+يحصل أو يعيّن قيمة لـ Uid.
 
 ```csharp
 public int Uid { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

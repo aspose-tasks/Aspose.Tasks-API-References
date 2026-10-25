@@ -1,23 +1,23 @@
 ---
-title: Task.DurationText
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة DurationText .
+title: "Task.DurationText"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط قيمة DurationText"
 type: docs
 weight: 350
 url: /ar/net/aspose.tasks/task/durationtext/
 ---
 ## Task.DurationText property
 
-الحصول على أو تعيين قيمة DurationText .
+يحصل أو يعيّن قيمة لـ DurationText.
 
 ```csharp
 public string DurationText { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

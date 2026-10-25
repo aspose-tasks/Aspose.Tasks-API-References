@@ -1,9 +1,9 @@
 ---
-title: Class ReadOnlyCollectionBaseT
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.ReadOnlyCollectionBase1T فصل. يمثل مجموعة من الكائنات للقراءة فقط.
+title: "الفئة ReadOnlyCollectionBaseT"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "فئة Aspose.Tasks.ReadOnlyCollectionBase1T. تمثل مجموعة قراءة فقط من الكائنات"
 type: docs
-weight: 1420
+weight: 1670
 url: /ar/net/aspose.tasks/readonlycollectionbase-1/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt; class
@@ -14,28 +14,28 @@ url: /ar/net/aspose.tasks/readonlycollectionbase-1/
 public abstract class ReadOnlyCollectionBase<T> : IList<T>
 ```
 
-| معامل | وصف |
+| معامل | الوصف |
 | --- | --- |
 | T | نوع عناصر المجموعة. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.tasks/readonlycollectionbase-1/count/) { get; } | الحصول على عدد العناصر الموجودة في الكائن. |
-| [Item](../../aspose.tasks/readonlycollectionbase-1/item/) { get; set; } | إرجاع العنصر بالفهرس المحدد. |
+| [Count](../../aspose.tasks/readonlycollectionbase-1/count/) { get; } | يحصل على عدد الكائنات المحتواة في الكائن. |
+| [Item](../../aspose.tasks/readonlycollectionbase-1/item/) { get; set; } | يرجع العنصر عند الفهرس المحدد. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.tasks/readonlycollectionbase-1/add/)(T) | هذا هو تنفيذ كعب الروتين لطريقة Add الخاصة بـ ICollection ، والتي ترمي فقط NotSupportedException |
-| [GetEnumerator](../../aspose.tasks/readonlycollectionbase-1/getenumerator/)() | إرجاع عداد لهذه المجموعة. |
-| [ToList](../../aspose.tasks/readonlycollectionbase-1/tolist/)() | تحويل كائن المجموعة إلى قائمة[`VbaModule`](../vbamodule/) الكائنات . |
+| [Add](../../aspose.tasks/readonlycollectionbase-1/add/)(T) | هذا هو تنفيذ النموذج الأولي لطريقة Add في ICollection، والذي يرمي فقط NotSupportedException |
+| [GetEnumerator](../../aspose.tasks/readonlycollectionbase-1/getenumerator/)() | يرجع عدادًا لهذه المجموعة. |
+| [ToList](../../aspose.tasks/readonlycollectionbase-1/tolist/)() | يحوّل المجموعة إلى قائمة من الكائنات. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

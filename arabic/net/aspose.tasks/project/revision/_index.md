@@ -1,23 +1,23 @@
 ---
-title: Project.Revision
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على قيمة المراجعة أو تعيينها .
+title: "Project.Revision"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعيين قيمة من Revision"
 type: docs
-weight: 760
+weight: 790
 url: /ar/net/aspose.tasks/project/revision/
 ---
 ## Project.Revision property
 
-الحصول على قيمة المراجعة أو تعيينها .
+يحصل أو يضبط قيمة Revision.
 
 ```csharp
 public int Revision { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

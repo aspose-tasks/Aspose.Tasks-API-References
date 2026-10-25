@@ -1,23 +1,23 @@
 ---
-title: Resource.ActualOvertimeCost
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة ActualOvertimeCost .
+title: "Resource.ActualOvertimeCost"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل أو تعين قيمة ActualOvertimeCost"
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks/resource/actualovertimecost/
 ---
 ## Resource.ActualOvertimeCost property
 
-الحصول على أو تعيين قيمة ActualOvertimeCost .
+يحصل أو يعيّن قيمة ActualOvertimeCost.
 
 ```csharp
 public decimal ActualOvertimeCost { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

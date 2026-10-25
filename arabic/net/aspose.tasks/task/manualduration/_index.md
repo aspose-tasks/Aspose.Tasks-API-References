@@ -1,24 +1,24 @@
 ---
-title: Task.ManualDuration
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة ManualDuration .
+title: "Task.ManualDuration"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصل أو تعين قيمة لـ ManualDuration"
 type: docs
-weight: 830
+weight: 820
 url: /ar/net/aspose.tasks/task/manualduration/
 ---
 ## Task.ManualDuration property
 
-الحصول على أو تعيين قيمة ManualDuration .
+يحصل أو يعيّن قيمة لـ ManualDuration.
 
 ```csharp
 public Duration ManualDuration { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: ResourceAssignment.CostRateTableType
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment ملكية. الحصول على أو تعيين قيمة CostRateTableType .
+title: "ResourceAssignment.CostRateTableType"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ResourceAssignment. يحصل أو يعيّن قيمة CostRateTableType"
 type: docs
 weight: 200
 url: /ar/net/aspose.tasks/resourceassignment/costratetabletype/
 ---
 ## ResourceAssignment.CostRateTableType property
 
-الحصول على أو تعيين قيمة CostRateTableType .
+يحصل أو يعيّن قيمة CostRateTableType.
 
 ```csharp
 public RateType CostRateTableType { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [RateType](../../ratetype/)
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

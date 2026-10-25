@@ -1,9 +1,9 @@
 ---
-title: Class MonthlyRepetitionBase
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.MonthlyRepetitionBase فصل. يمثل نمطًا أساسيًا لموضع اليوم الشهري.
+title: "الفئة MonthlyRepetitionBase"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.MonthlyRepetitionBase. تمثل نمطًا أساسيًا لموقع اليوم الشهري"
 type: docs
-weight: 960
+weight: 1090
 url: /ar/net/aspose.tasks/monthlyrepetitionbase/
 ---
 ## MonthlyRepetitionBase class
@@ -16,13 +16,38 @@ public abstract class MonthlyRepetitionBase
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [RepetitionInterval](../../aspose.tasks/monthlyrepetitionbase/repetitioninterval/) { get; set; } | الحصول على أو تحديد رقم الشهر الذي يمثل الفترة الزمنية بالأشهر بين التكرارات . |
+| [RepetitionInterval](../../aspose.tasks/monthlyrepetitionbase/repetitioninterval/) { get; set; } | يحصل أو يضبط عدد الأشهر الذي يمثل الفاصل الزمني بين التكرارات. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية العمل مع تكرارات نمط التكرار الشهري أثناء إنشاء مهام متكررة.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "t1",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new MonthlyRecurrencePattern
+                                                 {
+                                                     Repetition = new ByMonthDayRepetition { DayPosition = 1, RepetitionInterval = 2 },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 9, 30, 17, 0, 0)
+                                                                           }
+                                                 }
+                     };
+project.RootTask.Children.Add(parameters);
+
+project.Save(OutDir + "CanAddRecurringTask_Months_EndByRecurrenceRange_Test_out.mpp", SaveFileFormat.Mpp);
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

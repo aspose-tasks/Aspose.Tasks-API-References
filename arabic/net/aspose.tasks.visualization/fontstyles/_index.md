@@ -1,33 +1,33 @@
 ---
-title: Enum FontStyles
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Visualization.FontStyles تعداد. تحديد معلومات النمط المطبقة على النص .
+title: "تعداد FontStyles"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "Aspose.Tasks.Visualization.FontStyles enum. يحدد معلومات النمط المطبقة على النص"
 type: docs
-weight: 2690
+weight: 3020
 url: /ar/net/aspose.tasks.visualization/fontstyles/
 ---
 ## FontStyles enumeration
 
-تحديد معلومات النمط المطبقة على النص .
+يحدد معلومات النمط المطبقة على النص.
 
 ```csharp
 [Flags]
 public enum FontStyles
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Regular | `0` | نص عادي . |
-| Bold | `1` | نص عريض. |
-| Italic | `2` | نص مائل . |
-| Underline | `4` | نص مسطر . |
-| Strikeout | `8` | نص يتوسطه خط . |
+| Regular | `0` | نص عادي. |
+| Bold | `1` | نص غامق. |
+| Italic | `2` | نص مائل. |
+| Underline | `4` | نص مسطر. |
+| Strikeout | `8` | نص بخط عبر الوسط. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

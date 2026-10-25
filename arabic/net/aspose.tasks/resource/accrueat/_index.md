@@ -1,24 +1,24 @@
 ---
-title: Resource.AccrueAt
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة AccrueAt .
+title: "Resource.AccrueAt"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. يحصل أو يضبط قيمة AccrueAt"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/resource/accrueat/
 ---
 ## Resource.AccrueAt property
 
-الحصول على أو تعيين قيمة AccrueAt .
+يحصل أو يعيّن قيمة AccrueAt.
 
 ```csharp
 public CostAccrualType AccrueAt { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [CostAccrualType](../../costaccrualtype/)
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

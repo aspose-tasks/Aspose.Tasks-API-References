@@ -1,25 +1,39 @@
 ---
-title: Rsc.Guid
-second_title: Aspose.Tasks لمرجع .NET API
-description: Rsc مجال. يحتوي على رمز التعريف الفريد الذي تم إنشاؤه للمورد.
+title: "Rsc.Guid"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Rsc. يحتوي على رمز التعريف الفريد المُولد للمورد"
 type: docs
 weight: 310
 url: /ar/net/aspose.tasks/rsc/guid/
 ---
 ## Rsc.Guid field
 
-يحتوي على رمز التعريف الفريد الذي تم إنشاؤه للمورد.
+يحتوي على رمز التعريف الفريد المُولد للمورد.
 
 ```csharp
 public static readonly Key<string, RscKey> Guid;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة/كتابة خاصية Rsc.Guid.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Guid, "1385689c-2dd1-4114-935b-054beb6fbbbe");
+
+Console.WriteLine("Guid: " + resource.Get(Rsc.Guid));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* مساحة الاسم [Aspose.Tasks](../../rsc/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

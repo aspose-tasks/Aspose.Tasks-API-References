@@ -1,26 +1,38 @@
 ---
-title: Prj.DurationFormat
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. تنسيق للتعبير عن المدة المجمّعة .
+title: "Prj.DurationFormat"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. الصيغة لتعبير عن المدة الإجمالية"
 type: docs
-weight: 290
+weight: 300
 url: /ar/net/aspose.tasks/prj/durationformat/
 ---
 ## Prj.DurationFormat field
 
-تنسيق للتعبير عن المدة المجمّعة .
+الصيغة لتعبير عن المدة الإجمالية.
 
 ```csharp
 public static readonly Key<TimeUnitType, PrjKey> DurationFormat;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يُظهر كيفية قراءة/كتابة خاصية Prj.DurationFormat.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.DurationFormat, TimeUnitType.Day);
+
+Console.WriteLine("Duration Format: " + project.Get(Prj.DurationFormat));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TimeUnitType](../../timeunittype/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

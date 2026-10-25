@@ -1,24 +1,41 @@
 ---
-title: ChildTasksCollector.Tasks
-second_title: Aspose.Tasks لمرجع .NET API
-description: ChildTasksCollector ملكية. الحصول على قائمة كائنات فرعية مجمعة مهام .
+title: "ChildTasksCollector.Tasks"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ChildTasksCollector. تحصل على قائمة بمهام الكائنات الفرعية المجمعة"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks.util/childtaskscollector/tasks/
 ---
 ## ChildTasksCollector.Tasks property
 
-الحصول على قائمة كائنات فرعية مجمعة (مهام) .
+يحصل على قائمة بالكائنات الفرعية المجمعة (المهام).
 
 ```csharp
 public List<Task> Tasks { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية التكرار على جميع المهام في مشروع كقائمة عادية.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// تحليل جميع المهام المجمعة
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.Name));
+}
+```
+
+### انظر أيضًا
 
 * class [Task](../../../aspose.tasks/task/)
 * class [ChildTasksCollector](../)
-* مساحة الاسم [Aspose.Tasks.Util](../../childtaskscollector/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../childtaskscollector/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,35 @@
 ---
-title: BuildVersionInfo.AssemblyInformationalVersion
-second_title: Aspose.Tasks لمرجع .NET API
-description: BuildVersionInfo مجال. رقم الإصدار المعلوماتي الخاص بالتجميع.
+title: "BuildVersionInfo.AssemblyInformationalVersion"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل BuildVersionInfo. رقم النسخة الإعلامية للتجميع"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/buildversioninfo/assemblyinformationalversion/
 ---
 ## BuildVersionInfo.AssemblyInformationalVersion field
 
-رقم الإصدار المعلوماتي الخاص بالتجميع.
+رقم النسخة الإعلامية للتجميع.
 
 ```csharp
 public static readonly string AssemblyInformationalVersion;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة معلومات نسخة البناء لـ Aspose.Tasks.
+
+```csharp
+// قراءة المعلومات العامة حول نسخة Aspose.Tasks الحالية
+Console.WriteLine("Product: " + BuildVersionInfo.Product);
+Console.WriteLine("File Version: " + BuildVersionInfo.FileVersion);
+Console.WriteLine("Assembly Version: " + BuildVersionInfo.AssemblyVersion);
+Console.WriteLine("Assembly Informational Version: " + BuildVersionInfo.AssemblyInformationalVersion);
+```
+
+### انظر أيضًا
 
 * class [BuildVersionInfo](../)
-* مساحة الاسم [Aspose.Tasks](../../buildversioninfo/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../buildversioninfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

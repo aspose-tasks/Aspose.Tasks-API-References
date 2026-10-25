@@ -1,28 +1,44 @@
 ---
-title: ImageSaveOptions.TiffCompression
-second_title: Aspose.Tasks لمرجع .NET API
-description: ImageSaveOptions ملكية. الحصول على أو تحديد نوع الضغط المراد تطبيقه عند حفظ الصور المُنشأة بتنسيق TIFF.
+title: "ImageSaveOptions.TiffCompression"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ImageSaveOptions. تحصل أو تعين نوع الضغط الذي يُطبق عند حفظ الصور المُولدة بصيغة TIFF"
 type: docs
-weight: 100
+weight: 90
 url: /ar/net/aspose.tasks.saving/imagesaveoptions/tiffcompression/
 ---
 ## ImageSaveOptions.TiffCompression property
 
-الحصول على أو تحديد نوع الضغط المراد تطبيقه عند حفظ الصور المُنشأة بتنسيق TIFF.
+يحصل أو يعيّن نوع الضغط الذي سيُطبق عند حفظ الصور المُولَّدة بتنسيق TIFF.
 
 ```csharp
 public TiffCompression TiffCompression { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-يكون له تأثير فقط عند الحفظ إلى TIFF. القيمة الافتراضية هي`LZW` .
+يؤثر فقط عند الحفظ بصيغة TIFF. القيمة الافتراضية هي `LZW`.
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية تعيين ضغط TIFF لملفات TIFF الناتجة.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// من أجل تعديل ضغط TIFF يمكننا استخدام خاصية ImageSaveOptions.TiffCompression.
+var options = new ImageSaveOptions(SaveFileFormat.Tiff)
+{
+    TiffCompression = TiffCompression.Lzw
+};
+
+project.Save(OutDir + "SaveProjectAsTiff_out.tif", options);
+```
+
+### انظر أيضًا
 
 * enum [TiffCompression](../../tiffcompression/)
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../imagesaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../imagesaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: PrimaveraReadOptions.PrimaveraReadOptions
-second_title: Aspose.Tasks لمرجع .NET API
-description: PrimaveraReadOptions البناء. يقوم بتهيئة مثيل جديد لملفPrimaveraReadOptions فئة .
+title: "PrimaveraReadOptions.PrimaveraReadOptions"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ PrimaveraReadOptions. يهيئ نسخة جديدة من فئة PrimaveraReadOptions"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/primaverareadoptions/primaverareadoptions/
 ---
 ## PrimaveraReadOptions constructor
 
-يقوم بتهيئة مثيل جديد لملف[`PrimaveraReadOptions`](../) فئة .
+يُنشئ مثيلاً جديدًا من الفئة [`PrimaveraReadOptions`](../).
 
 ```csharp
 public PrimaveraReadOptions()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PrimaveraReadOptions](../)
-* مساحة الاسم [Aspose.Tasks](../../primaverareadoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverareadoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

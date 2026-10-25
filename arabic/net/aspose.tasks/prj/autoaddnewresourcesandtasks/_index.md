@@ -1,26 +1,38 @@
 ---
-title: Prj.AutoAddNewResourcesAndTasks
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. تحديد ما إذا كانت الموارد أو المهام الجديدة تُضاف تلقائيًا إلى مورد أو مجموعة مهام.
+title: "Prj.AutoAddNewResourcesAndTasks"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. يحدد ما إذا كان يتم إضافة الموارد أو المهام الجديدة تلقائيًا إلى مجموعة الموارد أو المهام"
 type: docs
 weight: 50
 url: /ar/net/aspose.tasks/prj/autoaddnewresourcesandtasks/
 ---
 ## Prj.AutoAddNewResourcesAndTasks field
 
-تحديد ما إذا كانت الموارد أو المهام الجديدة تُضاف تلقائيًا إلى مورد أو مجموعة مهام.
+يحدد ما إذا تم إضافة الموارد أو المهام الجديدة تلقائيًا إلى مجموعة الموارد أو المهام.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> AutoAddNewResourcesAndTasks;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة الخاصية Prj.AutoAddNewResourcesAndTasks.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.AutoAddNewResourcesAndTasks, true);
+
+Console.WriteLine("Auto Add New Resources And Tasks: " + project.Get(Prj.AutoAddNewResourcesAndTasks));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Resource.Group
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على قيمة المجموعة أو تعيينها .
+title: "Resource.Group"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل أو تعين قيمة Group"
 type: docs
 weight: 340
 url: /ar/net/aspose.tasks/resource/group/
 ---
 ## Resource.Group property
 
-الحصول على قيمة المجموعة أو تعيينها .
+يحصل أو يعيّن قيمة Group.
 
 ```csharp
 public string Group { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

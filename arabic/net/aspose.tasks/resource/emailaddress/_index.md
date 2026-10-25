@@ -1,23 +1,23 @@
 ---
-title: Resource.EMailAddress
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على قيمة عنوان البريد الإلكتروني أو تعيينها.
+title: "Resource.EMailAddress"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل أو تعين قيمة EMailAddress"
 type: docs
 weight: 310
 url: /ar/net/aspose.tasks/resource/emailaddress/
 ---
 ## Resource.EMailAddress property
 
-الحصول على قيمة عنوان البريد الإلكتروني أو تعيينها.
+يحصل أو يعيّن قيمة EMailAddress.
 
 ```csharp
 public string EMailAddress { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,32 +1,32 @@
 ---
-title: AssignmentBaselineCollection.Item
-second_title: Aspose.Tasks لمرجع .NET API
-description: AssignmentBaselineCollection ملكية. إرجاع العنصر بالفهرس المحدد.
+title: "AssignmentBaselineCollection.Item"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية AssignmentBaselineCollection. تُرجع العنصر في الفهرس المحدد"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks/assignmentbaselinecollection/item/
 ---
 ## AssignmentBaselineCollection indexer
 
-إرجاع العنصر بالفهرس المحدد.
+يرجع العنصر عند الفهرس المحدد.
 
 ```csharp
 public AssignmentBaseline this[int index] { get; set; }
 ```
 
-| معامل | وصف |
+| معامل | الوصف |
 | --- | --- |
-| index | الفهرس الصفري للعنصر المراد الحصول عليه. |
+| الفهرس | الفهرس الصفري للعنصر المراد الحصول عليه. |
 
 ### قيمة الإرجاع
 
 العنصر في الفهرس المحدد.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [AssignmentBaseline](../../assignmentbaseline/)
 * class [AssignmentBaselineCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../assignmentbaselinecollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../assignmentbaselinecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

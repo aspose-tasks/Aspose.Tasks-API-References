@@ -1,26 +1,38 @@
 ---
-title: Prj.MoveCompletedEndsForward
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. تحديد ما إذا كانت نهاية الأجزاء المكتملة من المهام المجدولة قد اكتملت قبل تاريخ الحالة ولكنها بدأت لاحقًا يجب نقلها إلى تاريخ الحالة.
+title: "Prj.MoveCompletedEndsForward"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. يحدد ما إذا كان يجب نقل نهاية الأجزاء المكتملة من المهام المجدولة لتكون مكتملة قبل تاريخ الحالة ولكن بدأت لاحقًا إلى تاريخ الحالة"
 type: docs
-weight: 490
+weight: 500
 url: /ar/net/aspose.tasks/prj/movecompletedendsforward/
 ---
 ## Prj.MoveCompletedEndsForward field
 
-تحديد ما إذا كانت نهاية الأجزاء المكتملة من المهام المجدولة قد اكتملت قبل تاريخ الحالة ولكنها بدأت لاحقًا يجب نقلها إلى تاريخ الحالة.
+يحدد ما إذا كان يجب رفع نهاية الأجزاء المكتملة من المهام المجدولة لتكون قد اكتملت قبل تاريخ الحالة ولكن بدأت لاحقًا إلى تاريخ الحالة.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> MoveCompletedEndsForward;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة خاصية Prj.MoveCompletedEndsForward.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.MoveCompletedEndsForward, true);
+
+Console.WriteLine("Move Completed Ends Forward: " + project.Get(Prj.MoveCompletedEndsForward));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

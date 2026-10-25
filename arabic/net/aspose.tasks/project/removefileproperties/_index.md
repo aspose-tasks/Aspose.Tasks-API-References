@@ -1,24 +1,24 @@
 ---
-title: Project.RemoveFileProperties
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان RemoveFileProperties معينًا أم لا.
+title: "Project.RemoveFileProperties"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة تشير إلى ما إذا كان RemoveFileProperties مضبوطًا أم لا"
 type: docs
-weight: 710
+weight: 740
 url: /ar/net/aspose.tasks/project/removefileproperties/
 ---
 ## Project.RemoveFileProperties property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان RemoveFileProperties معينًا أم لا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان RemoveFileProperties مضبوطًا أم لا.
 
 ```csharp
 public NullableBool RemoveFileProperties { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class WebRequestEventArgs
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.WebRequestEventArgs فصل. يوفر وسيطات للحدث الذي يظهر عندما يرسل العميل طلب ويب إلى واجهة برمجة تطبيقات الويب الخاصة بخادم Project .
+title: "Class WebRequestEventArgs"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "Aspose.Tasks.WebRequestEventArgs class. يوفر وسائط للحدث الذي يُثار عندما يرسل العميل طلب ويب إلى واجهة برمجة تطبيقات خادم المشروع"
 type: docs
-weight: 3170
+weight: 3530
 url: /ar/net/aspose.tasks/webrequesteventargs/
 ---
 ## WebRequestEventArgs class
 
-يوفر وسيطات للحدث الذي يظهر عندما يرسل العميل طلب ويب إلى واجهة برمجة تطبيقات الويب الخاصة بخادم Project .
+يوفر الوسائط للحدث الذي يُثار عندما يرسل العميل طلب ويب إلى واجهة برمجة تطبيقات الويب الخاصة بـ Project Server.
 
 ```csharp
 public sealed class WebRequestEventArgs : EventArgs
@@ -16,13 +16,13 @@ public sealed class WebRequestEventArgs : EventArgs
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [WebRequest](../../aspose.tasks/webrequesteventargs/webrequest/) { get; } | الحصول على طلب ويب لإرساله إلى واجهة برمجة تطبيقات الويب لخادم المشروع. |
+| [WebRequest](../../aspose.tasks/webrequesteventargs/webrequest/) { get; } | يحصل على طلب ويب لإرساله إلى واجهة برمجة تطبيقات خادم المشروع. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,36 +1,64 @@
 ---
-title: Class EndAfterRecurrenceRange
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.EndAfterRecurrenceRange فصل. يمثل نطاق التكرار للمهمة المتكررة والذي يقتصر على عدد التكرار.
+title: "الفئة EndAfterRecurrenceRange"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.EndAfterRecurrenceRange. تمثل نطاق التكرار للمهمة المتكررة الذي يحده عدد مرات التكرار"
 type: docs
 weight: 500
 url: /ar/net/aspose.tasks/endafterrecurrencerange/
 ---
 ## EndAfterRecurrenceRange class
 
-يمثل نطاق التكرار للمهمة المتكررة والذي يقتصر على عدد التكرار.
+يمثل نطاق التكرار للمهمة المتكررة الذي يحده عدد مرات التكرار.
 
 ```csharp
 public class EndAfterRecurrenceRange : RecurrenceRangeBase
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [EndAfterRecurrenceRange](endafterrecurrencerange/)() | يقوم بتهيئة مثيل جديد لملف`EndAfterRecurrenceRange` فئة . |
+| [EndAfterRecurrenceRange](endafterrecurrencerange/)() | يُهيئ نسخة جديدة من الفئة `EndAfterRecurrenceRange`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [OccurrenceNumber](../../aspose.tasks/endafterrecurrencerange/occurrencenumber/) { get; set; } | الحصول على أو تعيين عدد التكرارات التي تحدد نطاق التكرار للمهمة المتكررة. |
-| [Start](../../aspose.tasks/recurrencerangebase/start/) { get; set; } | الحصول على أو تحديد تاريخ بدء نطاق التكرار للمهمة المتكررة. |
+| [OccurrenceNumber](../../aspose.tasks/endafterrecurrencerange/occurrencenumber/) { get; set; } | يحصل أو يعيّن عدد مرات التكرار التي تحدّ نطاق التكرار للمهمة المتكررة. |
+| [Start](../../aspose.tasks/recurrencerangebase/start/) { get; set; } | يحصل أو يعيّن تاريخ بدء نطاق التكرار للمهمة المتكررة. |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية العمل مع تكرارات نمط تكرار العمل اليومي أثناء إنشاء مهام متكررة.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "New recurrent task",
+                         RecurrencePattern = new DailyRecurrencePattern
+                                                 {
+                                                     RecurrenceRange = new EndAfterRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 1, 1, 8, 0, 0), OccurrenceNumber = 9
+                                                                           },
+                                                     Repetition = new DailyWorkRepetition { RepetitionInterval = 1 }
+                                                 },
+                         Duration = project.GetDuration(1, TimeUnitType.Hour)
+                     };
+parameters.SetCalendar(project, "Standard");
+
+var task = project.RootTask.Children.Add(parameters);
+task.Set(Tsk.Start, new DateTime(2020, 4, 27, 8, 0, 0));
+
+// العمل مع المشروع أكثر...
+// ...
+```
+
+### انظر أيضًا
 
 * class [RecurrenceRangeBase](../recurrencerangebase/)
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

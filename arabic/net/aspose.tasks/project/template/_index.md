@@ -1,23 +1,23 @@
 ---
-title: Project.Template
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على قيمة النموذج أو تعيينها .
+title: "Project.Template"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة Template"
 type: docs
-weight: 920
+weight: 950
 url: /ar/net/aspose.tasks/project/template/
 ---
 ## Project.Template property
 
-الحصول على قيمة النموذج أو تعيينها .
+يحصل أو يضبط قيمة Template.
 
 ```csharp
 public string Template { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

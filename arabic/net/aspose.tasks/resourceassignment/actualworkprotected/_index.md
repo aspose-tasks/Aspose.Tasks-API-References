@@ -1,24 +1,24 @@
 ---
-title: ResourceAssignment.ActualWorkProtected
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment ملكية. الحصول على أو تعيين قيمة ActualWorkProtected.
+title: "ResourceAssignment.ActualWorkProtected"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ResourceAssignment. تحصل أو تعين قيمة ActualWorkProtected"
 type: docs
 weight: 80
 url: /ar/net/aspose.tasks/resourceassignment/actualworkprotected/
 ---
 ## ResourceAssignment.ActualWorkProtected property
 
-الحصول على أو تعيين قيمة ActualWorkProtected.
+يحصل أو يعيّن قيمة ActualWorkProtected.
 
 ```csharp
 public Duration ActualWorkProtected { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

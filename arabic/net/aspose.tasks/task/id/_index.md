@@ -1,23 +1,23 @@
 ---
-title: Task.Id
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على قيمة المعرف أو تعيينها .
+title: "Task.Id"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصل أو تعين قيمة لـ Id"
 type: docs
 weight: 560
 url: /ar/net/aspose.tasks/task/id/
 ---
 ## Task.Id property
 
-الحصول على قيمة المعرف أو تعيينها .
+يحصل أو يعيّن قيمة Id.
 
 ```csharp
 public int Id { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

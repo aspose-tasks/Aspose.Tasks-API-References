@@ -1,24 +1,24 @@
 ---
-title: Project.CurrencySymbolPosition
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تحديد قيمة CurrencySymbolPosition.
+title: "Project.CurrencySymbolPosition"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة CurrencySymbolPosition"
 type: docs
-weight: 220
+weight: 230
 url: /ar/net/aspose.tasks/project/currencysymbolposition/
 ---
 ## Project.CurrencySymbolPosition property
 
-الحصول على أو تحديد قيمة CurrencySymbolPosition.
+يحصل أو يعيّن قيمة لـ CurrencySymbolPosition.
 
 ```csharp
 public CurrencySymbolPositionType CurrencySymbolPosition { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [CurrencySymbolPositionType](../../currencysymbolpositiontype/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

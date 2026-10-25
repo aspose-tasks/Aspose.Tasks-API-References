@@ -1,43 +1,59 @@
 ---
-title: Class VbaReference
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.VbaReference فصل. يمثل مرجعًا لملفVbaProject .
+title: "الفئة VbaReference"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.VbaReference. تمثل مرجعًا لمشروع VbaProject"
 type: docs
-weight: 2540
+weight: 2870
 url: /ar/net/aspose.tasks/vbareference/
 ---
 ## VbaReference class
 
-يمثل مرجعًا لملف[`VbaProject`](../vbaproject/) .
+يمثل مرجعًا لـ [`VbaProject`](../vbaproject/).
 
 ```csharp
 public sealed class VbaReference : IEquatable<VbaReference>
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [VbaReference](vbareference/)() | Default_Constructor |
+| [VbaReference](vbareference/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
 | [LibIdentifier](../../aspose.tasks/vbareference/libidentifier/) { get; } | يحصل على معرف المكتبة. |
-| [Name](../../aspose.tasks/vbareference/name/) { get; set; } | الحصول على أو تعيين اسم مرجع VBA . |
+| [Name](../../aspose.tasks/vbareference/name/) { get; set; } | يحصل أو يعيّن اسم مرجع VBA. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [Equals](../../aspose.tasks/vbareference/equals/#equals_1)(object) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي المحدد`VbaReference` الكائن . |
-| [Equals](../../aspose.tasks/vbareference/equals/#equals)(VbaReference) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي المحدد`VbaReference` الكائن . |
-| override [GetHashCode](../../aspose.tasks/vbareference/gethashcode/)() | إرجاع قيمة رمز تجزئة لهذا`VbaReference` . |
+| override [Equals](../../aspose.tasks/vbareference/equals/#equals_1)(object) | يرجع قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن `VbaReference` المحدد. |
+| [Equals](../../aspose.tasks/vbareference/equals/#equals)(VbaReference) | يرجع قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن `VbaReference` المحدد. |
+| override [GetHashCode](../../aspose.tasks/vbareference/gethashcode/)() | يرجع قيمة رمز تجزئة لهذا `VbaReference`. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية قراءة مراجع VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Reference count " + project.VbaProject.References.Count);
+
+foreach (var reference in project.VbaProject.References)
+{
+    Console.WriteLine("Identifier: " + reference.LibIdentifier);
+    Console.WriteLine("Name: " + reference.Name);
+}
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

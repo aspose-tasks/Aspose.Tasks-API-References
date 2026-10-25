@@ -1,29 +1,29 @@
 ---
-title: WorkingTimeCollection.CopyTo
-second_title: Aspose.Tasks لمرجع .NET API
-description: WorkingTimeCollection طريقة. ينسخ محتوى مجموعة إلى مصفوفة  بدءًا من index
+title: "WorkingTimeCollection.CopyTo"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة WorkingTimeCollection. تنسخ محتوى المجموعة إلى مصفوفة بدءًا من فهرس معين"
 type: docs
 weight: 60
 url: /ar/net/aspose.tasks/workingtimecollection/copyto/
 ---
 ## WorkingTimeCollection.CopyTo method
 
-ينسخ محتوى مجموعة إلى مصفوفة ، بدءًا من index
+ينسخ محتوى مجموعة إلى Array، بدءًا من فهرس معين.
 
 ```csharp
 public void CopyTo(WorkingTime[] array, int arrayIndex)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| array | WorkingTime[] | مصفوفة للنسخ إليها. |
-| arrayIndex | Int32 | مؤشر مجموعة البداية |
+| المصفوفة | WorkingTime[] | مصفوفة للنسخ إليها. |
+| arrayIndex | Int32 | فهرس المصفوفة الابتدائي |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [WorkingTime](../../workingtime/)
 * class [WorkingTimeCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../workingtimecollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workingtimecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

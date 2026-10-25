@@ -1,25 +1,25 @@
 ---
-title: Tsk.SV
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. تباين جدول القيمة المكتسبة  من خلال تاريخ حالة المشروع. تباين الجدول SV هو الفرق بين BCWP و BCWS.
+title: "Tsk.SV"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. فرق جدول القيمة المكتسبة حتى تاريخ حالة المشروع. فرق الجدول الزمني SV هو الفرق بين BCWP و BCWS"
 type: docs
-weight: 1100
+weight: 1080
 url: /ar/net/aspose.tasks/tsk/sv/
 ---
 ## Tsk.SV field
 
-تباين جدول القيمة المكتسبة ، من خلال تاريخ حالة المشروع. تباين الجدول (SV) هو الفرق بين BCWP و BCWS.
+انحراف جدول القيمة المكتسبة حتى تاريخ حالة المشروع. انحراف الجدول (SV) هو الفرق بين BCWP و BCWS.
 
 ```csharp
 public static readonly Key<double, TaskKey> SV;
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,25 +1,39 @@
 ---
-title: Rsc.CostCenter
-second_title: Aspose.Tasks لمرجع .NET API
-description: Rsc مجال. يشير إلى مركز التكلفة الذي يجب تحميل التكاليف المتراكمة بواسطة المورد عليه.
+title: "Rsc.CostCenter"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Rsc. يحدد مركز التكلفة الذي يجب تحميل التكاليف المتراكمة للمورد إليه"
 type: docs
 weight: 230
 url: /ar/net/aspose.tasks/rsc/costcenter/
 ---
 ## Rsc.CostCenter field
 
-يشير إلى مركز التكلفة الذي يجب تحميل التكاليف المتراكمة بواسطة المورد عليه.
+يشير إلى مركز التكلفة الذي يجب تحميل التكاليف المتراكمة للمورد إليه.
 
 ```csharp
 public static readonly Key<string, RscKey> CostCenter;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة الخاصية Rsc.CostCenter.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.CostCenter, "Center");
+
+Console.WriteLine("Cost Center: " + resource.Get(Rsc.CostCenter));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* مساحة الاسم [Aspose.Tasks](../../rsc/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

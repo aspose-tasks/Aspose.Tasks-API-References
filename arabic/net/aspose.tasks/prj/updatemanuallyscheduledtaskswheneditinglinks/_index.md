@@ -1,26 +1,38 @@
 ---
-title: Prj.UpdateManuallyScheduledTasksWhenEditingLinks
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. تحديد ما إذا كان يجب تحديث المهام اليدوية عند تحرير الروابط.
+title: "Prj.UpdateManuallyScheduledTasksWhenEditingLinks"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. يحدد ما إذا كان يجب تحديث المهام اليدوية عند تعديل الروابط"
 type: docs
-weight: 760
+weight: 770
 url: /ar/net/aspose.tasks/prj/updatemanuallyscheduledtaskswheneditinglinks/
 ---
 ## Prj.UpdateManuallyScheduledTasksWhenEditingLinks field
 
-تحديد ما إذا كان يجب تحديث المهام اليدوية عند تحرير الروابط.
+يحدد ما إذا كان يجب تحديث المهام اليدوية عندما تم تعديل الروابط.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> UpdateManuallyScheduledTasksWhenEditingLinks;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يُظهر كيفية قراءة/كتابة خاصية Prj.UpdateManuallyScheduledTasksWhenEditingLinks.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.UpdateManuallyScheduledTasksWhenEditingLinks, true);
+
+Console.WriteLine("Update Manually Scheduled Tasks When Editing Links: " + project.Get(Prj.UpdateManuallyScheduledTasksWhenEditingLinks));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

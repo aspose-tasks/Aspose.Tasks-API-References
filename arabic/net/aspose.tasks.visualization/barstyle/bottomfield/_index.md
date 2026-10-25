@@ -1,24 +1,24 @@
 ---
-title: BarStyle.BottomField
-second_title: Aspose.Tasks لمرجع .NET API
-description: BarStyle ملكية. الحصول على حقل أو تعيينه ليتم عرضه أسفل الشريط .
+title: "BarStyle.BottomField"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية BarStyle. يحصل أو يضبط حقلًا ليتم عرضه في أسفل الشريط"
 type: docs
 weight: 50
 url: /ar/net/aspose.tasks.visualization/barstyle/bottomfield/
 ---
 ## BarStyle.BottomField property
 
-الحصول على حقل أو تعيينه ليتم عرضه أسفل الشريط .
+يحصل أو يعيّن حقلًا ليُعرض في أسفل الشريط.
 
 ```csharp
 public Field BottomField { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [Field](../../../aspose.tasks/field/)
 * class [BarStyle](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../barstyle/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

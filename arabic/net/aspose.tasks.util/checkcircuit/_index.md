@@ -1,38 +1,57 @@
 ---
-title: Class CheckCircuit
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Util.CheckCircuit فصل. للتحقق من شجرة المهام ما إذا كانت تحتوي على دائرة.
+title: "الفئة CheckCircuit"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.Util.CheckCircuit. تتحقق من شجرة المهام ما إذا كانت تحتوي على دائرة."
 type: docs
-weight: 2360
+weight: 2680
 url: /ar/net/aspose.tasks.util/checkcircuit/
 ---
 ## CheckCircuit class
 
-للتحقق من شجرة (المهام) ما إذا كانت تحتوي على دائرة.
+يفحص شجرة (من المهام) لمعرفة ما إذا كانت تحتوي على دائرة.
 
 ```csharp
 public class CheckCircuit : TreeAlgorithmBase<Task>
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CheckCircuit](checkcircuit/)() | يقوم بتهيئة مثيل جديد لملف`CheckCircuit` فئة . |
+| [CheckCircuit](checkcircuit/)() | يُنشئ مثيلًا جديدًا للفئة `CheckCircuit`. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [Alg](../../aspose.tasks.util/checkcircuit/alg/)(Task, int) | تحقق مما إذا كان الكائن المحدد قد تمت معالجته بالفعل. |
+| override [Alg](../../aspose.tasks.util/checkcircuit/alg/)(Task, int) | تحقق مما إذا كان الكائن المحدد قد تم معالجته بالفعل. |
 | virtual [PostAlg](../../aspose.tasks.util/treealgorithmbase-1/postalg/)(Task, int) |  |
 | virtual [PreAlg](../../aspose.tasks.util/treealgorithmbase-1/prealg/)(Task, int) |  |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية اكتشاف بنية المشروع المكسورة.
+
+```csharp
+var project = new Project(DataDir + "ParentChildTasks.mpp");
+
+// تحقق من بنية المشروع.
+// سيتم رمي <see cref=\"TasksException\"> إذا كانت بنية المشروع غير صحيحة.
+try
+{
+    TaskUtils.Apply(project.RootTask, new CheckCircuit(), 0);
+}
+catch (TasksException ex)
+{
+    Console.WriteLine(ex);
+}
+```
+
+### انظر أيضًا
 
 * class [TreeAlgorithmBase&lt;T&gt;](../treealgorithmbase-1/)
 * class [Task](../../aspose.tasks/task/)
-* مساحة الاسم [Aspose.Tasks.Util](../../aspose.tasks.util/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Util](../../aspose.tasks.util/)
+* assembly [Aspose.Tasks](../../)
 
 

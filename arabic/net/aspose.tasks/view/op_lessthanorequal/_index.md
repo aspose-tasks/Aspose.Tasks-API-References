@@ -1,32 +1,32 @@
 ---
-title: View.op_LessThanOrEqual
-second_title: Aspose.Tasks لمرجع .NET API
-description: View طريقة. إرجاع قيمة تشير إلى ما إذا كان هذا المثيل أقل من أو يساوي كائنًا محددًا.
+title: "View.op_LessThanOrEqual"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة View. تُرجع قيمة تُشير إلى ما إذا كانت هذه النسخة أصغر من أو تساوي كائنًا محددًا"
 type: docs
 weight: 220
 url: /ar/net/aspose.tasks/view/op_lessthanorequal/
 ---
 ## View LessThanOrEqual operator
 
-إرجاع قيمة تشير إلى ما إذا كان هذا المثيل أقل من أو يساوي كائنًا محددًا.
+يعيد قيمة تشير إلى ما إذا كانت هذه الحالة أصغر من أو مساوية لكائن محدد.
 
 ```csharp
 public static bool operator <=(View a, View b)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| a | View | النظرة الأولى. |
-| b | View | القول الثاني. |
+| a | View | العرض الأول. |
+| b | View | العرض الثاني. |
 
 ### قيمة الإرجاع
 
-قيمة تشير إلى ما إذا كان هذا المثيل أقل من أو يساوي كائنًا محددًا
+قيمة تشير إلى ما إذا كانت هذه المثيلة أصغر من أو تساوي كائنًا محددًا
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [View](../)
-* مساحة الاسم [Aspose.Tasks](../../view/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

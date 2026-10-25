@@ -1,24 +1,44 @@
 ---
-title: PageMargins.Borders
-second_title: Aspose.Tasks لمرجع .NET API
-description: PageMargins ملكية. الحصول على أو تعيين موضع حيث يتم طباعة الحدود. يمكن أن تكون إحدى قيمBorder التعداد .
+title: "PageMargins.Borders"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PageMargins. يحصل أو يضبط موضعًا حيث يتم طباعة الحدود. يمكن أن تكون واحدة من قيم تعداد Border"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks.visualization/pagemargins/borders/
 ---
 ## PageMargins.Borders property
 
-الحصول على أو تعيين موضع حيث يتم طباعة الحدود. يمكن أن تكون إحدى قيم[`Border`](../../border/) التعداد .
+يحصل أو يعيّن موضعًا حيث يتم طباعة الحدود. يمكن أن يكون أحد قيم تعداد [`Border`](../../border/).
 
 ```csharp
 public Border Borders { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية العمل مع هوامش الصفحة.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// دعنا نعدّل العرض الافتراضي.
+var margins = project.DefaultView.PageInfo.Margins;
+
+// دعنا نعدّل الهوامش.
+margins.Left = 10d;
+margins.Top = 10d;
+margins.Right = 10d;
+margins.Bottom = 10d;
+margins.Borders = Border.OutsidePages;
+
+project.Save(OutDir + "WorkWithPageMargins_out.mpp", SaveFileFormat.Mpp);
+```
+
+### انظر أيضًا
 
 * enum [Border](../../border/)
 * class [PageMargins](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../pagemargins/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../pagemargins/)
+* assembly [Aspose.Tasks](../../../)
 
 

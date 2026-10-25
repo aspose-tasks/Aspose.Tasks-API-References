@@ -1,23 +1,45 @@
 ---
-title: PrimaveraSaveOptions.RenumberActivityIds
-second_title: Aspose.Tasks لمرجع .NET API
-description: PrimaveraSaveOptions ملكية. الحصول على قيمة أو تعيينها للإشارة إلى ما إذا كانت هناك حاجة إلى إعادة ترقيم معرّفات النشاط.
+title: "PrimaveraSaveOptions.RenumberActivityIds"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PrimaveraSaveOptions. يحصل أو يحدد قيمة تشير إلى ما إذا كان هناك حاجة لإعادة ترقيم معرفات الأنشطة"
 type: docs
 weight: 50
 url: /ar/net/aspose.tasks.saving/primaverasaveoptions/renumberactivityids/
 ---
 ## PrimaveraSaveOptions.RenumberActivityIds property
 
-الحصول على قيمة أو تعيينها للإشارة إلى ما إذا كانت هناك حاجة إلى إعادة ترقيم معرّفات النشاط.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان هناك حاجة لإعادة ترقيم معرفات الأنشطة.
 
 ```csharp
 public bool RenumberActivityIds { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية العمل مع <see cref=\"Aspose.Tasks.Saving.PrimaveraSaveOptions\" />.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// إنشاء خيارات حفظ Primavera وضبطها
+var options = new PrimaveraSaveOptions
+                  {
+                      // تحديد البادئة واللاحقة لنشاط
+                      ActivityIdPrefix = "TEST",
+                      ActivityIdSuffix = 10000,
+
+                      // التحكم في إعادة ترقيم الأنشطة
+                      ActivityIdIncrement = 5,
+                      RenumberActivityIds = true
+                  };
+
+project.Save(OutDir + "WorkWithPrimaveraSaveOptions_out.xer", options);
+```
+
+### انظر أيضًا
 
 * class [PrimaveraSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../primaverasaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../primaverasaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

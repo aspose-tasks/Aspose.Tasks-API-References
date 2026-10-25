@@ -1,9 +1,9 @@
 ---
-title: Tsk.ManualDuration
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. يحدد المدة المجدولة يدويًا للمهمة.
+title: "Tsk.ManualDuration"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. يحدد المدة المجدولة يدويًا لمهمة"
 type: docs
-weight: 800
+weight: 780
 url: /ar/net/aspose.tasks/tsk/manualduration/
 ---
 ## Tsk.ManualDuration field
@@ -14,13 +14,27 @@ url: /ar/net/aspose.tasks/tsk/manualduration/
 public static readonly Key<Duration, TaskKey> ManualDuration;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة/كتابة خاصية Tsk.ManualDuration.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.ManualDuration, project.GetDuration(1, TimeUnitType.Hour));
+
+Console.WriteLine("Manual Duration: " + task.Get(Tsk.ManualDuration));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

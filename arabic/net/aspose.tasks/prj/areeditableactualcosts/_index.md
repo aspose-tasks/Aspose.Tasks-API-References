@@ -1,26 +1,38 @@
 ---
-title: Prj.AreEditableActualCosts
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. لتحديد ما إذا كانت التكاليف الفعلية قابلة للتعديل.
+title: "Prj.AreEditableActualCosts"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. يحدد ما إذا كانت التكاليف الفعلية قابلة للتحرير"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks/prj/areeditableactualcosts/
 ---
 ## Prj.AreEditableActualCosts field
 
-لتحديد ما إذا كانت التكاليف الفعلية قابلة للتعديل.
+يحدد ما إذا كانت التكاليف الفعلية قابلة للتحرير.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> AreEditableActualCosts;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة خاصية Prj.AreEditableActualCosts.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.AreEditableActualCosts, true);
+
+Console.WriteLine("Are Editable Actual Costs: " + project.Get(Prj.AreEditableActualCosts));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

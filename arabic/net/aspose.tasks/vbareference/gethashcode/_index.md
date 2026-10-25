@@ -1,14 +1,14 @@
 ---
-title: VbaReference.GetHashCode
-second_title: Aspose.Tasks لمرجع .NET API
-description: VbaReference طريقة. إرجاع قيمة رمز تجزئة لهذاVbaReference .
+title: "VbaReference.GetHashCode"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة VbaReference. تُعيد قيمة تجزئة لهذا VbaReference"
 type: docs
 weight: 50
 url: /ar/net/aspose.tasks/vbareference/gethashcode/
 ---
 ## VbaReference.GetHashCode method
 
-إرجاع قيمة رمز تجزئة لهذا[`VbaReference`](../) .
+تُعيد قيمة تجزئة لهذا [`VbaReference`](../).
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,27 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-إرجاع قيمة رمز التجزئة لهذا الكائن.
+يعيد قيمة رمز التجزئة لهذا الكائن.
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية الحصول على قيمة تجزئة لمرجع VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+var reference1 = project.VbaProject.References.ToList()[0];
+var reference2 = project.VbaProject.References.ToList()[1];
+
+// قيمة التجزئة للمرجع هي قيمة تجزئة معرف GUID الداخلي للمرجع
+Console.WriteLine("VBA reference Hash Code: {0}", reference1.GetHashCode());
+Console.WriteLine("VBA reference Hash Code: {0}", reference2.GetHashCode());
+```
+
+### انظر أيضًا
 
 * class [VbaReference](../)
-* مساحة الاسم [Aspose.Tasks](../../vbareference/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbareference/)
+* assembly [Aspose.Tasks](../../../)
 
 

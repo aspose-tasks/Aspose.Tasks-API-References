@@ -1,23 +1,23 @@
 ---
-title: Task.ActualStart
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تحديد قيمة ActualStart .
+title: "Task.ActualStart"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط قيمة ActualStart"
 type: docs
 weight: 80
 url: /ar/net/aspose.tasks/task/actualstart/
 ---
 ## Task.ActualStart property
 
-الحصول على أو تحديد قيمة ActualStart .
+يحصل أو يعيّن قيمة ActualStart.
 
 ```csharp
 public DateTime ActualStart { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

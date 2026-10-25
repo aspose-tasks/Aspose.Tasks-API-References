@@ -1,32 +1,32 @@
 ---
-title: TaskCollection.Item
-second_title: Aspose.Tasks لمرجع .NET API
-description: TaskCollection ملكية. إرجاع العنصر بالفهرس المحدد.
+title: "TaskCollection.Item"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية TaskCollection. تُعيد العنصر في الفهرس المحدد"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks/taskcollection/item/
 ---
 ## TaskCollection indexer
 
-إرجاع العنصر بالفهرس المحدد.
+يرجع العنصر عند الفهرس المحدد.
 
 ```csharp
 public Task this[int index] { get; set; }
 ```
 
-| معامل | وصف |
+| معامل | الوصف |
 | --- | --- |
-| index | الفهرس الصفري للعنصر المراد الحصول عليه. |
+| الفهرس | الفهرس الصفري للعنصر المراد الحصول عليه. |
 
 ### قيمة الإرجاع
 
 العنصر في الفهرس المحدد.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../../task/)
 * class [TaskCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../taskcollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

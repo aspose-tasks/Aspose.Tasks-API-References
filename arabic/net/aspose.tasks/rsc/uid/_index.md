@@ -1,25 +1,39 @@
 ---
-title: Rsc.Uid
-second_title: Aspose.Tasks لمرجع .NET API
-description: Rsc مجال. المعرف الفريد للمورد .
+title: "Rsc.Uid"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Rsc. المعرف الفريد لمورد"
 type: docs
-weight: 680
+weight: 670
 url: /ar/net/aspose.tasks/rsc/uid/
 ---
 ## Rsc.Uid field
 
-المعرف الفريد للمورد .
+المعرّف الفريد للمورد.
 
 ```csharp
 public static readonly Key<int, RscKey> Uid;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة خاصية Rsc.Uid.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Uid, 99);
+
+Console.WriteLine("Uid: " + resource.Get(Rsc.Uid));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* مساحة الاسم [Aspose.Tasks](../../rsc/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

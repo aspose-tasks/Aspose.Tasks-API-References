@@ -1,23 +1,23 @@
 ---
-title: Task.CommitmentFinish
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة إنهاء الالتزام.
+title: "Task.CommitmentFinish"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يعيّن قيمة لـ CommitmentFinish"
 type: docs
 weight: 200
 url: /ar/net/aspose.tasks/task/commitmentfinish/
 ---
 ## Task.CommitmentFinish property
 
-الحصول على أو تعيين قيمة إنهاء الالتزام.
+يحصل أو يعيّن قيمة CommitmentFinish.
 
 ```csharp
 public DateTime CommitmentFinish { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

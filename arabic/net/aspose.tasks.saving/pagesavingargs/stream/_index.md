@@ -1,23 +1,23 @@
 ---
-title: PageSavingArgs.Stream
-second_title: Aspose.Tasks لمرجع .NET API
-description: PageSavingArgs ملكية. الحصول على أو تعيين دفق لكتابة الصفحة.
+title: "PageSavingArgs.Stream"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PageSavingArgs. تحصل أو تعيّن تدفقًا لكتابة صفحة"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks.saving/pagesavingargs/stream/
 ---
 ## PageSavingArgs.Stream property
 
-الحصول على أو تعيين دفق لكتابة الصفحة.
+يحصل أو يعيّن تدفقًا لكتابة صفحة.
 
 ```csharp
 public Stream Stream { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageSavingArgs](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../pagesavingargs/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pagesavingargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

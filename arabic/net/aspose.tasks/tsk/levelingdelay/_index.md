@@ -1,26 +1,40 @@
 ---
-title: Tsk.LevelingDelay
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. الوقت الذي يتم فيه تأخير المهمة من تاريخ بدايتها المبكر بسبب تسوية المورد.
+title: "Tsk.LevelingDelay"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. الوقت الذي يجب تأخير المهمة فيه عن تاريخ بدايتها المبكر بسبب موازنة الموارد."
 type: docs
-weight: 780
+weight: 770
 url: /ar/net/aspose.tasks/tsk/levelingdelay/
 ---
 ## Tsk.LevelingDelay field
 
-الوقت الذي يتم فيه تأخير المهمة من تاريخ بدايتها المبكر بسبب تسوية المورد.
+الوقت الذي ستتأخر فيه المهمة عن تاريخ بدايتها المبكر بسبب تسوية الموارد.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> LevelingDelay;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة خاصية Tsk.LevelingDelay.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.LevelingDelay, project.GetDuration(1, TimeUnitType.Hour));
+
+Console.WriteLine("Leveling Delay: " + task.Get(Tsk.LevelingDelay));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

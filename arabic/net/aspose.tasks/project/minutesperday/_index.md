@@ -1,23 +1,23 @@
 ---
-title: Project.MinutesPerDay
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة MinutesPerDay .
+title: "Project.MinutesPerDay"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعيين قيمة من MinutesPerDay"
 type: docs
-weight: 560
+weight: 580
 url: /ar/net/aspose.tasks/project/minutesperday/
 ---
 ## Project.MinutesPerDay property
 
-الحصول على أو تعيين قيمة MinutesPerDay .
+يحصل أو يضبط قيمة الخاصية MinutesPerDay.
 
 ```csharp
 public int MinutesPerDay { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

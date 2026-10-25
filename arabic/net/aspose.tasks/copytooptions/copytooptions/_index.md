@@ -1,23 +1,39 @@
 ---
-title: CopyToOptions.CopyToOptions
-second_title: Aspose.Tasks لمرجع .NET API
-description: CopyToOptions البناء. يقوم بتهيئة مثيل جديد لملفCopyToOptions فصل.
+title: "CopyToOptions.CopyToOptions"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ CopyToOptions. يخلق مثيلاً جديدًا لفئة CopyToOptions"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/copytooptions/copytooptions/
 ---
 ## CopyToOptions constructor
 
-يقوم بتهيئة مثيل جديد لملف[`CopyToOptions`](../) فصل.
+يخلق مثيلاً جديدًا للفئة [`CopyToOptions`](../).
 
 ```csharp
 public CopyToOptions()
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية استخدام خيارات نسخ المشروع.
+
+```csharp
+var project = new Project(DataDir + "CopyToProjectEmpty.xml");
+File.Copy(DataDir + "CopyToProjectEmpty.mpp", OutDir + "ProjectCopying_out.mpp", true);
+
+var mppProject = new Project(OutDir + "ProjectCopying_out.mpp");
+
+// تخطي نسخ بيانات العرض أثناء نسخ بيانات المشروع العامة.
+var copyToOptions = new CopyToOptions();
+copyToOptions.CopyViewData = false;
+project.CopyTo(mppProject, copyToOptions);
+```
+
+### انظر أيضًا
 
 * class [CopyToOptions](../)
-* مساحة الاسم [Aspose.Tasks](../../copytooptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../copytooptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Filter.GetHashCode
-second_title: Aspose.Tasks لمرجع .NET API
-description: Filter طريقة. إرجاع قيمة رمز تجزئة لعامل التصفية.
+title: "Filter.GetHashCode"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Filter. تُرجع قيمة رمز تجزئة للمرشح"
 type: docs
 weight: 110
 url: /ar/net/aspose.tasks/filter/gethashcode/
 ---
 ## Filter.GetHashCode method
 
-إرجاع قيمة رمز تجزئة لعامل التصفية.
+يعيد قيمة رمز تجزئة للمرشح.
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-إرجاع قيمة رمز تجزئة لهذا الكائن.
+تُرجع قيمة رمز تجزئة لهذا الكائن.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Filter](../)
-* مساحة الاسم [Aspose.Tasks](../../filter/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

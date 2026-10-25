@@ -1,23 +1,23 @@
 ---
-title: Project.Keywords
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة الكلمات الرئيسية .
+title: "Project.Keywords"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. يحصل أو يعيّن قيمة Keywords"
 type: docs
-weight: 500
+weight: 520
 url: /ar/net/aspose.tasks/project/keywords/
 ---
 ## Project.Keywords property
 
-الحصول على أو تعيين قيمة الكلمات الرئيسية .
+يحصل أو يعيّن قيمة لـ Keywords.
 
 ```csharp
 public string Keywords { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

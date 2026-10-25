@@ -1,23 +1,23 @@
 ---
-title: Task.Start
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على قيمة البداية أو تعيينها .
+title: "Task.Start"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصل أو تعين قيمة Start"
 type: docs
-weight: 1130
+weight: 1120
 url: /ar/net/aspose.tasks/task/start/
 ---
 ## Task.Start property
 
-الحصول على قيمة البداية أو تعيينها .
+يحصل أو يعيّن قيمة لـ Start.
 
 ```csharp
 public DateTime Start { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: TaskBaseline.GetHashCode
-second_title: Aspose.Tasks لمرجع .NET API
-description: TaskBaseline طريقة. إرجاع قيمة رمز تجزئة لمثيلTaskBaseline فئة .
+title: "TaskBaseline.GetHashCode"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة TaskBaseline. تُرجع قيمة رمز تجزئة للمثيل من فئة TaskBaseline"
 type: docs
-weight: 120
+weight: 110
 url: /ar/net/aspose.tasks/taskbaseline/gethashcode/
 ---
 ## TaskBaseline.GetHashCode method
 
-إرجاع قيمة رمز تجزئة لمثيل[`TaskBaseline`](../) فئة .
+تُرجع قيمة رمز تجزئة للمثيل من الفئة [`TaskBaseline`](../).
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,32 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-إرجاع قيمة رمز تجزئة لهذا الكائن.
+تُرجع قيمة رمز تجزئة لهذا الكائن.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية الحصول على رمز تجزئة لخط أساس المهمة.
+
+```csharp
+var project = new Project();
+
+// إنشاء TaskBaseline
+var task = project.RootTask.Children.Add("Task");
+project.SetBaseline(BaselineType.Baseline);
+
+// عرض مدة TaskBaseline للمهمة
+var baseline1 = task.Baselines.ToList()[0];
+var baseline2 = task.Baselines.ToList()[0];
+
+// رمز التجزئة للتقويم يساوي رقم خط الأساس
+Console.WriteLine("Baseline 1 Number: {0} Hash Code: {1}", (int)baseline1.BaselineNumber, baseline1.GetHashCode());
+Console.WriteLine("Baseline 2 Number: {0} Hash Code: {1}", (int)baseline2.BaselineNumber, baseline2.GetHashCode());
+```
+
+### انظر أيضًا
 
 * class [TaskBaseline](../)
-* مساحة الاسم [Aspose.Tasks](../../taskbaseline/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskbaseline/)
+* assembly [Aspose.Tasks](../../../)
 
 

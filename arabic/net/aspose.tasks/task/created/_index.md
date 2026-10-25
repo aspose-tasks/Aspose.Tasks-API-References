@@ -1,23 +1,23 @@
 ---
-title: Task.Created
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على قيمة الإنشاء أو تعيينها .
+title: "Task.Created"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. الحصول أو تعيين قيمة Created"
 type: docs
 weight: 280
 url: /ar/net/aspose.tasks/task/created/
 ---
 ## Task.Created property
 
-الحصول على قيمة الإنشاء أو تعيينها .
+يحصل أو يعيّن قيمة Created.
 
 ```csharp
 public DateTime Created { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

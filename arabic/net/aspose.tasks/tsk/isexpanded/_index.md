@@ -1,26 +1,40 @@
 ---
-title: Tsk.IsExpanded
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. تحديد ما إذا كانت المهمة الموجزة موسعة أم لا في طريقة عرض GanttChart.
+title: "Tsk.IsExpanded"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. يحدد ما إذا كانت مهمة الملخص موسعة أم لا في عرض مخطط جانت"
 type: docs
-weight: 600
+weight: 590
 url: /ar/net/aspose.tasks/tsk/isexpanded/
 ---
 ## Tsk.IsExpanded field
 
-تحديد ما إذا كانت المهمة الموجزة موسعة أم لا في طريقة عرض GanttChart.
+يحدد ما إذا كانت مهمة الملخص موسعة أم لا في عرض مخطط جانت.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsExpanded;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة خاصية Tsk.IsExpanded.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsExpanded, true);
+
+Console.WriteLine("Is Expanded: " + task.Get(Tsk.IsExpanded));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

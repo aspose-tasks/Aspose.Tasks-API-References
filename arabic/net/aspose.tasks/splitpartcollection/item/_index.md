@@ -1,36 +1,61 @@
 ---
-title: SplitPartCollection.Item
-second_title: Aspose.Tasks لمرجع .NET API
-description: SplitPartCollection ملكية. استرداد جزء تقسيم مهمة في الفهرس المحدد.
+title: "SplitPartCollection.Item"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية SplitPartCollection. تسترجع جزء تقسيم المهمة عند الفهرس المحدد"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks/splitpartcollection/item/
 ---
 ## SplitPartCollection indexer
 
-استرداد جزء تقسيم مهمة في الفهرس المحدد.
+يسترجع الجزء المقسّم للمهمة عند الفهرس المحدد.
 
 ```csharp
 public SplitPart this[int index] { get; set; }
 ```
 
-| معامل | وصف |
+| معامل | الوصف |
 | --- | --- |
-| index | فهرس الجزء. |
+| الفهرس | فهرس الجزء. |
 
 ### قيمة الإرجاع
 
-جزء منقسم.
+جزء مقسّم.
 
-### ملاحظات
+## ملاحظات
 
-المؤشر على أساس الصفر. إرجاع القيمة فارغة إذا كان الفهرس خارج حدود المصفوفة.
+الفهرس يبدأ من الصفر. تُعيد null إذا كان الفهرس خارج حدود المصفوفة.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية العمل مع مجموعات الأجزاء المقسمة.
+
+```csharp
+var project = new Project(DataDir + "Splits.mpp");
+
+var task = project.RootTask.Children.GetById(1);
+
+// التكرار على الأجزاء المقسمة
+Console.WriteLine("Iterate over split parts");
+Console.WriteLine("Split parts count:" + task.SplitParts.Count);
+foreach (var splitPart in task.SplitParts)
+{
+    Console.WriteLine("Start: " + splitPart.Start);
+    Console.WriteLine("Finish: " + splitPart.Finish);
+}
+
+// احصل على الجزء حسب الفهرس
+var split = task.SplitParts[0];
+Console.WriteLine("Split start: " + split.Start);
+
+// قم ببعض العمل مع الجزء المقسّم الأول للمهمة
+```
+
+### انظر أيضًا
 
 * class [SplitPart](../../splitpart/)
 * class [SplitPartCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../splitpartcollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../splitpartcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

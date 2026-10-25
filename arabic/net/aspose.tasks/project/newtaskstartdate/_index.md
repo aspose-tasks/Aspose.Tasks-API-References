@@ -1,24 +1,24 @@
 ---
-title: Project.NewTaskStartDate
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة NewTaskStartDate.
+title: "Project.NewTaskStartDate"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة NewTaskStartDate"
 type: docs
-weight: 670
+weight: 690
 url: /ar/net/aspose.tasks/project/newtaskstartdate/
 ---
 ## Project.NewTaskStartDate property
 
-الحصول على أو تعيين قيمة NewTaskStartDate.
+يحصل أو يضبط قيمة الخاصية NewTaskStartDate.
 
 ```csharp
 public TaskStartDateType NewTaskStartDate { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [TaskStartDateType](../../taskstartdatetype/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

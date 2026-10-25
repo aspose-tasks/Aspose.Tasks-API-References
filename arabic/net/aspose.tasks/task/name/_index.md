@@ -1,23 +1,23 @@
 ---
-title: Task.Name
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على قيمة الاسم أو تعيينها .
+title: "Task.Name"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط قيمة Name"
 type: docs
-weight: 860
+weight: 850
 url: /ar/net/aspose.tasks/task/name/
 ---
 ## Task.Name property
 
-الحصول على قيمة الاسم أو تعيينها .
+يحصل أو يعيّن قيمة لـ Name.
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

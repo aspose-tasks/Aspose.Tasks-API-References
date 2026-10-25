@@ -1,14 +1,14 @@
 ---
-title: WorkingTime.GetHashCode
-second_title: Aspose.Tasks لمرجع .NET API
-description: WorkingTime طريقة. إرجاع قيمة رمز تجزئة لمثيلWorkingTime فئة .
+title: "WorkingTime.GetHashCode"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة WorkingTime. تُرجع قيمة رمز تجزئة (hash code) للنسخة من فئة WorkingTime"
 type: docs
 weight: 50
 url: /ar/net/aspose.tasks/workingtime/gethashcode/
 ---
 ## WorkingTime.GetHashCode method
 
-إرجاع قيمة رمز تجزئة لمثيل[`WorkingTime`](../) فئة .
+تُرجع قيمة رمز تجزئة للنسخة من الفئة [`WorkingTime`](../).
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-إرجاع قيمة رمز تجزئة لهذا الكائن.
+تُرجع قيمة رمز تجزئة لهذا الكائن.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [WorkingTime](../)
-* مساحة الاسم [Aspose.Tasks](../../workingtime/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workingtime/)
+* assembly [Aspose.Tasks](../../../)
 
 

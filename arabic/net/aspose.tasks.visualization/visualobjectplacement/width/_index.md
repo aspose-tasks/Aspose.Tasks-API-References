@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.Width
-second_title: Aspose.Tasks لمرجع .NET API
-description: VisualObjectPlacement ملكية. الحصول على أو تعيين العرض المعروض للكائن المرئي.
+title: "VisualObjectPlacement.Width"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية VisualObjectPlacement. يسترجع أو يعيّن عرض العنصر البصري المعروض"
 type: docs
 weight: 130
 url: /ar/net/aspose.tasks.visualization/visualobjectplacement/width/
 ---
 ## VisualObjectPlacement.Width property
 
-الحصول على أو تعيين العرض المعروض للكائن المرئي.
+يحصل أو يضبط العرض المعروض للكائن المرئي.
 
 ```csharp
 public double Width { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [VisualObjectPlacement](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

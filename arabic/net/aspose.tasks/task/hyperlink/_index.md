@@ -1,23 +1,23 @@
 ---
-title: Task.Hyperlink
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على قيمة الارتباط التشعبي أو تعيينها .
+title: "Task.Hyperlink"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. الحصول أو تعيين العنوان أو النص التوضيحي للارتباط التشعبي المرتبط بالمهمة"
 type: docs
 weight: 530
 url: /ar/net/aspose.tasks/task/hyperlink/
 ---
 ## Task.Hyperlink property
 
-الحصول على قيمة الارتباط التشعبي أو تعيينها .
+يحصل أو يعيّن العنوان أو النص التوضيحي للارتباط التشعبي المرتبط بمهمة.
 
 ```csharp
 public string Hyperlink { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

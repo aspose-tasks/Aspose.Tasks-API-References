@@ -1,0 +1,66 @@
+---
+title: "SimpleSaveOptions.SaveFormat"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية SimpleSaveOptions. تحصل أو تعيين التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا"
+type: docs
+weight: 10
+url: /ar/net/aspose.tasks.saving/simplesaveoptions/saveformat/
+---
+## SimpleSaveOptions.SaveFormat property
+
+يحصل أو يعيّن التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا.
+
+```csharp
+public SaveFileFormat SaveFormat { get; }
+```
+
+## الأمثلة
+
+يوضح كيفية استخدام مرشح مهام مخصص أثناء حفظ ملف MS Project.
+
+```csharp
+public void WorkWithTasksFilter()
+{
+    var project = new Project(DataDir + "CreateProject2.mpp");
+
+    var options = new PdfSaveOptions
+    {
+        PresentationFormat = PresentationFormat.GanttChart,
+        PageSize = PageSize.A3,
+        StartDate = new DateTime(2010, 7, 1),
+        EndDate = new DateTime(2010, 9, 1),
+
+        // قم بتعيين مرشح مهمة لتخطي المهمة 'Task5' و 'Task3'.
+        TasksFilter = new CustomTasksFilter()
+    };
+
+    // دعنا نتحقق من تنسيق الحفظ.
+    Console.WriteLine("The save format: " + options.SaveFormat);
+
+    // ...
+
+    // حفظ المشروع كصورة
+    project.Save(OutDir + "WorkWithTasksFilter_out.png", options);
+}
+
+/// <summary>
+/// مثال على مرشح مهمة مخصص يمكن استخدامه أثناء حفظ ملف MS Project (على سبيل المثال) بصيغة PDF.
+/// </summary>
+/// <inheritdoc />
+private class CustomTasksFilter : ICondition<Task>
+{
+    public bool Check(Task el)
+    {
+        return el.Get(Tsk.Name) != "Task5" && el.Get(Tsk.Name) != "Task3";
+    }
+}
+```
+
+### انظر أيضًا
+
+* enum [SaveFileFormat](../../savefileformat/)
+* class [SimpleSaveOptions](../)
+* namespace [Aspose.Tasks.Saving](../../simplesaveoptions/)
+* assembly [Aspose.Tasks](../../../)
+
+

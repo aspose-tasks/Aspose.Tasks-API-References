@@ -1,23 +1,23 @@
 ---
-title: Resource.RemainingOvertimeCost
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة RemainingOvertimeCost.
+title: "Resource.RemainingOvertimeCost"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل أو تعين قيمة RemainingOvertimeCost"
 type: docs
-weight: 680
+weight: 670
 url: /ar/net/aspose.tasks/resource/remainingovertimecost/
 ---
 ## Resource.RemainingOvertimeCost property
 
-الحصول على أو تعيين قيمة RemainingOvertimeCost.
+يحصل أو يعيّن قيمة لـ RemainingOvertimeCost.
 
 ```csharp
 public decimal RemainingOvertimeCost { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

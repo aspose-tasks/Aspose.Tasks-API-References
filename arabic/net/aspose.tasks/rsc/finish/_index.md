@@ -1,25 +1,39 @@
 ---
-title: Rsc.Finish
-second_title: Aspose.Tasks لمرجع .NET API
-description: Rsc مجال. التاريخ الذي تمت فيه جدولة مورد لإكمال العمل في جميع المهام المعينة.
+title: "Rsc.Finish"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Rsc. التاريخ الذي يُجدول فيه المورد لإكمال العمل على جميع المهام المعينة"
 type: docs
 weight: 290
 url: /ar/net/aspose.tasks/rsc/finish/
 ---
 ## Rsc.Finish field
 
-التاريخ الذي تمت فيه جدولة مورد لإكمال العمل في جميع المهام المعينة.
+التاريخ الذي من المقرر فيه أن يكمل المورد العمل على جميع المهام المعينة.
 
 ```csharp
 public static readonly Key<DateTime, RscKey> Finish;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة خاصية Rsc.Finish.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Finish, new DateTime(2020, 4, 10, 8, 0, 0));
+
+Console.WriteLine("Finish: " + resource.Get(Rsc.Finish));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* مساحة الاسم [Aspose.Tasks](../../rsc/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

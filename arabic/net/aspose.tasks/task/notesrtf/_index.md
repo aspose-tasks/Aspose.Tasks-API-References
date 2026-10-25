@@ -1,23 +1,23 @@
 ---
-title: Task.NotesRTF
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تحديد قيمة NotesRTF.
+title: "Task.NotesRTF"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. الحصول أو تعيين قيمة NotesRTF"
 type: docs
-weight: 870
+weight: 860
 url: /ar/net/aspose.tasks/task/notesrtf/
 ---
 ## Task.NotesRTF property
 
-الحصول على أو تحديد قيمة NotesRTF.
+يحصل أو يعيّن قيمة لـ NotesRTF.
 
 ```csharp
 public string NotesRTF { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

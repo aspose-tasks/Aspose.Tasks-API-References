@@ -1,23 +1,23 @@
 ---
-title: ReadOnlyCollectionBase1.Count
-second_title: Aspose.Tasks لمرجع .NET API
-description: ReadOnlyCollectionBase ملكية. الحصول على عدد العناصر الموجودة في الكائن.
+title: "ReadOnlyCollectionBase1.Count"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ReadOnlyCollectionBase. تحصل على عدد الكائنات المحتواة في الكائن."
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/readonlycollectionbase-1/count/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt;.Count property
 
-الحصول على عدد العناصر الموجودة في الكائن.
+يحصل على عدد الكائنات المحتواة في الكائن.
 
 ```csharp
 public int Count { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../)
-* مساحة الاسم [Aspose.Tasks](../../readonlycollectionbase-1/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../readonlycollectionbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: Project.NewTasksAreManual
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين NewTasksAreManual أم لا.
+title: "Project.NewTasksAreManual"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة تشير إلى ما إذا كان NewTasksAreManual مضبوطًا أم لا"
 type: docs
-weight: 640
+weight: 660
 url: /ar/net/aspose.tasks/project/newtasksaremanual/
 ---
 ## Project.NewTasksAreManual property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين NewTasksAreManual أم لا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان NewTasksAreManual مضبوطًا أم لا.
 
 ```csharp
 public NullableBool NewTasksAreManual { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

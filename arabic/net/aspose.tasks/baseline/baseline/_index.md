@@ -1,23 +1,23 @@
 ---
-title: Baseline.Baseline
-second_title: Aspose.Tasks لمرجع .NET API
-description: Baseline البناء. Default_Constructor
+title: "Baseline.Baseline"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ Baseline. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/baseline/baseline/
 ---
 ## Baseline constructor
 
-Default_Constructor
+المنشئ الافتراضي.
 
 ```csharp
 public Baseline()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Baseline](../)
-* مساحة الاسم [Aspose.Tasks](../../baseline/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../baseline/)
+* assembly [Aspose.Tasks](../../../)
 
 

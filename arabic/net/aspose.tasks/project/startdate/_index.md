@@ -1,23 +1,23 @@
 ---
-title: Project.StartDate
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة StartDate .
+title: "Project.StartDate"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. يحصل أو يضبط قيمة StartDate"
 type: docs
-weight: 840
+weight: 870
 url: /ar/net/aspose.tasks/project/startdate/
 ---
 ## Project.StartDate property
 
-الحصول على أو تعيين قيمة StartDate .
+يحصل أو يضبط قيمة StartDate.
 
 ```csharp
 public DateTime StartDate { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

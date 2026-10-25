@@ -1,32 +1,47 @@
 ---
-title: CalendarCollection.GetByUid
-second_title: Aspose.Tasks لمرجع .NET API
-description: CalendarCollection طريقة. إرجاع تقويم برقم UID المحدد.
+title: "CalendarCollection.GetByUid"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة CalendarCollection. تُرجع تقويمًا بالمعرف UID المحدد"
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks/calendarcollection/getbyuid/
 ---
 ## CalendarCollection.GetByUid method
 
-إرجاع تقويم برقم UID المحدد.
+يعيد تقويمًا بالمعرف UID المحدد.
 
 ```csharp
 public Calendar GetByUid(int uid)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| uid | Int32 | UID الخاص بالتقويم. |
+| uid | Int32 | معرف UID لتقويم. |
 
 ### قيمة الإرجاع
 
-التقويم مع UID محدد.
+تقويم بمعرف UID محدد.
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية الحصول على التقويمات بالاسم أو بالمعرف.
+
+```csharp
+var project = new Project(DataDir + "Project5.mpp");
+
+var calendarByName = project.Calendars.GetByName("TestCalendar");
+var calendarByUid = project.Calendars.GetByUid(4);
+
+Console.WriteLine("Calendar Name: " + calendarByName.Name);
+Console.WriteLine("Calendar Name: " + calendarByUid.Name);
+Console.WriteLine("Are calendars equals: " + calendarByName.Equals(calendarByUid));
+```
+
+### انظر أيضًا
 
 * class [Calendar](../../calendar/)
 * class [CalendarCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../calendarcollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

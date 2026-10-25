@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.UpdateNeeded
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان UpdateNeeded معينًا أم لا.
+title: "ResourceAssignment.UpdateNeeded"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ResourceAssignment. يحصل أو يعيّن قيمة تشير إلى ما إذا كان UpdateNeeded مضبوطًا أم لا"
 type: docs
 weight: 630
 url: /ar/net/aspose.tasks/resourceassignment/updateneeded/
 ---
 ## ResourceAssignment.UpdateNeeded property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان UpdateNeeded معينًا أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان UpdateNeeded مضبوطًا أم لا.
 
 ```csharp
 public bool UpdateNeeded { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

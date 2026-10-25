@@ -1,41 +1,41 @@
 ---
-title: OutlineCode.OutlineCode
-second_title: Aspose.Tasks لمرجع .NET API
-description: OutlineCode البناء. يقوم بتهيئة مثيل جديد لملفOutlineCode فصل.
+title: "OutlineCode.OutlineCode"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ OutlineCode. يهيئ مثالًا جديدًا من الفئة OutlineCode"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/outlinecode/outlinecode/
 ---
 ## OutlineCode() {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`OutlineCode`](../) فصل.
+يهيئ مثالًا جديدًا من الفئة [`OutlineCode`](../).
 
 ```csharp
 public OutlineCode()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [OutlineCode](../)
-* مساحة الاسم [Aspose.Tasks](../../outlinecode/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../outlinecode/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## OutlineCode(OutlineCodeDefinition, OutlineValue) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`OutlineCode`](../) فئة باستخدام رمز المخطط التفصيلي المحدد وأحد قيمها.
+يهيئ مثالًا جديدًا من الفئة [`OutlineCode`](../) باستخدام كود المخطط المحدد وإحدى قيمه.
 
 ```csharp
 public OutlineCode(OutlineCodeDefinition codeDefinition, OutlineValue outlineValue)
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [OutlineCodeDefinition](../../outlinecodedefinition/)
 * class [OutlineValue](../../outlinevalue/)
 * class [OutlineCode](../)
-* مساحة الاسم [Aspose.Tasks](../../outlinecode/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../outlinecode/)
+* assembly [Aspose.Tasks](../../../)
 
 

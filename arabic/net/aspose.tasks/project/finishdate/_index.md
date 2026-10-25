@@ -1,23 +1,23 @@
 ---
-title: Project.FinishDate
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة في تاريخ الانتهاء.
+title: "Project.FinishDate"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية المشروع. الحصول على أو تعيين قيمة لـ FinishDate"
 type: docs
-weight: 420
+weight: 430
 url: /ar/net/aspose.tasks/project/finishdate/
 ---
 ## Project.FinishDate property
 
-الحصول على أو تعيين قيمة في تاريخ الانتهاء.
+يحصل أو يعيّن قيمة لـ FinishDate.
 
 ```csharp
 public DateTime FinishDate { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

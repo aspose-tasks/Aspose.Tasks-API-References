@@ -1,24 +1,24 @@
 ---
-title: Project.DateFormat
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة DateFormat .
+title: "Project.DateFormat"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة DateFormat"
 type: docs
-weight: 260
+weight: 270
 url: /ar/net/aspose.tasks/project/dateformat/
 ---
 ## Project.DateFormat property
 
-الحصول على أو تعيين قيمة DateFormat .
+يحصل أو يعيّن قيمة لـ DateFormat.
 
 ```csharp
 public DateFormat DateFormat { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [DateFormat](../../dateformat/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

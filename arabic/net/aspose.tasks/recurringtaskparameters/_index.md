@@ -1,9 +1,9 @@
 ---
-title: Class RecurringTaskParameters
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.RecurringTaskParameters فصل. يمثل مجموعة المعلمات المستخدمة لإنشاء مهمة متكررة في مشروع.
+title: "الفئة RecurringTaskParameters"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.RecurringTaskParameters. تمثل مجموعة المعلمات المستخدمة لإنشاء مهمة متكررة في مشروع"
 type: docs
-weight: 1480
+weight: 1730
 url: /ar/net/aspose.tasks/recurringtaskparameters/
 ---
 ## RecurringTaskParameters class
@@ -14,30 +14,61 @@ url: /ar/net/aspose.tasks/recurringtaskparameters/
 public class RecurringTaskParameters
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [RecurringTaskParameters](recurringtaskparameters/)() | يقوم بتهيئة مثيل جديد لملف`RecurringTaskParameters` فئة . |
+| [RecurringTaskParameters](recurringtaskparameters/)() | ينشئ مثيلاً جديداً للفئة `RecurringTaskParameters`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Duration](../../aspose.tasks/recurringtaskparameters/duration/) { get; set; } | الحصول على أو تعيين المدة لتكرار واحد للمهمة المتكررة. مثيل[`Duration`](./duration/) فصل. |
-| [IgnoreResourceCalendar](../../aspose.tasks/recurringtaskparameters/ignoreresourcecalendar/) { get; set; } | الحصول على قيمة أو تعيينها تشير إلى ما إذا كان سيتم جدولة المهمة المتكررة حتى إذا لم تحدث عند توفر أي موارد للعمل عليها. |
-| [RecurrencePattern](../../aspose.tasks/recurringtaskparameters/recurrencepattern/) { get; set; } | الحصول على أو تعيين نمط التكرار للمهمة المتكررة. يمكن أن تكون إحدى قيم[`RecurrencePattern`](./recurrencepattern/) تعداد. |
-| [TaskName](../../aspose.tasks/recurringtaskparameters/taskname/) { get; set; } | الحصول على أو تعيين اسم المهمة المتكررة. |
+| [Duration](../../aspose.tasks/recurringtaskparameters/duration/) { get; set; } | يحصل أو يعيّن المدة لحدوث واحد للمهمة المتكررة. المثيل من الفئة [`Duration`](./duration/). |
+| [IgnoreResourceCalendar](../../aspose.tasks/recurringtaskparameters/ignoreresourcecalendar/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب جدولة المهمة المتكررة حتى إذا لم يحدث ذلك عندما تكون أي موارد متاحة للعمل عليها. |
+| [RecurrencePattern](../../aspose.tasks/recurringtaskparameters/recurrencepattern/) { get; set; } | يحصل أو يعيّن نمط التكرار للمهمة المتكررة. يمكن أن يكون أحد قيم تعداد [`RecurrencePattern`](./recurrencepattern/). |
+| [TaskName](../../aspose.tasks/recurringtaskparameters/taskname/) { get; set; } | يحصل أو يعيّن اسم المهمة المتكررة. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [SetCalendar](../../aspose.tasks/recurringtaskparameters/setcalendar/)(Project, string) | قم بتعيين تقويم للمهمة المتكررة. يتم تحديد التقويم من مجموعة تقويم المشروع. |
+| [SetCalendar](../../aspose.tasks/recurringtaskparameters/setcalendar/)(Project, string) | تعيين تقويم للمهمة المتكررة. يتم اختيار التقويم من مجموعة تقويمات المشروع. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية إنشاء مهمة متكررة.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+var parameters = new RecurringTaskParameters
+                     {
+                         TaskName = "Recurring task",
+                         Duration = project.GetDuration(1, TimeUnitType.Day),
+                         RecurrencePattern = new WeeklyRecurrencePattern
+                                                 {
+                                                     Repetition = new WeeklyRepetition
+                                                                      {
+                                                                          RepetitionInterval = 2,
+                                                                          WeekDays = WeekdayType.Sunday | WeekdayType.Monday | WeekdayType.Friday
+                                                                      },
+                                                     RecurrenceRange = new EndByRecurrenceRange
+                                                                           {
+                                                                               Start = new DateTime(2018, 7, 1, 8, 0, 0),
+                                                                               Finish = new DateTime(2018, 7, 20, 17, 0, 0)
+                                                                           }
+                                                 },
+                         IgnoreResourceCalendar = false
+                     };
+
+parameters.SetCalendar(project, "Standard");
+
+project.RootTask.Children.Add(parameters);
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

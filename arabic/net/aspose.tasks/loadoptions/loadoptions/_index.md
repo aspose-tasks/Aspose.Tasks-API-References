@@ -1,23 +1,23 @@
 ---
-title: LoadOptions.LoadOptions
-second_title: Aspose.Tasks لمرجع .NET API
-description: LoadOptions البناء. يقوم بتهيئة مثيل جديد لملفLoadOptions فئة .
+title: "LoadOptions.LoadOptions"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ LoadOptions. يهيئ نسخة جديدة من فئة LoadOptions"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/loadoptions/loadoptions/
 ---
 ## LoadOptions constructor
 
-يقوم بتهيئة مثيل جديد لملف[`LoadOptions`](../) فئة .
+يُنشئ مثيلًا جديدًا من الفئة [`LoadOptions`](../).
 
 ```csharp
 public LoadOptions()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Tasks](../../loadoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../loadoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

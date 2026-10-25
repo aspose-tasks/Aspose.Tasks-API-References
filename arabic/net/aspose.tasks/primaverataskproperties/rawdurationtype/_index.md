@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.RawDurationType
-second_title: Aspose.Tasks لمرجع .NET API
-description: PrimaveraTaskProperties ملكية. يحصل على تمثيل نصي خام كما في الملف المصدر لحقل نوع المدة للنشاط.
+title: "PrimaveraTaskProperties.RawDurationType"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PrimaveraTaskProperties. يحصل على تمثيل النص الخام كما هو في ملف المصدر لحقل نوع المدة (Duration Type) للنشاط"
 type: docs
-weight: 80
+weight: 240
 url: /ar/net/aspose.tasks/primaverataskproperties/rawdurationtype/
 ---
 ## PrimaveraTaskProperties.RawDurationType property
 
-يحصل على تمثيل نصي خام (كما في الملف المصدر) لحقل "نوع المدة" للنشاط.
+يحصل على تمثيل النص الخام (كما في ملف المصدر) لحقل 'نوع المدة' للنشاط.
 
 ```csharp
 public string RawDurationType { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-ينطبق فقط على الأنشطة (المهام غير الموجزة).
+ينطبق فقط على الأنشطة (المهام غير الملخصة).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PrimaveraTaskProperties](../)
-* مساحة الاسم [Aspose.Tasks](../../primaverataskproperties/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

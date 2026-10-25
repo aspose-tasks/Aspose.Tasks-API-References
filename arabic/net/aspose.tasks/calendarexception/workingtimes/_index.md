@@ -1,24 +1,49 @@
 ---
-title: CalendarException.WorkingTimes
-second_title: Aspose.Tasks لمرجع .NET API
-description: CalendarException ملكية. الحصول على كائن WorkTimeCollection أو تعيينه. مجموعة أوقات العمل التي تحدد وقت العمل في أيام الأسبوع. يجب أن يتوفر وقت عمل واحد على الأقل  ولا يمكن أن يكون هناك أكثر من خمسة.
+title: "CalendarException.WorkingTimes"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية CalendarException. تحصل أو تعيين كائن WorkingTimeCollection. مجموعة أوقات العمل التي تحدد الوقت العامل في أيام الأسبوع. يجب أن يكون هناك وقت عمل واحد على الأقل ولا يمكن أن يكون أكثر من خمسة."
 type: docs
 weight: 160
 url: /ar/net/aspose.tasks/calendarexception/workingtimes/
 ---
 ## CalendarException.WorkingTimes property
 
-الحصول على كائن WorkTimeCollection أو تعيينه. مجموعة أوقات العمل التي تحدد وقت العمل في أيام الأسبوع. يجب أن يتوفر وقت عمل واحد على الأقل ، ولا يمكن أن يكون هناك أكثر من خمسة.
+يحصل أو يضبط كائن WorkingTimeCollection. مجموعة أوقات العمل التي تحدد الوقت العامل في أيام الأسبوع. يجب أن يكون هناك وقت عمل واحد على الأقل، ولا يمكن أن يكون أكثر من خمسة.
 
 ```csharp
 public WorkingTimeCollection WorkingTimes { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية الحصول على وقت عمل لاستثناء التقويم.
+
+```csharp
+var project = new Project(DataDir + "CalendarExceptions.mpp");
+
+var calendar = project.Calendars.ToList()[0];
+var exception = calendar.Exceptions[0];
+
+Console.WriteLine("Calendar Name: " + calendar.Name);
+Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
+Console.WriteLine("Calendar Exception Name: " + exception.Name);
+Console.WriteLine();
+
+var workingTime = exception.GetWorkingTime();
+Console.WriteLine("Exception Working Time: " + workingTime);
+
+foreach (var time in exception.WorkingTimes)
+{
+    Console.WriteLine("Working Time Start: " + time.From);
+    Console.WriteLine("Working Time Finish: " + time.To);
+}
+```
+
+### انظر أيضًا
 
 * class [WorkingTimeCollection](../../workingtimecollection/)
 * class [CalendarException](../)
-* مساحة الاسم [Aspose.Tasks](../../calendarexception/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexception/)
+* assembly [Aspose.Tasks](../../../)
 
 

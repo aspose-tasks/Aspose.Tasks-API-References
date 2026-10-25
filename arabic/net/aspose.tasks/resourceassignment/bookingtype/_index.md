@@ -1,24 +1,24 @@
 ---
-title: ResourceAssignment.BookingType
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment ملكية. الحصول على أو تعيين قيمة BookingType .
+title: "ResourceAssignment.BookingType"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ResourceAssignment. تحصل أو تعين قيمة BookingType"
 type: docs
 weight: 150
 url: /ar/net/aspose.tasks/resourceassignment/bookingtype/
 ---
 ## ResourceAssignment.BookingType property
 
-الحصول على أو تعيين قيمة BookingType .
+يحصل أو يعيّن قيمة BookingType.
 
 ```csharp
 public BookingType BookingType { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [BookingType](../../bookingtype/)
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

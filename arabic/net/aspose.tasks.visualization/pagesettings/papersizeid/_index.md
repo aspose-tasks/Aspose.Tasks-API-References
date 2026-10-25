@@ -1,23 +1,23 @@
 ---
-title: PageSettings.PaperSizeId
-second_title: Aspose.Tasks لمرجع .NET API
-description: PageSettings ملكية. الحصول على أو تعيين عدد صحيح يمثل إحدى قيم PrinterPaperSize أو معرف حجم صفحة مخصص . يمكن استخدام هذه القيمة للحصول على حجم الورق من إعدادات نظام التشغيل .
+title: "PageSettings.PaperSizeId"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PageSettings. يحصل على أو يضبط عددًا صحيحًا يمثل أحد قيم PrinterPaperSize أو معرف حجم صفحة مخصص. يمكن استخدام هذه القيمة للحصول على حجم الورق من إعدادات نظام التشغيل."
 type: docs
 weight: 80
 url: /ar/net/aspose.tasks.visualization/pagesettings/papersizeid/
 ---
 ## PageSettings.PaperSizeId property
 
-الحصول على أو تعيين عدد صحيح يمثل إحدى قيم PrinterPaperSize أو معرف حجم صفحة مخصص . يمكن استخدام هذه القيمة للحصول على حجم الورق من إعدادات نظام التشغيل .
+يحصل أو يعيّن عددًا صحيحًا يمثل أحد قيم PrinterPaperSize أو معرف حجم صفحة مخصص. يمكن استخدام هذه القيمة للحصول على حجم الورق من إعدادات نظام التشغيل.
 
 ```csharp
 public int PaperSizeId { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageSettings](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../pagesettings/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../pagesettings/)
+* assembly [Aspose.Tasks](../../../)
 
 

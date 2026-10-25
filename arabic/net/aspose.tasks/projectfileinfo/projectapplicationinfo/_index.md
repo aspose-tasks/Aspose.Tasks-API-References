@@ -1,7 +1,7 @@
 ---
-title: ProjectFileInfo.ProjectApplicationInfo
-second_title: Aspose.Tasks لمرجع .NET API
-description: ProjectFileInfo ملكية. يحصل على معلومات تطبيق ملف المشروع.
+title: "ProjectFileInfo.ProjectApplicationInfo"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ProjectFileInfo. تُعيد معلومات تطبيق ملف المشروع"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks/projectfileinfo/projectapplicationinfo/
@@ -14,11 +14,22 @@ url: /ar/net/aspose.tasks/projectfileinfo/projectapplicationinfo/
 public ApplicationInfo ProjectApplicationInfo { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة معلومات ملف المشروع.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
+### انظر أيضًا
 
 * enum [ApplicationInfo](../../applicationinfo/)
 * class [ProjectFileInfo](../)
-* مساحة الاسم [Aspose.Tasks](../../projectfileinfo/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectfileinfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

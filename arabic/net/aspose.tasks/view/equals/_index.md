@@ -1,31 +1,31 @@
 ---
-title: View.Equals
-second_title: Aspose.Tasks لمرجع .NET API
-description: View طريقة. إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا.
+title: "View.Equals"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة View. تُعيد قيمة تشير إلى ما إذا كانت هذه المثيلة مساوية لكائن محدد"
 type: docs
 weight: 150
 url: /ar/net/aspose.tasks/view/equals/
 ---
 ## View.Equals method
 
-إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا.
+يعيد قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن محدد.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| obj | Object | الكائن المراد مقارنته مع هذا المثال. |
+| obj | كائن | الكائن للمقارنة مع هذه المثيلة. |
 
 ### قيمة الإرجاع
 
-**حقيقي** إذا كان الكائن المحدد عبارة عن طريقة عرض لها نفس قيمة Uid مثل هذا المثال ؛ خلاف ذلك، **خطأ شنيع**.
+**True** if the specified object is a View that has the same Uid value as this instance; otherwise, **false**.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [View](../)
-* مساحة الاسم [Aspose.Tasks](../../view/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

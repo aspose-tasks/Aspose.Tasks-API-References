@@ -1,26 +1,38 @@
 ---
-title: Prj.SpreadActualCost
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. تحديد ما إذا كانت التكاليف الفعلية موزعة على تاريخ الحالة.
+title: "Prj.SpreadActualCost"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. يحدد ما إذا كانت التكاليف الفعلية موزعة إلى تاريخ الحالة"
 type: docs
-weight: 650
+weight: 660
 url: /ar/net/aspose.tasks/prj/spreadactualcost/
 ---
 ## Prj.SpreadActualCost field
 
-تحديد ما إذا كانت التكاليف الفعلية موزعة على تاريخ الحالة.
+يحدد ما إذا كانت التكاليف الفعلية تُوزّع إلى تاريخ الحالة.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> SpreadActualCost;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة خاصية Prj.SpreadActualCost.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.SpreadActualCost, true);
+
+Console.WriteLine("Spread Actual Cost: " + project.Get(Prj.SpreadActualCost));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

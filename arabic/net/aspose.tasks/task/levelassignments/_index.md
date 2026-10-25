@@ -1,24 +1,24 @@
 ---
-title: Task.LevelAssignments
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين LevelAssignments أم لا.
+title: "Task.LevelAssignments"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يعيّن قيمة تشير إلى ما إذا تم تعيين LevelAssignments أم لا"
 type: docs
 weight: 790
 url: /ar/net/aspose.tasks/task/levelassignments/
 ---
 ## Task.LevelAssignments property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين LevelAssignments أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان LevelAssignments مُحددًا أم لا.
 
 ```csharp
 public NullableBool LevelAssignments { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

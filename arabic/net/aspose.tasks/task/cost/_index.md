@@ -1,23 +1,23 @@
 ---
-title: Task.Cost
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على قيمة التكلفة أو تعيينها.
+title: "Task.Cost"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصّل أو تعين قيمة Cost"
 type: docs
 weight: 260
 url: /ar/net/aspose.tasks/task/cost/
 ---
 ## Task.Cost property
 
-الحصول على قيمة التكلفة أو تعيينها.
+يحصل أو يعيّن قيمة Cost.
 
 ```csharp
 public decimal Cost { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

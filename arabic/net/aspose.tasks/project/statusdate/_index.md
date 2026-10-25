@@ -1,23 +1,23 @@
 ---
-title: Project.StatusDate
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تحديد قيمة StatusDate .
+title: "Project.StatusDate"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة StatusDate"
 type: docs
-weight: 850
+weight: 880
 url: /ar/net/aspose.tasks/project/statusdate/
 ---
 ## Project.StatusDate property
 
-الحصول على أو تحديد قيمة StatusDate .
+يحصل أو يضبط قيمة StatusDate.
 
 ```csharp
 public DateTime StatusDate { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Key2.KeyType
-second_title: Aspose.Tasks لمرجع .NET API
-description: Key ملكية. يحصل على مفتاح الملكية .
+title: "Key2.KeyType"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Key. تحصل على المفتاح الخاص بالخاصية"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/key-2/keytype/
 ---
 ## Key&lt;T,K&gt;.KeyType property
 
-يحصل على مفتاح الملكية .
+يحصل على مفتاح الخاصية.
 
 ```csharp
 public K KeyType { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../)
-* مساحة الاسم [Aspose.Tasks](../../key-2/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../key-2/)
+* assembly [Aspose.Tasks](../../../)
 
 

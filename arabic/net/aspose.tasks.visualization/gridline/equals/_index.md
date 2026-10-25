@@ -1,31 +1,50 @@
 ---
-title: Gridline.Equals
-second_title: Aspose.Tasks لمرجع .NET API
-description: Gridline طريقة. إرجاع إشارة تشير إلى ما إذا كان هذا المثيل يساوي الكائن المحدد.
+title: "Gridline.Equals"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Gridline. تُعيد علامة تشير إلى ما إذا كان هذا المثيل مساويًا للكائن المحدد."
 type: docs
 weight: 50
 url: /ar/net/aspose.tasks.visualization/gridline/equals/
 ---
 ## Gridline.Equals method
 
-إرجاع إشارة تشير إلى ما إذا كان هذا المثيل يساوي الكائن المحدد.
+يرجع علامة تشير إلى ما إذا كانت هذه المثيلة مساوية للعنصر المحدد.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| obj | Object | الكائن المحدد للمقارنة مع هذا المثال. |
+| obj | كائن | الكائن المحدد للمقارنة بهذه المثيلة. |
 
 ### قيمة الإرجاع
 
-علامة تشير إلى ما إذا كان هذا المثيل يساوي الكائن المحدد.
+علامة تُشير إلى ما إذا كانت هذه المثيلة مساوية للكائن المحدد.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية فحص مساواة خطوط الشبكة.
+
+```csharp
+var gridline1 = new Gridline();
+var gridline2 = new Gridline();
+
+// يتم فحص مساواة خطوط الشبكة مقابل نوع خط الشبكة.
+Console.WriteLine("Gridline 1 Type: " + gridline1.GridlineType);
+Console.WriteLine("Gridline 2 Type: " + gridline2.GridlineType);
+Console.WriteLine("Are gridlines equal: " + gridline1.Equals(gridline2));
+
+// غيّر النوع
+gridline1.GridlineType = GridlineType.BarRows;
+Console.WriteLine("Gridline 1 Type: " + gridline1.GridlineType);
+Console.WriteLine("Are gridlines equal: " + gridline1.Equals(gridline2));
+```
+
+### انظر أيضًا
 
 * class [Gridline](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../gridline/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../gridline/)
+* assembly [Aspose.Tasks](../../../)
 
 

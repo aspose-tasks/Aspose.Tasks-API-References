@@ -1,32 +1,41 @@
 ---
-title: FieldHelper.GetDefaultTaskFieldTitle
-second_title: Aspose.Tasks لمرجع .NET API
-description: FieldHelper طريقة. إرجاع العنوان الافتراضي لحقل المهمة المحدد.
+title: "FieldHelper.GetDefaultTaskFieldTitle"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة FieldHelper. تُرجع عنوانًا افتراضيًا للحقل المحدد للمهمة"
 type: docs
-weight: 10
+weight: 20
 url: /ar/net/aspose.tasks.util/fieldhelper/getdefaulttaskfieldtitle/
 ---
 ## FieldHelper.GetDefaultTaskFieldTitle method
 
-إرجاع العنوان الافتراضي لحقل المهمة المحدد.
+تُعيد عنوانًا افتراضيًا لحقل المهمة المحدد.
 
 ```csharp
 public static string GetDefaultTaskFieldTitle(TaskKey taskKey)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| taskKey | TaskKey | حقل المهمة للحصول على العنوان الافتراضي. |
+| taskKey | TaskKey | حقل المهمة للحصول على عنوان افتراضي. |
 
 ### قيمة الإرجاع
 
-عنوان افتراضي لحقل المهمة المحدد إذا كان من الممكن عرض الحقل في طريقة عرض MS Project ، وإلا ستكون فارغة.
+عنوان افتراضي للحقل المحدد للمهمة إذا كان يمكن عرض الحقل في عرض MS Project، وإلا يكون null.
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية الحصول على عنوان الحقل الافتراضي لحقل المهمة المحدد.
+
+```csharp
+Console.WriteLine("Title for Tsk.ActualCost: " + FieldHelper.GetDefaultTaskFieldTitle(Tsk.ActualCost.KeyType));
+Console.WriteLine("Title for Tsk.PercentWorkComplete: " + FieldHelper.GetDefaultTaskFieldTitle(Tsk.PercentWorkComplete.KeyType));
+```
+
+### انظر أيضًا
 
 * enum [TaskKey](../../../aspose.tasks/taskkey/)
 * class [FieldHelper](../)
-* مساحة الاسم [Aspose.Tasks.Util](../../fieldhelper/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../fieldhelper/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,41 +1,99 @@
 ---
-title: Class OutlineValue
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.OutlineValue فصل. يمثل قيمة المخطط التفصيلي .
+title: "فئة OutlineValue"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "فئة Aspose.Tasks.OutlineValue. تمثّل قيمة مخطط."
 type: docs
-weight: 1080
+weight: 1210
 url: /ar/net/aspose.tasks/outlinevalue/
 ---
 ## OutlineValue class
 
-يمثل قيمة المخطط التفصيلي .
+يمثل قيمة مخطط تفصيلي.
 
 ```csharp
 public class OutlineValue
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [OutlineValue](outlinevalue/)() | Default_Constructor |
+| [OutlineValue](outlinevalue/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Description](../../aspose.tasks/outlinevalue/description/) { get; set; } | الحصول على وصف لقيمة المخطط التفصيلي أو تعيينه. |
-| [DurationValue](../../aspose.tasks/outlinevalue/durationvalue/) { get; set; } | الحصول على المدة أو تعيينها إذا كان النوع هو Duration . |
-| [IsCollapsed](../../aspose.tasks/outlinevalue/iscollapsed/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت قيمة المخطط التفصيلي مطوية أم لا. |
-| [ParentValueId](../../aspose.tasks/outlinevalue/parentvalueid/) { get; set; } | الحصول على معرف العقدة الرئيسية لرمز المخطط التفصيلي أو تعيينه. |
-| [Type](../../aspose.tasks/outlinevalue/type/) { get; set; } | الحصول على نوع كود المخطط التفصيلي أو تعيينه. |
-| [Value](../../aspose.tasks/outlinevalue/value/) { get; set; } | الحصول على القيمة الفعلية أو تعيينها . |
-| [ValueGuid](../../aspose.tasks/outlinevalue/valueguid/) { get; } | يحصل على GUID الذي يحدد هذه القيمة من بين أمور أخرى في المشروع بأكمله. |
-| [ValueId](../../aspose.tasks/outlinevalue/valueid/) { get; set; } | الحصول على أو تعيين المعرف الفريد لقيمة رمز المخطط التفصيلي داخل المشروع. |
+| [Description](../../aspose.tasks/outlinevalue/description/) { get; set; } | يحصل أو يعيّن الوصف لقيمة المخطط. |
+| [DurationValue](../../aspose.tasks/outlinevalue/durationvalue/) { get; set; } | يحصل أو يعيّن المدة إذا كان النوع هو Duration. |
+| [IsCollapsed](../../aspose.tasks/outlinevalue/iscollapsed/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت قيمة المخطط مطوية أم لا. |
+| [ParentValueId](../../aspose.tasks/outlinevalue/parentvalueid/) { get; set; } | يحصل أو يعيّن المعرف (Id) لعقدة الأب لرمز المخطط. |
+| [Type](../../aspose.tasks/outlinevalue/type/) { get; set; } | يحصل أو يعيّن نوع رمز المخطط. |
+| [Value](../../aspose.tasks/outlinevalue/value/) { get; set; } | يحصل أو يعيّن القيمة الفعلية. |
+| [ValueGuid](../../aspose.tasks/outlinevalue/valueguid/) { get; } | يحصل على GUID يحدد هذه القيمة بين القيم الأخرى في المشروع بأكمله. |
+| [ValueId](../../aspose.tasks/outlinevalue/valueid/) { get; set; } | يحصل أو يعيّن المعرف الفريد (Id) لقيمة رمز المخطط داخل مشروع. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية العمل مع قيم المخطط.
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+var outline = new OutlineCodeDefinition();
+outline.FieldId = ExtendedAttributeTask.OutlineCode7.ToString("D");
+outline.Alias = "My Outline Code";
+var outline2 = new OutlineCodeDefinition();
+outline2.FieldId = ExtendedAttributeTask.OutlineCode7.ToString("D");
+outline2.Alias = "My Outline Code 2";
+
+project.OutlineCodes.Add(outline);
+
+var mask = new OutlineMask();
+mask.Type = MaskType.Characters;
+outline.Masks.Add(mask);
+
+// إنشاء قيمة مخطط
+var value = new OutlineValue();
+
+// تعيين القيمة الفعلية
+value.Value = "Text value 1";
+
+// تعيين المعرف الفريد لقيمة رمز المخطط داخل المشروع
+value.ValueId = 1;
+
+// الحصول على GUID يحدد هذه القيمة بين القيم الأخرى في المشروع بأكمله
+Console.WriteLine("Check value GUID: " + value.ValueGuid);
+
+// تعيين نوع رمز المخطط
+value.Type = OutlineValueType.Text;
+
+// تعيين وصف قيمة المخطط
+value.Description = "Text value descr 1";
+
+// تعيين قيمة تشير إلى ما إذا كانت قيمة المخطط مطوية أم لا
+value.IsCollapsed = false;
+
+// التحقق من معرف القيمة الأصلية
+Console.WriteLine("Check parent value id: " + value.ParentValueId);
+outline.Values.Add(value);
+
+// إنشاء قيمة مخطط مع المدة
+var value2 = new OutlineValue();
+
+// تعيين قيمة المدة
+value2.DurationValue = project.GetDuration(1, TimeUnitType.Hour);
+
+// تعيين المعرف الفريد لقيمة رمز المخطط داخل المشروع
+value2.ValueId = 2;
+outline2.Values.Add(value2);
+
+// ...
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Resource.BCWP
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على قيمة BCWP أو تعيينها .
+title: "Resource.BCWP"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل أو تعين قيمة BCWP"
 type: docs
 weight: 170
 url: /ar/net/aspose.tasks/resource/bcwp/
 ---
 ## Resource.BCWP property
 
-الحصول على قيمة BCWP أو تعيينها .
+يحصل أو يعيّن قيمة BCWP.
 
 ```csharp
 public double BCWP { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

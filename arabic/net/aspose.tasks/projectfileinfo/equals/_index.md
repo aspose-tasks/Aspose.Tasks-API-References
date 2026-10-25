@@ -1,55 +1,77 @@
 ---
-title: ProjectFileInfo.Equals
-second_title: Aspose.Tasks لمرجع .NET API
-description: ProjectFileInfo طريقة. إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا.
+title: "ProjectFileInfo.Equals"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ProjectFileInfo. تُرجع قيمة تشير إلى ما إذا كانت هذه المثيلة مساوية لكائن محدد"
 type: docs
 weight: 50
 url: /ar/net/aspose.tasks/projectfileinfo/equals/
 ---
 ## Equals(ProjectFileInfo) {#equals}
 
-إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا.
+يعيد قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن محدد.
 
 ```csharp
 public bool Equals(ProjectFileInfo other)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| other | ProjectFileInfo | الكائن المحدد للمقارنة مع هذا المثال. |
+| آخر | ProjectFileInfo | الكائن المحدد للمقارنة مع هذه المثيلة. |
 
 ### قيمة الإرجاع
 
-يعود صحيحًا إذا كان ProjectFileInfo المحدد وهذا المثيل لهما تنسيق ملف متساوي ومعلومات التطبيق.
+تُرجع true إذا كان الـ ProjectFileInfo المحدد وهذه المثيلة لهما تنسيق ملف ومعلومات تطبيق متساوية.
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة معلومات ملف المشروع.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
+### انظر أيضًا
 
 * class [ProjectFileInfo](../)
-* مساحة الاسم [Aspose.Tasks](../../projectfileinfo/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectfileinfo/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Equals(object) {#equals_1}
 
-إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا.
+يعيد قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن محدد.
 
 ```csharp
 public override bool Equals(object obj)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| obj | Object | الكائن المحدد للمقارنة مع هذا المثال. |
+| obj | كائن | الكائن المحدد للمقارنة مع هذه المثيلة. |
 
 ### قيمة الإرجاع
 
-يعود صحيحًا إذا كان ProjectFileInfo المحدد وهذا المثيل لهما تنسيق ملف متساوي ومعلومات التطبيق.
+تُرجع true إذا كان الـ ProjectFileInfo المحدد وهذه المثيلة لهما تنسيق ملف ومعلومات تطبيق متساوية.
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة معلومات ملف المشروع.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
+### انظر أيضًا
 
 * class [ProjectFileInfo](../)
-* مساحة الاسم [Aspose.Tasks](../../projectfileinfo/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectfileinfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

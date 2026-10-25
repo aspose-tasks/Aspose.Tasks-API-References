@@ -1,23 +1,43 @@
 ---
-title: PageMargins.Left
-second_title: Aspose.Tasks لمرجع .NET API
-description: PageMargins ملكية. الحصول على أو تحديد حجم الهامش الأيسر بالبوصة أو السنتيمتر.
+title: "PageMargins.Left"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PageMargins. يحصل أو يعيّن حجم الهامش الأيسر بالسنتيمترات"
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks.visualization/pagemargins/left/
 ---
 ## PageMargins.Left property
 
-الحصول على أو تحديد حجم الهامش الأيسر بالبوصة أو السنتيمتر.
+يحصل أو يعيّن حجم الهامش الأيسر بالسنتيمترات.
 
 ```csharp
 public double Left { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية العمل مع هوامش الصفحة.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// دعنا نعدّل العرض الافتراضي.
+var margins = project.DefaultView.PageInfo.Margins;
+
+// دعنا نعدّل الهوامش.
+margins.Left = 10d;
+margins.Top = 10d;
+margins.Right = 10d;
+margins.Bottom = 10d;
+margins.Borders = Border.OutsidePages;
+
+project.Save(OutDir + "WorkWithPageMargins_out.mpp", SaveFileFormat.Mpp);
+```
+
+### انظر أيضًا
 
 * class [PageMargins](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../pagemargins/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../pagemargins/)
+* assembly [Aspose.Tasks](../../../)
 
 

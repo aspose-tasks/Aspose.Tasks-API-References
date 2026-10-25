@@ -1,23 +1,23 @@
 ---
-title: Task.PreleveledStart
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة PreleveledStart .
+title: "Task.PreleveledStart"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. الحصول أو تعيين قيمة PreleveledStart"
 type: docs
-weight: 1010
+weight: 1000
 url: /ar/net/aspose.tasks/task/preleveledstart/
 ---
 ## Task.PreleveledStart property
 
-الحصول على أو تعيين قيمة PreleveledStart .
+يحصل أو يعيّن قيمة PreleveledStart.
 
 ```csharp
 public DateTime PreleveledStart { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

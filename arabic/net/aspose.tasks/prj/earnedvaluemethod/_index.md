@@ -1,26 +1,38 @@
 ---
-title: Prj.EarnedValueMethod
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. الطريقة الافتراضية لحساب القيمة المكتسبة .
+title: "Prj.EarnedValueMethod"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. الطريقة الافتراضية لحساب القيمة المكتسبة"
 type: docs
-weight: 300
+weight: 310
 url: /ar/net/aspose.tasks/prj/earnedvaluemethod/
 ---
 ## Prj.EarnedValueMethod field
 
-الطريقة الافتراضية لحساب القيمة المكتسبة .
+طريقة حساب القيمة المكتسبة الافتراضية.
 
 ```csharp
 public static readonly Key<EarnedValueMethodType, PrjKey> EarnedValueMethod;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة خاصية Prj.EarnedValueMethod.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.EarnedValueMethod, EarnedValueMethodType.PhysicalPercentComplete);
+
+Console.WriteLine("Earned Value Method: " + project.Get(Prj.EarnedValueMethod));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [EarnedValueMethodType](../../earnedvaluemethodtype/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

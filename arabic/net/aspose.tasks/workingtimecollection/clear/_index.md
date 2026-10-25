@@ -1,23 +1,23 @@
 ---
-title: WorkingTimeCollection.Clear
-second_title: Aspose.Tasks لمرجع .NET API
-description: WorkingTimeCollection طريقة. يزيل الكلWorkingTime عناصر من المجموعة.
+title: "WorkingTimeCollection.Clear"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة WorkingTimeCollection. تزيل جميع عناصر WorkingTime من المجموعة"
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks/workingtimecollection/clear/
 ---
 ## WorkingTimeCollection.Clear method
 
-يزيل الكل[`WorkingTime`](../../workingtime/) عناصر من المجموعة.
+يزيل جميع عناصر [`WorkingTime`](../../workingtime/) من المجموعة.
 
 ```csharp
 public void Clear()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [WorkingTimeCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../workingtimecollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workingtimecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

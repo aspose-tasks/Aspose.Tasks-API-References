@@ -1,9 +1,9 @@
 ---
-title: Class AssignmentViewColumn
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Visualization.AssignmentViewColumn فصل. فئة عرض المشروع.
+title: "الفئة AssignmentViewColumn"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "فئة Aspose.Tasks.Visualization.AssignmentViewColumn. فئة عرض المشاريع"
 type: docs
-weight: 2600
+weight: 2930
 url: /ar/net/aspose.tasks.visualization/assignmentviewcolumn/
 ---
 ## AssignmentViewColumn class
@@ -14,32 +14,58 @@ url: /ar/net/aspose.tasks.visualization/assignmentviewcolumn/
 public class AssignmentViewColumn : ViewColumn
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AssignmentViewColumn](assignmentviewcolumn/)(string, int, AssignmentToColumnTextConverter) | تهيئة مثيل جديد لفئة AssignmentViewColumn. |
+| [AssignmentViewColumn](assignmentviewcolumn/)(string, int, AssignmentToColumnTextConverter) | يُهيئ نسخة جديدة من فئة AssignmentViewColumn. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [Field](../../aspose.tasks.visualization/assignmentviewcolumn/field/) { get; set; } | حقل العمود . [`Field`](./field/) . |
-| [Name](../../aspose.tasks.visualization/viewcolumn/name/) { get; } | الحصول على اسم العمود . |
-| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment/) { get; set; } | الحصول على محاذاة النص أو تعيينها (يمكن أن تكون إحدى قيم ملف[`StringAlignment`](../viewcolumn/stringalignment/) تعداد) . |
-| [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback/) { get; set; } | الحصول على أو تعيين رد الاتصال الذي يمكن استخدامه لتخصيص مظهر خلايا العمود. |
-| [Width](../../aspose.tasks.visualization/viewcolumn/width/) { get; } | الحصول على عرض العمود . |
+| override [Field](../../aspose.tasks.visualization/assignmentviewcolumn/field/) { get; set; } | حقل العمود. [`Field`](./field/). |
+| [Name](../../aspose.tasks.visualization/viewcolumn/name/) { get; } | يحصل على اسم العمود. |
+| [StringAlignment](../../aspose.tasks.visualization/viewcolumn/stringalignment/) { get; set; } | يحصل أو يعيّن محاذاة النص (يمكن أن تكون أحد قيم تعداد [`HorizontalStringAlignment`](../horizontalstringalignment/)). |
+| [TextStyleModificationCallback](../../aspose.tasks.visualization/viewcolumn/textstylemodificationcallback/) { get; set; } | يحصل أو يعيّن رد النداء الذي يمكن استخدامه لتخصيص مظهر خلايا العمود. |
+| [Width](../../aspose.tasks.visualization/viewcolumn/width/) { get; } | يحصل على عرض العمود. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [GetColumnText](../../aspose.tasks.visualization/assignmentviewcolumn/getcolumntext/)(ResourceAssignment) | تحويل تخصيص الموارد الحالي إلى نص العمود. |
+| [GetColumnText](../../aspose.tasks.visualization/assignmentviewcolumn/getcolumntext/)(ResourceAssignment) | يحوّل تعيين المورد الحالي إلى نص العمود. |
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية إضافة أعمدة لعرض التعيينات.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new Spreadsheet2003SaveOptions();
+
+var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
+options.AssignmentView.Columns.Add(column);
+
+foreach (var assignment in project.ResourceAssignments)
+{
+    foreach (var col in options.AssignmentView.Columns)
+    {
+        var assnCol = (AssignmentViewColumn)col;
+        Console.WriteLine("Column Field: " + assnCol.Field);
+        Console.WriteLine("Column Text ( converted ): " + assnCol.GetColumnText(assignment));
+        Console.WriteLine();
+    }
+}
+
+project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
+```
+
+### انظر أيضًا
 
 * class [ViewColumn](../viewcolumn/)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

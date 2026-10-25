@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.ActualLaborUnits
-second_title: Aspose.Tasks لمرجع .NET API
-description: PrimaveraTaskProperties ملكية. الحصول على قيمة وحدات العمل الفعلية.
+title: "PrimaveraTaskProperties.ActualLaborUnits"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PrimaveraTaskProperties. تحصل على قيمة الوحدات العمالية الفعلية"
 type: docs
-weight: 20
+weight: 50
 url: /ar/net/aspose.tasks/primaverataskproperties/actuallaborunits/
 ---
 ## PrimaveraTaskProperties.ActualLaborUnits property
 
-الحصول على قيمة وحدات العمل الفعلية.
+يحصل على قيمة وحدات العمالة الفعلية.
 
 ```csharp
 public double ActualLaborUnits { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PrimaveraTaskProperties](../)
-* مساحة الاسم [Aspose.Tasks](../../primaverataskproperties/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

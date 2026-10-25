@@ -1,23 +1,41 @@
 ---
-title: CalendarException.Delete
-second_title: Aspose.Tasks لمرجع .NET API
-description: CalendarException طريقة. حذف مثيل الاستثناء من كائن CalendarExceptionCollection التقويم الأصلي.
+title: "CalendarException.Delete"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة CalendarException. تحذف كائن Exception من كائن CalendarExceptionCollection التابع للتقويم الأصلي"
 type: docs
 weight: 180
 url: /ar/net/aspose.tasks/calendarexception/delete/
 ---
 ## CalendarException.Delete method
 
-حذف مثيل الاستثناء من كائن CalendarExceptionCollection التقويم الأصلي.
+يحذف مثيل Exception من كائن التقويم الأب CalendarExceptionCollection.
 
 ```csharp
 public void Delete()
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية حذف استثناء تقويم.
+
+```csharp
+var project = new Project(DataDir + "CalendarExceptions.mpp");
+
+var calendar = project.Calendars.ToList()[0];
+
+Console.WriteLine("Calendar Name: " + calendar.Name);
+Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
+
+// إزالة الاستثناء
+calendar.Exceptions[0].Delete();
+
+Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
+```
+
+### انظر أيضًا
 
 * class [CalendarException](../)
-* مساحة الاسم [Aspose.Tasks](../../calendarexception/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexception/)
+* assembly [Aspose.Tasks](../../../)
 
 

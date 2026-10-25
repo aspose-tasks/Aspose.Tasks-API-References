@@ -1,24 +1,35 @@
 ---
-title: ProjectFileInfo.ProjectFileFormat
-second_title: Aspose.Tasks لمرجع .NET API
-description: ProjectFileInfo ملكية. يحصل على تنسيق ملف المشروع .
+title: "ProjectFileInfo.ProjectFileFormat"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ProjectFileInfo. يحصل على تنسيق ملف المشروع"
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks/projectfileinfo/projectfileformat/
 ---
 ## ProjectFileInfo.ProjectFileFormat property
 
-يحصل على تنسيق ملف المشروع .
+يحصل على تنسيق ملف المشروع.
 
 ```csharp
 public FileFormat ProjectFileFormat { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة معلومات ملف المشروع.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
+### انظر أيضًا
 
 * enum [FileFormat](../../fileformat/)
 * class [ProjectFileInfo](../)
-* مساحة الاسم [Aspose.Tasks](../../projectfileinfo/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectfileinfo/)
+* assembly [Aspose.Tasks](../../../)
 
 

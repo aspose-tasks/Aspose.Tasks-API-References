@@ -1,32 +1,32 @@
 ---
-title: ResourceAssignmentCollection.Item
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignmentCollection ملكية. إرجاع العنصر بالفهرس المحدد.
+title: "ResourceAssignmentCollection.Item"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ResourceAssignmentCollection. تُرجع العنصر في الفهرس المحدد"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks/resourceassignmentcollection/item/
 ---
 ## ResourceAssignmentCollection indexer
 
-إرجاع العنصر بالفهرس المحدد.
+يرجع العنصر عند الفهرس المحدد.
 
 ```csharp
 public ResourceAssignment this[int index] { get; set; }
 ```
 
-| معامل | وصف |
+| معامل | الوصف |
 | --- | --- |
-| index | الفهرس الصفري للعنصر المراد الحصول عليه. |
+| الفهرس | الفهرس الصفري للعنصر المراد الحصول عليه. |
 
 ### قيمة الإرجاع
 
 العنصر في الفهرس المحدد.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ResourceAssignment](../../resourceassignment/)
 * class [ResourceAssignmentCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignmentcollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignmentcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

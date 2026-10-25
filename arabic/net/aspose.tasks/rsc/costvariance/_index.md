@@ -1,25 +1,39 @@
 ---
-title: Rsc.CostVariance
-second_title: Aspose.Tasks لمرجع .NET API
-description: Rsc مجال. الفرق بين التكلفة الأساسية والتكلفة الإجمالية للمورد.
+title: "Rsc.CostVariance"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Rsc. الفرق بين التكلفة الأساسية والتكلفة الإجمالية لمورد"
 type: docs
 weight: 250
 url: /ar/net/aspose.tasks/rsc/costvariance/
 ---
 ## Rsc.CostVariance field
 
-الفرق بين التكلفة الأساسية والتكلفة الإجمالية للمورد.
+الفرق بين تكلفة الخط الأساسي والتكلفة الإجمالية لمورد.
 
 ```csharp
 public static readonly Key<double, RscKey> CostVariance;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة الخاصية Rsc.CostVariance.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.CostVariance, 10);
+
+Console.WriteLine("Cost Variance: " + resource.Get(Rsc.CostVariance));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* مساحة الاسم [Aspose.Tasks](../../rsc/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

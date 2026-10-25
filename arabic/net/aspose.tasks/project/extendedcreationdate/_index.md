@@ -1,23 +1,23 @@
 ---
-title: Project.ExtendedCreationDate
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة ExtendedCreationDate .
+title: "Project.ExtendedCreationDate"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية المشروع. تحصل أو تعين قيمة ExtendedCreationDate"
 type: docs
-weight: 410
+weight: 420
 url: /ar/net/aspose.tasks/project/extendedcreationdate/
 ---
 ## Project.ExtendedCreationDate property
 
-الحصول على أو تعيين قيمة ExtendedCreationDate .
+يحصل أو يعيّن قيمة لـ ExtendedCreationDate.
 
 ```csharp
 public DateTime ExtendedCreationDate { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

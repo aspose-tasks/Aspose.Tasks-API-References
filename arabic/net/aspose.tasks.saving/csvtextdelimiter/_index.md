@@ -1,31 +1,47 @@
 ---
-title: Enum CsvTextDelimiter
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Saving.CsvTextDelimiter تعداد. محدد النص لتنسيق CSV .
+title: "تعداد CsvTextDelimiter"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "تعداد Aspose.Tasks.Saving.CsvTextDelimiter. محدد النص لتنسيق CSV"
 type: docs
-weight: 1730
+weight: 1990
 url: /ar/net/aspose.tasks.saving/csvtextdelimiter/
 ---
 ## CsvTextDelimiter enumeration
 
-محدد النص لتنسيق CSV .
+فاصل النص لتنسيق CSV.
 
 ```csharp
 public enum CsvTextDelimiter
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Comma | `0` | محدد الفاصلة . |
-| Semicolon | `1` | محدد الفاصلة المنقوطة. |
-| Space | `2` | محدد المسافة . |
-| Tab | `3` | محدد علامات الجدولة . |
+| Comma | `0` | محدد الفاصلة (،). |
+| Semicolon | `1` | محدد الفاصلة المنقوطة (؛). |
+| Space | `2` | محدد الفراغ. |
+| Tab | `3` | محدد علامة الجدولة. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* المجسم [Aspose.Tasks](../../)
+يعرض كيفية استخدام &lt;see cref=\"Aspose.Tasks.Saving.CsvOptions\" /&gt; لحفظ مشروع كملف CSV.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+var options = new CsvOptions
+{
+    DataCategory = DataCategory.Resources,
+    TextDelimiter = CsvTextDelimiter.Semicolon,
+    Encoding = Encoding.Unicode, IncludeHeaders = true
+};
+
+project.Save(OutDir + "WorkWithCsvOptions_out.csv", options);
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

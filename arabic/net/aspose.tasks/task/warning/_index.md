@@ -1,23 +1,23 @@
 ---
-title: Task.Warning
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين التحذير أم لا.
+title: "Task.Warning"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصّل أو تعين قيمة تشير إلى ما إذا كان Warning مُعيّنًا أم لا"
 type: docs
 weight: 1260
 url: /ar/net/aspose.tasks/task/warning/
 ---
 ## Task.Warning property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين التحذير أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان Warning مفعلاً أم لا.
 
 ```csharp
 public bool Warning { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.FixedMaterial
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كانت FixedMaterial معينة أم لا.
+title: "ResourceAssignment.FixedMaterial"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ResourceAssignment. تحصل أو تعيّن قيمة تشير إلى ما إذا كان FixedMaterial مُحددًا أم لا"
 type: docs
 weight: 280
 url: /ar/net/aspose.tasks/resourceassignment/fixedmaterial/
 ---
 ## ResourceAssignment.FixedMaterial property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كانت FixedMaterial معينة أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان FixedMaterial مضبوطًا أم لا.
 
 ```csharp
 public bool FixedMaterial { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

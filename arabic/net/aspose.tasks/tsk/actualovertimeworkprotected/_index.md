@@ -1,26 +1,41 @@
 ---
-title: Tsk.ActualOvertimeWorkProtected
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. المدة التي يتم خلالها حماية العمل الإضافي الفعلي.
+title: "Tsk.ActualOvertimeWorkProtected"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. المدة التي يتم فيها حماية العمل الإضافي الفعلي"
 type: docs
 weight: 70
 url: /ar/net/aspose.tasks/tsk/actualovertimeworkprotected/
 ---
 ## Tsk.ActualOvertimeWorkProtected field
 
-المدة التي يتم خلالها حماية العمل الإضافي الفعلي.
+المدة التي يتم فيها حماية العمل الإضافي الفعلي.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> ActualOvertimeWorkProtected;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة/كتابة الخاصية Tsk.ActualOvertimeWorkProtected.
+
+```csharp
+var project = new Project();
+project.Set(Prj.WorkFormat, TimeUnitType.Day);
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.ActualOvertimeWorkProtected, project.GetWork(1));
+
+Console.WriteLine("Actual Overtime Work Protected: " + task.Get(Tsk.ActualOvertimeWorkProtected));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

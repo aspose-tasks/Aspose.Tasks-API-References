@@ -1,25 +1,44 @@
 ---
-title: Asn.RemainingCost
-second_title: Aspose.Tasks لمرجع .NET API
-description: Asn مجال. التكلفة المتبقية المتوقعة لإكمال المهمة.
+title: "Asn.RemainingCost"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Asn. التكلفة المتوقعة المتبقية لإكمال تكليف"
 type: docs
 weight: 430
 url: /ar/net/aspose.tasks/asn/remainingcost/
 ---
 ## Asn.RemainingCost field
 
-التكلفة المتبقية المتوقعة لإكمال المهمة.
+التكلفة المتوقعة المتبقية لإكمال مهمة.
 
 ```csharp
 public static readonly Key<decimal, AsnKey> RemainingCost;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة العمل الإضافي/الأعمال المتبقية/التكاليف لتكليف.
+
+```csharp
+var project = new Project(DataDir + "ResourceAssignmentOvertimes.mpp");
+
+// طباعة العمل الإضافي للتكليف
+foreach (var ra in project.ResourceAssignments)
+{
+    Console.WriteLine(ra.Get(Asn.OvertimeWork).ToString());
+    Console.WriteLine(ra.Get(Asn.OvertimeCost));
+    Console.WriteLine(ra.Get(Asn.RemainingWork).ToString());
+    Console.WriteLine(ra.Get(Asn.RemainingCost));
+    Console.WriteLine(ra.Get(Asn.RemainingOvertimeWork).ToString());
+    Console.WriteLine(ra.Get(Asn.RemainingOvertimeCost));
+}
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [AsnKey](../../asnkey/)
 * class [Asn](../)
-* مساحة الاسم [Aspose.Tasks](../../asn/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../asn/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: BarStyle.InsideBarTextConverter
-second_title: Aspose.Tasks لمرجع .NET API
-description: BarStyle ملكية. الحصول على أو تعيين المحول المعرّف من قبل المستخدم للحصول على نص ليتم عرضه داخل شريط المهام. يتجاوز قيمةInsideField الملكية .
+title: "BarStyle.InsideBarTextConverter"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية BarStyle. يحصل أو يضبط محولًا معرفًا من قبل المستخدم للحصول على النص لتصميمه داخل شريط المهام. يتجاوز قيمة خاصية InsideField"
 type: docs
-weight: 80
+weight: 100
 url: /ar/net/aspose.tasks.visualization/barstyle/insidebartextconverter/
 ---
 ## BarStyle.InsideBarTextConverter property
 
-الحصول على أو تعيين المحول المعرّف من قبل المستخدم للحصول على نص ليتم عرضه داخل شريط المهام. يتجاوز قيمة[`InsideField`](../insidefield/) الملكية .
+يحصل أو يعيّن محولًا معرفًا من قبل المستخدم للحصول على النص لتصييره داخل شريط المهمة. يتجاوز قيمة خاصية [`InsideField`](../insidefield/).
 
 ```csharp
 public TaskBarTextConverter InsideBarTextConverter { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * delegate [TaskBarTextConverter](../../taskbartextconverter/)
 * class [BarStyle](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../barstyle/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

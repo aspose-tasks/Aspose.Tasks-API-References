@@ -1,33 +1,44 @@
 ---
-title: Project.GetProjectFileInfo
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project طريقة. اقرأ معلومات ملف المشروع من الملف .
+title: "Project.GetProjectFileInfo"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Project. قراءة معلومات ملف المشروع من الملف"
 type: docs
-weight: 1260
+weight: 1280
 url: /ar/net/aspose.tasks/project/getprojectfileinfo/
 ---
 ## GetProjectFileInfo(string) {#getprojectfileinfo_1}
 
-اقرأ معلومات ملف المشروع من الملف .
+قراءة معلومات ملف المشروع من الملف.
 
 ```csharp
 public static ProjectFileInfo GetProjectFileInfo(string filename)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| filename | String | اسم ملف المشروع. |
+| filename | سلسلة | اسم ملف المشروع. |
 
 ### قيمة الإرجاع
 
-معلومات ملف المشروع[`ProjectFileInfo`](../../projectfileinfo/).
+معلومات ملف المشروع [`ProjectFileInfo`](../../projectfileinfo/).
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة معلومات ملف المشروع التي تم قرأتها من ملف XML.
+
+```csharp
+var info = Project.GetProjectFileInfo(DataDir + "Project.xml");
+Console.WriteLine("CanRead: " + info.CanRead);
+Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+```
+
+### انظر أيضًا
 
 * class [ProjectFileInfo](../../projectfileinfo/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -39,19 +50,33 @@ public static ProjectFileInfo GetProjectFileInfo(string filename)
 public static ProjectFileInfo GetProjectFileInfo(Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | دفق البيانات. |
+| دفق | دفق | دفق البيانات. |
 
 ### قيمة الإرجاع
 
-معلومات ملف المشروع[`ProjectFileInfo`](../../projectfileinfo/).
+معلومات ملف المشروع [`ProjectFileInfo`](../../projectfileinfo/).
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة معلومات ملف المشروع لملف XML يُقرأ من تدفق.
+
+```csharp
+using (var stream = new FileStream(DataDir + "Project.xml", FileMode.Open))
+{
+    var info = Project.GetProjectFileInfo(stream);
+    Console.WriteLine("CanRead: " + info.CanRead);
+    Console.WriteLine("ProjectApplicationInfo: " + info.ProjectApplicationInfo);
+    Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
+}
+```
+
+### انظر أيضًا
 
 * class [ProjectFileInfo](../../projectfileinfo/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

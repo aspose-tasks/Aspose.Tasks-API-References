@@ -1,26 +1,38 @@
 ---
-title: Prj.AdminProject
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. تحديد ما إذا كان المشروع مشروعًا إداريًا.
+title: "Prj.AdminProject"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. يحدد ما إذا كان المشروع مشروعًا إداريًا"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks/prj/adminproject/
 ---
 ## Prj.AdminProject field
 
-تحديد ما إذا كان المشروع مشروعًا إداريًا.
+يحدد ما إذا كان المشروع مشروعًا إداريًا.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> AdminProject;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة خاصية Prj.AdminProject.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.AdminProject, true);
+
+Console.WriteLine("Admin Project: " + project.Get(Prj.AdminProject));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

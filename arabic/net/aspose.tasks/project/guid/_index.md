@@ -1,23 +1,23 @@
 ---
-title: Project.Guid
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تحديد قيمة Guid .
+title: "Project.Guid"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعيين قيمة من نوع Guid"
 type: docs
-weight: 450
+weight: 470
 url: /ar/net/aspose.tasks/project/guid/
 ---
 ## Project.Guid property
 
-الحصول على أو تحديد قيمة Guid .
+يحصل أو يعيّن قيمة Guid.
 
 ```csharp
 public Guid Guid { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

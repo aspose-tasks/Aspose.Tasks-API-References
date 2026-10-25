@@ -1,26 +1,38 @@
 ---
-title: Prj.MoveRemainingStartsBack
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. لتحديد ما إذا كان يجب إعادة بداية الأجزاء المتبقية من المهام المجدولة للبدء بعد تاريخ الحالة ولكنها بدأت في وقت سابق إلى تاريخ الحالة.
+title: "Prj.MoveRemainingStartsBack"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. يحدد ما إذا كان يجب إرجاع بداية الأجزاء المتبقية من المهام المجدولة للبدء بعد تاريخ الحالة ولكن التي بدأت مبكرًا إلى تاريخ الحالة"
 type: docs
-weight: 500
+weight: 510
 url: /ar/net/aspose.tasks/prj/moveremainingstartsback/
 ---
 ## Prj.MoveRemainingStartsBack field
 
-لتحديد ما إذا كان يجب إعادة بداية الأجزاء المتبقية من المهام المجدولة للبدء بعد تاريخ الحالة ولكنها بدأت في وقت سابق إلى تاريخ الحالة.
+يحدد ما إذا كان يجب إرجاع بداية الأجزاء المتبقية من المهام المجدولة للبدء بعد تاريخ الحالة ولكن التي بدأت مبكرًا إلى تاريخ الحالة.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> MoveRemainingStartsBack;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة الخاصية Prj.MoveRemainingStartsBack.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.MoveRemainingStartsBack, true);
+
+Console.WriteLine("Move Remaining Starts Back: " + project.Get(Prj.MoveRemainingStartsBack));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

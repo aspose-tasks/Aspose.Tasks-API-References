@@ -1,28 +1,28 @@
 ---
-title: TaskBaseline.TaskBaseline
-second_title: Aspose.Tasks لمرجع .NET API
-description: TaskBaseline البناء. يقوم بتهيئة مثيل جديد لملفTaskBaseline فئة .
+title: "TaskBaseline.TaskBaseline"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ TaskBaseline. يهيئ مثيلًا جديدًا من فئة TaskBaseline"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/taskbaseline/taskbaseline/
 ---
 ## TaskBaseline constructor
 
-يقوم بتهيئة مثيل جديد لملف[`TaskBaseline`](../) فئة .
+يهيئ مثيلًا جديدًا من الفئة [`TaskBaseline`](../).
 
 ```csharp
 public TaskBaseline(Task task)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| task | Task | المهمة الرئيسية لخط الأساس. |
+| مهمة | مهمة | مهمة الأصل لخط الأساس. |
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../../task/)
 * class [TaskBaseline](../)
-* مساحة الاسم [Aspose.Tasks](../../taskbaseline/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskbaseline/)
+* assembly [Aspose.Tasks](../../../)
 
 

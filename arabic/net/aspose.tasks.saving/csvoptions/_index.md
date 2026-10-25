@@ -1,62 +1,80 @@
 ---
-title: Class CsvOptions
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Saving.CsvOptions فصل. يسمح بتحديد خيارات إضافية عند حفظ المشروع بتنسيق CSV .
+title: "فئة CsvOptions"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "Aspose.Tasks.Saving.CsvOptions فئة. يسمح بتحديد خيارات إضافية عند حفظ المشروع إلى CSV"
 type: docs
-weight: 1720
+weight: 1980
 url: /ar/net/aspose.tasks.saving/csvoptions/
 ---
 ## CsvOptions class
 
-يسمح بتحديد خيارات إضافية عند حفظ المشروع بتنسيق CSV .
+يسمح بتحديد خيارات إضافية عند حفظ المشروع إلى CSV.
 
 ```csharp
-public class CsvOptions : SaveOptions
+public class CsvOptions : SimpleSaveOptions
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CsvOptions](csvoptions/)() | يقوم بتهيئة مثيل جديد لملف`CsvOptions` فئة يمكن استخدامها لحفظ المشروع بتنسيق CSV. |
+| [CsvOptions](csvoptions/)() | ينشئ مثيلاً جديدًا من فئة `CsvOptions` التي يمكن استخدامها لحفظ المشروع بصيغة CSV. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BarStyles](../../aspose.tasks.saving/saveoptions/barstyles/) { get; set; } | الحصول على أو تعيين قائمة مثيلات ملف[`BarStyle`](../../aspose.tasks.visualization/barstyle/) الفئة التي تظهر في عرض المشروع. |
-| [CustomPageSize](../../aspose.tasks.saving/saveoptions/custompagesize/) { get; set; } | الحصول على أو تعيين حجم الصفحة المخصص بالنقاط (نقطة واحدة = 1/72 بوصة) . |
-| [DataCategory](../../aspose.tasks.saving/csvoptions/datacategory/) { get; set; } | الحصول على أو تعيين فئة بيانات ليتم حفظها. |
-| [DrawNonWorkingTime](../../aspose.tasks.saving/saveoptions/drawnonworkingtime/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب رسم وقت غير العمل (القيمة الافتراضية هي TRUE) . |
-| [Encoding](../../aspose.tasks.saving/csvoptions/encoding/) { get; set; } | الحصول على ترميز أو تعيينه لحفظ ملف CSV باستخدام . |
-| [EndDate](../../aspose.tasks.saving/saveoptions/enddate/) { get; set; } | الحصول على أو تحديد تاريخ انتهاء التقديم إلى. |
-| [FitContent](../../aspose.tasks.saving/saveoptions/fitcontent/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب زيادة ارتفاع الصف ليناسب محتواه. |
-| [FitTimescaleToEndOfPage](../../aspose.tasks.saving/saveoptions/fittimescaletoendofpage/) { get; set; } | الحصول على أو تحديد ما إذا كان يجب عرض قسم التقويم في طريقة العرض إلى نهاية الصفحة الأخيرة (الجانب الأيمن) . إذا كانت القيمة خاطئة ، فسيتم تقديم قسم التقويم تمامًا إلى تاريخ الانتهاء ، حتى إذا كانت هناك مساحة فارغة على الصفحة. |
-| [Gridlines](../../aspose.tasks.saving/saveoptions/gridlines/) { get; set; } | يحصل أو يحدد قائمة[`Gridline`](../../aspose.tasks.visualization/gridline/) التي تظهر في عرض المشروع. |
-| [IncludeHeaders](../../aspose.tasks.saving/csvoptions/includeheaders/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى تضمين الرؤوس أم لا (القيمة الافتراضية هي TRUE) . |
-| [LegendOnEachPage](../../aspose.tasks.saving/saveoptions/legendoneachpage/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب عرض وسيلة الإيضاح في كل صفحة (القيمة الافتراضية هي TRUE) . |
-| [MarkCriticalTasks](../../aspose.tasks.saving/saveoptions/markcriticaltasks/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب عرض المهام الهامة باللون الأحمر (القيمة الافتراضية هي FALSE) . |
-| [NonWorkingTimeColor](../../aspose.tasks.saving/saveoptions/nonworkingtimecolor/) { get; set; } | الحصول على أو تعيين لون وقت غير العمل. |
-| [PageCount](../../aspose.tasks.saving/saveoptions/pagecount/) { get; } | الحصول على أو تحديد عدد صفحات المشروع. |
-| [PageSize](../../aspose.tasks.saving/saveoptions/pagesize/) { get; set; } | الحصول على أو تحديد حجم الصفحة المراد عرضها (القيمة الافتراضية هي PageSize.A4) . |
-| [PresentationFormat](../../aspose.tasks.saving/saveoptions/presentationformat/) { get; set; } | يحصل أو يحدد ملف[`PresentationFormat`](../saveoptions/presentationformat/) حيث سيتم حفظ المستند. |
-| [RenderToSinglePage](../../aspose.tasks.saving/saveoptions/rendertosinglepage/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب تقديم مشروع إلى صفحة واحدة عند حفظ المشروع بتنسيق رسومي. سيتم تغيير حجم الصفحة بحيث يمكن احتواء المشروع المعروض في صفحة واحدة. |
-| [RollUpGanttBars](../../aspose.tasks.saving/saveoptions/rollupganttbars/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب وضع علامة على المهام الفرعية في شريط المهام الموجزة. بالنسبة للمهام الفرعية ، يشير حقل "التجميع" إلى ما إذا كانت المعلومات الموجودة في أشرطة جانت للمهام الفرعية سيتم عرضها في شريط المهام الموجزة. يشير الحقل إلى ما إذا كان شريط المهام الموجزة يعرض أشرطة مجمعة . يجب أن يكون لديك حقل "التجميع" للمهام الموجزة معينًا إلى "نعم" لأية مهام فرعية ليتم عرضها عليها. |
-| [SaveFormat](../../aspose.tasks.saving/saveoptions/saveformat/) { get; } | الحصول على أو تحديد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا. |
-| [StartDate](../../aspose.tasks.saving/saveoptions/startdate/) { get; set; } | الحصول على أو تحديد تاريخ بدء العرض من . |
-| [TasksComparer](../../aspose.tasks.saving/saveoptions/taskscomparer/) { get; set; } | الحصول على المقارنة أو تعيينها لفرز المهام في مخطط جانت ومخطط ورقة المهام. |
-| [TasksFilter](../../aspose.tasks.saving/saveoptions/tasksfilter/) { get; set; } | الحصول على أو تعيين الشرط المستخدم لفلترة المهام المعروضة على مخططات جانت وورقة المهام واستخدام المهام. |
-| [TextDelimiter](../../aspose.tasks.saving/csvoptions/textdelimiter/) { get; set; } | الحصول على محدد النص أو تعيينه. |
-| [TextStyles](../../aspose.tasks.saving/saveoptions/textstyles/) { get; set; } | الحصول على أو تعيين قائمة مثيلات ملف[`TextStyle`](../../aspose.tasks.visualization/textstyle/) الفئة التي تظهر في عرض المشروع. |
-| [Timescale](../../aspose.tasks.saving/saveoptions/timescale/) { get; set; } | يحصل أو يحدد ملف[`Timescale`](../saveoptions/timescale/) القيمة التي تُستخدم للتحكم في كيفية عرض المقياس الزمني (إن وجد) عند حفظ المشروع بتنسيق رسومي. |
-| virtual [UseGradientBrush](../../aspose.tasks.saving/saveoptions/usegradientbrush/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب استخدام فرشاة التدرج عند عرض مخطط جانت. |
-| [View](../../aspose.tasks.saving/saveoptions/view/) { get; set; } | الحصول على أو تعيين قائمة بأعمدة العرض المراد عرضها ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/) ) . إذا لم يتم تعيينها ، فسيتم عرض معرفات المهام وأسماء المهام والبدء والنهاية فقط.[`ViewSettings`](../saveoptions/viewsettings/)تم تعيين الخصائص ، الأعمدة من عرض تتجاوز الأعمدة من ViewSettings. |
-| [ViewSettings](../../aspose.tasks.saving/saveoptions/viewsettings/) { get; set; } | الحصول على عرض أو تعيينه ([`View`](../saveoptions/view/) ) لتقديمه. يمكنك استخدام هذه الخيارات لتحديد طريقة العرض التي يجب حفظها بتنسيق PDF أو HTML أو صورة بشكل صريح . إذا تم تعيين هذه الخاصية ،[`PresentationFormat`](../../aspose.tasks.visualization/presentationformat/) يتم تجاهل الخاصية عند حفظ المشروع. يجب أن يكون العرض من إحدى الشاشات التالية (([`Screen`](../../aspose.tasks/view/screen/) )): (Gantt ، TaskSheet ، TaskUsage ، ResourceSheet ، ResourceUsage) |
+| [DataCategory](../../aspose.tasks.saving/csvoptions/datacategory/) { get; set; } | يحصل أو يعيّن فئة البيانات التي سيتم حفظها. |
+| [Encoding](../../aspose.tasks.saving/csvoptions/encoding/) { get; set; } | يحصل أو يعيّن ترميزًا لحفظ CSV به. |
+| [IncludeHeaders](../../aspose.tasks.saving/csvoptions/includeheaders/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب تضمين العناوين أم لا (القيمة الافتراضية هي TRUE). |
+| [SaveFormat](../../aspose.tasks.saving/simplesaveoptions/saveformat/) { get; } | يحصل أو يعيّن التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا. |
+| [TasksComparer](../../aspose.tasks.saving/simplesaveoptions/taskscomparer/) { get; set; } | يحصل أو يعيّن المقارن لفرز المهام على مخطط جانت ومخطط ورقة المهام. |
+| [TasksFilter](../../aspose.tasks.saving/simplesaveoptions/tasksfilter/) { get; set; } | يحصل أو يعيّن الشرط المستخدم لتصفية المهام المعروضة على مخططات جانت، ورقة المهام، واستخدام المهام. |
+| [TextDelimiter](../../aspose.tasks.saving/csvoptions/textdelimiter/) { get; set; } | يحصل أو يضبط محدد النص. |
+| [View](../../aspose.tasks.saving/csvoptions/view/) { get; set; } | يحصل أو يضبط قائمة أعمدة العرض ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/)) لحفظها بتنسيق XLSX. إذا لم يتم الضبط فسيتم حفظ الأعمدة الافتراضية. |
 
-### أنظر أيضا
+## الأمثلة
 
-* class [SaveOptions](../saveoptions/)
-* مساحة الاسم [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* المجسم [Aspose.Tasks](../../)
+يعرض كيفية استخدام &lt;see cref=\"Aspose.Tasks.Saving.CsvOptions\" /&gt; لحفظ مشروع كملف CSV.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+var options = new CsvOptions
+{
+    DataCategory = DataCategory.Resources,
+    TextDelimiter = CsvTextDelimiter.Semicolon,
+    Encoding = Encoding.Unicode, IncludeHeaders = true
+};
+
+project.Save(OutDir + "WorkWithCsvOptions_out.csv", options);
+```
+
+يوضح كيفية استخدام &lt;see cref=\"Aspose.Tasks.Saving.CsvOptions\" /&gt; لأخذ أعمدة مخطط جانت الافتراضي و
+
+```csharp
+// احفظها في ملف CSV.
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+CsvOptions options = new CsvOptions();
+options.TextDelimiter = CsvTextDelimiter.Tab;
+
+var view = project.DefaultView;
+options.View = ProjectView.GetDefaultGanttChartView();
+options.View.Columns.Clear();
+
+foreach (var t in view.Table.TableFields)
+{
+    var columnTitle = string.IsNullOrEmpty(t.Title) ? FieldHelper.GetDefaultFieldTitle(t.Field) : t.Title;
+    options.View.Columns.Add(new GanttChartColumn(columnTitle, 10, t.Field));
+}
+
+project.Save(OutDir + "CustomizeViewForCsvOptions_out.csv", options);
+```
+
+### انظر أيضًا
+
+* class [SimpleSaveOptions](../simplesaveoptions/)
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

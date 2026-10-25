@@ -1,26 +1,47 @@
 ---
-title: Rsc.OvertimeWork
-second_title: Aspose.Tasks لمرجع .NET API
-description: Rsc مجال. مقدار العمل الإضافي المجدول ليتم تنفيذه بواسطة مورد في مهمة وتحمله بمعدلات العمل الإضافي للموارد المعنية.
+title: "Rsc.OvertimeWork"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Rsc. مقدار الوقت الإضافي المجدول الذي سيؤديه مورد على مهمة ويتم احتسابه بأسعار الوقت الإضافي للموارد المشاركة"
 type: docs
-weight: 540
+weight: 530
 url: /ar/net/aspose.tasks/rsc/overtimework/
 ---
 ## Rsc.OvertimeWork field
 
-مقدار العمل الإضافي المجدول ليتم تنفيذه بواسطة مورد في مهمة وتحمله بمعدلات العمل الإضافي للموارد المعنية.
+كمية العمل الإضافي المجدولة التي سيؤديها المورد على مهمة ويتم احتسابها وفق معدلات العمل الإضافي للموارد المشاركة.
 
 ```csharp
 public static readonly Key<Duration, RscKey> OvertimeWork;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة قيم العمل الإضافي للمورد.
+
+```csharp
+var project = new Project(DataDir + "ResourceOvertime.mpp");
+
+// عرض المعلمات المتعلقة بالعمل الإضافي لجميع الموارد
+foreach (var res in project.Resources)
+{
+    if (res.Get(Rsc.Name) == null)
+    {
+        continue;
+    }
+
+    Console.WriteLine(res.Get(Rsc.OvertimeCost));
+    Console.WriteLine(res.Get(Rsc.OvertimeWork).ToString());
+    Console.WriteLine(res.Get(Rsc.OvertimeRateFormat).ToString());
+}
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* مساحة الاسم [Aspose.Tasks](../../rsc/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

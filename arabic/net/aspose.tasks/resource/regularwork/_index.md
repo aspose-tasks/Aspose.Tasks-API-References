@@ -1,24 +1,24 @@
 ---
-title: Resource.RegularWork
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة RegularWork .
+title: "Resource.RegularWork"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. يحصل أو يعيّن قيمة لـ RegularWork"
 type: docs
-weight: 660
+weight: 650
 url: /ar/net/aspose.tasks/resource/regularwork/
 ---
 ## Resource.RegularWork property
 
-الحصول على أو تعيين قيمة RegularWork .
+يحصل أو يعيّن قيمة لـ RegularWork.
 
 ```csharp
 public Duration RegularWork { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

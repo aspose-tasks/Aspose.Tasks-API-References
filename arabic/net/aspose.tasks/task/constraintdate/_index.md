@@ -1,23 +1,23 @@
 ---
-title: Task.ConstraintDate
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على قيمة تاريخ القيد أو تعيينها.
+title: "Task.ConstraintDate"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يعيّن قيمة لـ ConstraintDate"
 type: docs
 weight: 230
 url: /ar/net/aspose.tasks/task/constraintdate/
 ---
 ## Task.ConstraintDate property
 
-الحصول على قيمة "تاريخ القيد" أو تعيينها.
+يحصل أو يعيّن قيمة ConstraintDate.
 
 ```csharp
 public DateTime ConstraintDate { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

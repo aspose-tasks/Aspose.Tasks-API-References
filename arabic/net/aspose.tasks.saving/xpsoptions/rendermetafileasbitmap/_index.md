@@ -1,23 +1,39 @@
 ---
-title: XpsOptions.RenderMetafileAsBitmap
-second_title: Aspose.Tasks لمرجع .NET API
-description: XpsOptions ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب تقديم ملف تعريف كصورة نقطية.
+title: "XpsOptions.RenderMetafileAsBitmap"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية XpsOptions. تحصل أو تعين قيمة تشير إلى ما إذا كان يجب عرض ملف ميتا كصورة نقطية."
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks.saving/xpsoptions/rendermetafileasbitmap/
 ---
 ## XpsOptions.RenderMetafileAsBitmap property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب تقديم ملف تعريف كصورة نقطية.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب عرض ملف ميتا كصورة نقطية.
 
 ```csharp
 public bool RenderMetafileAsBitmap { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية حفظ المشروع كملف XPS.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// إنشاء خيارات حفظ XPS وضبط المعلمات
+var options = new XpsOptions
+{
+    RenderMetafileAsBitmap = true
+};
+
+project.Save(OutDir + "UseSvgOptions_out.xps", options);
+```
+
+### انظر أيضًا
 
 * class [XpsOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../xpsoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../xpsoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

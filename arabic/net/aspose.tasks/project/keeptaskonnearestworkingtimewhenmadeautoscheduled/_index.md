@@ -1,24 +1,24 @@
 ---
-title: Project.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled معينًا أم لا.
+title: "Project.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. يحصل أو يضبط قيمة تشير إلى ما إذا كان KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled مفعلاً أم لا."
 type: docs
-weight: 490
+weight: 510
 url: /ar/net/aspose.tasks/project/keeptaskonnearestworkingtimewhenmadeautoscheduled/
 ---
 ## Project.KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled معينًا أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled مضبوطًا أم لا.
 
 ```csharp
 public NullableBool KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

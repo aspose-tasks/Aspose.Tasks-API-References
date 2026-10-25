@@ -1,25 +1,42 @@
 ---
-title: Tsk.Priority
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. مستوى الأهمية المعطى لمهمة  والذي بدوره يشير إلى مدى سهولة تأخير المهمة أو التعيين أو تقسيمها أثناء تسوية المورد.
+title: "Tsk.Priority"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. مستوى الأهمية الممنوح للمهمة والذي بدوره يشير إلى مدى إمكانية تأخير أو تقسيم المهمة أو التعيين أثناء تسوية الموارد"
 type: docs
-weight: 950
+weight: 930
 url: /ar/net/aspose.tasks/tsk/priority/
 ---
 ## Tsk.Priority field
 
-مستوى الأهمية المعطى لمهمة ، والذي بدوره يشير إلى مدى سهولة تأخير المهمة أو التعيين أو تقسيمها أثناء تسوية المورد.
+مستوى الأهمية الممنوح للمهمة، والذي بدوره يشير إلى مدى سهولة تأخير أو تقسيم المهمة أو التخصيص أثناء تسوية الموارد.
 
 ```csharp
 public static readonly Key<int, TaskKey> Priority;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة أولوية المهمة.
+
+```csharp
+var project = new Project(DataDir + "TaskPriority.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// عرض الأولويات لجميع المهام
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.Name) + " - Priority : " + task.Get(Tsk.Priority));
+}
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Project.EnumerateAllChildTasks
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project طريقة. يعدّد بشكل متكرر جميع مهام المشروع بما في ذلك مهمة الجذر.
+title: "Project.EnumerateAllChildTasks"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Project. تُعدد بشكل متكرر جميع مهام المشروع بما في ذلك مهمة الجذر"
 type: docs
-weight: 1040
+weight: 1070
 url: /ar/net/aspose.tasks/project/enumerateallchildtasks/
 ---
 ## Project.EnumerateAllChildTasks method
 
-يعدّد بشكل متكرر جميع مهام المشروع بما في ذلك مهمة الجذر.
+يعدّ جميع مهام المشروع بشكل متكرر بما في ذلك مهمة الجذر.
 
 ```csharp
 public IEnumerable<Task> EnumerateAllChildTasks()
@@ -16,17 +16,17 @@ public IEnumerable<Task> EnumerateAllChildTasks()
 
 ### قيمة الإرجاع
 
-IEnumerable الذي يمكن استخدامه للتكرار على جميع مهام المشروع.
+IEnumerable التي يمكن استخدامها للتكرار على جميع مهام المشروع.
 
-### ملاحظات
+## ملاحظات
 
-يوفر طريقة خفيفة الوزن للتكرار على المهام مقارنةً بـ[`SelectAllChildTasks`](../selectallchildtasks/) الطريقة لأنها لا تخصص ذاكرة لجميع المهام.
+يوفر طريقة أخف وزنًا للتكرار على المهام مقارنة بطريقة [`SelectAllChildTasks`](../selectallchildtasks/) لأنها لا تخصّص ذاكرة لجميع المهام.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../../task/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

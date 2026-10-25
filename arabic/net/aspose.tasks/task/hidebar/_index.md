@@ -1,24 +1,24 @@
 ---
-title: Task.HideBar
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان HideBar معينًا أم لا.
+title: "Task.HideBar"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. الحصول أو تعيين قيمة تشير إلى ما إذا كان HideBar مفعلاً أم لا"
 type: docs
 weight: 520
 url: /ar/net/aspose.tasks/task/hidebar/
 ---
 ## Task.HideBar property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان HideBar معينًا أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان HideBar مُعيّنًا أم لا.
 
 ```csharp
 public NullableBool HideBar { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

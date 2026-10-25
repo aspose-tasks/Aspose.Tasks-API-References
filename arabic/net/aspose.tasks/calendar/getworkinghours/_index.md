@@ -1,57 +1,89 @@
 ---
-title: Calendar.GetWorkingHours
-second_title: Aspose.Tasks لمرجع .NET API
-description: Calendar طريقة. إرجاع ساعات العمل للتواريخ المحددة.
+title: "Calendar.GetWorkingHours"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Calendar. تُعيد WorkUnit  بدء وانتهاء ومدة ساعات العمل للفترة الزمنية المحددة."
 type: docs
-weight: 200
+weight: 220
 url: /ar/net/aspose.tasks/calendar/getworkinghours/
 ---
 ## GetWorkingHours(DateTime, DateTime) {#getworkinghours}
 
-إرجاع ساعات العمل للتواريخ المحددة.
+إرجاع وحدة العمل - البداية، النهاية ومدة ساعات العمل للفترة الزمنية المحددة.
 
 ```csharp
 public WorkUnit GetWorkingHours(DateTime start, DateTime finish)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| start | DateTime | تاريخ البدء. |
-| finish | DateTime | تاريخ الانتهاء. |
+| بداية | DateTime | تاريخ البدء للفترة. |
+| انتهاء | DateTime | تاريخ الانتهاء للفترة. |
 
 ### قيمة الإرجاع
 
-ساعات العمل.
+مثيل من فئة [`WorkUnit`](../../workunit/) يحتوي على بدء وانتهاء ومدة ساعات العمل.
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية الحصول على ساعات العمل لتواريخ محددة.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// احصل على ساعات العمل لتاريخ محدد
+var workUnit = calendar.GetWorkingHours(new DateTime(2020, 4, 8, 8, 0, 0), new DateTime(2020, 4, 9, 17, 0, 0));
+
+// سيتم طباعة 16 ساعة
+Console.WriteLine(workUnit.WorkingHours);
+```
+
+### انظر أيضًا
 
 * class [WorkUnit](../../workunit/)
 * class [Calendar](../)
-* مساحة الاسم [Aspose.Tasks](../../calendar/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetWorkingHours(DateTime) {#getworkinghours_1}
 
-إرجاع مقدار ساعات العمل في التاريخ.
+يرجع مقدار ساعات العمل في التاريخ المحدد.
 
 ```csharp
 public TimeSpan GetWorkingHours(DateTime dt)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| dt | DateTime | موعد الحصول على ساعات العمل. |
+| dt | DateTime | التاريخ للحصول على ساعات العمل. |
 
 ### قيمة الإرجاع
 
-ساعات العمل.
+ساعات العمل في التاريخ المحدد.
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية الحصول على ساعات العمل لتاريخ محدد.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// احصل على ساعات العمل لتاريخ محدد
+var workingHours = calendar.GetWorkingHours(new DateTime(2020, 4, 10));
+
+// سيتم طباعة 8 ساعات
+Console.WriteLine(workingHours.Hours);
+```
+
+### انظر أيضًا
 
 * class [Calendar](../)
-* مساحة الاسم [Aspose.Tasks](../../calendar/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

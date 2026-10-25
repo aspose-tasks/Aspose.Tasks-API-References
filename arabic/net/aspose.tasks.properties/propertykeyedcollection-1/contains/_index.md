@@ -1,31 +1,77 @@
 ---
-title: PropertyKeyedCollection1.Contains
-second_title: Aspose.Tasks لمرجع .NET API
-description: PropertyKeyedCollection طريقة. يحدد ما إذا كان ملفPropertyCollection يحتوي على خاصية بالاسم المحدد.
+title: "PropertyKeyedCollection1.Contains"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة PropertyKeyedCollection. تحدد ما إذا كانت PropertyCollection تحتوي على خاصية بالاسم المحدد"
 type: docs
 weight: 60
 url: /ar/net/aspose.tasks.properties/propertykeyedcollection-1/contains/
 ---
 ## PropertyKeyedCollection&lt;T&gt;.Contains method
 
-يحدد ما إذا كان ملف[`PropertyCollection`](../../propertycollection-1/) يحتوي على خاصية بالاسم المحدد.
+تحدد ما إذا كانت [`PropertyCollection`](../../propertycollection-1/) تحتوي على خاصية بالاسم المحدد.
 
 ```csharp
 public bool Contains(string name)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| name | String | اسم الممتلكات |
+| الاسم | سلسلة | اسم خاصية |
 
 ### قيمة الإرجاع
 
-صحيح إذا كان[`PropertyCollection`](../../propertycollection-1/) يحتوي على خاصية بالاسم المحدد ؛ خلاف ذلك ، خطأ.
+صحيح إذا كانت [`PropertyCollection`](../../propertycollection-1/) تحتوي على خاصية بالاسم المحدد؛ وإلا، خطأ.
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية العمل مع مجموعات خصائص المشروع المخصصة.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// لنضيف خصائص مخصصة جديدة
+// المجموعة تدعم الأنواع Boolean, DateTime, Double, String
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// الخصائص المخصصة متاحة عبر المجموعة ذات النوع المحدد
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// احصل على قيمة خاصية مخصصة
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// تكرار عبر أسماء الخصائص المخصصة
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// يمكن حذف قيمة باستخدام مفتاح نصي
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// أو يمكن للمرء مسح المجموعة بالكامل
+project.CustomProps.Clear();
+```
+
+### انظر أيضًا
 
 * class [PropertyKeyedCollection&lt;T&gt;](../)
-* مساحة الاسم [Aspose.Tasks.Properties](../../propertykeyedcollection-1/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Properties](../../propertykeyedcollection-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

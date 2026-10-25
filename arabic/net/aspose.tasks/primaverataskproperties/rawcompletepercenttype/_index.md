@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.RawCompletePercentType
-second_title: Aspose.Tasks لمرجع .NET API
-description: PrimaveraTaskProperties ملكية. يحصل على تمثيل نصي خام كما في الملف المصدر لحقل النسبة المئوية للنوع الكامل للنشاط.
+title: "PrimaveraTaskProperties.RawCompletePercentType"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PrimaveraTaskProperties. يحصل على تمثيل النص الخام كما هو في ملف المصدر لحقل نوع الإكمال للنشاط"
 type: docs
-weight: 70
+weight: 230
 url: /ar/net/aspose.tasks/primaverataskproperties/rawcompletepercenttype/
 ---
 ## PrimaveraTaskProperties.RawCompletePercentType property
 
-يحصل على تمثيل نصي خام (كما في الملف المصدر) لحقل "النسبة المئوية للنوع الكامل" للنشاط.
+يحصل على تمثيل النص الخام (كما في ملف المصدر) لحقل '% نوع الاكتمال' للنشاط.
 
 ```csharp
 public string RawCompletePercentType { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-ينطبق فقط على الأنشطة (المهام غير الموجزة).
+ينطبق فقط على الأنشطة (المهام غير الملخصة).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PrimaveraTaskProperties](../)
-* مساحة الاسم [Aspose.Tasks](../../primaverataskproperties/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

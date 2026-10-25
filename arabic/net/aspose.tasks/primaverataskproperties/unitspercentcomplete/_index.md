@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.UnitsPercentComplete
-second_title: Aspose.Tasks لمرجع .NET API
-description: PrimaveraTaskProperties ملكية. الحصول على قيمة النسبة المئوية لوحدات الاكتمال .
+title: "PrimaveraTaskProperties.UnitsPercentComplete"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PrimaveraTaskProperties. تحصل على قيمة نسبة إكمال الوحدات"
 type: docs
-weight: 170
+weight: 360
 url: /ar/net/aspose.tasks/primaverataskproperties/unitspercentcomplete/
 ---
 ## PrimaveraTaskProperties.UnitsPercentComplete property
 
-الحصول على قيمة النسبة المئوية لوحدات الاكتمال .
+يحصل على قيمة نسبة إكمال الوحدات.
 
 ```csharp
 public double UnitsPercentComplete { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PrimaveraTaskProperties](../)
-* مساحة الاسم [Aspose.Tasks](../../primaverataskproperties/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

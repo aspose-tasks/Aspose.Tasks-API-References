@@ -1,24 +1,24 @@
 ---
-title: Task.RemainingDuration
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تحديد قيمة المدة المتبقية.
+title: "Task.RemainingDuration"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يحدد قيمة RemainingDuration"
 type: docs
-weight: 1070
+weight: 1060
 url: /ar/net/aspose.tasks/task/remainingduration/
 ---
 ## Task.RemainingDuration property
 
-الحصول على أو تحديد قيمة المدة المتبقية.
+يحصل أو يعيّن قيمة RemainingDuration.
 
 ```csharp
 public Duration RemainingDuration { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

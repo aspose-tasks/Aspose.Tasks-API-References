@@ -1,9 +1,9 @@
 ---
-title: Enum DataCategory
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Saving.DataCategory تعداد. فئة البيانات المستخدمة عند الحفظ إلى CSV.
+title: "تعداد DataCategory"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "تعداد Aspose.Tasks.Saving.DataCategory. فئة البيانات المستخدمة عند الحفظ إلى CSV."
 type: docs
-weight: 1740
+weight: 2000
 url: /ar/net/aspose.tasks.saving/datacategory/
 ---
 ## DataCategory enumeration
@@ -14,17 +14,33 @@ url: /ar/net/aspose.tasks.saving/datacategory/
 public enum DataCategory
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
 | Tasks | `0` | معلومات المهام. |
-| Resources | `1` | معلومات الموارد . |
-| Assignments | `2` | معلومات الواجبات . |
+| Resources | `1` | معلومات الموارد. |
+| Assignments | `2` | معلومات التعيينات. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* المجسم [Aspose.Tasks](../../)
+يعرض كيفية استخدام &lt;see cref=\"Aspose.Tasks.Saving.CsvOptions\" /&gt; لحفظ مشروع كملف CSV.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+var options = new CsvOptions
+{
+    DataCategory = DataCategory.Resources,
+    TextDelimiter = CsvTextDelimiter.Semicolon,
+    Encoding = Encoding.Unicode, IncludeHeaders = true
+};
+
+project.Save(OutDir + "WorkWithCsvOptions_out.csv", options);
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

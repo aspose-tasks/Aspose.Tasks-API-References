@@ -1,33 +1,33 @@
 ---
-title: ViewCollection.GetByViewScreen
-second_title: Aspose.Tasks لمرجع .NET API
-description: ViewCollection طريقة. يبحث عن طريقة عرض بخاصية الشاشة المحددة  ويعيد التكرار الأول ضمن المجموعة .
+title: "ViewCollection.GetByViewScreen"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ViewCollection. تبحث عن View بالخاصية Screen المحددة وتعيد أول ظهور داخل المجموعة"
 type: docs
 weight: 90
 url: /ar/net/aspose.tasks/viewcollection/getbyviewscreen/
 ---
 ## ViewCollection.GetByViewScreen method
 
-يبحث عن طريقة عرض بخاصية الشاشة المحددة ، ويعيد التكرار الأول ضمن المجموعة .
+يبحث عن View بالخاصية Screen المحددة، ويعيد أول ظهور داخل المجموعة.
 
 ```csharp
 public View GetByViewScreen(ViewScreen screen)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| screen | ViewScreen | [`ViewScreen`](../../viewscreen/) قيمة العد. |
+| screen | ViewScreen | قيمة تعداد [`ViewScreen`](../../viewscreen/). |
 
 ### قيمة الإرجاع
 
-العرض الأول في المجموعة الذي تتطابق خاصية Screen مع وسيطة الشاشة المحددة ، إذا وجدت ؛ خلاف ذلك ، لاغية.
+أول View في المجموعة التي تتطابق خاصية Screen الخاصة بها مع الوسيط screen المحدد، إذا وجد؛ وإلا، null.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [View](../../view/)
 * enum [ViewScreen](../../viewscreen/)
 * class [ViewCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../viewcollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../viewcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: Project.CriticalSlackLimit
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة CriticalSlackLimit.
+title: "Project.CriticalSlackLimit"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تُعتبر المهام حرجة في MS Project إذا كان إجمالي الفائض أقل أو يساوي هذا العدد من الأيام"
 type: docs
-weight: 180
+weight: 190
 url: /ar/net/aspose.tasks/project/criticalslacklimit/
 ---
 ## Project.CriticalSlackLimit property
 
-الحصول على أو تعيين قيمة CriticalSlackLimit.
+تُعتبر المهام حرجة في MS Project إذا كان الفائض الكلي أقل أو يساوي هذا العدد من الأيام.
 
 ```csharp
 public int CriticalSlackLimit { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

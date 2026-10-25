@@ -1,31 +1,63 @@
 ---
-title: Enum WBSSequence
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.WBSSequence تعداد. تحديد تسلسل WBSCodeMask
+title: "Enum WBSSequence"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "Aspose.Tasks.WBSSequence enum. يحدد التسلسل لـ WBSCodeMask"
 type: docs
-weight: 3160
+weight: 3520
 url: /ar/net/aspose.tasks/wbssequence/
 ---
 ## WBSSequence enumeration
 
-تحديد تسلسل WBSCodeMask
+يحدد التسلسل لـ WBSCodeMask
 
 ```csharp
 public enum WBSSequence
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| OrderedNumbers | `0` | يشير إلى تسلسل أرقام WBS . |
-| OrderedUppercaseLetters | `1` | يشير إلى الأحرف الكبيرة تسلسل WBS . |
-| OrderedLowercaseLetters | `2` | يشير إلى تسلسل WBS للأحرف الصغيرة . |
-| UnorderedCharacters | `3` | يشير إلى الأحرف غير المرتبة تسلسل WBS . |
+| OrderedNumbers | `0` | يشير إلى تسلسل أرقام WBS. |
+| OrderedUppercaseLetters | `1` | يشير إلى تسلسل أحرف WBS الكبيرة. |
+| OrderedLowercaseLetters | `2` | يشير إلى تسلسل أحرف WBS الصغيرة. |
+| UnorderedCharacters | `3` | يشير إلى تسلسل أحرف WBS غير المرتبة. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية ضبط تسلسلات WBS.
+
+```csharp
+var project = new Project();
+
+project.WBSCodeDefinition = new WBSCodeDefinition();
+project.WBSCodeDefinition.GenerateWBSCode = true;
+project.WBSCodeDefinition.VerifyUniqueness = true;
+project.WBSCodeDefinition.CodePrefix = "CRS-";
+
+var mask = new WBSCodeMask();
+mask.Length = 2;
+mask.Separator = "-";
+mask.Sequence = WBSSequence.OrderedNumbers;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+
+mask = new WBSCodeMask();
+mask.Length = 1;
+mask.Separator = "-";
+mask.Sequence = WBSSequence.OrderedUppercaseLetters;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+
+var tsk = project.RootTask.Children.Add("Task 1");
+tsk.Children.Add("Task 2");
+
+project.Recalculate();
+
+project.Save(OutDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: CalendarException.GetWorkingTime
-second_title: Aspose.Tasks لمرجع .NET API
-description: CalendarException طريقة. إرجاع وقت العمل لاستثناء التقويم.
+title: "CalendarException.GetWorkingTime"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة CalendarException. تُعيد وقت العمل لاستثناء التقويم"
 type: docs
 weight: 200
 url: /ar/net/aspose.tasks/calendarexception/getworkingtime/
 ---
 ## CalendarException.GetWorkingTime method
 
-إرجاع وقت العمل لاستثناء التقويم.
+يعيد وقت العمل لاستثناء التقويم.
 
 ```csharp
 public TimeSpan GetWorkingTime()
@@ -16,12 +16,37 @@ public TimeSpan GetWorkingTime()
 
 ### قيمة الإرجاع
 
-إرجاع وقت العمل لاستثناء هذا التقويم.
+تُعيد وقت العمل لهذا الاستثناء في التقويم.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية الحصول على وقت عمل لاستثناء التقويم.
+
+```csharp
+var project = new Project(DataDir + "CalendarExceptions.mpp");
+
+var calendar = project.Calendars.ToList()[0];
+var exception = calendar.Exceptions[0];
+
+Console.WriteLine("Calendar Name: " + calendar.Name);
+Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
+Console.WriteLine("Calendar Exception Name: " + exception.Name);
+Console.WriteLine();
+
+var workingTime = exception.GetWorkingTime();
+Console.WriteLine("Exception Working Time: " + workingTime);
+
+foreach (var time in exception.WorkingTimes)
+{
+    Console.WriteLine("Working Time Start: " + time.From);
+    Console.WriteLine("Working Time Finish: " + time.To);
+}
+```
+
+### انظر أيضًا
 
 * class [CalendarException](../)
-* مساحة الاسم [Aspose.Tasks](../../calendarexception/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarexception/)
+* assembly [Aspose.Tasks](../../../)
 
 

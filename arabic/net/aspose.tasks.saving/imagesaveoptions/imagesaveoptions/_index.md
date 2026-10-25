@@ -1,34 +1,50 @@
 ---
-title: ImageSaveOptions.ImageSaveOptions
-second_title: Aspose.Tasks لمرجع .NET API
-description: ImageSaveOptions البناء. يقوم بتهيئة مثيل جديد لملفImageSaveOptions فئة يمكن استخدامها لحفظ الصور المقدمة بتنسيقات TIFF أو PNG أو BMP أو JPEG.
+title: "ImageSaveOptions.ImageSaveOptions"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ ImageSaveOptions. يهيئ مثيلاً جديداً من فئة ImageSaveOptions التي يمكن استخدامها لحفظ الصور المُصوَّرة بصيغ TIFF أو PNG أو BMP أو JPEG"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks.saving/imagesaveoptions/imagesaveoptions/
 ---
 ## ImageSaveOptions constructor
 
-يقوم بتهيئة مثيل جديد لملف[`ImageSaveOptions`](../) فئة يمكن استخدامها لحفظ الصور المقدمة بتنسيقات TIFF أو PNG أو BMP أو JPEG.
+يُهيئ مثيلاً جديداً من الفئة [`ImageSaveOptions`](../) التي يمكن استخدامها لحفظ الصور المُصوَّرة بصيغ TIFF أو PNG أو BMP أو JPEG.
 
 ```csharp
 public ImageSaveOptions(SaveFileFormat saveFormat)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| saveFormat | SaveFileFormat | يمكن أن يكون TIFF أو PNG أو BMP أو JPEG[`SaveFileFormat`](../../savefileformat/). |
+| saveFormat | SaveFileFormat | يمكن أن تكون TIFF أو PNG أو BMP أو JPEG[`SaveFileFormat`](../../savefileformat/). |
 
 ### استثناءات
 
-| استثناء | حالة |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentException | ألقيت من*saveFormat* ليس تنسيق صورة صالحًا. القيم الصالحة هي TIFF أو PNG أو BMP أو JPEG. |
+| ArgumentException | يُرمى إذا كان *saveFormat* ليس صيغة صورة صالحة. القيم الصالحة هي TIFF أو PNG أو BMP أو JPEG. |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية حفظ المشروع إلى تدفق كصورة.
+
+```csharp
+var project = new Project();
+
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var options = new ImageSaveOptions(SaveFileFormat.Png);
+
+    // باستخدام ImageSaveOptions نحفظ المشروع بتنسيق صورة
+    project.Save(stream, options);
+}
+```
+
+### انظر أيضًا
 
 * enum [SaveFileFormat](../../savefileformat/)
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../imagesaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../imagesaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

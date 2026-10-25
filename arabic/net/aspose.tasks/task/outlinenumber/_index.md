@@ -1,23 +1,23 @@
 ---
-title: Task.OutlineNumber
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة OutlineNumber .
+title: "Task.OutlineNumber"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط قيمة OutlineNumber"
 type: docs
-weight: 910
+weight: 900
 url: /ar/net/aspose.tasks/task/outlinenumber/
 ---
 ## Task.OutlineNumber property
 
-الحصول على أو تعيين قيمة OutlineNumber .
+يحصل أو يعيّن قيمة لـ OutlineNumber.
 
 ```csharp
 public string OutlineNumber { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

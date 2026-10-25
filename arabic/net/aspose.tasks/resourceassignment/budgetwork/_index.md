@@ -1,24 +1,24 @@
 ---
-title: ResourceAssignment.BudgetWork
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment ملكية. الحصول على أو تعيين قيمة BudgetWork .
+title: "ResourceAssignment.BudgetWork"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ResourceAssignment. يحصل أو يعيّن قيمة BudgetWork"
 type: docs
 weight: 170
 url: /ar/net/aspose.tasks/resourceassignment/budgetwork/
 ---
 ## ResourceAssignment.BudgetWork property
 
-الحصول على أو تعيين قيمة BudgetWork .
+يحصل أو يعيّن قيمة BudgetWork.
 
 ```csharp
 public Duration BudgetWork { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

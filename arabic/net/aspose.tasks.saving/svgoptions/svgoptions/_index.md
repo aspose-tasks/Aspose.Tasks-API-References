@@ -1,23 +1,47 @@
 ---
-title: SvgOptions.SvgOptions
-second_title: Aspose.Tasks لمرجع .NET API
-description: SvgOptions البناء. يقوم بتهيئة مثيل جديد لملفSvgOptions فئة يمكن استخدامها لحفظ المشروع بتنسيق SVG.
+title: "SvgOptions.SvgOptions"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ SvgOptions. يهيئ مثيلاً جديداً لفئة SvgOptions يمكن استخدامها لحفظ المشروع بصيغة SVG"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks.saving/svgoptions/svgoptions/
 ---
 ## SvgOptions constructor
 
-يقوم بتهيئة مثيل جديد لملف[`SvgOptions`](../) فئة يمكن استخدامها لحفظ المشروع بتنسيق SVG.
+يهيئ مثيلاً جديداً لفئة [`SvgOptions`](../) يمكن استخدامها لحفظ المشروع بصيغة SVG.
 
 ```csharp
 public SvgOptions()
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية حفظ المشروع كملف SVG.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+SaveOptions options = new SvgOptions
+                        {
+                            // حدد <see cref="P:Aspose.Tasks.Saving.SaveOptions.PresentationFormat" /> الذي سيتم حفظ المستند به
+                            PresentationFormat = PresentationFormat.GanttChart,
+
+                            // حدد قيمة تشير إلى ما إذا كان يجب زيادة ارتفاع الصف لتناسب محتواه.
+                            FitContent = true,
+
+                            // حدد الحد الأدنى للفترة الزمنية للعرض. القيمة الافتراضية هي <see cref="P:Aspose.Tasks.Saving.SaveOptions.Timescale">Days</see>
+                            Timescale = Timescale.ThirdsOfMonths,
+
+                            // يحدد ما إذا كان يجب استخدام فرشاة تدرجية عند عرض تخطيط المشروع
+                            // حاليًا لا يدعم استخدام الفرشاة التدرجية عند العرض إلى SVG.
+                            // UseGradientBrush = true
+                        };
+project.Save(OutDir + "UseSvgOptions_out.svg", options);
+```
+
+### انظر أيضًا
 
 * class [SvgOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../svgoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../svgoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

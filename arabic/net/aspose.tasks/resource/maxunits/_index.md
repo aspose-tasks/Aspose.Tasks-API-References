@@ -1,23 +1,23 @@
 ---
-title: Resource.MaxUnits
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تحديد قيمة MaxUnits .
+title: "Resource.MaxUnits"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل أو تعين قيمة MaxUnits"
 type: docs
 weight: 500
 url: /ar/net/aspose.tasks/resource/maxunits/
 ---
 ## Resource.MaxUnits property
 
-الحصول على أو تحديد قيمة MaxUnits .
+يحصل أو يعيّن قيمة لـ MaxUnits.
 
 ```csharp
 public double MaxUnits { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

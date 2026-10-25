@@ -1,14 +1,14 @@
 ---
-title: TaskLink.ToString
-second_title: Aspose.Tasks لمرجع .NET API
-description: TaskLink طريقة. إرجاع تمثيل سلسلة TaskLink. التفاصيل الدقيقة للتمثيل غير محددة وعرضة للتغيير.
+title: "TaskLink.ToString"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة TaskLink. تُرجع تمثيلًا نصيًا لكائن TaskLink. التفاصيل الدقيقة للتمثيل غير محددة وقد تتغير"
 type: docs
 weight: 110
 url: /ar/net/aspose.tasks/tasklink/tostring/
 ---
 ## TaskLink.ToString method
 
-إرجاع تمثيل سلسلة TaskLink. التفاصيل الدقيقة للتمثيل غير محددة وعرضة للتغيير.
+يرجع تمثيلًا نصيًا لـ TaskLink. التفاصيل الدقيقة للتمثيل غير محددة وقد تتغير.
 
 ```csharp
 public override string ToString()
@@ -16,12 +16,12 @@ public override string ToString()
 
 ### قيمة الإرجاع
 
-السلسلة التي تمثل كائن TaskLink.
+سلسلة تمثل كائن TaskLink.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [TaskLink](../)
-* مساحة الاسم [Aspose.Tasks](../../tasklink/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tasklink/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,32 +1,51 @@
 ---
-title: Duration.op_Inequality
-second_title: Aspose.Tasks لمرجع .NET API
-description: Duration طريقة. إرجاع قيمة تشير إلى ما إذا كان هذا المثيل لا يساوي كائنًا محددًا.
+title: "Duration.op_Inequality"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Duration. تُرجع قيمة تشير إلى ما إذا كانت هذه المثيلة غير مساوية لكائن محدد."
 type: docs
 weight: 150
 url: /ar/net/aspose.tasks/duration/op_inequality/
 ---
 ## Duration Inequality operator
 
-إرجاع قيمة تشير إلى ما إذا كان هذا المثيل لا يساوي كائنًا محددًا.
+يعيد قيمة تشير إلى ما إذا كانت هذه الحالة غير مساوية لكائن محدد.
 
 ```csharp
 public static bool operator !=(Duration a, Duration b)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| a | Duration | المدة الأولى. |
-| b | Duration | المدة الثانية. |
+| a | المدة | المدة الأولى. |
+| b | المدة | المدة الثانية. |
 
 ### قيمة الإرجاع
 
-قيمة تشير إلى ما إذا كان هذا المثيل لا يساوي كائنًا محددًا
+قيمة تشير إلى ما إذا كانت هذه المثيلة غير مساوية لكائن محدد
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية التحقق من مساواة المدة.
+
+```csharp
+var project = new Project();
+
+var duration1 = project.GetDuration(1, TimeUnitType.Day);
+var duration2 = project.GetDuration(1, TimeUnitType.Day);
+var duration3 = project.GetDuration(1, TimeUnitType.Hour);
+
+// يتم فحص مساواة المدة مقابل الفاصل الزمني الأساسي.
+Console.WriteLine("Duration 1: " + duration1.TimeSpan);
+Console.WriteLine("Duration 2: " + duration2.TimeSpan);
+Console.WriteLine("Duration 3: " + duration3.TimeSpan);
+Console.WriteLine("Are durations 1 and 2 equal: " + duration1.Equals(duration2));
+Console.WriteLine("Are durations 1 and 3 equal: " + duration1.Equals(duration3));
+```
+
+### انظر أيضًا
 
 * struct [Duration](../)
-* مساحة الاسم [Aspose.Tasks](../../duration/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 

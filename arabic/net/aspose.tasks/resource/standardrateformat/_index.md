@@ -1,24 +1,24 @@
 ---
-title: Resource.StandardRateFormat
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة StandardRateFormat .
+title: "Resource.StandardRateFormat"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. يحصل أو يعيّن قيمة لـ StandardRateFormat"
 type: docs
-weight: 720
+weight: 710
 url: /ar/net/aspose.tasks/resource/standardrateformat/
 ---
 ## Resource.StandardRateFormat property
 
-الحصول على أو تعيين قيمة StandardRateFormat .
+يحصل أو يعيّن قيمة لـ StandardRateFormat.
 
 ```csharp
 public RateFormatType StandardRateFormat { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [RateFormatType](../../rateformattype/)
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

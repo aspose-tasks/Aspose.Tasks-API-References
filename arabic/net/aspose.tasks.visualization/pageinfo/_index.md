@@ -1,40 +1,92 @@
 ---
-title: Class PageInfo
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Visualization.PageInfo فصل. يمثل بيانات إعداد الصفحة الموجودة بتنسيق ملف MPP والمستخدمة للطباعة.
+title: "الفئة PageInfo"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.Visualization.PageInfo. تمثل بيانات إعداد الصفحة الموجودة في تنسيق ملف MPP وتُستخدم للطباعة."
 type: docs
-weight: 2860
+weight: 3200
 url: /ar/net/aspose.tasks.visualization/pageinfo/
 ---
 ## PageInfo class
 
-يمثل بيانات إعداد الصفحة الموجودة بتنسيق ملف MPP والمستخدمة للطباعة.
+يمثل بيانات إعداد الصفحة الموجودة في تنسيق ملف MPP والمستخدمة للطباعة.
 
 ```csharp
 public class PageInfo
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [PageInfo](pageinfo/)() | يقوم بتهيئة مثيل جديد لملف`PageInfo` فصل. يمثل بيانات إعداد الصفحة الموجودة بتنسيق ملف MPP والمستخدمة للطباعة. |
+| [PageInfo](pageinfo/)() | ينشئ مثيلاً جديداً من الفئة `PageInfo`. تمثل بيانات إعداد الصفحة الموجودة في تنسيق ملف MPP وتُستخدم للطباعة. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Footer](../../aspose.tasks.visualization/pageinfo/footer/) { get; set; } | الحصول على أو تعيين مثيل لملف[`HeaderFooterInfo`](../headerfooterinfo/) فئة تمثل بيانات التذييل. |
-| [Header](../../aspose.tasks.visualization/pageinfo/header/) { get; set; } | الحصول على مثيل ملف[`HeaderFooterInfo`](../headerfooterinfo/) الفئة التي تمثل رأس البيانات. |
-| [Legend](../../aspose.tasks.visualization/pageinfo/legend/) { get; set; } | الحصول على أو تعيين مثيل لملف[`PageLegend`](../pagelegend/)الفئة التي تحدد وسيلة إيضاح الصفحة. |
-| [Margins](../../aspose.tasks.visualization/pageinfo/margins/) { get; } | يحصل على مثيل لملف[`PageMargins`](../pagemargins/) الفئة التي تحدد هوامش الصفحة. |
-| [Name](../../aspose.tasks.visualization/pageinfo/name/) { get; } | الحصول على اسم العرض الذي يتم استخدام بيانات الإعداد من أجله. |
-| [PageSettings](../../aspose.tasks.visualization/pageinfo/pagesettings/) { get; } | يحصل على مثيل لملف[`PageSettings`](./pagesettings/) فئة تحدد إعدادات طباعة الصفحة. |
-| [PageViewSettings](../../aspose.tasks.visualization/pageinfo/pageviewsettings/) { get; } | يحصل على مثيل لملف[`PageViewSettings`](./pageviewsettings/) الفئة التي تحدد إعدادات طباعة عرض الصفحة. |
+| [Footer](../../aspose.tasks.visualization/pageinfo/footer/) { get; set; } | يحصل أو يضبط مثيلاً من الفئة [`HeaderFooterInfo`](../headerfooterinfo/) التي تمثل بيانات تذييل. |
+| [Header](../../aspose.tasks.visualization/pageinfo/header/) { get; set; } | يحصل أو يضبط مثيلاً من الفئة [`HeaderFooterInfo`](../headerfooterinfo/) التي تمثل بيانات رأس. |
+| [Legend](../../aspose.tasks.visualization/pageinfo/legend/) { get; set; } | يحصل أو يضبط مثيلاً من الفئة [`PageLegend`](../pagelegend/) التي تحدد خيارات عرض أسطورة الصفحة. |
+| [Margins](../../aspose.tasks.visualization/pageinfo/margins/) { get; } | يحصل على مثيل من الفئة [`PageMargins`](../pagemargins/) التي تحدد هوامش الصفحة. |
+| [Name](../../aspose.tasks.visualization/pageinfo/name/) { get; } | يحصل على اسم العرض الذي تُستخدم له بيانات الإعداد. |
+| [PageSettings](../../aspose.tasks.visualization/pageinfo/pagesettings/) { get; } | يحصل على مثيل من الفئة [`PageSettings`](./pagesettings/) التي تحدد إعدادات طباعة الصفحة. |
+| [PageViewSettings](../../aspose.tasks.visualization/pageinfo/pageviewsettings/) { get; } | يحصل على مثيل من الفئة [`PageViewSettings`](./pageviewsettings/) التي تحدد إعدادات طباعة عرض الصفحة. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* المجسم [Aspose.Tasks](../../)
+يعرض كيفية العمل مع معلومات الصفحة في عرض MS Project.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// دعنا نعدّل العرض الافتراضي.
+var info = project.DefaultView.PageInfo;
+
+Console.WriteLine("Modify Page Info: " + info.Name);
+
+// دعنا نعدّل الهوامش.
+info.Margins.Left = 10d;
+info.Margins.Top = 10d;
+info.Margins.Right = 10d;
+info.Margins.Bottom = 10d;
+
+// دعنا نُعدّل إعدادات الصفحة
+info.PageSettings.IsPortrait = true;
+info.PageSettings.PaperSize = PrinterPaperSize.PaperA4;
+
+// دعنا نُعدّل إعدادات عرض الصفحة
+// عيّن قيمة تشير إلى ما إذا كان يجب طباعة الملاحظات.
+info.PageViewSettings.PrintNotes = true;
+
+var header = new HeaderFooterInfo
+{
+    LeftText = "Left header text",
+    CenteredText = "Centered header text",
+    RightText = "Right header text"
+};
+var legend = new PageLegend
+{
+    LeftText =  "Left legend text",
+    CenteredText = "Centered legend text",
+    RightText = "Right legend text"
+};
+var footer = new HeaderFooterInfo
+{
+    LeftText = "Left footer text",
+    CenteredText = "Centered footer text",
+    RightText = "Right footer text"
+};
+
+info.Header = header;
+info.Legend = legend;
+info.Footer = footer;
+
+// العمل مع المشروع...
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

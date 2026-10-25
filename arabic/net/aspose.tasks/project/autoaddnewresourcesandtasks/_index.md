@@ -1,24 +1,24 @@
 ---
-title: Project.AutoAddNewResourcesAndTasks
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين AutoAddNewResourcesAndTasks أم لا.
+title: "Project.AutoAddNewResourcesAndTasks"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. يحصل أو يضبط قيمة تشير إلى ما إذا كان AutoAddNewResourcesAndTasks مفعلاً أم لا."
 type: docs
 weight: 60
 url: /ar/net/aspose.tasks/project/autoaddnewresourcesandtasks/
 ---
 ## Project.AutoAddNewResourcesAndTasks property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين AutoAddNewResourcesAndTasks أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان AutoAddNewResourcesAndTasks مُعيّنًا أم لا.
 
 ```csharp
 public NullableBool AutoAddNewResourcesAndTasks { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

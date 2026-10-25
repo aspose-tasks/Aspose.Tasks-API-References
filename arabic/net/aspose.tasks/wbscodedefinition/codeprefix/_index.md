@@ -1,23 +1,55 @@
 ---
-title: WBSCodeDefinition.CodePrefix
-second_title: Aspose.Tasks لمرجع .NET API
-description: WBSCodeDefinition ملكية. الحصول على بادئة كود المشروع أو تعيينها.
+title: "WBSCodeDefinition.CodePrefix"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية WBSCodeDefinition. تحصل أو تعين بادئة رمز المشروع"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks/wbscodedefinition/codeprefix/
 ---
 ## WBSCodeDefinition.CodePrefix property
 
-الحصول على بادئة كود المشروع أو تعيينها.
+يحصل أو يعيّن بادئة رمز المشروع.
 
 ```csharp
 public string CodePrefix { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية إضافة أقنعة رمز WBS.
+
+```csharp
+var project = new Project();
+
+project.WBSCodeDefinition = new WBSCodeDefinition();
+project.WBSCodeDefinition.GenerateWBSCode = true;
+project.WBSCodeDefinition.VerifyUniqueness = true;
+project.WBSCodeDefinition.CodePrefix = "CRS-";
+
+var mask = new WBSCodeMask();
+mask.Length = 2;
+mask.Separator = "-";
+mask.Sequence = WBSSequence.OrderedNumbers;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+
+mask = new WBSCodeMask();
+mask.Length = 1;
+mask.Separator = "-";
+mask.Sequence = WBSSequence.OrderedUppercaseLetters;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+
+var tsk = project.RootTask.Children.Add("Task 1");
+tsk.Children.Add("Task 2");
+
+project.Recalculate();
+
+project.Save(OutDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
+```
+
+### انظر أيضًا
 
 * class [WBSCodeDefinition](../)
-* مساحة الاسم [Aspose.Tasks](../../wbscodedefinition/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../wbscodedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 

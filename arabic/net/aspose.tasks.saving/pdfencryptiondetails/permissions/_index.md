@@ -1,24 +1,59 @@
 ---
-title: PdfEncryptionDetails.Permissions
-second_title: Aspose.Tasks لمرجع .NET API
-description: PdfEncryptionDetails ملكية. الحصول على الأذونات أو تعيينها.
+title: "PdfEncryptionDetails.Permissions"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PdfEncryptionDetails. تحصل أو تعيين الأذونات"
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks.saving/pdfencryptiondetails/permissions/
 ---
 ## PdfEncryptionDetails.Permissions property
 
-الحصول على الأذونات أو تعيينها.
+يحصل أو يعيّن الأذونات.
 
 ```csharp
 public PdfPermissions Permissions { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية تحديد تفاصيل تشفير PDF أثناء حفظ المشروع كملف PDF
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+// دعنا نحدد تفاصيل التشفير
+var encryptionDetails = new PdfEncryptionDetails(
+    // حدد كلمة مرور المستخدم
+    "userPassword", 
+    // حدد كلمة مرور المالك
+    "ownerPassword", 
+    // حدد خوارزمية التشفير
+    PdfEncryptionAlgorithm.RC4_128);
+
+// حدد الأذونات
+encryptionDetails.Permissions = PdfPermissions.ModifyContents | PdfPermissions.ModifyAnnotations;
+
+// اعرض كلمات مرور المستخدم والمالك
+Console.WriteLine("User Password: " + encryptionDetails.UserPassword);
+Console.WriteLine("Owner Password: " + encryptionDetails.OwnerPassword);
+// اعرض وضع التشفير: RC4_40 أو RC4_128
+Console.WriteLine("Encryption Algorithm: " + encryptionDetails.EncryptionAlgorithm);
+Console.WriteLine("Permissions: " + encryptionDetails.Permissions);
+
+var options = new PdfSaveOptions
+{
+    EncryptionDetails = encryptionDetails
+};
+
+// احفظ المشروع مع تفاصيل التشفير المحددة
+project.Save(OutDir + "WorkWithPdfEncryptionDetails_out.pdf", options);
+```
+
+### انظر أيضًا
 
 * enum [PdfPermissions](../../pdfpermissions/)
 * class [PdfEncryptionDetails](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../pdfencryptiondetails/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pdfencryptiondetails/)
+* assembly [Aspose.Tasks](../../../)
 
 

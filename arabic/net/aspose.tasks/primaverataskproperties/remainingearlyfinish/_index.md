@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.RemainingEarlyFinish
-second_title: Aspose.Tasks لمرجع .NET API
-description: PrimaveraTaskProperties ملكية. الحصول على تاريخ الانتهاء المبكر المتبقي  التاريخ الذي تتم فيه جدولة العمل المتبقي للنشاط .
+title: "PrimaveraTaskProperties.RemainingEarlyFinish"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PrimaveraTaskProperties. تحصل على تاريخ الانتهاء المبكر المتبقي، وهو التاريخ الذي من المقرر أن يكتمل فيه العمل المتبقي للنشاط"
 type: docs
-weight: 100
+weight: 260
 url: /ar/net/aspose.tasks/primaverataskproperties/remainingearlyfinish/
 ---
 ## PrimaveraTaskProperties.RemainingEarlyFinish property
 
-الحصول على تاريخ الانتهاء المبكر المتبقي - التاريخ الذي تتم فيه جدولة العمل المتبقي للنشاط .
+يحصل على تاريخ الانتهاء المبكر المتبقي - التاريخ الذي من المقرر أن يكتمل فيه العمل المتبقي للنشاط.
 
 ```csharp
 public DateTime RemainingEarlyFinish { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PrimaveraTaskProperties](../)
-* مساحة الاسم [Aspose.Tasks](../../primaverataskproperties/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

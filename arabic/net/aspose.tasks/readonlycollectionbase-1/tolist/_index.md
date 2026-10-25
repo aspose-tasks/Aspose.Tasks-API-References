@@ -1,14 +1,14 @@
 ---
-title: ReadOnlyCollectionBase1.ToList
-second_title: Aspose.Tasks لمرجع .NET API
-description: ReadOnlyCollectionBase طريقة. تحويل كائن المجموعة إلى قائمةVbaModule الكائنات .
+title: "ReadOnlyCollectionBase1.ToList"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ReadOnlyCollectionBase. تحول المجموعة إلى قائمة من الكائنات."
 type: docs
 weight: 50
 url: /ar/net/aspose.tasks/readonlycollectionbase-1/tolist/
 ---
 ## ReadOnlyCollectionBase&lt;T&gt;.ToList method
 
-تحويل كائن المجموعة إلى قائمة[`VbaModule`](../../vbamodule/) الكائنات .
+يحوّل المجموعة إلى قائمة من الكائنات.
 
 ```csharp
 public List<T> ToList()
@@ -16,12 +16,12 @@ public List<T> ToList()
 
 ### قيمة الإرجاع
 
-قائمة الأشياء.
+قائمة عامة من الكائنات.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../)
-* مساحة الاسم [Aspose.Tasks](../../readonlycollectionbase-1/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../readonlycollectionbase-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

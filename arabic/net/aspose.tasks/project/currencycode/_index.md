@@ -1,23 +1,23 @@
 ---
-title: Project.CurrencyCode
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تحديد قيمة CurrencyCode.
+title: "Project.CurrencyCode"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. يحصل أو يضبط قيمة CurrencyCode."
 type: docs
-weight: 190
+weight: 200
 url: /ar/net/aspose.tasks/project/currencycode/
 ---
 ## Project.CurrencyCode property
 
-الحصول على أو تحديد قيمة CurrencyCode.
+يحصل أو يعيّن قيمة لـ CurrencyCode.
 
 ```csharp
 public string CurrencyCode { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

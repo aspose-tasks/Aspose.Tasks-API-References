@@ -1,7 +1,7 @@
 ---
-title: Rsc.Name
-second_title: Aspose.Tasks لمرجع .NET API
-description: Rsc مجال. اسم المورد.
+title: "Rsc.Name"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Rsc. اسم المورد"
 type: docs
 weight: 460
 url: /ar/net/aspose.tasks/rsc/name/
@@ -14,12 +14,26 @@ url: /ar/net/aspose.tasks/rsc/name/
 public static readonly Key<string, RscKey> Name;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة/كتابة خاصية Rsc.Name.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Name, "John Smith");
+
+Console.WriteLine("Name: " + resource.Get(Rsc.Name));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* مساحة الاسم [Aspose.Tasks](../../rsc/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

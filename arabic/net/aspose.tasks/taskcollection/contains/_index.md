@@ -1,32 +1,32 @@
 ---
-title: TaskCollection.Contains
-second_title: Aspose.Tasks لمرجع .NET API
-description: TaskCollection طريقة. للتحقق مما إذا كانت المجموعة تحتوي على عنصر محدد.
+title: "TaskCollection.Contains"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة TaskCollection. تتحقق مما إذا كانت المجموعة تحتوي على العنصر المحدد"
 type: docs
 weight: 60
 url: /ar/net/aspose.tasks/taskcollection/contains/
 ---
 ## TaskCollection.Contains method
 
-للتحقق مما إذا كانت المجموعة تحتوي على عنصر محدد.
+يتحقق مما إذا كانت المجموعة تحتوي على العنصر المحدد.
 
 ```csharp
 public bool Contains(Task item)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| item | Task | العنصر المراد التحقق منه. |
+| العنصر | مهمة | العنصر المراد التحقق منه. |
 
 ### قيمة الإرجاع
 
-صواب ، إذا كانت المجموعة تحتوي على عنصر ، أو خطأ بخلاف ذلك.
+true، إذا كانت المجموعة تحتوي على عنصر، false خلاف ذلك.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../../task/)
 * class [TaskCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../taskcollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

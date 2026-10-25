@@ -1,23 +1,39 @@
 ---
-title: CsvOptions.CsvOptions
-second_title: Aspose.Tasks لمرجع .NET API
-description: CsvOptions البناء. يقوم بتهيئة مثيل جديد لملفCsvOptions فئة يمكن استخدامها لحفظ المشروع بتنسيق CSV.
+title: "CsvOptions.CsvOptions"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ CsvOptions. يهيئ نسخة جديدة من فئة CsvOptions التي يمكن استخدامها لحفظ المشروع بصيغة CSV"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks.saving/csvoptions/csvoptions/
 ---
 ## CsvOptions constructor
 
-يقوم بتهيئة مثيل جديد لملف[`CsvOptions`](../) فئة يمكن استخدامها لحفظ المشروع بتنسيق CSV.
+يهيئ نسخة جديدة من الفئة [`CsvOptions`](../) التي يمكن استخدامها لحفظ المشروع بصيغة CSV.
 
 ```csharp
 public CsvOptions()
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية استخدام &lt;see cref=\"Aspose.Tasks.Saving.CsvOptions\" /&gt; لحفظ مشروع كملف CSV.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+var options = new CsvOptions
+{
+    DataCategory = DataCategory.Resources,
+    TextDelimiter = CsvTextDelimiter.Semicolon,
+    Encoding = Encoding.Unicode, IncludeHeaders = true
+};
+
+project.Save(OutDir + "WorkWithCsvOptions_out.csv", options);
+```
+
+### انظر أيضًا
 
 * class [CsvOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../csvoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../csvoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,49 @@
 ---
-title: TableField.TableField
-second_title: Aspose.Tasks لمرجع .NET API
-description: TableField البناء. يقوم بتهيئة مثيل جديد لملفTableField فصل.
+title: "TableField.TableField"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ TableField. يهيئ نسخة جديدة من فئة TableField"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/tablefield/tablefield/
 ---
 ## TableField constructor
 
-يقوم بتهيئة مثيل جديد لملف[`TableField`](../) فصل.
+يهيئ نسخة جديدة من الفئة [`TableField`](../).
 
 ```csharp
 public TableField()
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة جداول المشروع.
+
+```csharp
+var project = new Project(DataDir + "ReadTableData.mpp");
+
+// احصل على الجدول
+var table = project.Tables.ToList()[0];
+Console.WriteLine("Print table fields of {0}", table.Name);
+Console.WriteLine("Table Fields Count" + table.TableFields.Count);
+
+// عرض جميع معلومات حقول الجدول
+foreach (var field in table.TableFields)
+{
+    Console.WriteLine("  Field: " + field.Field);
+    Console.WriteLine("  Width: " + field.Width);
+    Console.WriteLine("  Title: " + field.Title);
+    Console.WriteLine("  Title Alignment: " + field.AlignTitle);
+    Console.WriteLine("  Data Alignment: " + field.AlignData);
+    Console.WriteLine("  Wrap Header: " + field.WrapHeader);
+    Console.WriteLine("  Wrap Text: " + field.WrapText);
+    Console.WriteLine();
+}
+```
+
+### انظر أيضًا
 
 * class [TableField](../)
-* مساحة الاسم [Aspose.Tasks](../../tablefield/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tablefield/)
+* assembly [Aspose.Tasks](../../../)
 
 

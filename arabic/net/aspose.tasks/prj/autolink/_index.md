@@ -1,26 +1,38 @@
 ---
-title: Prj.Autolink
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. تحديد ما إذا كانت المهام المدرجة أو المنقولة مرتبطة تلقائيًا.
+title: "Prj.Autolink"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. يحدد ما إذا كانت المهام المُدخلة أو المنقولة مرتبطة تلقائيًا"
 type: docs
-weight: 60
+weight: 70
 url: /ar/net/aspose.tasks/prj/autolink/
 ---
 ## Prj.Autolink field
 
-تحديد ما إذا كانت المهام المدرجة أو المنقولة مرتبطة تلقائيًا.
+يحدد ما إذا كانت المهام المدخلة أو المنقولة مرتبطة تلقائيًا.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> Autolink;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يُظهر كيفية قراءة/كتابة خاصية Prj.Autolink.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Autolink, true);
+
+Console.WriteLine("Autolink: " + project.Get(Prj.Autolink));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

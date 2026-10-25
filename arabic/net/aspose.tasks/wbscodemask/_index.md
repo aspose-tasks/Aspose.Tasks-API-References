@@ -1,37 +1,76 @@
 ---
-title: Class WBSCodeMask
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.WBSCodeMask فصل. يمثل قناع رمز WBS .
+title: "الفئة WBSCodeMask"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.WBSCodeMask. تمثل قناع رمز WBS"
 type: docs
-weight: 3140
+weight: 3500
 url: /ar/net/aspose.tasks/wbscodemask/
 ---
 ## WBSCodeMask class
 
-يمثل قناع رمز WBS .
+يمثل قناع رمز WBS.
 
 ```csharp
 public class WBSCodeMask
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [WBSCodeMask](wbscodemask/)() | يقوم بتهيئة مثيل جديد لملف`WBSCodeMask` فئة . |
+| [WBSCodeMask](wbscodemask/)() | يُهيئ نسخة جديدة من الفئة `WBSCodeMask`. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Length](../../aspose.tasks/wbscodemask/length/) { get; set; } | الحصول على أو تحديد عدد أحرف سلسلة التعليمات البرمجية. |
-| [Level](../../aspose.tasks/wbscodemask/level/) { get; } | يحصل على مستوى القناع . |
-| [Separator](../../aspose.tasks/wbscodemask/separator/) { get; set; } | الحصول على أو تعيين فاصل سلسلة التعليمات البرمجية.القيمة الافتراضية هي فترة. |
-| [Sequence](../../aspose.tasks/wbscodemask/sequence/) { get; set; } | الحصول على أو تحديد نوع حرف سلسلة التعليمات البرمجية. |
+| [Length](../../aspose.tasks/wbscodemask/length/) { get; set; } | يحصل أو يعيّن عدد الأحرف في سلسلة الرمز. |
+| [Level](../../aspose.tasks/wbscodemask/level/) { get; } | يحصل على مستوى القناع. |
+| [Separator](../../aspose.tasks/wbscodemask/separator/) { get; set; } | يحصل أو يضبط الفاصل لسلسلة الرمز. القيمة الافتراضية هي النقطة. |
+| [Sequence](../../aspose.tasks/wbscodemask/sequence/) { get; set; } | يحصل أو يضبط نوع الحرف لسلسلة الرمز. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يعرض كيفية إنشاء أقنعة رموز WBS.
+
+```csharp
+var project = new Project();
+
+project.WBSCodeDefinition = new WBSCodeDefinition();
+project.WBSCodeDefinition.GenerateWBSCode = true;
+project.WBSCodeDefinition.VerifyUniqueness = true;
+project.WBSCodeDefinition.CodePrefix = "CRS-";
+
+var mask = new WBSCodeMask();
+mask.Length = 2;
+mask.Separator = "-";
+mask.Sequence = WBSSequence.OrderedNumbers;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+
+mask = new WBSCodeMask();
+mask.Length = 1;
+mask.Separator = "-";
+mask.Sequence = WBSSequence.OrderedUppercaseLetters;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Children.Add("Task 2");
+
+project.Recalculate();
+
+Console.WriteLine("Number of WBS masks: " + project.WBSCodeDefinition.CodeMaskCollection.Count);
+var i = 0;
+foreach (var cm in project.WBSCodeDefinition.CodeMaskCollection)
+{
+    Console.WriteLine("WBS Mask #{0}: Level->{1}", ++i, cm.Level);
+}
+
+project.Save(OutDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

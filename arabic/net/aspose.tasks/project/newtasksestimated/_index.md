@@ -1,24 +1,24 @@
 ---
-title: Project.NewTasksEstimated
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين NewTasksEstimated أم لا.
+title: "Project.NewTasksEstimated"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة تشير إلى ما إذا كان NewTasksEstimated مُعينًا أم لا"
 type: docs
-weight: 660
+weight: 680
 url: /ar/net/aspose.tasks/project/newtasksestimated/
 ---
 ## Project.NewTasksEstimated property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين NewTasksEstimated أم لا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان NewTasksEstimated مضبوطًا أم لا.
 
 ```csharp
 public NullableBool NewTasksEstimated { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: Project.MoveCompletedEndsForward
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين MoveCompletedEndsForward أم لا.
+title: "Project.MoveCompletedEndsForward"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعيين قيمة تشير إلى ما إذا كان MoveCompletedEndsForward مُحددًا أم لا"
 type: docs
-weight: 590
+weight: 610
 url: /ar/net/aspose.tasks/project/movecompletedendsforward/
 ---
 ## Project.MoveCompletedEndsForward property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين MoveCompletedEndsForward أم لا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان MoveCompletedEndsForward مضبوطًا أم لا.
 
 ```csharp
 public NullableBool MoveCompletedEndsForward { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

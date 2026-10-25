@@ -1,23 +1,36 @@
 ---
-title: XamlOptions.XamlOptions
-second_title: Aspose.Tasks لمرجع .NET API
-description: XamlOptions البناء. يقوم بتهيئة مثيل جديد لملفXamlOptions فئة يمكن استخدامها لحفظ المشروع بتنسيق XAML.
+title: "XamlOptions.XamlOptions"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ XamlOptions. يهيئ مثيلاً جديداً من الفئة XamlOptions التي يمكن استخدامها لحفظ المشروع بتنسيق XAML"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks.saving/xamloptions/xamloptions/
 ---
 ## XamlOptions constructor
 
-يقوم بتهيئة مثيل جديد لملف[`XamlOptions`](../) فئة يمكن استخدامها لحفظ المشروع بتنسيق XAML.
+يهيئ مثيلاً جديداً من الفئة [`XamlOptions`](../) التي يمكن استخدامها لحفظ المشروع بتنسيق XAML.
 
 ```csharp
 public XamlOptions()
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية حفظ مشروع بتنسيق XAML باستخدام خيارات الحفظ.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new XamlOptions();
+options.FitContent = true;
+options.LegendDrawingOptions = LegendDrawingOptions.NoLegend;
+options.Timescale = Timescale.ThirdsOfMonths;
+project.Save(OutDir + "RenderXAMLWithOptions_out.xaml", options);
+```
+
+### انظر أيضًا
 
 * class [XamlOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../xamloptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../xamloptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

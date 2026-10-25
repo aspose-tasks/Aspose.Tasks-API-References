@@ -1,23 +1,23 @@
 ---
-title: PageMargins.PageMargins
-second_title: Aspose.Tasks لمرجع .NET API
-description: PageMargins البناء. Default_Constructor
+title: "PageMargins.PageMargins"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ PageMargins. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks.visualization/pagemargins/pagemargins/
 ---
 ## PageMargins constructor
 
-Default_Constructor
+المنشئ الافتراضي.
 
 ```csharp
 public PageMargins()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PageMargins](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../pagemargins/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../pagemargins/)
+* assembly [Aspose.Tasks](../../../)
 
 

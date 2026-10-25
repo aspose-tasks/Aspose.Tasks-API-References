@@ -1,45 +1,91 @@
 ---
-title: Class PropertyKeyedCollectionT
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Properties.PropertyKeyedCollection1T فصل. فئة أساسية لمجموعة الخصائص .
+title: "الفئة PropertyKeyedCollectionT"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.Properties.PropertyKeyedCollection1T. فئة أساسية لمجموعة الخصائص"
 type: docs
-weight: 1350
+weight: 1600
 url: /ar/net/aspose.tasks.properties/propertykeyedcollection-1/
 ---
 ## PropertyKeyedCollection&lt;T&gt; class
 
-فئة أساسية لمجموعة الخصائص .
+فئة أساسية لمجموعة من الخصائص.
 
 ```csharp
 public abstract class PropertyKeyedCollection<T> : PropertyCollection<T>, ICollection<T>
     where T : Property
 ```
 
-| معامل | وصف |
+| معامل | الوصف |
 | --- | --- |
-| T | نوع العقار. |
+| T | نوع الخاصية. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.tasks.properties/propertykeyedcollection-1/count/) { get; } | الحصول على عدد الخصائص في المجموعة. |
-| abstract [IsReadOnly](../../aspose.tasks.properties/propertykeyedcollection-1/isreadonly/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه المجموعة للقراءة فقط ؛ وإلا ، خطأ . |
+| [Count](../../aspose.tasks.properties/propertykeyedcollection-1/count/) { get; } | يحصل على عدد الخصائص في المجموعة. |
+| abstract [IsReadOnly](../../aspose.tasks.properties/propertykeyedcollection-1/isreadonly/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه المجموعة للقراءة فقط؛ وإلا، false. |
 | [Item](../../aspose.tasks.properties/propertykeyedcollection-1/item/) { get; } | يحصل على الخاصية المرتبطة بالمفتاح المحدد. |
-| [Names](../../aspose.tasks.properties/propertykeyedcollection-1/names/) { get; } | الحصول على مجموعة كل أسماء الخصائص . |
+| [Names](../../aspose.tasks.properties/propertykeyedcollection-1/names/) { get; } | يحصل على مجموعة جميع أسماء الخصائص. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.tasks.properties/propertykeyedcollection-1/add/)(T) | إنشاء خاصية مخصصة جديدة . |
-| [Contains](../../aspose.tasks.properties/propertykeyedcollection-1/contains/)(string) | يحدد ما إذا كان ملف[`PropertyCollection`](../propertycollection-1/) يحتوي على خاصية بالاسم المحدد. |
+| [Add](../../aspose.tasks.properties/propertykeyedcollection-1/add/)(T) | ينشئ خاصية مخصصة جديدة. |
+| [Contains](../../aspose.tasks.properties/propertykeyedcollection-1/contains/)(string) | يحدد ما إذا كان [`PropertyCollection`](../propertycollection-1/) يحتوي على خاصية بالاسم المحدد. |
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية العمل مع مجموعات خصائص المشروع المخصصة.
+
+```csharp
+var project = new Project(DataDir + "ReadProjectInfo.mpp");
+
+Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
+
+// لنضيف خصائص مخصصة جديدة
+// المجموعة تدعم الأنواع Boolean, DateTime, Double, String
+project.CustomProps.Add("IsEnterprise", true);
+project.CustomProps.Add("Project Start Date", new DateTime(2020, 4, 16, 8, 0, 0));
+project.CustomProps.Add("Precision", 10d);
+project.CustomProps.Add("Custom Name", "MyProject");
+
+// الخصائص المخصصة متاحة عبر المجموعة ذات النوع المحدد
+Console.WriteLine("Count of custom properties: " + project.CustomProps.Count);
+foreach (var property in project.CustomProps)
+{
+    Console.WriteLine(property.Type);
+    Console.WriteLine(property.Name);
+    Console.WriteLine(property.Value);
+    Console.WriteLine();
+}
+
+// احصل على قيمة خاصية مخصصة
+Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
+
+// تكرار عبر أسماء الخصائص المخصصة
+foreach (var propsName in project.CustomProps.Names)
+{
+    Console.WriteLine("Name: " + propsName);
+    Console.WriteLine();
+}
+
+// يمكن حذف قيمة باستخدام مفتاح نصي
+if (project.CustomProps.Contains("Custom Name"))
+{
+    project.CustomProps.Remove("Custom Name");
+}
+
+// أو يمكن للمرء مسح المجموعة بالكامل
+project.CustomProps.Clear();
+```
+
+### انظر أيضًا
 
 * class [PropertyCollection&lt;T&gt;](../propertycollection-1/)
 * class [Property](../property/)
-* مساحة الاسم [Aspose.Tasks.Properties](../../aspose.tasks.properties/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Properties](../../aspose.tasks.properties/)
+* assembly [Aspose.Tasks](../../)
 
 

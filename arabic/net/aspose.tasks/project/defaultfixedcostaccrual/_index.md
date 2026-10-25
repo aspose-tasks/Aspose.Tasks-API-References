@@ -1,24 +1,24 @@
 ---
-title: Project.DefaultFixedCostAccrual
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة DefaultFixedCostAccrual.
+title: "Project.DefaultFixedCostAccrual"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة DefaultFixedCostAccrual"
 type: docs
-weight: 290
+weight: 300
 url: /ar/net/aspose.tasks/project/defaultfixedcostaccrual/
 ---
 ## Project.DefaultFixedCostAccrual property
 
-الحصول على أو تعيين قيمة DefaultFixedCostAccrual.
+يحصل أو يعيّن قيمة لـ DefaultFixedCostAccrual.
 
 ```csharp
 public CostAccrualType DefaultFixedCostAccrual { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [CostAccrualType](../../costaccrualtype/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

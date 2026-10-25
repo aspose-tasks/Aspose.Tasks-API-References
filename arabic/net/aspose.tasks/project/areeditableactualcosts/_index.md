@@ -1,24 +1,24 @@
 ---
-title: Project.AreEditableActualCosts
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان AreEditableActualCosts معينًا أم لا.
+title: "Project.AreEditableActualCosts"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة تشير إلى ما إذا كان AreEditableActualCosts مُعيّنًا أم لا"
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks/project/areeditableactualcosts/
 ---
 ## Project.AreEditableActualCosts property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان AreEditableActualCosts معينًا أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان AreEditableActualCosts مُعيّنًا أم لا.
 
 ```csharp
 public NullableBool AreEditableActualCosts { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

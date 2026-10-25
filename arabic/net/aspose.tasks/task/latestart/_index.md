@@ -1,23 +1,23 @@
 ---
-title: Task.LateStart
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على قيمة LateStart أو تعيينها .
+title: "Task.LateStart"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. يحصل أو يضبط قيمة LateStart"
 type: docs
 weight: 780
 url: /ar/net/aspose.tasks/task/latestart/
 ---
 ## Task.LateStart property
 
-الحصول على قيمة LateStart أو تعيينها .
+يحصل أو يعيّن قيمة لـ LateStart.
 
 ```csharp
 public DateTime LateStart { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

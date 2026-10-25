@@ -1,23 +1,23 @@
 ---
-title: FilterCriteria.FilterCriteria
-second_title: Aspose.Tasks لمرجع .NET API
-description: FilterCriteria البناء. Default_Constructor
+title: "FilterCriteria.FilterCriteria"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ FilterCriteria. المنشئ الافتراضي"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/filtercriteria/filtercriteria/
 ---
 ## FilterCriteria constructor
 
-Default_Constructor
+المنشئ الافتراضي.
 
 ```csharp
 public FilterCriteria()
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FilterCriteria](../)
-* مساحة الاسم [Aspose.Tasks](../../filtercriteria/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filtercriteria/)
+* assembly [Aspose.Tasks](../../../)
 
 

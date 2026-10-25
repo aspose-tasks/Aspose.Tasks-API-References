@@ -1,24 +1,41 @@
 ---
-title: Resource.Assignments
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على مجموعة من تخصيصات الموارد لهذا الكائن.
+title: "Resource.Assignments"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل على مجموعة من تعيينات الموارد لهذا الكائن"
 type: docs
 weight: 120
 url: /ar/net/aspose.tasks/resource/assignments/
 ---
 ## Resource.Assignments property
 
-الحصول على مجموعة من تخصيصات الموارد لهذا الكائن.
+يحصل على مجموعة من تعيينات الموارد لهذا الكائن.
 
 ```csharp
 public ResourceAssignmentCollection Assignments { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة تعيينات مورد.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+foreach (var resource in project.Resources)
+{
+    foreach (var assignment in resource.Assignments)
+    {
+        Console.WriteLine("Assignment UID: " + assignment.Get(Asn.Uid));
+        Console.WriteLine("Assignment's task name: " + assignment.Get(Asn.Task).Get(Tsk.Name));
+    }
+}
+```
+
+### انظر أيضًا
 
 * class [ResourceAssignmentCollection](../../resourceassignmentcollection/)
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

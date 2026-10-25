@@ -1,14 +1,14 @@
 ---
-title: Class GroupCriterionCollection
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.GroupCriterionCollection فصل. يحتوي على مجموعة منGroupCriterion objects. Implements ICollection GroupCriterion interface.
+title: "الفئة GroupCriterionCollection"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.GroupCriterionCollection. تحتوي على مجموعة من كائنات GroupCriterion. تنفذ واجهة ICollectionGroupCriterion."
 type: docs
-weight: 740
+weight: 800
 url: /ar/net/aspose.tasks/groupcriterioncollection/
 ---
 ## GroupCriterionCollection class
 
-يحتوي على مجموعة من[`GroupCriterion`](../groupcriterion/) objects. Implements ICollection &lt;GroupCriterion&gt; interface.
+تحتوي على مجموعة من [`GroupCriterion`](../groupcriterion/) كائنات. تنفذ واجهة ICollection&lt;GroupCriterion&gt;.
 
 ```csharp
 public class GroupCriterionCollection : IList<GroupCriterion>
@@ -16,28 +16,79 @@ public class GroupCriterionCollection : IList<GroupCriterion>
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.tasks/groupcriterioncollection/count/) { get; } | الحصول على عدد العناصر الموجودة في هذه المجموعة. |
-| [IsReadOnly](../../aspose.tasks/groupcriterioncollection/isreadonly/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه المجموعة للقراءة فقط ؛ وإلا ، خطأ . |
-| [ParentGroup](../../aspose.tasks/groupcriterioncollection/parentgroup/) { get; } | يحصل على أصل كائن GroupCriterion. |
+| [Count](../../aspose.tasks/groupcriterioncollection/count/) { get; } | يحصل على عدد العناصر الموجودة في هذه المجموعة. |
+| [IsReadOnly](../../aspose.tasks/groupcriterioncollection/isreadonly/) { get; } | يحصل على قيمة تشير إلى ما إذا كانت هذه المجموعة للقراءة فقط؛ وإلا، false. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.tasks/groupcriterioncollection/add/)(GroupCriterion) | إضافة العنصر المحدد إلى هذه المجموعة . |
-| [Clear](../../aspose.tasks/groupcriterioncollection/clear/)() | يزيل كافة العناصر من هذه المجموعة. |
-| [Contains](../../aspose.tasks/groupcriterioncollection/contains/)(GroupCriterion) | إرجاع صحيح إذا تم العثور على العنصر المحدد في هذه المجموعة ؛ وإلا ، خطأ . |
-| [CopyTo](../../aspose.tasks/groupcriterioncollection/copyto/)(GroupCriterion[], int) | نسخ عناصر هذه المجموعة إلى المصفوفة المحددة ، بدءًا من فهرس المصفوفة المحدد. |
-| [GetEnumerator](../../aspose.tasks/groupcriterioncollection/getenumerator/)() | إرجاع عداد لهذه المجموعة. |
-| [Remove](../../aspose.tasks/groupcriterioncollection/remove/)(GroupCriterion) | إزالة التواجد الأول لكائن معين من هذه المجموعة. |
-| [ToList](../../aspose.tasks/groupcriterioncollection/tolist/)() | تحويل مجموعة GroupCriterion إلى قائمة[`GroupCriterion`](../groupcriterion/) الكائنات . |
+| [Add](../../aspose.tasks/groupcriterioncollection/add/)(GroupCriterion) | يضيف العنصر المحدد إلى هذه المجموعة. |
+| [Clear](../../aspose.tasks/groupcriterioncollection/clear/)() | يزيل جميع العناصر من هذه المجموعة. |
+| [Contains](../../aspose.tasks/groupcriterioncollection/contains/)(GroupCriterion) | يرجع true إذا تم العثور على العنصر المحدد في هذه المجموعة؛ وإلا، false. |
+| [CopyTo](../../aspose.tasks/groupcriterioncollection/copyto/)(GroupCriterion[], int) | ينسخ عناصر هذه المجموعة إلى المصفوفة المحددة، بدءًا من الفهرس المحدد للمصفوفة. |
+| [GetEnumerator](../../aspose.tasks/groupcriterioncollection/getenumerator/)() | يرجع عدادًا لهذه المجموعة. |
+| [Remove](../../aspose.tasks/groupcriterioncollection/remove/)(GroupCriterion) | يزيل الظهور الأول لكائن محدد من هذه المجموعة. |
+| [ToList](../../aspose.tasks/groupcriterioncollection/tolist/)() | تحول مجموعة GroupCriterion إلى قائمة من كائنات [`GroupCriterion`](../groupcriterion/). |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية العمل مع مجموعة من معايير المجموعة.
+
+```csharp
+var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
+
+var group = project.TaskGroups.ToList()[0];
+
+// تكرار عبر معايير المجموعة
+Console.WriteLine("Print group criteria of the group '{0}': ", group.Name);
+Console.WriteLine("Group criterion count: " + group.GroupCriteria.Count);
+foreach (var criterion in group.GroupCriteria)
+{
+    Console.WriteLine("Field: " + criterion.Field);
+    Console.WriteLine("Group On: " + criterion.GroupOn);
+    Console.WriteLine();
+}
+
+group.GroupCriteria.Clear();
+
+if (!group.GroupCriteria.IsReadOnly)
+{
+    List<GroupCriterion> groupCriteria = group.GroupCriteria.ToList();
+    foreach (var criterion in groupCriteria)
+    {
+        group.GroupCriteria.Remove(criterion);
+    }
+}
+
+var criterionToAdd = new GroupCriterion
+{
+    Ascending = true,
+    Field = Field.TaskActive
+};
+
+if (!group.GroupCriteria.Contains(criterionToAdd))
+{
+    group.GroupCriteria.Add(criterionToAdd);
+}
+
+// نسخ المعايير إلى مجموعة أخرى
+var otherGroup = project.TaskGroups.ToList()[0];
+
+var criteria = new GroupCriterion[group.GroupCriteria.Count];
+group.GroupCriteria.CopyTo(criteria, 0);
+foreach (var criterion in criteria)
+{
+    otherGroup.GroupCriteria.Add(criterion);
+}
+```
+
+### انظر أيضًا
 
 * class [GroupCriterion](../groupcriterion/)
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Project.SelectAllChildTasks
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project طريقة. يقوم بتجميع كافة المهام الفرعية للمهمة الجذر بشكل متكرر.
+title: "Project.SelectAllChildTasks"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Project. تجمع بشكل متكرر جميع المهام الفرعية للمهمة الجذرية"
 type: docs
-weight: 1210
+weight: 1230
 url: /ar/net/aspose.tasks/project/selectallchildtasks/
 ---
 ## Project.SelectAllChildTasks method
 
-يقوم بتجميع كافة المهام الفرعية للمهمة الجذر بشكل متكرر.
+يجمع بشكل متكرر جميع المهام الفرعية للمهمة الجذرية.
 
 ```csharp
 public IEnumerable<Task> SelectAllChildTasks()
@@ -18,11 +18,39 @@ public IEnumerable<Task> SelectAllChildTasks()
 
 مجموعة المهام.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية إعادة ترقيم رموز WBS للمهام المحددة.
+
+```csharp
+var project = new Project(DataDir + "RenumberExample.mpp");
+
+var tasks = new List<Task>(project.RootTask.SelectAllChildTasks());
+
+Console.WriteLine("WBS codes before: ");
+
+// الإخراج: ""; "1"; "2"; "4"
+foreach (var task in tasks)
+{
+    Console.WriteLine("\"" + task.Get(Tsk.WBS) + "\"" + "; ");
+}
+
+project.RenumberWBSCode(new List<int> { 1, 2, 3 });
+
+Console.WriteLine("\nWBS codes after: ");
+
+// الإخراج: ""; "1"; "2"; "3"
+foreach (var task in tasks)
+{
+    Console.WriteLine("\"" + task.Get(Tsk.WBS) + "\"" + "; ");
+}
+```
+
+### انظر أيضًا
 
 * class [Task](../../task/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

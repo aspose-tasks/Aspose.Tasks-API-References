@@ -1,25 +1,52 @@
 ---
-title: Tsk.Uid
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. المعرف الفريد للمهمة .
+title: "Tsk.Uid"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. المعرف الفريد للمهمة"
 type: docs
-weight: 1130
+weight: 1110
 url: /ar/net/aspose.tasks/tsk/uid/
 ---
 ## Tsk.Uid field
 
-المعرف الفريد للمهمة .
+المعرّف الفريد للمهمة.
 
 ```csharp
 public static readonly Key<int, TaskKey> Uid;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة خصائص المهمة.
+
+```csharp
+var project = new Project();
+
+// إضافة مهمة وتعيين خصائص المهمة
+var task = project.RootTask.Children.Add();
+task.Set(Tsk.Name, "Task1");
+task.Set(Tsk.Start, new DateTime(2020, 3, 31, 8, 0, 0));
+task.Set(Tsk.Finish, new DateTime(2020, 3, 31, 17, 0, 0));
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// تحليل جميع المهام المجمعة
+foreach (var tsk in collector.Tasks)
+{
+    Console.WriteLine("Task Id: {0}", tsk.Get(Tsk.Id));
+    Console.WriteLine("Task Uid: {0}", tsk.Get(Tsk.Uid));
+    Console.WriteLine("Task Name: {0}", tsk.Get(Tsk.Name));
+    Console.WriteLine("Task Start: {0}", tsk.Get(Tsk.Start));
+    Console.WriteLine("Task Finish: {0}", tsk.Get(Tsk.Finish));
+}
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

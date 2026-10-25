@@ -1,24 +1,24 @@
 ---
-title: ResourceAssignment.Task
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment ملكية. المهمة التي تم تعيين مورد لها .
+title: "ResourceAssignment.Task"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ResourceAssignment. المهمة التي يُعيّن إليها المورد"
 type: docs
 weight: 590
 url: /ar/net/aspose.tasks/resourceassignment/task/
 ---
 ## ResourceAssignment.Task property
 
-المهمة التي تم تعيين مورد لها .
+المهمة التي يُعيّن لها المورد.
 
 ```csharp
 public Task Task { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../../task/)
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

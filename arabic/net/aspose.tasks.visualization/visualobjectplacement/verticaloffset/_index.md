@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.VerticalOffset
-second_title: Aspose.Tasks لمرجع .NET API
-description: VisualObjectPlacement ملكية. الحصول على أو تعيين إزاحة رأسية للكائن المرئي.
+title: "VisualObjectPlacement.VerticalOffset"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية VisualObjectPlacement. يحصل أو يعيّن الإزاحة العمودية للكائن البصري"
 type: docs
 weight: 120
 url: /ar/net/aspose.tasks.visualization/visualobjectplacement/verticaloffset/
 ---
 ## VisualObjectPlacement.VerticalOffset property
 
-الحصول على أو تعيين إزاحة رأسية للكائن المرئي.
+يحصل أو يضبط الإزاحة العمودية للكائن المرئي.
 
 ```csharp
 public double VerticalOffset { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [VisualObjectPlacement](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

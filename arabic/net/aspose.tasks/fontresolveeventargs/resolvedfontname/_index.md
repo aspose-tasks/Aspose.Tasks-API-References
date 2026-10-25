@@ -1,14 +1,14 @@
 ---
-title: FontResolveEventArgs.ResolvedFontName
-second_title: Aspose.Tasks لمرجع .NET API
-description: FontResolveEventArgs ملكية. الحصول على أو تحديد اسم الخط الذي تم حله. يمكن ضبطه للتحكم في الخطوط المستخدمة لتقديم طريقة عرض .
+title: "FontResolveEventArgs.ResolvedFontName"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية FontResolveEventArgs. تُعيد أو تُعيّن اسم الخط المُحل. يمكن تعيينها للتحكم في الخطوط المستخدمة لعرض المشهد"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks/fontresolveeventargs/resolvedfontname/
 ---
 ## FontResolveEventArgs.ResolvedFontName property
 
-الحصول على أو تحديد اسم الخط الذي تم حله. يمكن ضبطه للتحكم في الخطوط المستخدمة لتقديم طريقة عرض .
+يحصل أو يعيّن اسم الخط المحلول. يمكن تعيينه للتحكم في الخطوط المستخدمة لعرض المشهد.
 
 ```csharp
 public string ResolvedFontName { get; set; }
@@ -16,12 +16,12 @@ public string ResolvedFontName { get; set; }
 
 ### قيمة الإرجاع
 
-اسم الخط المطلوب إذا تم العثور على الخط أو اسم الخط الاحتياطي font or null إذا تعذر العثور على الخط.
+اسم الخط المطلوب إذا تم العثور على الخط أو اسم الخط الاحتياطي أو null إذا تعذر العثور على الخط.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FontResolveEventArgs](../)
-* مساحة الاسم [Aspose.Tasks](../../fontresolveeventargs/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../fontresolveeventargs/)
+* assembly [Aspose.Tasks](../../../)
 
 

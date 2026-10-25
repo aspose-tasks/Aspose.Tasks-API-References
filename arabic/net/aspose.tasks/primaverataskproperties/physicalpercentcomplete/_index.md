@@ -1,27 +1,27 @@
 ---
-title: PrimaveraTaskProperties.PhysicalPercentComplete
-second_title: Aspose.Tasks لمرجع .NET API
-description: PrimaveraTaskProperties ملكية. الحصول على قيمة النسبة المئوية الفعلية للاكتمال.
+title: "PrimaveraTaskProperties.PhysicalPercentComplete"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PrimaveraTaskProperties. يحصل على قيمة النسبة المئوية الفعلية المكتملة"
 type: docs
-weight: 50
+weight: 180
 url: /ar/net/aspose.tasks/primaverataskproperties/physicalpercentcomplete/
 ---
 ## PrimaveraTaskProperties.PhysicalPercentComplete property
 
-الحصول على قيمة النسبة المئوية الفعلية للاكتمال.
+يحصل على قيمة النسبة المئوية الفعلية المكتملة.
 
 ```csharp
 public double PhysicalPercentComplete { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-ينطبق فقط على الأنشطة (المهام غير الموجزة).
+ينطبق فقط على الأنشطة (المهام غير الملخصة).
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [PrimaveraTaskProperties](../)
-* مساحة الاسم [Aspose.Tasks](../../primaverataskproperties/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

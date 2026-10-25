@@ -1,24 +1,45 @@
 ---
-title: PdfSaveOptions.EncryptionDetails
-second_title: Aspose.Tasks لمرجع .NET API
-description: PdfSaveOptions ملكية. الحصول على تفاصيل التشفير أو تعيينها. إذا لم يتم التعيين  فلن يتم إجراء أي تشفير.
+title: "PdfSaveOptions.EncryptionDetails"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PdfSaveOptions. تحصل أو تعيين تفاصيل التشفير. إذا لم يتم تعيينها فلن يتم تنفيذ أي تشفير"
 type: docs
-weight: 50
+weight: 40
 url: /ar/net/aspose.tasks.saving/pdfsaveoptions/encryptiondetails/
 ---
 ## PdfSaveOptions.EncryptionDetails property
 
-الحصول على تفاصيل التشفير أو تعيينها. إذا لم يتم التعيين ، فلن يتم إجراء أي تشفير.
+يحصل أو يعيّن تفاصيل التشفير. إذا لم يتم تعيينه، فلن يتم أي تشفير.
 
 ```csharp
 public PdfEncryptionDetails EncryptionDetails { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية تعيين تفاصيل التشفير لمستند PDF. إذا لم يتم تعيينها، فلن يتم تنفيذ أي تشفير.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var encryptionDetails = new PdfEncryptionDetails("userPassword", "ownerPassword", PdfEncryptionAlgorithm.RC4_128);
+
+var options = new PdfSaveOptions();
+
+// تعيين تفاصيل التشفير لمستند PDF
+options.EncryptionDetails = encryptionDetails;
+
+// ضبط الخصائص الإضافية
+// تعيين <see cref=\"P:Aspose.Tasks.Saving.SaveOptions.PresentationFormat\" /> الذي سيُحفظ فيه المستند.
+options.PresentationFormat = PresentationFormat.GanttChart;
+
+project.Save(OutDir + "WorkWithEncryptionDetails_out.pdf", options);
+```
+
+### انظر أيضًا
 
 * class [PdfEncryptionDetails](../../pdfencryptiondetails/)
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../pdfsaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pdfsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

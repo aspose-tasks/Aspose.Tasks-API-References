@@ -1,14 +1,14 @@
 ---
-title: Project.DefaultWeekWorkingDays
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. يحصل على مثيلWeekDayCollection فئة تمثل مجموعة من أيام العمل الأسبوعية وأوقات العمل الافتراضية للمشروع.
+title: "Project.DefaultWeekWorkingDays"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل على كائن من فئة WeekDayCollection التي تمثل مجموعة من أيام العمل الأسبوعية الافتراضية للمشروع وأوقات العمل"
 type: docs
-weight: 360
+weight: 370
 url: /ar/net/aspose.tasks/project/defaultweekworkingdays/
 ---
 ## Project.DefaultWeekWorkingDays property
 
-يحصل على مثيل[`WeekDayCollection`](../../weekdaycollection/) فئة تمثل مجموعة من أيام العمل الأسبوعية وأوقات العمل الافتراضية للمشروع.
+تحصل على كائن من فئة [`WeekDayCollection`](../../weekdaycollection/) التي تمثل مجموعة من أيام العمل الأسبوعية الافتراضية للمشروع وأوقات العمل.
 
 ```csharp
 public WeekDayCollection DefaultWeekWorkingDays { get; }
@@ -16,17 +16,32 @@ public WeekDayCollection DefaultWeekWorkingDays { get; }
 
 ### قيمة الإرجاع
 
-مثيل[`WeekDayCollection`](../../weekdaycollection/) فئة تحتوي على قائمة[`WeekDay`](../../weekday/) أشياء.
+الكائن من فئة [`WeekDayCollection`](../../weekdaycollection/) الذي يحتوي على قائمة من كائنات [`WeekDay`](../../weekday/).
 
-### ملاحظات
+## ملاحظات
 
-تحتوي البيانات فقط في ملفات mpp (وليس في xml).
+البيانات موجودة فقط في ملفات mpp (ليس في xml).
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية الحصول على يوم العمل الأسبوعي الافتراضي.
+
+```csharp
+var project = new Project(DataDir + "Project2003.mpp");
+foreach (var weekDay in project.DefaultWeekWorkingDays)
+{
+    Console.WriteLine("From: " + weekDay.FromDate);
+    Console.WriteLine("From: " + weekDay.ToDate);
+    Console.WriteLine("Day type: " + weekDay.DayType);
+    Console.WriteLine("Is day working: " + weekDay.DayWorking);
+}
+```
+
+### انظر أيضًا
 
 * class [WeekDayCollection](../../weekdaycollection/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,25 +1,39 @@
 ---
-title: Rsc.Id
-second_title: Aspose.Tasks لمرجع .NET API
-description: Rsc مجال. معرّف الموضع لمورد ضمن قائمة الموارد.
+title: "Rsc.Id"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Rsc. معرف الموقع للمورد ضمن قائمة الموارد"
 type: docs
 weight: 350
 url: /ar/net/aspose.tasks/rsc/id/
 ---
 ## Rsc.Id field
 
-معرّف الموضع لمورد ضمن قائمة الموارد.
+معرف الموضع للمورد ضمن قائمة الموارد.
 
 ```csharp
 public static readonly Key<int, RscKey> Id;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة خاصية Rsc.Id.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Id, 987);
+
+Console.WriteLine("Id: " + resource.Get(Rsc.Id));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* مساحة الاسم [Aspose.Tasks](../../rsc/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Tsk.RemainingDuration
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. الوقت المطلوب لإكمال الجزء غير المكتمل من المهمة.
+title: "Tsk.RemainingDuration"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. الوقت المطلوب لإكمال الجزء غير المكتمل من المهمة"
 type: docs
-weight: 980
+weight: 960
 url: /ar/net/aspose.tasks/tsk/remainingduration/
 ---
 ## Tsk.RemainingDuration field
@@ -14,13 +14,27 @@ url: /ar/net/aspose.tasks/tsk/remainingduration/
 public static readonly Key<Duration, TaskKey> RemainingDuration;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة الخاصية Tsk.RemainingDuration.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.RemainingDuration, project.GetDuration(1, TimeUnitType.Hour));
+
+Console.WriteLine("Remaining Duration: " + task.Get(Tsk.RemainingDuration));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

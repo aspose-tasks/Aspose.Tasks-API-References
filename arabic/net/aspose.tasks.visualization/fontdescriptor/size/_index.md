@@ -1,7 +1,7 @@
 ---
-title: FontDescriptor.Size
-second_title: Aspose.Tasks لمرجع .NET API
-description: FontDescriptor ملكية. يحصل على حجم الخط.
+title: "FontDescriptor.Size"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية FontDescriptor. تحصل على حجم الخط."
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks.visualization/fontdescriptor/size/
@@ -14,10 +14,10 @@ url: /ar/net/aspose.tasks.visualization/fontdescriptor/size/
 public float Size { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FontDescriptor](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 

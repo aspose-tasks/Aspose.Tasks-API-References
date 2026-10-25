@@ -1,23 +1,23 @@
 ---
-title: Project.LastPrinted
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة LastPrinted .
+title: "Project.LastPrinted"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. يحصل أو يعيّن قيمة LastPrinted"
 type: docs
-weight: 520
+weight: 540
 url: /ar/net/aspose.tasks/project/lastprinted/
 ---
 ## Project.LastPrinted property
 
-الحصول على أو تعيين قيمة LastPrinted .
+يحصل أو يضبط قيمة الخاصية LastPrinted.
 
 ```csharp
 public DateTime LastPrinted { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,30 +1,30 @@
 ---
-title: Aspose.Tasks.RiskAnalysis
-second_title: Aspose.Tasks لمرجع .NET API
-description: يحتوي على فئات لإنشاء تقرير تحليل المخاطر .
+title: "Aspose.Tasks.RiskAnalysis"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "يحتوي على الفئات لإنشاء تقرير تحليل المخاطر."
 type: docs
-weight: 50
+weight: 70
 url: /ar/net/aspose.tasks.riskanalysis/
 ---
-يحتوي على فئات لإنشاء تقرير تحليل المخاطر .
+يحتوي على فئات لإنشاء تقرير تحليل المخاطر.
 
-## الطبقات
+## الفئات
 
-| فصل | وصف |
+| الفئة | الوصف |
 | --- | --- |
-| [RiskAnalysisResult](./riskanalysisresult/) | يمثل نتيجة لتحليل المخاطر . |
-| [RiskAnalysisSettings](./riskanalysissettings/) | يحدد إعدادات أداء تحليل المخاطر. |
-| [RiskAnalyzer](./riskanalyzer/) | يقوم بمحاكاة مونت كارلو بناءً على إعدادات تحليل المخاطر المحددة. |
-| [RiskItemStatistics](./riskitemstatistics/) | يمثل عنصرًا يخزن البيانات الإحصائية لمهمة المشروع الذي تم تحليله. |
-| [RiskItemStatisticsCollection](./riskitemstatisticscollection/) | يمثل مجموعة تحتوي على مثيلات ملف[`RiskItemStatistics`](../aspose.tasks.riskanalysis/riskitemstatistics/) فئة . |
-| [RiskPattern](./riskpattern/) | يمثل نمط مخاطر لمهمة مشروع . |
-| [RiskPatternCollection](./riskpatterncollection/) | يمثل مجموعة تحتوي على مثيلات ملف[`RiskPattern`](../aspose.tasks.riskanalysis/riskpattern/) فئة . |
-## تعداد
+| [RiskAnalysisResult](./riskanalysisresult/) | يمثل نتيجة تحليل المخاطر. |
+| [RiskAnalysisSettings](./riskanalysissettings/) | يحدد الإعدادات لإجراء تحليل المخاطر. |
+| [RiskAnalyzer](./riskanalyzer/) | ينفذ محاكاة مونت كارلو بناءً على إعدادات تحليل المخاطر المحددة. |
+| [RiskItemStatistics](./riskitemstatistics/) | يمثل عنصرًا يخزن البيانات الإحصائية للمهمة في المشروع المُحلل. |
+| [RiskItemStatisticsCollection](./riskitemstatisticscollection/) | يمثل مجموعة تحتوي على مثيلات فئة [`RiskItemStatistics`](../aspose.tasks.riskanalysis/riskitemstatistics/). |
+| [RiskPattern](./riskpattern/) | يمثل نمط خطر لمهمة مشروع. |
+| [RiskPatternCollection](./riskpatterncollection/) | يمثل مجموعة تحتوي على مثيلات فئة [`RiskPattern`](../aspose.tasks.riskanalysis/riskpattern/). |
+## التعداد
 
-| تعداد | وصف |
+| التعداد | الوصف |
 | --- | --- |
-| [ConfidenceLevel](./confidencelevel/) | يحدد مستويات الثقة المدعومة المستخدمة في تحليل المخاطر والتي تتوافق مع النسبة المئوية للوقت الذي ستكون فيه القيم الفعلية ضمن التقديرات المتفائلة والمتشائمة. |
-| [ProbabilityDistributionType](./probabilitydistributiontype/) | تحديد أنواع التوزيعات الاحتمالية المدعومة. |
-| [RiskItemType](./riskitemtype/) | يحدد حقول المهام التي يتم جمع المعلومات الإحصائية من أجلها أثناء تحليل المخاطر. |
+| [ConfidenceLevel](./confidencelevel/) | يحدد مستويات الثقة المدعومة المستخدمة في تحليل المخاطر والتي تتطابق مع النسبة المئوية للوقت التي تكون فيها القيم الفعلية ضمن التقديرات المتفائلة والمتشائمة. |
+| [ProbabilityDistributionType](./probabilitydistributiontype/) | يحدد أنواع التوزيعات الاحتمالية المدعومة. |
+| [RiskItemType](./riskitemtype/) | يحدد حقول المهمة التي يتم جمع المعلومات الإحصائية لها أثناء تحليل المخاطر. |
 
 

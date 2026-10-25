@@ -1,24 +1,56 @@
 ---
-title: Project.TaskFilters
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. يحصل على كافة تعريفات عوامل التصفية المستندة إلى المهام. TaskFilters هي مجموعة من ملفاتFilter الكائنات .
+title: "Project.TaskFilters"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل على جميع تعريفات الفلاتر المستندة إلى المهام. TaskFilters هي مجموعة من كائنات Filter"
 type: docs
-weight: 880
+weight: 910
 url: /ar/net/aspose.tasks/project/taskfilters/
 ---
 ## Project.TaskFilters property
 
-يحصل على كافة تعريفات عوامل التصفية المستندة إلى المهام. TaskFilters هي مجموعة من ملفات[`Filter`](../../filter/) الكائنات .
+يحصل على جميع تعريفات الفلاتر المستندة إلى المهام. TaskFilters هي مجموعة من كائنات [`Filter`](../../filter/)
 
 ```csharp
 public FilterCollection TaskFilters { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة فلاتر مهام المشروع.
+
+```csharp
+var project = new Project(DataDir + "Project2003.mpp");
+
+var filter = project.TaskFilters.ToList()[1];
+Console.WriteLine(filter.Criteria.CriteriaRows.Count);
+Console.WriteLine(filter.Criteria.Operation.ToString());
+
+var criteria1 = filter.Criteria.CriteriaRows[0];
+Console.WriteLine(criteria1.Test.ToString());
+Console.WriteLine(criteria1.Field.ToString());
+Console.WriteLine(criteria1.Values[0].ToString());
+
+var criteria2 = filter.Criteria.CriteriaRows[1];
+Console.WriteLine(criteria2.Operation.ToString());
+Console.WriteLine(criteria2.CriteriaRows.Count);
+
+var criteria21 = criteria2.CriteriaRows[0];
+Console.WriteLine(criteria21.Test.ToString());
+Console.WriteLine(criteria21.Field.ToString());
+Console.WriteLine(criteria21.Values[0].ToString());
+
+var criteria22 = criteria2.CriteriaRows[1];
+Console.WriteLine(criteria22.Test.ToString());
+Console.WriteLine(criteria22.Field.ToString());
+Console.WriteLine(criteria22.Values[0].ToString());
+Console.WriteLine(filter.Criteria);
+```
+
+### انظر أيضًا
 
 * class [FilterCollection](../../filtercollection/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: Task.RemainingOvertimeWork
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة RemainingOvertimeWork.
+title: "Task.RemainingOvertimeWork"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصّل أو تعين قيمة RemainingOvertimeWork"
 type: docs
-weight: 1090
+weight: 1080
 url: /ar/net/aspose.tasks/task/remainingovertimework/
 ---
 ## Task.RemainingOvertimeWork property
 
-الحصول على أو تعيين قيمة RemainingOvertimeWork.
+يحصل أو يعيّن قيمة لـ RemainingOvertimeWork.
 
 ```csharp
 public Duration RemainingOvertimeWork { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,22 +1,45 @@
 ---
-title: Class ValidationException
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.ValidationException فصل. يمثل استثناء يتم طرحه عند اكتشاف أخطاء أثناء التحقق من صحة الكيان.
+title: "الفئة ValidationException"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "الفئة Aspose.Tasks.ValidationException. تمثل استثناءً يُرمى عندما يتم العثور على أخطاء أثناء التحقق من صحة الكيان"
 type: docs
-weight: 2470
+weight: 2790
 url: /ar/net/aspose.tasks/validationexception/
 ---
 ## ValidationException class
 
-يمثل استثناء يتم طرحه عند اكتشاف أخطاء أثناء التحقق من صحة الكيان.
+يمثّل استثناء يُرمى عندما تُكتشف أخطاء أثناء التحقق من صحة الكيان.
 
 ```csharp
 public class ValidationException : ApplicationException
 ```
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية التعامل مع &lt;see cref="ValidationException"/&gt; أثناء العمل مع مهام التكرار.
+
+```csharp
+try
+{
+    var project = new Project();
+    var parameters = new RecurringTaskParameters { TaskName = "t1", Duration = project.GetDuration(1, TimeUnitType.Day), RecurrencePattern = null };
+    project.RootTask.Children.Add(parameters);
+}
+catch (ValidationException ex)
+{
+    Console.WriteLine("Message: ");
+    Console.WriteLine(ex.Message);
+    if (ex.InnerException != null)
+    {
+        Console.WriteLine("Inner exception message: ");
+        Console.WriteLine(ex.InnerException.Message);
+    }
+}
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

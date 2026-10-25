@@ -1,9 +1,9 @@
 ---
-title: Enum WorkGroupType
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.WorkGroupType تعداد. يحدد نوع مجموعة العمل.
+title: "تعداد WorkGroupType"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "تعداد Aspose.Tasks.WorkGroupType. يحدد نوع مجموعة العمل"
 type: docs
-weight: 3260
+weight: 3620
 url: /ar/net/aspose.tasks/workgrouptype/
 ---
 ## WorkGroupType enumeration
@@ -14,18 +14,32 @@ url: /ar/net/aspose.tasks/workgrouptype/
 public enum WorkGroupType
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Default | `0` | يشير إلى نوع مجموعة العمل الافتراضي . |
-| None | `1` | يشير إلى أي نوع مجموعة عمل . |
-| Email | `2` | يشير إلى نوع مجموعة عمل البريد الإلكتروني . |
-| Web | `3` | يشير إلى نوع مجموعة عمل الويب . |
+| Default | `0` | يشير إلى نوع مجموعة العمل الافتراضية. |
+| None | `1` | يشير إلى نوع مجموعة العمل 'None'. |
+| Email | `2` | يشير إلى نوع مجموعة العمل البريد الإلكتروني. |
+| Web | `3` | يشير إلى نوع مجموعة العمل الويب. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يوضح كيفية تعيين مجموعة عمل لمورد.
+
+```csharp
+var project = new Project();
+
+// ...
+var resource = project.Resources.Add("Resource");
+resource.Set(Rsc.Workgroup, WorkGroupType.Web);
+
+// ...
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

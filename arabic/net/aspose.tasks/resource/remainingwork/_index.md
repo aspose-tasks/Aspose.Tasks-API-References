@@ -1,24 +1,24 @@
 ---
-title: Resource.RemainingWork
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة العمل المتبقي.
+title: "Resource.RemainingWork"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. يحصل على أو يحدد قيمة RemainingWork"
 type: docs
-weight: 700
+weight: 690
 url: /ar/net/aspose.tasks/resource/remainingwork/
 ---
 ## Resource.RemainingWork property
 
-الحصول على أو تعيين قيمة العمل المتبقي.
+يحصل أو يعيّن قيمة لـ RemainingWork.
 
 ```csharp
 public Duration RemainingWork { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

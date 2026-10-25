@@ -1,23 +1,23 @@
 ---
-title: Project.LastSaved
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة LastSaved .
+title: "Project.LastSaved"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة LastSaved"
 type: docs
-weight: 530
+weight: 550
 url: /ar/net/aspose.tasks/project/lastsaved/
 ---
 ## Project.LastSaved property
 
-الحصول على أو تعيين قيمة LastSaved .
+يحصل أو يضبط قيمة الخاصية LastSaved.
 
 ```csharp
 public DateTime LastSaved { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

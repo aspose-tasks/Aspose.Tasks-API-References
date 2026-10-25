@@ -1,23 +1,23 @@
 ---
-title: Project.SaveVersion
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تحديد قيمة SaveVersion.
+title: "Project.SaveVersion"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية المشروع. الحصول على أو تعيين قيمة لـ SaveVersion"
 type: docs
-weight: 780
+weight: 810
 url: /ar/net/aspose.tasks/project/saveversion/
 ---
 ## Project.SaveVersion property
 
-الحصول على أو تحديد قيمة SaveVersion.
+يحصل أو يضبط قيمة SaveVersion.
 
 ```csharp
 public int SaveVersion { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

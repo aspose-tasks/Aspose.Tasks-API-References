@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.BorderLineColor
-second_title: Aspose.Tasks لمرجع .NET API
-description: VisualObjectPlacement ملكية. الحصول على لون خط الحدود أو تعيينه .
+title: "VisualObjectPlacement.BorderLineColor"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية VisualObjectPlacement. يسترجع أو يعيّن لون خط الحدود"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks.visualization/visualobjectplacement/borderlinecolor/
 ---
 ## VisualObjectPlacement.BorderLineColor property
 
-الحصول على لون خط الحدود أو تعيينه .
+يحصل أو يضبط لون خط الحدود.
 
 ```csharp
 public Color BorderLineColor { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [VisualObjectPlacement](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,24 +1,24 @@
 ---
-title: PdfSaveOptions.PageSavingCallback
-second_title: Aspose.Tasks لمرجع .NET API
-description: PdfSaveOptions ملكية. الحصول على أو تعيين رد اتصال محدد من قبل المستخدم والذي يتم استخدامه للحصول على تدفق إخراج لكل صفحة معروضة . يكون قابلاً للتطبيق عندماSaveToSeparateFiles الخيار المستخدم.
+title: "PdfSaveOptions.PageSavingCallback"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PdfSaveOptions. تحصل أو تعيين رد نداء معرف من قبل المستخدم يُستخدم للحصول على تدفق إخراج لكل صفحة مُعالجة. يُطبق عندما يتم استخدام خيار SaveToSeparateFiles"
 type: docs
-weight: 80
+weight: 70
 url: /ar/net/aspose.tasks.saving/pdfsaveoptions/pagesavingcallback/
 ---
 ## PdfSaveOptions.PageSavingCallback property
 
-الحصول على أو تعيين رد اتصال محدد من قبل المستخدم والذي يتم استخدامه للحصول على تدفق إخراج لكل صفحة معروضة . يكون قابلاً للتطبيق عندما[`SaveToSeparateFiles`](../savetoseparatefiles/) الخيار المستخدم.
+تحصل أو تعيين رد نداء معرف من قبل المستخدم يُستخدم للحصول على تدفق إخراج لكل صفحة مُعالجة. يُطبق عندما يتم استخدام خيار [`SaveToSeparateFiles`](../savetoseparatefiles/).
 
 ```csharp
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Tasks.Saving](../../pdfsaveoptions/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../pdfsaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

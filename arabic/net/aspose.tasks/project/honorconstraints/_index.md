@@ -1,24 +1,24 @@
 ---
-title: Project.HonorConstraints
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين HonorConstraints أم لا.
+title: "Project.HonorConstraints"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. يحصل أو يضبط قيمة تشير إلى ما إذا كان HonorConstraints مفعلاً أم لا."
 type: docs
-weight: 460
+weight: 480
 url: /ar/net/aspose.tasks/project/honorconstraints/
 ---
 ## Project.HonorConstraints property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين HonorConstraints أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان HonorConstraints مضبوطًا أم لا.
 
 ```csharp
 public NullableBool HonorConstraints { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

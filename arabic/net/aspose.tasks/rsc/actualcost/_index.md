@@ -1,25 +1,39 @@
 ---
-title: Rsc.ActualCost
-second_title: Aspose.Tasks لمرجع .NET API
-description: Rsc مجال. التكاليف المتكبدة للعمل الذي تم تنفيذه بالفعل بواسطة الموارد في مهامهم  جنبًا إلى جنب مع أي تكاليف أخرى مسجلة مرتبطة بالمهمة.
+title: "Rsc.ActualCost"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Rsc. التكاليف المتكبدة للعمل الذي أُنجز بالفعل من قبل الموارد على مهامهم بالإضافة إلى أي تكاليف مسجلة أخرى مرتبطة بالمهمة"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks/rsc/actualcost/
 ---
 ## Rsc.ActualCost field
 
-التكاليف المتكبدة للعمل الذي تم تنفيذه بالفعل بواسطة الموارد في مهامهم ، جنبًا إلى جنب مع أي تكاليف أخرى مسجلة مرتبطة بالمهمة.
+التكاليف المتكبدة للعمل الذي قام به الموارد بالفعل على مهامهم، إلى جانب أي تكاليف مسجلة أخرى مرتبطة بالمهمة.
 
 ```csharp
 public static readonly Key<decimal, RscKey> ActualCost;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة خاصية Rsc.ActualCost.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.ActualCost, 10m);
+
+Console.WriteLine("Actual Cost: " + resource.Get(Rsc.ActualCost));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* مساحة الاسم [Aspose.Tasks](../../rsc/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

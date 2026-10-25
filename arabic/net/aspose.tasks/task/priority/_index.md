@@ -1,23 +1,23 @@
 ---
-title: Task.Priority
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على قيمة الأولوية أو تعيينها .
+title: "Task.Priority"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصل أو تعين قيمة للـ Priority"
 type: docs
-weight: 1030
+weight: 1020
 url: /ar/net/aspose.tasks/task/priority/
 ---
 ## Task.Priority property
 
-الحصول على قيمة الأولوية أو تعيينها .
+يحصل أو يعيّن قيمة Priority.
 
 ```csharp
 public int Priority { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

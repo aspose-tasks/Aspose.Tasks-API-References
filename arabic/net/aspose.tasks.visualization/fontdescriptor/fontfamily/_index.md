@@ -1,23 +1,23 @@
 ---
-title: FontDescriptor.FontFamily
-second_title: Aspose.Tasks لمرجع .NET API
-description: FontDescriptor ملكية. الحصول على اسم عائلة الخط.
+title: "FontDescriptor.FontFamily"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية FontDescriptor. تحصل على اسم عائلة الخطوط."
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks.visualization/fontdescriptor/fontfamily/
 ---
 ## FontDescriptor.FontFamily property
 
-الحصول على اسم عائلة الخط.
+يحصل على اسم عائلة الخط.
 
 ```csharp
 public string FontFamily { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [FontDescriptor](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 

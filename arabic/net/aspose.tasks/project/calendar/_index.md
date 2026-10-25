@@ -1,24 +1,24 @@
 ---
-title: Project.Calendar
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة التقويم .
+title: "Project.Calendar"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة Calendar"
 type: docs
-weight: 110
+weight: 120
 url: /ar/net/aspose.tasks/project/calendar/
 ---
 ## Project.Calendar property
 
-الحصول على أو تعيين قيمة التقويم .
+يحصل أو يعيّن قيمة Calendar.
 
 ```csharp
 public Calendar Calendar { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Calendar](../../calendar/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

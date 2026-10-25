@@ -1,24 +1,24 @@
 ---
-title: Resource.CanLevel
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان CanLevel معينًا أم لا.
+title: "Resource.CanLevel"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل أو تعين قيمة تشير إلى ما إذا كان CanLevel مضبوطًا أم لا"
 type: docs
 weight: 230
 url: /ar/net/aspose.tasks/resource/canlevel/
 ---
 ## Resource.CanLevel property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان CanLevel معينًا أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان CanLevel معينًا أم لا.
 
 ```csharp
 public NullableBool CanLevel { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

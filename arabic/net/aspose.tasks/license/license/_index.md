@@ -1,22 +1,22 @@
 ---
-title: License.License
-second_title: Aspose.Tasks لمرجع .NET API
-description: License البناء. يقوم بتهيئة مثيل جديد لملفLicense فصل.
+title: "License.License"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "منشئ License. ينشئ مثيلًا جديدًا لفئة License"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/license/license/
 ---
 ## License constructor
 
-يقوم بتهيئة مثيل جديد لملف[`License`](../) فصل.
+ينشئ مثيلًا جديدًا لفئة [`License`](../).
 
 ```csharp
 public License()
 ```
 
-### أمثلة
+## الأمثلة
 
-في هذا المثال ، سيتم إجراء محاولة للعثور على ملف ترخيص يسمى MyLicense.lic في المجلد الذي يحتوي على  المكون ، في المجلد الذي يحتوي على التجميع الاستدعاء ، في مجلد تجميع الإدخال ثم في الموارد المضمنة لتجميع الاستدعاء.
+في هذا المثال، سيتم محاولة العثور على ملف ترخيص يُدعى MyLicense.lic في المجلد الذي يحتوي على المكوّن، وفي المجلد الذي يحتوي على التجميع المستدعي، وفي مجلد التجميع الرئيسي، ثم في الموارد المدمجة للتجميع المستدعي.
 
 ```csharp
 [C#]
@@ -31,17 +31,24 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-ملف جرة المكون:
+ملف jar المكوّن:
 
 ```csharp
 License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
-### أنظر أيضا
+يوضح كيفية تطبيق ترخيص Aspose.Tasks.
+
+```csharp
+var license = new License();
+license.SetLicense("Aspose.Tasks.lic");
+```
+
+### انظر أيضًا
 
 * class [License](../)
-* مساحة الاسم [Aspose.Tasks](../../license/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../license/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: GroupCriterion.GetHashCode
-second_title: Aspose.Tasks لمرجع .NET API
-description: GroupCriterion طريقة. يعمل كدالة تجزئة لنوع معين.
+title: "GroupCriterion.GetHashCode"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة GroupCriterion. تعمل كدالة تجزئة لنوع معين"
 type: docs
-weight: 140
+weight: 120
 url: /ar/net/aspose.tasks/groupcriterion/gethashcode/
 ---
 ## GroupCriterion.GetHashCode method
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-رمز تجزئة للتيارObject.
+قيمة تجزئة للكائن الحالي.
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [GroupCriterion](../)
-* مساحة الاسم [Aspose.Tasks](../../groupcriterion/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcriterion/)
+* assembly [Aspose.Tasks](../../../)
 
 

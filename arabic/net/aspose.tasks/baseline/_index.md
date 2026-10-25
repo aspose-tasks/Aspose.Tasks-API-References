@@ -1,53 +1,110 @@
 ---
-title: Class Baseline
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Baseline فصل. يمثل القيم الأساسية للمورد .
+title: "الفئة Baseline"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "Aspose.Tasks.Baseline الفئة. يمثل قيم الخط الأساسي لمورد"
 type: docs
 weight: 110
 url: /ar/net/aspose.tasks/baseline/
 ---
 ## Baseline class
 
-يمثل القيم الأساسية للمورد .
+يمثل قيم الخط الأساسي لمورد.
 
 ```csharp
 public class Baseline : IComparable<Baseline>, IEquatable<Baseline>
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Baseline](baseline/)() | Default_Constructor |
+| [Baseline](baseline/)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber/) { get; set; } | الحصول على أو تعيين الرقم الفريد لسجل البيانات الأساسية. |
-| [Bcwp](../../aspose.tasks/baseline/bcwp/) { get; set; } | الحصول على أو تعيين التكلفة المدرجة في الموازنة لعمل تم تنفيذه بواسطة مورد لمشروع حتى الآن. |
-| [Bcws](../../aspose.tasks/baseline/bcws/) { get; set; } | الحصول على أو تعيين تكلفة الموازنة لعمل مجدول لمورد. |
-| [Cost](../../aspose.tasks/baseline/cost/) { get; set; } | الحصول على التكلفة المتوقعة للمورد أو تعيينها عند حفظ الأساس. |
-| [Work](../../aspose.tasks/baseline/work/) { get; set; } | الحصول على أو تعيين العمل المعين لمورد عند حفظ الأساس.مقدار العمل المعين لمورد عندما تم حفظ الأساس. |
+| [BaselineNumber](../../aspose.tasks/baseline/baselinenumber/) { get; set; } | يحصل أو يعيّن الرقم الفريد لسجل بيانات الخط الأساسي. |
+| [Bcwp](../../aspose.tasks/baseline/bcwp/) { get; set; } | يحصل أو يعيّن التكلفة الموازنة للعمل الذي أُجري بواسطة مورد لمشروع حتى الآن. |
+| [Bcws](../../aspose.tasks/baseline/bcws/) { get; set; } | يحصل أو يعيّن تكلفة الميزانية للعمل المجدول لمورد. |
+| [Cost](../../aspose.tasks/baseline/cost/) { get; set; } | يحصل أو يعيّن التكلفة المتوقعة لمورد عندما يتم حفظ الخط الأساسي. |
+| [Work](../../aspose.tasks/baseline/work/) { get; set; } | يحصل أو يعيّن العمل المخصص لمورد عندما يتم حفظ الخط الأساسي. كمية العمل المخصص لمورد عندما تم حفظ الخط الأساسي. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/baseline/compareto/)(Baseline) | تنفيذ واجهة IComparable . مقارنة هذا المثيل بكائن خط الأساس المحدد. |
-| [Equals](../../aspose.tasks/baseline/equals/#equals)(Baseline) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا. |
-| override [Equals](../../aspose.tasks/baseline/equals/#equals_1)(object) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا. |
-| override [GetHashCode](../../aspose.tasks/baseline/gethashcode/)() | إرجاع قيمة رمز تجزئة لخط الأساس. |
-| [operator ==](../../aspose.tasks/baseline/op_equality/) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل يساوي كائنًا محددًا. |
-| [operator &gt;](../../aspose.tasks/baseline/op_greaterthan/) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل أكبر من كائن محدد. |
-| [operator &gt;=](../../aspose.tasks/baseline/op_greaterthanorequal/) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل أكبر من أو يساوي كائنًا محددًا. |
-| [operator !=](../../aspose.tasks/baseline/op_inequality/) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل لا يساوي كائنًا محددًا. |
-| [operator &lt;](../../aspose.tasks/baseline/op_lessthan/) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل أقل من كائن محدد. |
-| [operator &lt;=](../../aspose.tasks/baseline/op_lessthanorequal/) | إرجاع قيمة تشير إلى ما إذا كان هذا المثيل أقل من أو يساوي كائنًا محددًا. |
+| [CompareTo](../../aspose.tasks/baseline/compareto/)(Baseline) | تنفيذ واجهة IComparable. يقارن هذه الحالة بالكائن Baseline المحدد. |
+| [Equals](../../aspose.tasks/baseline/equals/#equals)(Baseline) | يعيد قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن محدد. |
+| override [Equals](../../aspose.tasks/baseline/equals/#equals_1)(object) | يعيد قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن محدد. |
+| override [GetHashCode](../../aspose.tasks/baseline/gethashcode/)() | يعيد قيمة رمز التجزئة للخط الأساسي. |
+| [operator ==](../../aspose.tasks/baseline/op_equality/) | يعيد قيمة تشير إلى ما إذا كانت هذه الحالة مساوية لكائن محدد. |
+| [operator &gt;](../../aspose.tasks/baseline/op_greaterthan/) | يعيد قيمة تشير إلى ما إذا كانت هذه الحالة أكبر من كائن محدد. |
+| [operator &gt;=](../../aspose.tasks/baseline/op_greaterthanorequal/) | يعيد قيمة تشير إلى ما إذا كانت هذه الحالة أكبر من أو مساوية لكائن محدد. |
+| [operator !=](../../aspose.tasks/baseline/op_inequality/) | يعيد قيمة تشير إلى ما إذا كانت هذه الحالة غير مساوية لكائن محدد. |
+| [operator &lt;](../../aspose.tasks/baseline/op_lessthan/) | يعيد قيمة تشير إلى ما إذا كانت هذه الحالة أصغر من كائن محدد. |
+| [operator &lt;=](../../aspose.tasks/baseline/op_lessthanorequal/) | يعيد قيمة تشير إلى ما إذا كانت هذه الحالة أصغر من أو مساوية لكائن محدد. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يظهر كيفية العمل مع خطوط أساس التعيينات.
+
+```csharp
+var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
+
+// يتم تعيين خطوط أساس التعيينات عندما يتم تعيين الخط الأساسي للمشروع بالكامل.
+project.SetBaseline(BaselineType.Baseline);
+
+// قراءة معلومات خط أساس التعيين.
+foreach (var assignment in project.ResourceAssignments)
+{
+    foreach (var baseline in assignment.Baselines)
+    {
+        Console.WriteLine("Baseline Start: " + baseline.Start);
+        Console.WriteLine("Baseline Finish: " + baseline.Finish);
+        Console.WriteLine("Baseline Number: " + baseline.BaselineNumber);
+        Console.WriteLine("Bcwp: " + baseline.Bcwp);
+        Console.WriteLine("Bcws: " + baseline.Bcws);
+        Console.WriteLine("Cost: " + baseline.Cost);
+        Console.WriteLine("Work: " + baseline.Work);
+        if (baseline.TimephasedData != null)
+        {
+            foreach (var td in baseline.TimephasedData)
+            {
+                Console.WriteLine("TD Start: " + td.Start);
+                Console.WriteLine("TD Finish: " + td.Finish);
+                Console.WriteLine("TD Timephased Data Type: " + td.TimephasedDataType);
+                Console.WriteLine();
+            }
+        }
+
+        Console.WriteLine();
+    }
+
+    Console.WriteLine();
+}
+
+// تحقق من مساواة الخط الأساسي.
+var assn1 = project.ResourceAssignments.GetByUid(5);
+var assn2 = project.ResourceAssignments.GetByUid(7);
+
+var assignmentBaseline1 = assn1.Baselines.ToList()[0];
+var assignmentBaseline2 = assn2.Baselines.ToList()[0];
+
+// يمكن مقارنة الخطوط الأساسية باستخدام تحميلات طريقة 'Equals'.
+Console.WriteLine("Are baselines equal: " + assignmentBaseline1.Equals(assignmentBaseline2));
+
+// أو باستخدام عملية حسابية محملة.
+Console.WriteLine("Is baseline 1 less than baseline 2: " + (assignmentBaseline1 < assignmentBaseline2));
+
+// رمز التجزئة للخط الأساسي يعتمد على رقم الخط الأساسي.
+Console.WriteLine("Assignment baseline 1 hashcode: " + assignmentBaseline1.GetHashCode());
+Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHashCode());
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Enum FillPattern
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Visualization.FillPattern تعداد. نمط التعبئة المستخدم في الشكل الأوسط لشريط جانت.
+title: "التعداد FillPattern"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "التعداد Aspose.Tasks.Visualization.FillPattern. نمط التعبئة المستخدم في الشكل الأوسط لشريط جانت."
 type: docs
-weight: 2670
+weight: 3000
 url: /ar/net/aspose.tasks.visualization/fillpattern/
 ---
 ## FillPattern enumeration
@@ -14,26 +14,26 @@ url: /ar/net/aspose.tasks.visualization/fillpattern/
 public enum FillPattern
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Hollow | `0` | نمط جوفاء . |
-| SolidFill | `1` | نمط تعبئة خالص . |
-| LightFill | `2` | نمط التعبئة الخفيف . |
-| MediumFill | `3` | نمط تعبئة متوسط . |
-| DarkFill | `4` | نمط تعبئة داكن . |
-| DiagonalLeft | `5` | نمط أيسر قطري . |
-| DiagonalRight | `6` | نمط أيمن قطري . |
-| DiagonalCross | `7` | نمط متقاطع قطري . |
-| LineVertical | `8` | النمط الرأسي للخط . |
-| LineHorizontal | `9` | نمط الخط الأفقي . |
-| LineCross | `10` | نمط تقاطع الخط . |
-| SolidFillWithDashedBorder | `11` | متصل بنمط حد متقطع . |
+| Hollow | `0` | نمط مجوف. |
+| SolidFill | `1` | نمط تعبئة صلب. |
+| LightFill | `2` | نمط تعبئة خفيف. |
+| MediumFill | `3` | نمط تعبئة متوسط. |
+| DarkFill | `4` | نمط تعبئة داكن. |
+| DiagonalLeft | `5` | نمط قطري إلى اليسار. |
+| DiagonalRight | `6` | نمط قطري إلى اليمين. |
+| DiagonalCross | `7` | نمط تقاطع قطري. |
+| LineVertical | `8` | نمط خط عمودي. |
+| LineHorizontal | `9` | نمط خط أفقي. |
+| LineCross | `10` | نمط تقاطع خطوط. |
+| SolidFillWithDashedBorder | `11` | نمط صلب مع حد متقطع. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

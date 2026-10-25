@@ -1,30 +1,44 @@
 ---
-title: Enum YearLabelDisplay
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.YearLabelDisplay تعداد. يحدد كيفية عرض تسمية السنة .
+title: "تعداد YearLabelDisplay"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "تعداد Aspose.Tasks.YearLabelDisplay. يحدد كيفية عرض تسمية السنة"
 type: docs
-weight: 3320
+weight: 3680
 url: /ar/net/aspose.tasks/yearlabeldisplay/
 ---
 ## YearLabelDisplay enumeration
 
-يحدد كيفية عرض تسمية السنة .
+يحدد كيفية عرض تسمية السنة.
 
 ```csharp
 public enum YearLabelDisplay
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Y | `0` | تعيين قائمة السنوات في MS Project على أنها mo. |
-| Yr | `1` | يعين قائمة السنوات في مشروع MS كـ mon. |
-| Year | `2` | يعين قائمة السنوات في MS Project كشهر. |
+| Y | `0` | يضبط قائمة السنوات في MS Project كـ mo. |
+| Yr | `1` | يضبط قائمة السنوات في MS Project كـ mon. |
+| Year | `2` | يضبط قائمة السنوات في MS Project كشهر. |
 
-### أنظر أيضا
+## الأمثلة
 
-* مساحة الاسم [Aspose.Tasks](../../aspose.tasks/)
-* المجسم [Aspose.Tasks](../../)
+يعرض كيفية ضبط تسمية السنة في خيارات عرض المشروع (الحالة 1).
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+// ...
+// ضبط كيفية عرض تسمية السنة
+project.DisplayOptions.YearLabel = YearLabelDisplay.Y;
+
+// ...
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

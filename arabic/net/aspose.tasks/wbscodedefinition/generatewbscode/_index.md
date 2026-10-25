@@ -1,23 +1,55 @@
 ---
-title: WBSCodeDefinition.GenerateWBSCode
-second_title: Aspose.Tasks لمرجع .NET API
-description: WBSCodeDefinition ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم إنشاء رمز WBS لمهمة جديدة.
+title: "WBSCodeDefinition.GenerateWBSCode"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية WBSCodeDefinition. تحصل أو تعين قيمة تشير إلى ما إذا كان يجب توليد رمز WBS للمهمة الجديدة"
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks/wbscodedefinition/generatewbscode/
 ---
 ## WBSCodeDefinition.GenerateWBSCode property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم إنشاء رمز WBS لمهمة جديدة.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب توليد رمز WBS للمهمة الجديدة.
 
 ```csharp
 public bool GenerateWBSCode { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية إضافة أقنعة رمز WBS.
+
+```csharp
+var project = new Project();
+
+project.WBSCodeDefinition = new WBSCodeDefinition();
+project.WBSCodeDefinition.GenerateWBSCode = true;
+project.WBSCodeDefinition.VerifyUniqueness = true;
+project.WBSCodeDefinition.CodePrefix = "CRS-";
+
+var mask = new WBSCodeMask();
+mask.Length = 2;
+mask.Separator = "-";
+mask.Sequence = WBSSequence.OrderedNumbers;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+
+mask = new WBSCodeMask();
+mask.Length = 1;
+mask.Separator = "-";
+mask.Sequence = WBSSequence.OrderedUppercaseLetters;
+project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
+
+var tsk = project.RootTask.Children.Add("Task 1");
+tsk.Children.Add("Task 2");
+
+project.Recalculate();
+
+project.Save(OutDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
+```
+
+### انظر أيضًا
 
 * class [WBSCodeDefinition](../)
-* مساحة الاسم [Aspose.Tasks](../../wbscodedefinition/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../wbscodedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 

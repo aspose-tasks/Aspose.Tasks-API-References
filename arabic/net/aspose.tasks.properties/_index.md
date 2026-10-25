@@ -1,33 +1,33 @@
 ---
-title: Aspose.Tasks.Properties
-second_title: Aspose.Tasks لمرجع .NET API
-description: يحتوي على فئات للعمل مع الخصائص .
+title: "Aspose.Tasks.Properties"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "يحتوي على فئات للعمل مع الخصائص"
 type: docs
-weight: 40
+weight: 60
 url: /ar/net/aspose.tasks.properties/
 ---
-يحتوي على فئات للعمل مع الخصائص .
+يحتوي على فئات للعمل مع الخصائص.
 
-## الطبقات
+## الفئات
 
-| فصل | وصف |
+| الفئة | الوصف |
 | --- | --- |
-| [BuiltInProjectProperty](./builtinprojectproperty/) | يمثل خاصية مضمنة . |
-| [BuiltInProjectPropertyCollection](./builtinprojectpropertycollection/) | يمثل مجموعة من خصائص المشروع المضمنة. |
-| [CustomProjectProperty](./customprojectproperty/) | يمثل خاصية مخصصة . |
-| [CustomProjectPropertyCollection](./customprojectpropertycollection/) | يمثل مجموعة من خصائص المشروع المخصصة. |
-| [Property](./property/) | يمثل فئة أساسية لخاصية . |
-| [PropertyCollection&lt;T&gt;](./propertycollection-1/) | فئة أساسية لمجموعة الخصائص . |
-| [PropertyKeyedCollection&lt;T&gt;](./propertykeyedcollection-1/) | فئة أساسية لمجموعة الخصائص . |
-## الهياكل
+| [BuiltInProjectProperty](./builtinprojectproperty/) | يمثل خاصية مدمجة. |
+| [BuiltInProjectPropertyCollection](./builtinprojectpropertycollection/) | يمثل مجموعة من الخصائص المدمجة للمشروع. |
+| [CustomProjectProperty](./customprojectproperty/) | يمثل خاصية مخصصة. |
+| [CustomProjectPropertyCollection](./customprojectpropertycollection/) | يمثل مجموعة من الخصائص المخصصة للمشروع. |
+| [Property](./property/) | يمثل فئة أساسية لخاصية. |
+| [PropertyCollection&lt;T&gt;](./propertycollection-1/) | فئة أساسية لمجموعة من الخصائص. |
+| [PropertyKeyedCollection&lt;T&gt;](./propertykeyedcollection-1/) | فئة أساسية لمجموعة من الخصائص. |
+## Structures
 
-| بنية | وصف |
+| بنية | الوصف |
 | --- | --- |
-| [GenericProperty&lt;TKey&gt;](./genericproperty-1/) | يمثل خاصية حاوية . |
-## تعداد
+| [GenericProperty&lt;TKey&gt;](./genericproperty-1/) | يمثل خاصية حاوية. |
+## التعداد
 
-| تعداد | وصف |
+| التعداد | الوصف |
 | --- | --- |
-| [CustomPropertyType](./custompropertytype/) | يمثل تعداد نوع خاصية مخصص. |
+| [CustomPropertyType](./custompropertytype/) | يمثل تعداد نوع الخاصية المخصصة. |
 
 

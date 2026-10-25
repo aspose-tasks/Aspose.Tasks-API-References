@@ -1,25 +1,39 @@
 ---
-title: Rsc.PeakUnits
-second_title: Aspose.Tasks لمرجع .NET API
-description: Rsc مجال. الحد الأقصى لوحدة التعيين لمورد في أي نقطة زمنية واحدة لجميع المهام التي تم تعيين المورد لها.
+title: "Rsc.PeakUnits"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Rsc. الحد الأقصى لوحدة التعيين لمورد في أي لحظة زمنية لجميع المهام التي يُعيّن إليها المورد"
 type: docs
-weight: 550
+weight: 540
 url: /ar/net/aspose.tasks/rsc/peakunits/
 ---
 ## Rsc.PeakUnits field
 
-الحد الأقصى لوحدة التعيين لمورد في أي نقطة زمنية واحدة لجميع المهام التي تم تعيين المورد لها.
+وحدة التعيين القصوى للمورد في أي لحظة زمنية لجميع المهام التي تم تعيين المورد لها.
 
 ```csharp
 public static readonly Key<double, RscKey> PeakUnits;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية قراءة/كتابة خاصية Rsc.PeakUnits.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.PeakUnits, 2);
+
+Console.WriteLine("Peak Units: " + resource.Get(Rsc.PeakUnits));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* مساحة الاسم [Aspose.Tasks](../../rsc/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

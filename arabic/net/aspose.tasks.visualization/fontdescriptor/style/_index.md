@@ -1,7 +1,7 @@
 ---
-title: FontDescriptor.Style
-second_title: Aspose.Tasks لمرجع .NET API
-description: FontDescriptor ملكية. يحصل على نمط الخط.
+title: "FontDescriptor.Style"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية FontDescriptor. تحصل على نمط الخط."
 type: docs
 weight: 40
 url: /ar/net/aspose.tasks.visualization/fontdescriptor/style/
@@ -14,11 +14,11 @@ url: /ar/net/aspose.tasks.visualization/fontdescriptor/style/
 public FontStyles Style { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [FontStyles](../../fontstyles/)
 * class [FontDescriptor](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../fontdescriptor/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../fontdescriptor/)
+* assembly [Aspose.Tasks](../../../)
 
 

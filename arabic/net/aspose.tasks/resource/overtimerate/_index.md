@@ -1,23 +1,23 @@
 ---
-title: Resource.OvertimeRate
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة معدل الوقت الإضافي.
+title: "Resource.OvertimeRate"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل أو تعين قيمة OvertimeRate"
 type: docs
-weight: 580
+weight: 570
 url: /ar/net/aspose.tasks/resource/overtimerate/
 ---
 ## Resource.OvertimeRate property
 
-الحصول على أو تعيين قيمة "معدل الوقت الإضافي".
+يحصل أو يعيّن قيمة لـ OvertimeRate.
 
 ```csharp
 public decimal OvertimeRate { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

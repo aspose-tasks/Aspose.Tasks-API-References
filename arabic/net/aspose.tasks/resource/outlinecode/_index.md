@@ -1,28 +1,63 @@
 ---
-title: Resource.OutlineCode
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على كائن OutlineCodeCollection . قيمة رمز المخطط التفصيلي .
+title: "Resource.OutlineCode"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. يحصل على كائن OutlineCodeCollection. قيمة رمز المخطط"
 type: docs
-weight: 550
+weight: 540
 url: /ar/net/aspose.tasks/resource/outlinecode/
 ---
 ## Resource.OutlineCode property
 
-الحصول على كائن OutlineCodeCollection . قيمة رمز المخطط التفصيلي .
+يحصل على كائن OutlineCodeCollection. قيمة رمز المخطط.
 
 ```csharp
 public OutlineCodeCollection OutlineCode { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-يلزم وجود قطعتين من البيانات - مؤشر لجدول التعليمات البرمجية للمخطط التفصيلي يتم تحديده بواسطة FieldID_ والقيمة المحددة إما عن طريق معرف القيمة أو مؤشر ValueGUID لقائمة القيمة.
+هناك قطعتان من البيانات ضروريان - مؤشر إلى جدول رمز المخطط المحدد بواسطة FieldID، والقيمة المحددة إما بواسطة ValueID أو مؤشر ValueGUID إلى قائمة القيم.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية العمل مع قيم مخطط المورد.
+
+```csharp
+var project = new Project(DataDir + "OutlineCodes2003.mpp");
+
+var res = project.Resources.GetById(2);
+Assert.AreEqual(2, res.OutlineCode.Count);
+foreach (var code in res.OutlineCode)
+{
+    object val = null;
+    foreach (var def in project.OutlineCodes)
+    {
+        if (def.FieldId != code.FieldId)
+        {
+            continue;
+        }
+
+        foreach (var value in def.Values)
+        {
+            if (value.ValueId != code.ValueId)
+            {
+                continue;
+            }
+
+            val = value.Value;
+            break;
+        }
+    }
+
+    Console.WriteLine(val.ToString());
+}
+```
+
+### انظر أيضًا
 
 * class [OutlineCodeCollection](../../outlinecodecollection/)
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,27 +1,50 @@
 ---
-title: PageSettings.AdjustToPercentOfNormalSize
-second_title: Aspose.Tasks لمرجع .NET API
-description: PageSettings ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم ضبط الطباعة على النسبة المئوية المحددة PercentOfNormalSize  بالحجم الطبيعي .
+title: "PageSettings.AdjustToPercentOfNormalSize"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية PageSettings. تحصل أو تضبط قيمة تشير إلى ما إذا كان يجب ضبط الطباعة إلى النسبة المئوية المحددة PercentOfNormalSize من الحجم الطبيعي"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks.visualization/pagesettings/adjusttopercentofnormalsize/
 ---
 ## PageSettings.AdjustToPercentOfNormalSize property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم ضبط الطباعة على النسبة المئوية المحددة ([`PercentOfNormalSize`](../percentofnormalsize/) ) بالحجم الطبيعي .
+تحصل أو تضبط قيمة تشير إلى ما إذا كان يجب ضبط الطباعة إلى النسبة المئوية المحددة ([`PercentOfNormalSize`](../percentofnormalsize/)) من الحجم الطبيعي.
 
 ```csharp
 public bool AdjustToPercentOfNormalSize { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-غير فعال عندما يتم تقديم المشروع بتنسيق HTML.
+ليس فعالًا عندما يتم عرض المشروع بتنسيق HTML.
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية عرض المشهد باستخدام عامل المقياس المحدد.
+
+```csharp
+var project = new Project(DataDir + "Input.mpp");
+
+var view = project.Views.First(v => v.Screen == ViewScreen.Gantt);
+
+// اضبط قيمة تشير إلى أن المشهد يجب أن يُقاس باستخدام عامل المقياس المحدد
+view.PageInfo.PageSettings.AdjustToPercentOfNormalSize = true;
+// حدد عامل المقياس
+view.PageInfo.PageSettings.PercentOfNormalSize = 33;
+
+PdfSaveOptions saveOptions = new PdfSaveOptions()
+{
+    ViewSettings = view,
+    Timescale = Timescale.DefinedInView
+};
+
+project.Save(OutDir + "PrintViewWithSpecifiedScaleFactor_out.pdf", saveOptions);
+```
+
+### انظر أيضًا
 
 * class [PageSettings](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../pagesettings/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../pagesettings/)
+* assembly [Aspose.Tasks](../../../)
 
 

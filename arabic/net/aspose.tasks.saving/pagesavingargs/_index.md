@@ -1,14 +1,14 @@
 ---
-title: Class PageSavingArgs
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Saving.PageSavingArgs فصل. تمثل هذه الفئة مجموعة من البيانات المتعلقة بحفظ صفحة المستند في تدفق .
+title: "الفئة PageSavingArgs"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "Aspose.Tasks.Saving.PageSavingArgs فئة. تمثل هذه الفئة مجموعة من البيانات المتعلقة بحفظ صفحة المستندات إلى تدفق"
 type: docs
-weight: 1790
+weight: 2060
 url: /ar/net/aspose.tasks.saving/pagesavingargs/
 ---
 ## PageSavingArgs class
 
-تمثل هذه الفئة مجموعة من البيانات المتعلقة بحفظ صفحة المستند في تدفق .
+تمثل هذه الفئة مجموعة من البيانات المتعلقة بحفظ صفحة المستند إلى تدفق.
 
 ```csharp
 public sealed class PageSavingArgs
@@ -16,15 +16,15 @@ public sealed class PageSavingArgs
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [KeepStreamOpen](../../aspose.tasks.saving/pagesavingargs/keepstreamopen/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب الاحتفاظ بإجراء العرض[`Stream`](./stream/) فتح بعد كتابة الصفحة. |
-| [PageNumber](../../aspose.tasks.saving/pagesavingargs/pagenumber/) { get; } | الحصول على عدد من الصفحات ليتم كتابتها. |
-| [Stream](../../aspose.tasks.saving/pagesavingargs/stream/) { get; set; } | الحصول على أو تعيين دفق لكتابة الصفحة. |
+| [KeepStreamOpen](../../aspose.tasks.saving/pagesavingargs/keepstreamopen/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان روتين العرض يجب أن يبقي [`Stream`](./stream/) مفتوحًا بعد كتابة الصفحة. |
+| [PageNumber](../../aspose.tasks.saving/pagesavingargs/pagenumber/) { get; } | يحصل على عدد الصفحة التي سيتم كتابتها. |
+| [Stream](../../aspose.tasks.saving/pagesavingargs/stream/) { get; set; } | يحصل أو يعيّن تدفقًا لكتابة صفحة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

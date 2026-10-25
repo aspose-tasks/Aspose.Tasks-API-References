@@ -1,14 +1,14 @@
 ---
-title: Task.Clone
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task طريقة. إنشاء نسخة كاملة من مهمة بدون مهام فرعية.
+title: "Task.Clone"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "Task method. ينشئ نسخة كاملة من مهمة دون المهام الفرعية"
 type: docs
 weight: 1310
 url: /ar/net/aspose.tasks/task/clone/
 ---
 ## Task.Clone method
 
-إنشاء نسخة كاملة من مهمة بدون مهام فرعية.
+ينشئ نسخة كاملة من مهمة دون المهام الفرعية.
 
 ```csharp
 public object Clone()
@@ -18,10 +18,23 @@ public object Clone()
 
 تم إنشاء نسخة من مهمة.
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية استنساخ مهمة.
+
+```csharp
+var project = new Project();
+
+var originalTask = project.RootTask.Children.Add("Task");
+var cloneTask = (Task)originalTask.Clone();
+
+Console.WriteLine("Are tasks equal: " + cloneTask.Equals(originalTask));
+```
+
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.Uid
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment ملكية. الحصول على قيمة Uid أو تعيينها .
+title: "ResourceAssignment.Uid"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ResourceAssignment. يحصل أو يعيّن قيمة Uid."
 type: docs
 weight: 610
 url: /ar/net/aspose.tasks/resourceassignment/uid/
 ---
 ## ResourceAssignment.Uid property
 
-الحصول على قيمة Uid أو تعيينها .
+يحصل أو يعيّن قيمة لـ Uid.
 
 ```csharp
 public int Uid { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,25 +1,47 @@
 ---
-title: Asn.AssignmentOwner
-second_title: Aspose.Tasks لمرجع .NET API
-description: Asn مجال. اسم مالك المهمة .
+title: "Asn.AssignmentOwner"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Asn. اسم مالك التعيين"
 type: docs
 weight: 100
 url: /ar/net/aspose.tasks/asn/assignmentowner/
 ---
 ## Asn.AssignmentOwner field
 
-اسم مالك المهمة .
+اسم مالك التعيين.
 
 ```csharp
 public static readonly Key<string, AsnKey> AssignmentOwner;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة خصائص Asn.AssignmentOwner و Asn.AssignmentOwnerGuid.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Set(Tsk.Start, new DateTime(2000, 1, 3, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(8));
+
+var resource = project.Resources.Add("Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.AssignmentOwner, "Assignment Owner");
+assignment.Set(Asn.AssignmentOwnerGuid, "1d440f0c-7839-4802-af5f-4bb30e8b75ab");
+
+Console.WriteLine("Assignment Owner: " + assignment.Get(Asn.AssignmentOwner));
+Console.WriteLine("Assignment Owner GUID: " + assignment.Get(Asn.AssignmentOwnerGuid));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [AsnKey](../../asnkey/)
 * class [Asn](../)
-* مساحة الاسم [Aspose.Tasks](../../asn/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../asn/)
+* assembly [Aspose.Tasks](../../../)
 
 

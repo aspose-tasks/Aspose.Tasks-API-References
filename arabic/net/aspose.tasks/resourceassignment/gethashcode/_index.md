@@ -1,14 +1,14 @@
 ---
-title: ResourceAssignment.GetHashCode
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment طريقة. إرجاع قيمة رمز تجزئة لمثيلResourceAssignment فئة .
+title: "ResourceAssignment.GetHashCode"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ResourceAssignment. تُرجع قيمة hash code للنسخة من فئة ResourceAssignment"
 type: docs
 weight: 710
 url: /ar/net/aspose.tasks/resourceassignment/gethashcode/
 ---
 ## ResourceAssignment.GetHashCode method
 
-إرجاع قيمة رمز تجزئة لمثيل[`ResourceAssignment`](../) فئة .
+تُرجع قيمة hash code للنسخة من فئة [`ResourceAssignment`](../).
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,27 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-إرجاع قيمة رمز تجزئة لهذا الكائن.
+تُرجع قيمة رمز تجزئة لهذا الكائن.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية الحصول على hash code لتعيين مورد.
+
+```csharp
+var project = new Project(DataDir + "BaselineTD2010_3.mpp");
+
+var resourceAssignment1 = project.ResourceAssignments.GetByUid(2);
+var resourceAssignment2 = project.ResourceAssignments.GetByUid(3);
+
+// اطبع hash codes للتعيين
+Console.WriteLine("Resource Assignment 1 Hash Code: {0}", resourceAssignment1.GetHashCode());
+Console.WriteLine("Resource Assignment 2 Hash Code: {0}", resourceAssignment2.GetHashCode());
+```
+
+### انظر أيضًا
 
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

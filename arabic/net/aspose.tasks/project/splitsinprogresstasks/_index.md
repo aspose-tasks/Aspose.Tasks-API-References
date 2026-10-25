@@ -1,24 +1,24 @@
 ---
-title: Project.SplitsInProgressTasks
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين SplitsInProgressTasks أم لا.
+title: "Project.SplitsInProgressTasks"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة تشير إلى ما إذا كان SplitsInProgressTasks مفعلاً أم لا"
 type: docs
-weight: 810
+weight: 840
 url: /ar/net/aspose.tasks/project/splitsinprogresstasks/
 ---
 ## Project.SplitsInProgressTasks property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين SplitsInProgressTasks أم لا.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان SplitsInProgressTasks مضبوطًا أم لا.
 
 ```csharp
 public NullableBool SplitsInProgressTasks { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

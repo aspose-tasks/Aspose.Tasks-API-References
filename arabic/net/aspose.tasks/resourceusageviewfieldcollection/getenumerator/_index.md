@@ -1,14 +1,14 @@
 ---
-title: ResourceUsageViewFieldCollection.GetEnumerator
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceUsageViewFieldCollection طريقة. إرجاع عداد لهذه المجموعة.
+title: "ResourceUsageViewFieldCollection.GetEnumerator"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة ResourceUsageViewFieldCollection. تُرجع مُعدِّدًا لهذه المجموعة"
 type: docs
 weight: 10
 url: /ar/net/aspose.tasks/resourceusageviewfieldcollection/getenumerator/
 ---
 ## ResourceUsageViewFieldCollection.GetEnumerator method
 
-إرجاع عداد لهذه المجموعة.
+يرجع عدادًا لهذه المجموعة.
 
 ```csharp
 public IEnumerator<ResourceUsageViewField> GetEnumerator()
@@ -18,11 +18,32 @@ public IEnumerator<ResourceUsageViewField> GetEnumerator()
 
 عداد لهذه المجموعة.
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية التعامل مع مجموعة الحقول لنسخة من ResourceUsageView.
+
+```csharp
+var project = new Project(DataDir + "ResourceUsageView.mpp");
+
+var view = (ResourceUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+
+// يمكن تحويل المجموعة إلى قائمة من ResourceUsageViewField
+IList<ResourceUsageViewField> fields = view.FieldCollection.ToList();
+foreach (var field in fields)
+{
+    Console.WriteLine("Field (from the list): " + field);
+}
+```
+
+### انظر أيضًا
 
 * enum [ResourceUsageViewField](../../resourceusageviewfield/)
 * class [ResourceUsageViewFieldCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceusageviewfieldcollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceusageviewfieldcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

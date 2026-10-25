@@ -1,25 +1,44 @@
 ---
-title: Tsk.NotesRTF
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. الملاحظات النصية بتنسيق RTF .
+title: "Tsk.NotesRTF"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. ملاحظات النص بتنسيق RTF. مدعومة فقط لتنسيقات MPP"
 type: docs
-weight: 840
+weight: 820
 url: /ar/net/aspose.tasks/tsk/notesrtf/
 ---
 ## Tsk.NotesRTF field
 
-الملاحظات النصية بتنسيق RTF .
+ملاحظات النص بتنسيق RTF. مدعومة فقط لتنسيقات MPP.
 
 ```csharp
 public static readonly Key<string, TaskKey> NotesRTF;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة/كتابة خاصية Tsk.NotesRTF.
+
+```csharp
+var project = new Project();
+
+            var task = project.RootTask.Children.Add("Task");
+
+            const string rtf = @"{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset134 SimSun;}{\f1\fnil\fcharset0 Calibri;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\sa200\sl276\slmult1\lang9\f0\fs22\'d4\'e7\'c9\'cf\'ba\'c3\f1\par
+}
+ "; // 早上好
+
+            task.Set(Tsk.NotesRTF, rtf);
+
+            Console.WriteLine("Notes RTF: " + task.Get(Tsk.NotesRTF));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

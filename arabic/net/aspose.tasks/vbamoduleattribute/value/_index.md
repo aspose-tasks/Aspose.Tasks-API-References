@@ -1,23 +1,41 @@
 ---
-title: VbaModuleAttribute.Value
-second_title: Aspose.Tasks لمرجع .NET API
-description: VbaModuleAttribute ملكية. يحصل على قيمة سمة الوحدة النمطية لـ VBA .
+title: "VbaModuleAttribute.Value"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية VbaModuleAttribute. يحصل على قيمة سمة وحدة VBA"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks/vbamoduleattribute/value/
 ---
 ## VbaModuleAttribute.Value property
 
-يحصل على قيمة سمة الوحدة النمطية لـ VBA .
+يحصل أو يعيّن القيمة لسمة وحدة VBA.
 
 ```csharp
 public string Value { get; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية العمل مع سمات وحدة VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Attributes Count: " + module.Attributes.Count);
+    foreach (var attribute in module.Attributes)
+    {
+        Console.WriteLine("  VB Name: " + attribute.Key);
+        Console.WriteLine("  Module: " + attribute.Value);
+    }
+}
+```
+
+### انظر أيضًا
 
 * class [VbaModuleAttribute](../)
-* مساحة الاسم [Aspose.Tasks](../../vbamoduleattribute/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../vbamoduleattribute/)
+* assembly [Aspose.Tasks](../../../)
 
 

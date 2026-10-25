@@ -1,24 +1,24 @@
 ---
-title: WorkWeekCollection.ParentCalendar
-second_title: Aspose.Tasks لمرجع .NET API
-description: WorkWeekCollection ملكية. الحصول على التقويم الأصل.
+title: "WorkWeekCollection.ParentCalendar"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية WorkWeekCollection. تحصل على التقويم الأب"
 type: docs
 weight: 30
 url: /ar/net/aspose.tasks/workweekcollection/parentcalendar/
 ---
 ## WorkWeekCollection.ParentCalendar property
 
-الحصول على التقويم الأصل.
+يحصل على التقويم الأب.
 
 ```csharp
 public Calendar ParentCalendar { get; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Calendar](../../calendar/)
 * class [WorkWeekCollection](../)
-* مساحة الاسم [Aspose.Tasks](../../workweekcollection/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workweekcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Task.GetHashCode
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task طريقة. إرجاع قيمة رمز تجزئة لهذه المهمة.
+title: "Task.GetHashCode"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Task. تُرجع قيمة رمز تجزئة لهذه المهمة"
 type: docs
 weight: 1350
 url: /ar/net/aspose.tasks/task/gethashcode/
 ---
 ## Task.GetHashCode method
 
-إرجاع قيمة رمز تجزئة لهذه المهمة.
+يرجع قيمة رمز تجزئة لهذا Task.
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,29 @@ public override int GetHashCode()
 
 ### قيمة الإرجاع
 
-إرجاع قيمة رمز تجزئة لهذا الكائن.
+تُرجع قيمة رمز تجزئة لهذا الكائن.
 
-### أنظر أيضا
+## الأمثلة
+
+يُظهر كيفية الحصول على رمز تجزئة لمهمة.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+// رمز التجزئة لمهمة يعتمد على UID واسم المهمة
+Console.WriteLine("Hash code of the task: " + task.GetHashCode());
+
+task.Set(Tsk.Name, "Task 1");
+
+Console.WriteLine("Hash code of the task: " + task.GetHashCode());
+```
+
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

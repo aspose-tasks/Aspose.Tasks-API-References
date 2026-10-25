@@ -1,59 +1,86 @@
 ---
-title: Class SvgOptions
-second_title: Aspose.Tasks لمرجع .NET API
-description: Aspose.Tasks.Saving.SvgOptions فصل. يسمح بتحديد خيارات إضافية عند تقديم صفحات المشروع إلى SVG.
+title: "فئة SvgOptions"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "Aspose.Tasks.Saving.SvgOptions فئة. يسمح بتحديد خيارات إضافية عند عرض صفحات المشروع إلى SVG"
 type: docs
-weight: 1950
+weight: 2230
 url: /ar/net/aspose.tasks.saving/svgoptions/
 ---
 ## SvgOptions class
 
-يسمح بتحديد خيارات إضافية عند تقديم صفحات المشروع إلى SVG.
+يسمح بتحديد خيارات إضافية عند تحويل صفحات المشروع إلى SVG.
 
 ```csharp
 public class SvgOptions : SaveOptions
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [SvgOptions](svgoptions/)() | يقوم بتهيئة مثيل جديد لملف`SvgOptions` فئة يمكن استخدامها لحفظ المشروع بتنسيق SVG. |
+| [SvgOptions](svgoptions/)() | ينشئ مثيلاً جديدًا من فئة `SvgOptions` التي يمكن استخدامها لحفظ المشروع بصيغة SVG. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BarStyles](../../aspose.tasks.saving/saveoptions/barstyles/) { get; set; } | الحصول على أو تعيين قائمة مثيلات ملف[`BarStyle`](../../aspose.tasks.visualization/barstyle/) الفئة التي تظهر في عرض المشروع. |
-| [CustomPageSize](../../aspose.tasks.saving/saveoptions/custompagesize/) { get; set; } | الحصول على أو تعيين حجم الصفحة المخصص بالنقاط (نقطة واحدة = 1/72 بوصة) . |
-| [DrawNonWorkingTime](../../aspose.tasks.saving/saveoptions/drawnonworkingtime/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب رسم وقت غير العمل (القيمة الافتراضية هي TRUE) . |
-| [EndDate](../../aspose.tasks.saving/saveoptions/enddate/) { get; set; } | الحصول على أو تحديد تاريخ انتهاء التقديم إلى. |
-| [FitContent](../../aspose.tasks.saving/saveoptions/fitcontent/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب زيادة ارتفاع الصف ليناسب محتواه. |
-| [FitTimescaleToEndOfPage](../../aspose.tasks.saving/saveoptions/fittimescaletoendofpage/) { get; set; } | الحصول على أو تحديد ما إذا كان يجب عرض قسم التقويم في طريقة العرض إلى نهاية الصفحة الأخيرة (الجانب الأيمن) . إذا كانت القيمة خاطئة ، فسيتم تقديم قسم التقويم تمامًا إلى تاريخ الانتهاء ، حتى إذا كانت هناك مساحة فارغة على الصفحة. |
-| [Gridlines](../../aspose.tasks.saving/saveoptions/gridlines/) { get; set; } | يحصل أو يحدد قائمة[`Gridline`](../../aspose.tasks.visualization/gridline/) التي تظهر في عرض المشروع. |
-| [LegendOnEachPage](../../aspose.tasks.saving/saveoptions/legendoneachpage/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب عرض وسيلة الإيضاح في كل صفحة (القيمة الافتراضية هي TRUE) . |
-| [MarkCriticalTasks](../../aspose.tasks.saving/saveoptions/markcriticaltasks/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب عرض المهام الهامة باللون الأحمر (القيمة الافتراضية هي FALSE) . |
-| [NonWorkingTimeColor](../../aspose.tasks.saving/saveoptions/nonworkingtimecolor/) { get; set; } | الحصول على أو تعيين لون وقت غير العمل. |
-| [PageCount](../../aspose.tasks.saving/saveoptions/pagecount/) { get; } | الحصول على أو تحديد عدد صفحات المشروع. |
-| [PageSavingCallback](../../aspose.tasks.saving/svgoptions/pagesavingcallback/) { get; set; } | الحصول على أو تعيين رد اتصال تنفيذ محدد من قبل المستخدم والذي يتم استخدامه للحصول على تدفق إخراج لكل صفحة مقدمة. |
-| [PageSize](../../aspose.tasks.saving/saveoptions/pagesize/) { get; set; } | الحصول على أو تحديد حجم الصفحة المراد عرضها (القيمة الافتراضية هي PageSize.A4) . |
-| [PresentationFormat](../../aspose.tasks.saving/saveoptions/presentationformat/) { get; set; } | يحصل أو يحدد ملف[`PresentationFormat`](../saveoptions/presentationformat/) حيث سيتم حفظ المستند. |
-| [RenderToSinglePage](../../aspose.tasks.saving/saveoptions/rendertosinglepage/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب تقديم مشروع إلى صفحة واحدة عند حفظ المشروع بتنسيق رسومي. سيتم تغيير حجم الصفحة بحيث يمكن احتواء المشروع المعروض في صفحة واحدة. |
-| [RollUpGanttBars](../../aspose.tasks.saving/saveoptions/rollupganttbars/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب وضع علامة على المهام الفرعية في شريط المهام الموجزة. بالنسبة للمهام الفرعية ، يشير حقل "التجميع" إلى ما إذا كانت المعلومات الموجودة في أشرطة جانت للمهام الفرعية سيتم عرضها في شريط المهام الموجزة. يشير الحقل إلى ما إذا كان شريط المهام الموجزة يعرض أشرطة مجمعة . يجب أن يكون لديك حقل "التجميع" للمهام الموجزة معينًا إلى "نعم" لأية مهام فرعية ليتم عرضها عليها. |
-| [SaveFormat](../../aspose.tasks.saving/saveoptions/saveformat/) { get; } | الحصول على أو تحديد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا. |
-| [StartDate](../../aspose.tasks.saving/saveoptions/startdate/) { get; set; } | الحصول على أو تحديد تاريخ بدء العرض من . |
-| [TasksComparer](../../aspose.tasks.saving/saveoptions/taskscomparer/) { get; set; } | الحصول على المقارنة أو تعيينها لفرز المهام في مخطط جانت ومخطط ورقة المهام. |
-| [TasksFilter](../../aspose.tasks.saving/saveoptions/tasksfilter/) { get; set; } | الحصول على أو تعيين الشرط المستخدم لفلترة المهام المعروضة على مخططات جانت وورقة المهام واستخدام المهام. |
-| [TextStyles](../../aspose.tasks.saving/saveoptions/textstyles/) { get; set; } | الحصول على أو تعيين قائمة مثيلات ملف[`TextStyle`](../../aspose.tasks.visualization/textstyle/) الفئة التي تظهر في عرض المشروع. |
-| [Timescale](../../aspose.tasks.saving/saveoptions/timescale/) { get; set; } | يحصل أو يحدد ملف[`Timescale`](../saveoptions/timescale/) القيمة التي تُستخدم للتحكم في كيفية عرض المقياس الزمني (إن وجد) عند حفظ المشروع بتنسيق رسومي. |
-| override [UseGradientBrush](../../aspose.tasks.saving/svgoptions/usegradientbrush/) { get; set; } | يحدد ما إذا كان سيتم استخدام فرشاة التدرج عند عرض تخطيط المشروع.لا يتم دعم استخدام فرشاة التدرج حاليًا للتجسيد إلى SVG. |
-| [View](../../aspose.tasks.saving/saveoptions/view/) { get; set; } | الحصول على أو تعيين قائمة بأعمدة العرض المراد عرضها ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/) ) . إذا لم يتم تعيينها ، فسيتم عرض معرفات المهام وأسماء المهام والبدء والنهاية فقط.[`ViewSettings`](../saveoptions/viewsettings/)تم تعيين الخصائص ، الأعمدة من عرض تتجاوز الأعمدة من ViewSettings. |
-| [ViewSettings](../../aspose.tasks.saving/saveoptions/viewsettings/) { get; set; } | الحصول على عرض أو تعيينه ([`View`](../saveoptions/view/) ) لتقديمه. يمكنك استخدام هذه الخيارات لتحديد طريقة العرض التي يجب حفظها بتنسيق PDF أو HTML أو صورة بشكل صريح . إذا تم تعيين هذه الخاصية ،[`PresentationFormat`](../../aspose.tasks.visualization/presentationformat/) يتم تجاهل الخاصية عند حفظ المشروع. يجب أن يكون العرض من إحدى الشاشات التالية (([`Screen`](../../aspose.tasks/view/screen/) )): (Gantt ، TaskSheet ، TaskUsage ، ResourceSheet ، ResourceUsage) |
+| [BarStyles](../../aspose.tasks.saving/saveoptions/barstyles/) { get; set; } | يحصل أو يعيّن قائمة مثيلات الفئة [`BarStyle`](../../aspose.tasks.visualization/barstyle/) التي تظهر في عرض المشروع. |
+| [CustomPageSize](../../aspose.tasks.saving/saveoptions/custompagesize/) { get; set; } | يحصل أو يعيّن حجم الصفحة المخصص بالنقاط (نقطة واحدة = 1/72 بوصة). |
+| [DrawNonWorkingTime](../../aspose.tasks.saving/saveoptions/drawnonworkingtime/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب رسم وقت عدم العمل (القيمة الافتراضية هي TRUE). |
+| [EndDate](../../aspose.tasks.saving/saveoptions/enddate/) { get; set; } | يحصل أو يعيّن تاريخ الانتهاء من عملية العرض. |
+| [FitContent](../../aspose.tasks.saving/saveoptions/fitcontent/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب زيادة ارتفاع الصف ليتناسب مع محتواه. |
+| [Gridlines](../../aspose.tasks.saving/saveoptions/gridlines/) { get; set; } | يحصل أو يعيّن قائمة من [`Gridline`](../../aspose.tasks.visualization/gridline/) التي تظهر في عرض المشروع. |
+| [IsPortrait](../../aspose.tasks.saving/saveoptions/isportrait/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان اتجاه الصفحة عموديًا؛ تُعيد false إذا كان اتجاه الصفحة أفقيًا. |
+| [LegendDrawingOptions](../../aspose.tasks.saving/saveoptions/legenddrawingoptions/) { get; set; } | يحصل أو يعيّن قيمة تحدد كيفية عرض وسيلة الإيضاح. القيمة الافتراضية هي LegendDrawingOptions.OnEveryPage. |
+| [LegendItems](../../aspose.tasks.saving/saveoptions/legenditems/) { get; set; } | يحصل أو يعيّن مصفوفة من PageLegendItem التي تحدد أي الأشرطة يجب عرضها في وسيلة إيضاح الصفحة. إذا كانت null، تُعرض العناصر الافتراضية. |
+| [MarkCriticalTasks](../../aspose.tasks.saving/saveoptions/markcriticaltasks/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب عرض المهام الحرجة باللون الأحمر (القيمة الافتراضية هي FALSE). |
+| [NonWorkingTimeColor](../../aspose.tasks.saving/saveoptions/nonworkingtimecolor/) { get; set; } | يحصل أو يعيّن لون وقت عدم العمل. |
+| [PageCount](../../aspose.tasks.saving/saveoptions/pagecount/) { get; } | يحصل أو يعيّن عدد صفحات المشروع. |
+| [PageSavingCallback](../../aspose.tasks.saving/svgoptions/pagesavingcallback/) { get; set; } | يحصل أو يعيّن رد نداء تنفيذ معرف من قبل المستخدم يُستخدم للحصول على تدفق إخراج لكل صفحة مُعروضة. |
+| [PageSize](../../aspose.tasks.saving/saveoptions/pagesize/) { get; set; } | يحصل أو يعيّن حجم الصفحة التي سيتم عرضها (القيمة الافتراضية هي PageSize.A4). |
+| [PresentationFormat](../../aspose.tasks.saving/saveoptions/presentationformat/) { get; set; } | يحصل أو يعيّن الـ [`PresentationFormat`](../saveoptions/presentationformat/) الذي سيُحفظ به المستند. |
+| [RenderToSinglePage](../../aspose.tasks.saving/saveoptions/rendertosinglepage/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب عرض المشروع في صفحة واحدة عندما يُحفظ المشروع بصيغة رسومية. سيتم تغيير حجم الصفحة بحيث يتناسب المشروع المعروض على صفحة واحدة. |
+| [RollUpGanttBars](../../aspose.tasks.saving/saveoptions/rollupganttbars/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب وضع علامة على المهام الفرعية في شريط مهمة الملخص. بالنسبة للمهام الفرعية، يشير حقل Rollup إلى ما إذا كانت معلومات أشرطة جانت للمهام الفرعية ستُدمج في شريط مهمة الملخص. بالنسبة لمهام الملخص، يشير حقل Rollup إلى ما إذا كان شريط مهمة الملخص يعرض أشرطة مدمجة. يجب أن يكون حقل Rollup لمهام الملخص مضبوطًا على Yes لتتمكن أي مهام فرعية من الدمج معها. |
+| [SaveFormat](../../aspose.tasks.saving/simplesaveoptions/saveformat/) { get; } | يحصل أو يعيّن التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا. |
+| [StartDate](../../aspose.tasks.saving/saveoptions/startdate/) { get; set; } | يحصل أو يعيّن التاريخ الذي يبدأ منه العرض. |
+| [TaskLinkDrawingCallback](../../aspose.tasks.saving/saveoptions/tasklinkdrawingcallback/) { get; set; } | يحصل أو يعيّن رد الاتصال الذي يمكن استخدامه لتخصيص بعض جوانب عرض روابط المهام. |
+| [TasksComparer](../../aspose.tasks.saving/simplesaveoptions/taskscomparer/) { get; set; } | يحصل أو يعيّن المقارن لفرز المهام على مخطط جانت ومخطط ورقة المهام. |
+| [TasksFilter](../../aspose.tasks.saving/simplesaveoptions/tasksfilter/) { get; set; } | يحصل أو يعيّن الشرط المستخدم لتصفية المهام المعروضة على مخططات جانت، ورقة المهام، واستخدام المهام. |
+| [TextStyles](../../aspose.tasks.saving/saveoptions/textstyles/) { get; set; } | يحصل أو يعيّن قائمة أنماط النص التي تُطبق أثناء عرض منظور المشروع. |
+| [Timescale](../../aspose.tasks.saving/saveoptions/timescale/) { get; set; } | يحصل أو يعيّن قيمة [`Timescale`](../saveoptions/timescale/) التي تُستخدم للتحكم في طريقة عرض المقياس الزمني (إن وجد) عند حفظ المشروع بتنسيق رسومي. |
+| [TimescaleFitBehavior](../../aspose.tasks.saving/saveoptions/timescalefitbehavior/) { get; set; } | يحصل أو يعيّن سلوكًا يحدد كيفية محاذاة الطرف الأيمن للمقياس الزمني مع نهاية الصفحة. |
+| override [UseGradientBrush](../../aspose.tasks.saving/svgoptions/usegradientbrush/) { get; set; } | يحدد ما إذا كان يجب استخدام فرشاة تدرجية عند عرض تخطيط المشروع. حاليًا لا يدعم استخدام الفرشاة التدرجية عند العرض إلى SVG. |
+| [View](../../aspose.tasks.saving/saveoptions/view/) { get; set; } | يحصل أو يعيّن قائمة بأعمدة العرض التي سيتم عرضها ([`GanttChartColumn`](../../aspose.tasks.visualization/ganttchartcolumn/)). إذا لم يتم تعيينها فستُعرض فقط معرفات المهام، أسماء المهام، البداية والنهاية. إذا تم تعيين كل من خاصيتي View و[`ViewSettings`](../saveoptions/viewsettings/)، فإن الأعمدة من View تتجاوز الأعمدة من ViewSettings. |
+| [ViewSettings](../../aspose.tasks.saving/saveoptions/viewsettings/) { get; set; } | يحصل أو يعيّن منظورًا ([`View`](../saveoptions/view/)) للعرض. يمكنك استخدام هذا الخيار لتحديد بشكل صريح أي منظور يجب حفظه بتنسيقات PDF أو HTML أو Image. إذا تم تعيين هذه الخاصية، يتم تجاهل خاصية [`PresentationFormat`](../../aspose.tasks.visualization/presentationformat/) عند حفظ المشروع. يجب أن يكون المنظر من إحدى الشاشات التالية (([`Screen`](../../aspose.tasks/view/screen/))): (Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage). |
 
-### أنظر أيضا
+## الأمثلة
+
+يوضح كيفية حفظ المشروع كملف SVG.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+SaveOptions options = new SvgOptions
+                        {
+                            // حدد <see cref="P:Aspose.Tasks.Saving.SaveOptions.PresentationFormat" /> الذي سيتم حفظ المستند به
+                            PresentationFormat = PresentationFormat.GanttChart,
+
+                            // حدد قيمة تشير إلى ما إذا كان يجب زيادة ارتفاع الصف لتناسب محتواه.
+                            FitContent = true,
+
+                            // حدد الحد الأدنى للفترة الزمنية للعرض. القيمة الافتراضية هي <see cref="P:Aspose.Tasks.Saving.SaveOptions.Timescale">Days</see>
+                            Timescale = Timescale.ThirdsOfMonths,
+
+                            // يحدد ما إذا كان يجب استخدام فرشاة تدرجية عند عرض تخطيط المشروع
+                            // حاليًا لا يدعم استخدام الفرشاة التدرجية عند العرض إلى SVG.
+                            // UseGradientBrush = true
+                        };
+project.Save(OutDir + "UseSvgOptions_out.svg", options);
+```
+
+### انظر أيضًا
 
 * class [SaveOptions](../saveoptions/)
-* مساحة الاسم [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
-* المجسم [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Saving](../../aspose.tasks.saving/)
+* assembly [Aspose.Tasks](../../)
 
 

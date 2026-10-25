@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.TimescaleDate
-second_title: Aspose.Tasks لمرجع .NET API
-description: VisualObjectPlacement ملكية. الحصول على أو تعيين موضع التاريخ للعنصر المرئي عند تحديد خيارات إرفاق بالمقياس الزمني.
+title: "VisualObjectPlacement.TimescaleDate"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية VisualObjectPlacement. يسترجع أو يعيّن موضع التاريخ للعنصر البصري عندما يتم اختيار خيار Attach to timescale options"
 type: docs
 weight: 110
 url: /ar/net/aspose.tasks.visualization/visualobjectplacement/timescaledate/
 ---
 ## VisualObjectPlacement.TimescaleDate property
 
-الحصول على أو تعيين موضع التاريخ للعنصر المرئي عند تحديد خيارات "إرفاق بالمقياس الزمني".
+يحصل أو يضبط تاريخ وضع الكائن المرئي عندما يتم اختيار خيار 'Attach to timescale'.
 
 ```csharp
 public DateTime TimescaleDate { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [VisualObjectPlacement](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

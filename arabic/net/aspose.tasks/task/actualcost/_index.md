@@ -1,23 +1,23 @@
 ---
-title: Task.ActualCost
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تحديد قيمة ActualCost .
+title: "Task.ActualCost"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصل أو تعين قيمة لـ ActualCost"
 type: docs
 weight: 20
 url: /ar/net/aspose.tasks/task/actualcost/
 ---
 ## Task.ActualCost property
 
-الحصول على أو تحديد قيمة ActualCost .
+يحصل أو يعيّن قيمة ActualCost.
 
 ```csharp
 public decimal ActualCost { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

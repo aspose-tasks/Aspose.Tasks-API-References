@@ -1,24 +1,24 @@
 ---
-title: Project.InsertedProjectsLikeSummary
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين InsertedProjectsLikeSummary أم لا.
+title: "Project.InsertedProjectsLikeSummary"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعين قيمة تشير إلى ما إذا كان InsertedProjectsLikeSummary مضبوطًا أم لا"
 type: docs
-weight: 480
+weight: 500
 url: /ar/net/aspose.tasks/project/insertedprojectslikesummary/
 ---
 ## Project.InsertedProjectsLikeSummary property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا تم تعيين InsertedProjectsLikeSummary أم لا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان InsertedProjectsLikeSummary مضبوطًا أم لا.
 
 ```csharp
 public NullableBool InsertedProjectsLikeSummary { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

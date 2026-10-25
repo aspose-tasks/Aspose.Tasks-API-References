@@ -1,24 +1,24 @@
 ---
-title: Project.DefaultTaskEVMethod
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project ملكية. الحصول على أو تعيين قيمة DefaultTaskEVMethod.
+title: "Project.DefaultTaskEVMethod"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Project. تحصل أو تعيين قيمة DefaultTaskEVMethod."
 type: docs
-weight: 330
+weight: 340
 url: /ar/net/aspose.tasks/project/defaulttaskevmethod/
 ---
 ## Project.DefaultTaskEVMethod property
 
-الحصول على أو تعيين قيمة DefaultTaskEVMethod.
+يحصل أو يعيّن قيمة لـ DefaultTaskEVMethod.
 
 ```csharp
 public EarnedValueMethodType DefaultTaskEVMethod { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [EarnedValueMethodType](../../earnedvaluemethodtype/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

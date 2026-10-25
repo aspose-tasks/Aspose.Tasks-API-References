@@ -1,23 +1,43 @@
 ---
-title: Calendar.Name
-second_title: Aspose.Tasks لمرجع .NET API
-description: Calendar ملكية. الحصول على أو تحديد اسم التقويم .
+title: "Calendar.Name"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Calendar. تحصل أو تعين اسم التقويم"
 type: docs
-weight: 80
+weight: 90
 url: /ar/net/aspose.tasks/calendar/name/
 ---
 ## Calendar.Name property
 
-الحصول على أو تحديد اسم التقويم .
+يحصل أو يعيّن اسم التقويم.
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية استرجاع معلومات التقويم.
+
+```csharp
+var project = new Project(DataDir + "RetrieveCalendarInfo.mpp");
+
+// استرجاع معلومات التقويمات
+foreach (var calendar in project.Calendars)
+{
+    if (calendar.Name == null)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Calendar UID: " + calendar.Uid);
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
+
+### انظر أيضًا
 
 * class [Calendar](../)
-* مساحة الاسم [Aspose.Tasks](../../calendar/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

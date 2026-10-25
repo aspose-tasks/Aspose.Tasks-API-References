@@ -1,23 +1,23 @@
 ---
-title: Task.ManualFinish
-second_title: Aspose.Tasks لمرجع .NET API
-description: Task ملكية. الحصول على أو تعيين قيمة ManualFinish .
+title: "Task.ManualFinish"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Task. تحصل أو تعين قيمة لـ ManualFinish"
 type: docs
-weight: 840
+weight: 830
 url: /ar/net/aspose.tasks/task/manualfinish/
 ---
 ## Task.ManualFinish property
 
-الحصول على أو تعيين قيمة ManualFinish .
+يحصل أو يعيّن قيمة لـ ManualFinish.
 
 ```csharp
 public DateTime ManualFinish { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [Task](../)
-* مساحة الاسم [Aspose.Tasks](../../task/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

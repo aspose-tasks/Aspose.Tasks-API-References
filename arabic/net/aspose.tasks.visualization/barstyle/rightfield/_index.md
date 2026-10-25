@@ -1,24 +1,24 @@
 ---
-title: BarStyle.RightField
-second_title: Aspose.Tasks لمرجع .NET API
-description: BarStyle ملكية. الحصول على حقل أو تعيينه ليتم عرضه على يمين الشريط .
+title: "BarStyle.RightField"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية BarStyle. يحصل أو يضبط حقلًا ليُعرض على يمين الشريط"
 type: docs
-weight: 140
+weight: 160
 url: /ar/net/aspose.tasks.visualization/barstyle/rightfield/
 ---
 ## BarStyle.RightField property
 
-الحصول على حقل أو تعيينه ليتم عرضه على يمين الشريط .
+يحصل أو يضبط حقلًا ليتم عرضه على يمين الشريط.
 
 ```csharp
 public Field RightField { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [Field](../../../aspose.tasks/field/)
 * class [BarStyle](../)
-* مساحة الاسم [Aspose.Tasks.Visualization](../../barstyle/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../barstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

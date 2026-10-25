@@ -1,36 +1,52 @@
 ---
-title: Project.GetBaselineSaveTime
-second_title: Aspose.Tasks لمرجع .NET API
-description: Project طريقة. إرجاع وقت توفير الأساس .
+title: "Project.GetBaselineSaveTime"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "طريقة Project. تُرجع وقت حفظ الخط الأساسي"
 type: docs
-weight: 1060
+weight: 1090
 url: /ar/net/aspose.tasks/project/getbaselinesavetime/
 ---
 ## Project.GetBaselineSaveTime method
 
-إرجاع وقت توفير الأساس .
+يرجع وقت حفظ الخط الأساسي.
 
 ```csharp
 public DateTime GetBaselineSaveTime(BaselineType baselineNumber)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | النوع | الوصف |
 | --- | --- | --- |
-| baselineNumber | BaselineType | رقم خط الأساس[`BaselineType`](../../baselinetype/). |
+| baselineNumber | BaselineType | رقم الخط الأساسي [`BaselineType`](../../baselinetype/). |
 
 ### قيمة الإرجاع
 
 تاريخ ووقت الحفظ الأخير للخط الأساسي.
 
-### ملاحظات
+## ملاحظات
 
-إرجاع DateTime.MinValue إذا لم يتم حفظ الأساس.
+تُرجع DateTime.MinValue إذا لم يتم حفظ الخط الأساسي.
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة/كتابة وقت حفظ الخط الأساسي للمشروع.
+
+```csharp
+var project = new Project();
+var baselineSave = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time before: " + baselineSave);
+
+// تعيين وقت حفظ الخط الأساسي
+project.SetBaselineSaveTime(BaselineType.Baseline, DateTime.Today);
+
+var baselineSaveNew = project.GetBaselineSaveTime(BaselineType.Baseline);
+Console.WriteLine("Baseline save time after: " + baselineSaveNew);
+```
+
+### انظر أيضًا
 
 * enum [BaselineType](../../baselinetype/)
 * class [Project](../)
-* مساحة الاسم [Aspose.Tasks](../../project/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

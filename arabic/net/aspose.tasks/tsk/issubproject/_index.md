@@ -1,25 +1,39 @@
 ---
-title: Tsk.IsSubproject
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. تحديد ما إذا كانت المهمة عبارة عن مشروع مدرج.
+title: "Tsk.IsSubproject"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. يحدد ما إذا كانت المهمة مشروعًا مدرجًا"
 type: docs
-weight: 710
+weight: 700
 url: /ar/net/aspose.tasks/tsk/issubproject/
 ---
 ## Tsk.IsSubproject field
 
-تحديد ما إذا كانت المهمة عبارة عن مشروع مدرج.
+يحدد ما إذا كانت المهمة مشروعًا مُدرجًا.
 
 ```csharp
 public static readonly Key<bool, TaskKey> IsSubproject;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يظهر كيفية قراءة/كتابة خاصية Tsk.IsSubproject.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.IsSubproject, true);
+
+Console.WriteLine("Is Subproject: " + task.Get(Tsk.IsSubproject));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

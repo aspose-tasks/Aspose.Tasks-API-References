@@ -1,24 +1,24 @@
 ---
-title: Resource.ActualOvertimeWork
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على أو تعيين قيمة ActualOvertimeWork.
+title: "Resource.ActualOvertimeWork"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. يحصل أو يضبط قيمة ActualOvertimeWork"
 type: docs
 weight: 50
 url: /ar/net/aspose.tasks/resource/actualovertimework/
 ---
 ## Resource.ActualOvertimeWork property
 
-الحصول على أو تعيين قيمة ActualOvertimeWork.
+يحصل أو يعيّن قيمة ActualOvertimeWork.
 
 ```csharp
 public Duration ActualOvertimeWork { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * struct [Duration](../../duration/)
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

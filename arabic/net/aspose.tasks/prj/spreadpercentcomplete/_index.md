@@ -1,26 +1,38 @@
 ---
-title: Prj.SpreadPercentComplete
-second_title: Aspose.Tasks لمرجع .NET API
-description: Prj مجال. يحدد ما إذا كانت النسبة المئوية للاكتمال موزعة على تاريخ الحالة.
+title: "Prj.SpreadPercentComplete"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Prj. يحدد ما إذا كانت النسبة المكتملة تُوزَّع إلى تاريخ الحالة"
 type: docs
-weight: 660
+weight: 670
 url: /ar/net/aspose.tasks/prj/spreadpercentcomplete/
 ---
 ## Prj.SpreadPercentComplete field
 
-يحدد ما إذا كانت النسبة المئوية للاكتمال موزعة على تاريخ الحالة.
+يحدد ما إذا كان نسبة الإنجاز تُوزّع إلى تاريخ الحالة.
 
 ```csharp
 public static readonly Key<NullableBool, PrjKey> SpreadPercentComplete;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يُظهر كيفية قراءة/كتابة خاصية Prj.SpreadPercentComplete.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.SpreadPercentComplete, true);
+
+Console.WriteLine("Spread Percent Complete: " + project.Get(Prj.SpreadPercentComplete));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* مساحة الاسم [Aspose.Tasks](../../prj/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

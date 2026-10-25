@@ -1,24 +1,24 @@
 ---
-title: Resource.Type
-second_title: Aspose.Tasks لمرجع .NET API
-description: Resource ملكية. الحصول على قيمة من النوع أو تعيينها.
+title: "Resource.Type"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية Resource. تحصل أو تعين قيمة Type"
 type: docs
-weight: 760
+weight: 750
 url: /ar/net/aspose.tasks/resource/type/
 ---
 ## Resource.Type property
 
-الحصول على قيمة من النوع أو تعيينها.
+يحصل أو يعيّن قيمة لـ Type.
 
 ```csharp
 public ResourceType Type { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * enum [ResourceType](../../resourcetype/)
 * class [Resource](../)
-* مساحة الاسم [Aspose.Tasks](../../resource/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

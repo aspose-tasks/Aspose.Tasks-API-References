@@ -1,23 +1,23 @@
 ---
-title: ResourceAssignment.Created
-second_title: Aspose.Tasks لمرجع .NET API
-description: ResourceAssignment ملكية. الحصول على قيمة الإنشاء أو تعيينها .
+title: "ResourceAssignment.Created"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "خاصية ResourceAssignment. تحصل أو تعيين قيمة Created"
 type: docs
 weight: 220
 url: /ar/net/aspose.tasks/resourceassignment/created/
 ---
 ## ResourceAssignment.Created property
 
-الحصول على قيمة الإنشاء أو تعيينها .
+يحصل أو يعيّن قيمة Created.
 
 ```csharp
 public DateTime Created { get; set; }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
 * class [ResourceAssignment](../)
-* مساحة الاسم [Aspose.Tasks](../../resourceassignment/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

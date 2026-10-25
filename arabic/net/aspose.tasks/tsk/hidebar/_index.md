@@ -1,26 +1,40 @@
 ---
-title: Tsk.HideBar
-second_title: Aspose.Tasks لمرجع .NET API
-description: Tsk مجال. تحديد ما إذا كان شريط جانت لمهمة ما مخفيًا عند عرضه في Microsoft Project.
+title: "Tsk.HideBar"
+second_title: "مرجع API لـ Aspose.Tasks لـ .NET"
+description: "حقل Tsk. يحدد ما إذا كان شريط جانت للمهمة مخفيًا عند عرضه في Microsoft Project."
 type: docs
-weight: 490
+weight: 480
 url: /ar/net/aspose.tasks/tsk/hidebar/
 ---
 ## Tsk.HideBar field
 
-تحديد ما إذا كان شريط جانت لمهمة ما مخفيًا عند عرضه في Microsoft Project.
+يحدد ما إذا كان شريط جانت للمهمة مخفيًا عند عرضه في Microsoft Project.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> HideBar;
 ```
 
-### أنظر أيضا
+## الأمثلة
+
+يعرض كيفية قراءة/كتابة الخاصية Tsk.HideBar.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.HideBar, true);
+
+Console.WriteLine("Hide Bar: " + task.Get(Tsk.HideBar));
+```
+
+### انظر أيضًا
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* مساحة الاسم [Aspose.Tasks](../../tsk/)
-* المجسم [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 
