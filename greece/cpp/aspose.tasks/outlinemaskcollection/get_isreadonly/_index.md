@@ -1,0 +1,21 @@
+---
+title: "Aspose::Tasks::OutlineMaskCollection::get_IsReadOnly μέθοδος"
+linktitle: "get_IsReadOnly"
+articleTitle: "get_IsReadOnly"
+second_title: "Aspose.Tasks για C++"
+description: "Αποκτά μια τιμή που υποδεικνύει εάν αυτή η συλλογή είναι μόνο για ανάγνωση· διαφορετικά, false."
+type: docs
+weight: 60
+url: /el/cpp/aspose.tasks/outlinemaskcollection/get_isreadonly/
+---
+
+## get_IsReadOnly {#get_isreadonly}
+
+Αποκτά μια τιμή που υποδεικνύει εάν αυτή η συλλογή είναι μόνο για ανάγνωση· διαφορετικά, false.
+
+**Returns:** bool Aspose::Tasks::
+
+```cpp
+get_IsReadOnly()
+```
+
