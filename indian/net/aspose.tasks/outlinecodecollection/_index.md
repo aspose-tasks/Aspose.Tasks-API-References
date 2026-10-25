@@ -1,14 +1,14 @@
 ---
-title: OutlineCodeCollection
-second_title: Aspose.Tasks for .NET API Reference
-description: के संग्रह क प्रतनधत्व करत हैOutlineCode./outlinecode/ वस्तुओं.
+title: "क्लास OutlineCodeCollection"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "Aspose.Tasks.OutlineCodeCollection क्लास। OutlineCode ऑब्जेक्ट्स का संग्रह दर्शाता है"
 type: docs
-weight: 1030
+weight: 1160
 url: /hi/net/aspose.tasks/outlinecodecollection/
 ---
 ## OutlineCodeCollection class
 
-के संग्रह का प्रतिनिधित्व करता है[`OutlineCode`](../outlinecode/) वस्तुओं.
+[`OutlineCode`](../outlinecode/) ऑब्जेक्ट्स का संग्रह दर्शाता है।
 
 ```csharp
 public class OutlineCodeCollection : IList<OutlineCode>
@@ -18,28 +18,132 @@ public class OutlineCodeCollection : IList<OutlineCode>
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.tasks/outlinecodecollection/count/) { get; } | इस संग्रह में निहित तत्वों की संख्या प्राप्त करता है। |
-| [IsReadOnly](../../aspose.tasks/outlinecodecollection/isreadonly/) { get; } | यह इंगित करने वाला मान प्राप्त करता है कि क्या यह संग्रह केवल-पढ़ने के लिए है; अन्यथा, असत्य. |
-| [Item](../../aspose.tasks/outlinecodecollection/item/) { get; set; } | निर्दिष्ट इंडेक्स पर तत्व को लौटाता है या सेट करता है। |
+| [Count](../../aspose.tasks/outlinecodecollection/count/) { get; } | इस संग्रह में मौजूद तत्वों की संख्या प्राप्त करता है। |
+| [IsReadOnly](../../aspose.tasks/outlinecodecollection/isreadonly/) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि यह संग्रह केवल-रीड है या नहीं; अन्यथा, false। |
+| [Item](../../aspose.tasks/outlinecodecollection/item/) { get; set; } | निर्दिष्ट सूचकांक पर तत्व को लौटाता है या सेट करता है। |
 
-## तरीकों
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [Add](../../aspose.tasks/outlinecodecollection/add/)(OutlineCode) | निर्दिष्ट आइटम को इस संग्रह में जोड़ता है। |
-| [Clear](../../aspose.tasks/outlinecodecollection/clear/)() | इस संग्रह से सभी आइटम निकालता है. |
-| [Contains](../../aspose.tasks/outlinecodecollection/contains/)(OutlineCode) | यदि निर्दिष्ट आइटम इस संग्रह में पाया जाता है तो सही होता है; अन्यथा, असत्य. |
-| [CopyTo](../../aspose.tasks/outlinecodecollection/copyto/)(OutlineCode[], int) | इस संग्रह के तत्वों को निर्दिष्ट सरणी में कॉपी करता है, निर्दिष्ट सरणी अनुक्रमणिका से शुरू होता है। |
-| [GetEnumerator](../../aspose.tasks/outlinecodecollection/getenumerator/)() | इस संग्रह के लिए एक प्रगणक देता है। |
-| [IndexOf](../../aspose.tasks/outlinecodecollection/indexof/)(OutlineCode) | इस संग्रह में निर्दिष्ट आइटम की अनुक्रमणिका निर्धारित करता है। |
-| [Insert](../../aspose.tasks/outlinecodecollection/insert/)(int, OutlineCode) | निर्दिष्ट आइटम को निर्दिष्ट इंडेक्स पर सम्मिलित करता है। |
-| [Remove](../../aspose.tasks/outlinecodecollection/remove/)(OutlineCode) | इस संग्रह से किसी विशिष्ट वस्तु की पहली घटना को हटाता है। |
-| [RemoveAt](../../aspose.tasks/outlinecodecollection/removeat/)(int) | निर्दिष्ट इंडेक्स पर एक आइटम को हटाता है। |
+| [Clear](../../aspose.tasks/outlinecodecollection/clear/)() | इस संग्रह से सभी आइटम हटाता है। |
+| [Contains](../../aspose.tasks/outlinecodecollection/contains/)(OutlineCode) | यदि निर्दिष्ट आइटम इस संग्रह में पाया जाता है तो true लौटाता है; अन्यथा false। |
+| [CopyTo](../../aspose.tasks/outlinecodecollection/copyto/)(OutlineCode[], int) | निर्दिष्ट एरे सूचकांक से शुरू करके इस संग्रह के तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.tasks/outlinecodecollection/getenumerator/)() | इस संग्रह के लिए एक एन्यूमरेटर लौटाता है। |
+| [IndexOf](../../aspose.tasks/outlinecodecollection/indexof/)(OutlineCode) | इस संग्रह में निर्दिष्ट आइटम का सूचकांक निर्धारित करता है। |
+| [Insert](../../aspose.tasks/outlinecodecollection/insert/)(int, OutlineCode) | निर्दिष्ट सूचकांक पर निर्दिष्ट आइटम डालता है। |
+| [Remove](../../aspose.tasks/outlinecodecollection/remove/)(OutlineCode) | इस संग्रह से विशिष्ट वस्तु की पहली घटना को हटाता है। |
+| [RemoveAt](../../aspose.tasks/outlinecodecollection/removeat/)(int) | निर्दिष्ट सूचकांक पर एक आइटम हटाता है। |
 
-### यह सभी देखें
+## उदाहरण
+
+दिखाता है कि आउटलाइन कोड संग्रहों के साथ कैसे काम करें।
+
+```csharp
+var project = new Project(DataDir + "OutlineCodes2003.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+for (var i = 0; i < collector.Tasks.Count; i++)
+{
+    var current = collector.Tasks[i];
+    if (current.Get(Tsk.Id) == 0)
+    {
+        continue;
+    }
+
+    Console.WriteLine("Print outline codes for the " + current.Get(Tsk.Name) + " task.");
+    Console.WriteLine("Count of outline codes: " + current.OutlineCodes.Count);
+    foreach (var outlineCode in current.OutlineCodes)
+    {
+        Console.WriteLine("Field Id: " + outlineCode.FieldId);
+        Console.WriteLine("Value Id: " + outlineCode.ValueId);
+        Console.WriteLine("Value Guid: " + outlineCode.ValueGuid);
+        Console.WriteLine();
+    }
+}
+
+// एक कस्टम आउटलाइन कोड परिभाषा जोड़ें
+var outlineCodeDefinition = new OutlineCodeDefinition { FieldId = ((int)ExtendedAttributeTask.OutlineCode3).ToString("D"), Alias = "My Outline Code" };
+project.OutlineCodes.Add(outlineCodeDefinition);
+
+// आउटलाइन कोड बनाएं
+var value = new OutlineValue { Type = OutlineValueType.Text, Value = "Val1", Description = "Descr1", ValueId = 1 };
+outlineCodeDefinition.Values.Add(value);
+
+var codeOne = new OutlineCode { FieldId = outlineCodeDefinition.FieldId, ValueId = 1, ValueGuid = value.ValueGuid.ToString("D").ToUpperInvariant() };
+
+var task = project.RootTask.Children.GetByUid(2);
+
+// जांच सकते हैं कि संग्रह केवल पढ़ने योग्य नहीं है
+if (!task.OutlineCodes.IsReadOnly)
+{
+    task.OutlineCodes.Add(codeOne);
+}
+
+var codeZero = new OutlineCode { FieldId = outlineCodeDefinition.FieldId, ValueId = 0, ValueGuid = value.ValueGuid.ToString("D").ToUpperInvariant() };
+
+task.OutlineCodes.Insert(0, codeZero);
+
+var code2 = new OutlineCode { FieldId = outlineCodeDefinition.FieldId, ValueId = 2, ValueGuid = value.ValueGuid.ToString("D").ToUpperInvariant() };
+
+// कोड को 2 के साथ गलत स्थिति में डालें
+task.OutlineCodes.Insert(0, code2);
+
+// इसे ठीक करें
+var indexOf = task.OutlineCodes.IndexOf(code2);
+task.OutlineCodes.RemoveAt(indexOf);
+
+// कोड को 2 के साथ सही स्थिति में डालें
+task.OutlineCodes.Insert(2, code2);
+
+// जांचें कि कोड डाला गया था
+Console.WriteLine("Is outline codes contains the inserted value: " + task.OutlineCodes.Contains(code2));
+
+// ...
+// आउटलाइन कोड्स के साथ काम करें
+// ...
+var otherProject = new Project(DataDir + "OutlineCodes2003.mpp");
+var otherTask = otherProject.RootTask.Children.GetById(2);
+
+// एक कस्टम आउटलाइन कोड परिभाषा जोड़ें
+outlineCodeDefinition = new OutlineCodeDefinition { FieldId = ((int)ExtendedAttributeTask.OutlineCode3).ToString("D"), Alias = "My Outline Code" };
+otherProject.OutlineCodes.Add(outlineCodeDefinition);
+
+// आउटलाइन कोड बनाएं
+var otherValue = new OutlineValue { Type = OutlineValueType.Text, Value = "Val1", Description = "Descr1", ValueId = 1 };
+outlineCodeDefinition.Values.Add(otherValue);
+
+var outlineCodes = new OutlineCode[task.OutlineCodes.Count];
+task.OutlineCodes.CopyTo(outlineCodes, 0);
+
+foreach (var code in outlineCodes)
+{
+    otherTask.OutlineCodes.Add(code);
+}
+
+// ...
+// आउटलाइन कोड्स के साथ काम करें
+// ...
+
+// आउटलाइन कोड हटाएं
+otherTask.OutlineCodes.RemoveAt(0);
+
+while (otherTask.OutlineCodes.Count > 0)
+{
+    otherTask.OutlineCodes.Remove(otherTask.OutlineCodes[0]);
+}
+
+// सभी मानों को एक साथ साफ़ करें
+task.OutlineCodes.Clear();
+```
+
+### संबंधित देखें
 
 * class [OutlineCode](../outlinecode/)
-* नाम स्थान [Aspose.Tasks](../../aspose.tasks/)
-* सभा [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

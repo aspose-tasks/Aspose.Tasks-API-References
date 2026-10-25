@@ -1,14 +1,14 @@
 ---
-title: UsageView
-second_title: Aspose.Tasks for .NET API Reference
-description: कस प्रजेक्ट में उपयग दृश्य क प्रतनधत्व करत है
+title: "क्लास UsageView"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "Aspose.Tasks.UsageView क्लास। प्रोजेक्ट में एक उपयोग दृश्य का प्रतिनिधित्व करता है"
 type: docs
-weight: 2330
+weight: 2650
 url: /hi/net/aspose.tasks/usageview/
 ---
 ## UsageView class
 
-किसी प्रोजेक्ट में उपयोग दृश्य का प्रतिनिधित्व करता है।
+प्रोजेक्ट में एक उपयोग दृश्य को दर्शाता है।
 
 ```csharp
 public abstract class UsageView : View
@@ -18,39 +18,65 @@ public abstract class UsageView : View
 
 | नाम | विवरण |
 | --- | --- |
-| [AlignDetailsData](../../aspose.tasks/usageview/aligndetailsdata/) { get; set; } | विवरण डेटा संरेखण प्राप्त या सेट करता है। |
-| [BottomTimescaleTier](../../aspose.tasks/usageview/bottomtimescaletier/) { get; set; } | व्यू के निचले टाइमस्केल टियर की सेटिंग प्राप्त या सेट करता है. [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/) |
-| [DisplayDetailsHeaderColumn](../../aspose.tasks/usageview/displaydetailsheadercolumn/) { get; set; } | एक मान प्राप्त या सेट करता है जो दर्शाता है कि दृश्य में विवरण हेडर कॉलम प्रदर्शित करना है या नहीं। |
-| [DisplayShortDetailHeaderNames](../../aspose.tasks/usageview/displayshortdetailheadernames/) { get; set; } | एक मान प्राप्त या सेट करता है जो इंगित करता है कि संक्षिप्त विवरण हेडर नाम प्रदर्शित करना है या नहीं। |
-| [Filter](../../aspose.tasks/view/filter/) { get; set; } | एक दृश्य में उपयोग किए जाने वाले फ़िल्टर को प्राप्त या सेट करता है। |
-| [Group](../../aspose.tasks/view/group/) { get; set; } | एकल दृश्य का समूह प्राप्त या सेट करता है। |
-| [HighlightFilter](../../aspose.tasks/view/highlightfilter/) { get; set; } | एक मान प्राप्त या सेट करता है जो इंगित करता है कि क्या Microsoft प्रोजेक्ट एक दृश्य के लिए फ़िल्टर को हाइलाइट करता है। |
-| [MiddleTimescaleTier](../../aspose.tasks/usageview/middletimescaletier/) { get; set; } | व्यू के मिडिल टाइमस्केल टियर की सेटिंग प्राप्त या सेट करता है। [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/) . |
-| [Name](../../aspose.tasks/view/name/) { get; set; } | व्यू ऑब्जेक्ट का नाम प्राप्त या सेट करता है। |
-| [PageInfo](../../aspose.tasks/view/pageinfo/) { get; } | का एक उदाहरण प्राप्त करता है[`PageInfo`](../view/pageinfo/)कक्षा। पृष्ठ सेटअप डेटा का प्रतिनिधित्व करता है जो mpp फ़ाइल स्वरूप में मौजूद है. |
-| [ParentProject](../../aspose.tasks/view/parentproject/) { get; } | दृश्य वस्तु का जनक प्राप्त करता है। केवल पढ़ने के लिए[`Project`](../project/) . |
-| [RepeatDetailsHeaderOnAllRows](../../aspose.tasks/usageview/repeatdetailsheaderonallrows/) { get; set; } | एक मान प्राप्त या सेट करता है जो दर्शाता है कि सभी असाइनमेंट पंक्ति पर विवरण हेडर को दोहराना है या नहीं। |
-| [Screen](../../aspose.tasks/view/screen/) { get; } | एकल दृश्य के लिए स्क्रीन प्रकार प्राप्त करता है। केवल पढ़ने के लिए[`ViewScreen`](../viewscreen/) . |
-| [ShowInMenu](../../aspose.tasks/view/showinmenu/) { get; set; } | एक मान प्राप्त या सेट करता है जो इंगित करता है कि क्या Microsoft प्रोजेक्ट दृश्य में एकल दृश्य नाम दिखाता है या रिबन में अन्य दृश्य ड्रॉप-डाउन सूची दिखाता है। |
-| [Table](../../aspose.tasks/view/table/) { get; set; } | एकल दृश्य की तालिका प्राप्त या सेट करता है। |
+| [AlignDetailsData](../../aspose.tasks/usageview/aligndetailsdata/) { get; set; } | विवरण डेटा संरेखण को प्राप्त करता है या सेट करता है। |
+| [BottomTimescaleTier](../../aspose.tasks/usageview/bottomtimescaletier/) { get; set; } | व्यू के नीचे टाइमस्केल टियर की सेटिंग्स को प्राप्त करता है या सेट करता है। [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/) |
+| [DisplayDetailsHeaderColumn](../../aspose.tasks/usageview/displaydetailsheadercolumn/) { get; set; } | व्यू में विवरण हेडर कॉलम दिखाना है या नहीं, यह दर्शाने वाला मान प्राप्त करता है या सेट करता है। |
+| [DisplayShortDetailHeaderNames](../../aspose.tasks/usageview/displayshortdetailheadernames/) { get; set; } | छोटे विवरण हेडर नामों को प्रदर्शित करने के लिए मान प्राप्त करता है या सेट करता है। |
+| [Filter](../../aspose.tasks/view/filter/) { get; set; } | एकल दृश्य में उपयोग किए जाने वाले फ़िल्टर को प्राप्त करता है या सेट करता है। |
+| [Group](../../aspose.tasks/view/group/) { get; set; } | एकल दृश्य का समूह प्राप्त करता है या सेट करता है। |
+| [HighlightFilter](../../aspose.tasks/view/highlightfilter/) { get; set; } | Microsoft Project द्वारा एकल दृश्य के लिए फ़िल्टर को हाइलाइट करने के लिए मान प्राप्त करता है या सेट करता है। |
+| [MiddleTimescaleTier](../../aspose.tasks/usageview/middletimescaletier/) { get; set; } | दृश्य की मध्य टाइमस्केल टियर की सेटिंग्स प्राप्त करता है या सेट करता है। [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/). |
+| [Name](../../aspose.tasks/view/name/) { get; set; } | View ऑब्जेक्ट का नाम प्राप्त करता है या सेट करता है। |
+| [PageInfo](../../aspose.tasks/view/pageinfo/) { get; } | `[`PageInfo`](../view/pageinfo/)` क्लास का एक उदाहरण प्राप्त करता है। यह mpp फ़ाइल फ़ॉर्मेट में मौजूद पेज सेटअप डेटा का प्रतिनिधित्व करता है। |
+| [ParentProject](../../aspose.tasks/view/parentproject/) { get; } | View ऑब्जेक्ट का पैरेंट प्राप्त करता है। केवल‑पढ़ने योग्य [`Project`](../project/). |
+| [RepeatDetailsHeaderOnAllRows](../../aspose.tasks/usageview/repeatdetailsheaderonallrows/) { get; set; } | सभी असाइनमेंट पंक्तियों पर विवरण हेडर दोहराने के लिए मान प्राप्त करता है या सेट करता है, या नहीं। |
+| [Screen](../../aspose.tasks/view/screen/) { get; } | एकल दृश्य के लिए स्क्रीन प्रकार प्राप्त करता है। केवल‑पढ़ने योग्य [`ViewScreen`](../viewscreen/). |
+| [ShowInMenu](../../aspose.tasks/view/showinmenu/) { get; set; } | Microsoft Project द्वारा रिबन में View या Other Views ड्रॉप‑डाउन सूची में एकल दृश्य नाम दिखाने के लिए मान प्राप्त करता है या सेट करता है। |
+| [Table](../../aspose.tasks/view/table/) { get; set; } | एकल दृश्य की तालिका प्राप्त करता है या सेट करता है। |
 | [TimescaleSizePercentage](../../aspose.tasks/usageview/timescalesizepercentage/) { get; set; } |  |
-| [TopTimescaleTier](../../aspose.tasks/usageview/toptimescaletier/) { get; set; } | दृश्य के शीर्ष टाइमस्केल टियर की सेटिंग प्राप्त या सेट करता है. [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/) . |
-| [Type](../../aspose.tasks/view/type/) { get; } | एकल दृश्य में आइटम का प्रकार प्राप्त करता है, जैसे कार्य या संसाधन। केवल पढ़ने के लिए[`ItemType`](../itemtype/) . |
-| [Uid](../../aspose.tasks/view/uid/) { get; } | एक दृश्य का विशिष्ट पहचानकर्ता प्राप्त करता है। |
-| [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements/) { get; } | प्लेसमेंट और उपस्थिति का प्रतिनिधित्व करने वाली वस्तुओं का संग्रह प्राप्त करता है[`OleObject`](../oleobject/) दृश्य में. |
+| [TopTimescaleTier](../../aspose.tasks/usageview/toptimescaletier/) { get; set; } | दृश्य की शीर्ष टाइमस्केल टियर की सेटिंग्स प्राप्त करता है या सेट करता है। [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/). |
+| [Type](../../aspose.tasks/view/type/) { get; } | एकल दृश्य में आइटम के प्रकार को प्राप्त करता है, जैसे कार्य या संसाधन। केवल‑पढ़ने योग्य [`ItemType`](../itemtype/). |
+| [Uid](../../aspose.tasks/view/uid/) { get; } | एक दृश्य का अद्वितीय पहचानकर्ता प्राप्त करता है। |
+| [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements/) { get; } | दृश्य में [`OleObject`](../oleobject/) की प्लेसमेंट और उपस्थिति को दर्शाने वाले ऑब्जेक्ट्स का संग्रह प्राप्त करता है। |
 
-## तरीकों
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/view/compareto/)(View) | वर्तमान उदाहरण की तुलना उसी प्रकार के किसी अन्य ऑब्जेक्ट से करता है और एक पूर्णांक लौटाता है जो इंगित करता है कि क्या वर्तमान उदाहरण अन्य ऑब्जेक्ट के रूप में क्रमबद्ध क्रम में उसी स्थिति में पूर्ववर्ती, अनुवर्ती, या होता है। |
-| override [Equals](../../aspose.tasks/view/equals/)(object) | एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट ऑब्जेक्ट के बराबर है या नहीं। |
-| override [GetHashCode](../../aspose.tasks/view/gethashcode/)() | के उदाहरण के लिए एक हैश कोड मान लौटाता है[`Resource`](../resource/) वर्ग. |
+| [CompareTo](../../aspose.tasks/view/compareto/)(View) | वर्तमान इंस्टेंस की समान प्रकार के दूसरे ऑब्जेक्ट के साथ तुलना करता है और एक पूर्णांक लौटाता है जो दर्शाता है कि वर्तमान इंस्टेंस क्रम में पहले, बाद में, या उसी स्थिति में है या नहीं। |
+| override [Equals](../../aspose.tasks/view/equals/)(object) | यह संकेत देने वाला मान लौटाता है कि यह उदाहरण निर्दिष्ट ऑब्जेक्ट के बराबर है या नहीं। |
+| override [GetHashCode](../../aspose.tasks/view/gethashcode/)() | `[`Resource`](../resource/)` क्लास के इंस्टेंस के लिए हैश कोड मान लौटाता है। |
 
-### यह सभी देखें
+## उदाहरण
+
+विवरणों के साथ टास्क उपयोग दृश्य को रेंडर करने का तरीका दिखाता है।
+
+```csharp
+var project = new Project(DataDir + "TaskUsageViewWithDetails.mpp");
+
+// दृश्य प्राप्त करें
+UsageView view = (TaskUsageView)project.DefaultView;
+
+// विवरण हेडर कॉलम प्रदर्शित नहीं होगा
+view.DisplayDetailsHeaderColumn = false;
+view.RepeatDetailsHeaderOnAllRows = false;
+view.DisplayShortDetailHeaderNames = false;
+view.AlignDetailsData = HorizontalStringAlignment.Near;
+project.Save(OutDir + "task usage1_out.pdf", SaveFileFormat.Pdf);
+
+// विवरण हेडर कॉलम प्रदर्शित करें
+view.DisplayDetailsHeaderColumn = true;
+
+// सभी असाइनमेंट पंक्तियों पर विवरण हेडर दोहराएँ
+view.RepeatDetailsHeaderOnAllRows = true;
+view.AlignDetailsData = HorizontalStringAlignment.Far;
+project.Save(OutDir + "task usage2_out.pdf", SaveFileFormat.Pdf);
+```
+
+### संबंधित देखें
 
 * class [View](../view/)
-* नाम स्थान [Aspose.Tasks](../../aspose.tasks/)
-* सभा [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: CreateNewProject
-second_title: Aspose.Tasks for .NET API Reference
-description: डफल्ट सेव वकल्पं क उपयग करके Project ServerProject Online उदहरण में नय प्रजेक्ट बनत है
+title: "ProjectServerManager.CreateNewProject"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "ProjectServerManager मेथड। डिफ़ॉल्ट सहेजने विकल्पों का उपयोग करके Project Server/Project Online इंस्टेंस में नया प्रोजेक्ट बनाता है।"
 type: docs
 weight: 30
 url: /hi/net/aspose.tasks/projectservermanager/createnewproject/
 ---
 ## CreateNewProject(Project) {#createnewproject}
 
-डिफॉल्ट सेव विकल्पों का उपयोग करके Project Server\Project Online उदाहरण में नया प्रोजेक्ट बनाता है।
+डिफ़ॉल्ट सहेजने विकल्पों का उपयोग करके Project Server\Project Online इंस्टेंस में नया प्रोजेक्ट बनाता है।
 
 ```csharp
 public void CreateNewProject(Project project)
@@ -16,38 +16,60 @@ public void CreateNewProject(Project project)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| project | Project | Project Server\Project Online उदाहरण में सहेजने के लिए प्रोजेक्ट। |
+| प्रोजेक्ट | Project | Project Server\\Project Online इंस्टेंस में सहेजने के लिए प्रोजेक्ट। |
 
 ### अपवाद
 
-| अपवाद | स्थिति |
+| अपवाद | शर्त |
 | --- | --- |
-| [ProjectOnlineException](../../projectonlineexception/) | संचार त्रुटि या सर्वर द्वारा लौटाई गई त्रुटि के मामले में। |
+| [ProjectOnlineException](../../projectonlineexception/) | संचार त्रुटि या सर्वर द्वारा लौटाई गई त्रुटि की स्थिति में। |
 
-### उदाहरण
+## उदाहरण
 
-इस उदाहरण में प्रोजेक्ट को .mpp फ़ाइल से लोड किया गया है और प्रोजेक्ट ऑनलाइन खाते में सहेजा गया है।
+इस उदाहरण में प्रोजेक्ट को .mpp फ़ाइल से लोड किया जाता है और Project Online खाते में सहेजा जाता है।
 
 ```csharp
 [C#]
-var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "पासवर्ड");
+var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
 var project = new Project(@"sample.mpp");
 ProjectServerManager manager = new ProjectServerManager(credentials);
 manager.CreateNewProject(project);
 ```
 
-### यह सभी देखें
+दिखाता है कि कैसे ProjectServerManager का उपयोग करके Microsoft Project Online पर नया प्रोजेक्ट बनाया जाए।
+
+```csharp
+try
+{
+    const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+    const string UserName = "admin@contoso.onmicrosoft.com";
+    const string Password = "MyPassword";
+
+    var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var manager = new ProjectServerManager(credentials);
+    manager.CreateNewProject(project);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### संबंधित देखें
 
 * class [Project](../../project/)
 * class [ProjectServerManager](../)
-* नाम स्थान [Aspose.Tasks](../../projectservermanager/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservermanager/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateNewProject(Project, ProjectServerSaveOptions) {#createnewproject_1}
 
-निर्दिष्ट सहेजें विकल्पों का उपयोग करके Project Server\Project Online उदाहरण में नया प्रोजेक्ट बनाता है।
+निर्दिष्ट सहेजने विकल्पों का उपयोग करके Project Server\\Project Online इंस्टेंस में नया प्रोजेक्ट बनाता है।
 
 ```csharp
 public void CreateNewProject(Project project, ProjectServerSaveOptions saveOptions)
@@ -55,22 +77,22 @@ public void CreateNewProject(Project project, ProjectServerSaveOptions saveOptio
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| project | Project | Project Server\Project Online उदाहरण में सहेजने के लिए प्रोजेक्ट। |
-| saveOptions | ProjectServerSaveOptions | का उदाहरण[`ProjectServerSaveOptions`](../../projectserversaveoptions/) कक्षा। |
+| प्रोजेक्ट | Project | Project Server\\Project Online इंस्टेंस में सहेजने के लिए प्रोजेक्ट। |
+| saveOptions | ProjectServerSaveOptions | `ProjectServerSaveOptions` (../../projectserversaveoptions/) क्लास का इंस्टेंस। |
 
 ### अपवाद
 
-| अपवाद | स्थिति |
+| अपवाद | शर्त |
 | --- | --- |
-| [ProjectOnlineException](../../projectonlineexception/) | संचार त्रुटि या सर्वर द्वारा लौटाई गई त्रुटि के मामले में। |
+| [ProjectOnlineException](../../projectonlineexception/) | संचार त्रुटि या सर्वर द्वारा लौटाई गई त्रुटि की स्थिति में। |
 
-### उदाहरण
+## उदाहरण
 
-इस उदाहरण में प्रोजेक्ट को .mpp फ़ाइल से लोड किया गया है और प्रोजेक्ट ऑनलाइन खाते में सहेजा गया है।
+इस उदाहरण में प्रोजेक्ट को .mpp फ़ाइल से लोड किया जाता है और Project Online खाते में सहेजा जाता है।
 
 ```csharp
 [C#]
-var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "पासवर्ड");
+var credentials = new ProjectServerCredentials("https://xxxxxx.sharepoint.com", "yyyyy@xxxxxxx.onmicrosoft.com", "password");
 var project = new Project(@"sample.mpp");
 ProjectServerManager manager = new ProjectServerManager(credentials);
 manager.CreateNewProject(project, new ProjectServerSaveOptions
@@ -79,12 +101,38 @@ manager.CreateNewProject(project, new ProjectServerSaveOptions
 });
 ```
 
-### यह सभी देखें
+दिखाता है कि Microsoft Project Online पर पूर्वनिर्धारित सहेजने विकल्पों के साथ नया प्रोजेक्ट बनाने के लिए Project Server मैनेजर का उपयोग कैसे किया जाए।
+
+```csharp
+try
+{
+    const string sharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+    const string UserName = "admin@contoso.onmicrosoft.com";
+    const string Password = "MyPassword";
+
+    var credentials = new ProjectServerCredentials(sharepointDomainAddress, UserName, Password);
+
+    var project = new Project(DataDir + @"Project1.mpp");
+
+    var manager = new ProjectServerManager(credentials);
+    var options = new ProjectServerSaveOptions
+    {
+        Timeout = TimeSpan.FromSeconds(10)
+    };
+    manager.CreateNewProject(project, options);
+}
+catch (ProjectOnlineException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### संबंधित देखें
 
 * class [Project](../../project/)
 * class [ProjectServerSaveOptions](../../projectserversaveoptions/)
 * class [ProjectServerManager](../)
-* नाम स्थान [Aspose.Tasks](../../projectservermanager/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../projectservermanager/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

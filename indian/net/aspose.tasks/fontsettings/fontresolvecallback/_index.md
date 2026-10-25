@@ -1,0 +1,55 @@
+---
+title: "FontSettings.FontResolveCallback"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "FontSettings प्रॉपर्टी। एक कॉलबैक प्राप्त करता या सेट करता है जिसका उपयोग हल किए गए फ़ॉन्ट्स को कस्टमाइज़ करने के लिए किया जा सकता है।"
+type: docs
+weight: 30
+url: /hi/net/aspose.tasks/fontsettings/fontresolvecallback/
+---
+## FontSettings.FontResolveCallback property
+
+एक कॉलबैक प्राप्त करता है या सेट करता है जिसका उपयोग हल किए गए फ़ॉन्ट को अनुकूलित करने के लिए किया जा सकता है।
+
+```csharp
+public FontResolveCallbackDelegate FontResolveCallback { get; set; }
+```
+
+## उदाहरण
+
+कस्टम फ़ॉन्ट रिजॉल्व कॉलबैक सेट करने का तरीका दिखाता है जिससे उपयोगकर्ता-परिभाषित कोड चलाकर फॉलबैक फ़ॉन्ट सेट किया जा सके या विशिष्ट फ़ॉन्ट को बदल सकें।
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var options = new PdfSaveOptions
+{
+    PresentationFormat = PresentationFormat.GanttChart,
+};
+
+options.FontSettings.FontResolveCallback = delegate(FontResolveEventArgs args)
+{
+    if (args.RequestedFontName != args.ResolvedFontName)
+    {
+        // ऐसा लगता है कि सटीक फ़ॉन्ट नहीं मिला और फॉलबैक फ़ॉन्ट सेट किया गया।
+        // हम फॉलबैक फ़ॉन्ट को ओवरराइड कर सकते हैं।
+        args.ResolvedFontName = "Arial";
+    }
+
+    // या बस विशिष्ट फ़ॉन्ट को बदलें:
+    if (args.RequestedFontName == "Comic Sans MS")
+    {
+        args.ResolvedFontName = "Arial";
+    }
+};
+
+project.Save(OutDir + "EstimatedMilestoneTasks_out3.pdf", options);
+```
+
+### संबंधित देखें
+
+* delegate [FontResolveCallbackDelegate](../../fontresolvecallbackdelegate/)
+* class [FontSettings](../)
+* namespace [Aspose.Tasks](../../fontsettings/)
+* assembly [Aspose.Tasks](../../../)
+
+

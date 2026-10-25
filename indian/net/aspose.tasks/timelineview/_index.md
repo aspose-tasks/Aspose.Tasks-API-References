@@ -1,61 +1,101 @@
 ---
-title: TimelineView
-second_title: Aspose.Tasks for .NET API Reference
-description: एक परयजन के समयरेख दृश्य क प्रतनधत्व करत है
+title: "क्लास TimelineView"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "Aspose.Tasks.TimelineView क्लास। एक प्रोजेक्ट के टाइमलाइन व्यू का प्रतिनिधित्व करता है।"
 type: docs
-weight: 2270
+weight: 2580
 url: /hi/net/aspose.tasks/timelineview/
 ---
 ## TimelineView class
 
-एक परियोजना के समयरेखा दृश्य का प्रतिनिधित्व करता है।
+प्रोजेक्ट का टाइमलाइन दृश्य दर्शाता है।
 
 ```csharp
 public class TimelineView : View
 ```
 
-## कंस्ट्रक्टर्स
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [TimelineView](timelineview/)() | का एक नया उदाहरण प्रारंभ करता है`TimelineView` कक्षा। |
+| [TimelineView](timelineview/)() | `TimelineView` क्लास का नया उदाहरण प्रारंभ करता है। |
 
 ## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [DateFormat](../../aspose.tasks/timelineview/dateformat/) { get; set; } | एक मान प्राप्त करता है या सेट करता है जो यह दर्शाता है कि समयरेखा दृश्य पर दिनांकों को कैसे प्रारूपित किया जाए। |
-| [DisplayOverlapped](../../aspose.tasks/timelineview/displayoverlapped/) { get; set; } | एक मान प्राप्त या सेट करता है जो इंगित करता है कि एकाधिक पंक्तियों पर ओवरलैप किए गए कार्यों को प्रदर्शित करना है या नहीं। |
-| [Filter](../../aspose.tasks/view/filter/) { get; set; } | एक दृश्य में उपयोग किए जाने वाले फ़िल्टर को प्राप्त या सेट करता है। |
-| [Group](../../aspose.tasks/view/group/) { get; set; } | एकल दृश्य का समूह प्राप्त या सेट करता है। |
-| [HighlightFilter](../../aspose.tasks/view/highlightfilter/) { get; set; } | एक मान प्राप्त या सेट करता है जो इंगित करता है कि क्या Microsoft प्रोजेक्ट एक दृश्य के लिए फ़िल्टर को हाइलाइट करता है। |
-| [Name](../../aspose.tasks/view/name/) { get; set; } | व्यू ऑब्जेक्ट का नाम प्राप्त या सेट करता है। |
-| [PageInfo](../../aspose.tasks/view/pageinfo/) { get; } | का एक उदाहरण प्राप्त करता है[`PageInfo`](../view/pageinfo/)कक्षा। पृष्ठ सेटअप डेटा का प्रतिनिधित्व करता है जो mpp फ़ाइल स्वरूप में मौजूद है. |
-| [ParentProject](../../aspose.tasks/view/parentproject/) { get; } | दृश्य वस्तु का जनक प्राप्त करता है। केवल पढ़ने के लिए[`Project`](../project/) . |
-| [Screen](../../aspose.tasks/view/screen/) { get; } | एकल दृश्य के लिए स्क्रीन प्रकार प्राप्त करता है। केवल पढ़ने के लिए[`ViewScreen`](../viewscreen/) . |
-| [ShowDates](../../aspose.tasks/timelineview/showdates/) { get; } | यह इंगित करने वाला मान प्राप्त करता है कि दिनांक दिखाना है या नहीं. |
-| [ShowInMenu](../../aspose.tasks/view/showinmenu/) { get; set; } | एक मान प्राप्त या सेट करता है जो इंगित करता है कि क्या Microsoft प्रोजेक्ट दृश्य में एकल दृश्य नाम दिखाता है या रिबन में अन्य दृश्य ड्रॉप-डाउन सूची दिखाता है। |
-| [ShowPanZoom](../../aspose.tasks/timelineview/showpanzoom/) { get; set; } | एक मान प्राप्त करता है या सेट करता है जो इंगित करता है कि पैन और ज़ूम नियंत्रण दिखाना है या नहीं। |
-| [ShowTimescale](../../aspose.tasks/timelineview/showtimescale/) { get; set; } | एक मान प्राप्त करता है या सेट करता है जो दर्शाता है कि टाइमस्केल दिखाना है या नहीं। |
-| [ShowToday](../../aspose.tasks/timelineview/showtoday/) { get; set; } | एक मान प्राप्त करता है या सेट करता है जो दर्शाता है कि आज का प्रतिनिधित्व करने वाली रेखा प्रदर्शित करना है या नहीं। |
-| [Table](../../aspose.tasks/view/table/) { get; set; } | एकल दृश्य की तालिका प्राप्त या सेट करता है। |
-| [TextLinesCount](../../aspose.tasks/timelineview/textlinescount/) { get; set; } | एक समयरेखा में कार्य प्रदर्शित करने के लिए कितनी पंक्तियों का उपयोग किया जाता है, यह इंगित करने वाला मान प्राप्त या सेट करता है। |
-| [Type](../../aspose.tasks/view/type/) { get; } | एकल दृश्य में आइटम का प्रकार प्राप्त करता है, जैसे कार्य या संसाधन। केवल पढ़ने के लिए[`ItemType`](../itemtype/) . |
-| [Uid](../../aspose.tasks/view/uid/) { get; } | एक दृश्य का विशिष्ट पहचानकर्ता प्राप्त करता है। |
-| [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements/) { get; } | प्लेसमेंट और उपस्थिति का प्रतिनिधित्व करने वाली वस्तुओं का संग्रह प्राप्त करता है[`OleObject`](../oleobject/) दृश्य में. |
+| [DateFormat](../../aspose.tasks/timelineview/dateformat/) { get; set; } | टाइमलाइन व्यू पर तिथियों को फॉर्मेट करने का तरीका दर्शाने वाला मान प्राप्त करता है या सेट करता है। |
+| [DisplayOverlapped](../../aspose.tasks/timelineview/displayoverlapped/) { get; set; } | एकाधिक पंक्तियों पर ओवरलैप्ड टास्क दिखाने का संकेत देने वाला मान प्राप्त करता है या सेट करता है। |
+| [Filter](../../aspose.tasks/view/filter/) { get; set; } | एकल दृश्य में उपयोग किए जाने वाले फ़िल्टर को प्राप्त करता है या सेट करता है। |
+| [Group](../../aspose.tasks/view/group/) { get; set; } | एकल दृश्य का समूह प्राप्त करता है या सेट करता है। |
+| [HighlightFilter](../../aspose.tasks/view/highlightfilter/) { get; set; } | Microsoft Project द्वारा एकल दृश्य के लिए फ़िल्टर को हाइलाइट करने के लिए मान प्राप्त करता है या सेट करता है। |
+| [Name](../../aspose.tasks/view/name/) { get; set; } | View ऑब्जेक्ट का नाम प्राप्त करता है या सेट करता है। |
+| [PageInfo](../../aspose.tasks/view/pageinfo/) { get; } | `[`PageInfo`](../view/pageinfo/)` क्लास का एक उदाहरण प्राप्त करता है। यह mpp फ़ाइल फ़ॉर्मेट में मौजूद पेज सेटअप डेटा का प्रतिनिधित्व करता है। |
+| [ParentProject](../../aspose.tasks/view/parentproject/) { get; } | View ऑब्जेक्ट का पैरेंट प्राप्त करता है। केवल‑पढ़ने योग्य [`Project`](../project/). |
+| [Screen](../../aspose.tasks/view/screen/) { get; } | एकल दृश्य के लिए स्क्रीन प्रकार प्राप्त करता है। केवल‑पढ़ने योग्य [`ViewScreen`](../viewscreen/). |
+| [ShowDates](../../aspose.tasks/timelineview/showdates/) { get; } | तिथियों को दिखाने का संकेत देने वाला मान प्राप्त करता है। |
+| [ShowInMenu](../../aspose.tasks/view/showinmenu/) { get; set; } | Microsoft Project द्वारा रिबन में View या Other Views ड्रॉप‑डाउन सूची में एकल दृश्य नाम दिखाने के लिए मान प्राप्त करता है या सेट करता है। |
+| [ShowPanZoom](../../aspose.tasks/timelineview/showpanzoom/) { get; set; } | पैन और ज़ूम नियंत्रण दिखाने का संकेत देने वाला मान प्राप्त करता है या सेट करता है। |
+| [ShowTimescale](../../aspose.tasks/timelineview/showtimescale/) { get; set; } | टाइमस्केल दिखाने का संकेत देने वाला मान प्राप्त करता है या सेट करता है। |
+| [ShowToday](../../aspose.tasks/timelineview/showtoday/) { get; set; } | आज को दर्शाने वाली रेखा दिखाने का संकेत देने वाला मान प्राप्त करता है या सेट करता है। |
+| [Table](../../aspose.tasks/view/table/) { get; set; } | एकल दृश्य की तालिका प्राप्त करता है या सेट करता है। |
+| [TextLinesCount](../../aspose.tasks/timelineview/textlinescount/) { get; set; } | टाइमलाइन में टास्क दिखाने के लिए उपयोग की जाने वाली रेखाओं की संख्या दर्शाने वाला मान प्राप्त करता है या सेट करता है। |
+| [Type](../../aspose.tasks/view/type/) { get; } | एकल दृश्य में आइटम के प्रकार को प्राप्त करता है, जैसे कार्य या संसाधन। केवल‑पढ़ने योग्य [`ItemType`](../itemtype/). |
+| [Uid](../../aspose.tasks/view/uid/) { get; } | एक दृश्य का अद्वितीय पहचानकर्ता प्राप्त करता है। |
+| [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements/) { get; } | दृश्य में [`OleObject`](../oleobject/) की प्लेसमेंट और उपस्थिति को दर्शाने वाले ऑब्जेक्ट्स का संग्रह प्राप्त करता है। |
 
-## तरीकों
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/view/compareto/)(View) | वर्तमान उदाहरण की तुलना उसी प्रकार के किसी अन्य ऑब्जेक्ट से करता है और एक पूर्णांक लौटाता है जो इंगित करता है कि क्या वर्तमान उदाहरण अन्य ऑब्जेक्ट के रूप में क्रमबद्ध क्रम में उसी स्थिति में पूर्ववर्ती, अनुवर्ती, या होता है। |
-| override [Equals](../../aspose.tasks/view/equals/)(object) | एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट ऑब्जेक्ट के बराबर है या नहीं। |
-| override [GetHashCode](../../aspose.tasks/view/gethashcode/)() | के उदाहरण के लिए एक हैश कोड मान लौटाता है[`Resource`](../resource/) वर्ग. |
+| [CompareTo](../../aspose.tasks/view/compareto/)(View) | वर्तमान इंस्टेंस की समान प्रकार के दूसरे ऑब्जेक्ट के साथ तुलना करता है और एक पूर्णांक लौटाता है जो दर्शाता है कि वर्तमान इंस्टेंस क्रम में पहले, बाद में, या उसी स्थिति में है या नहीं। |
+| override [Equals](../../aspose.tasks/view/equals/)(object) | यह संकेत देने वाला मान लौटाता है कि यह उदाहरण निर्दिष्ट ऑब्जेक्ट के बराबर है या नहीं। |
+| override [GetHashCode](../../aspose.tasks/view/gethashcode/)() | `[`Resource`](../resource/)` क्लास के इंस्टेंस के लिए हैश कोड मान लौटाता है। |
 
-### यह सभी देखें
+## उदाहरण
+
+&lt;see cref="Aspose.Tasks.TimelineView" /&gt; के साथ काम करने का तरीका दिखाता है।
+
+```csharp
+var project = new Project();
+
+// एक टाइमलाइन व्यू को प्रारंभ करें
+var view = new TimelineView();
+
+// टाइमलाइन व्यू पर तिथियों को फॉर्मेट करने का तरीका दर्शाने वाला मान सेट करें।
+view.DateFormat = DateFormat.DateDddDd;
+// एकाधिक पंक्तियों पर ओवरलैप्ड टास्क दिखाने का संकेत देने वाला मान सेट करें।
+view.DisplayOverlapped = true;
+// पैन और ज़ूम नियंत्रण दिखाने का संकेत देने वाला मान सेट करें।
+view.ShowPanZoom = true;
+// टाइमस्केल दिखाने का संकेत देने वाला मान सेट करें।
+view.ShowTimescale = true;
+// आज को दर्शाने वाली रेखा दिखाने का संकेत देने वाला मान सेट करें।
+view.ShowToday = true;
+// टाइमलाइन में टास्क दिखाने के लिए उपयोग की जाने वाली रेखाओं की संख्या दर्शाने वाला मान सेट करें।
+view.TextLinesCount = 2;
+
+// एकाधिक पंक्तियों पर ओवरलैप्ड टास्क दिखाने का संकेत देने वाला मान प्राप्त करता है।
+Console.WriteLine("Show Dates: " + view.ShowDates);
+
+// व्यू को प्रोजेक्ट में जोड़ें
+project.Views.Add(view);
+
+// प्रोजेक्ट में कुछ परीक्षण डेटा जोड़ें
+var task1 = project.RootTask.Children.Add("Task 1");
+task1.Set(Tsk.Start, new DateTime(2020, 4, 29, 8, 0, 0));
+task1.Set(Tsk.Duration, task1.ParentProject.GetDuration(24, TimeUnitType.Hour));
+var task2 = project.RootTask.Children.Add("Task 2");
+task2.Set(Tsk.Start, new DateTime(2020, 4, 29, 8, 0, 0));
+task2.Set(Tsk.Duration, task1.ParentProject.GetDuration(40, TimeUnitType.Hour));
+
+project.Save(OutDir + "SetTimeScaleCount_out.pdf", SaveFileFormat.Pdf);
+```
+
+### संबंधित देखें
 
 * class [View](../view/)
-* नाम स्थान [Aspose.Tasks](../../aspose.tasks/)
-* सभा [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

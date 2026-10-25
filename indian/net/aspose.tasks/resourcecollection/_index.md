@@ -1,14 +1,14 @@
 ---
-title: ResourceCollection
-second_title: Aspose.Tasks for .NET API Reference
-description: के संग्रह क प्रतनधत्व करत हैResource./resource/ वस्तुओं.
+title: "क्लास ResourceCollection"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "Aspose.Tasks.ResourceCollection क्लास। Resource ऑब्जेक्ट्स का संग्रह दर्शाता है"
 type: docs
-weight: 1520
+weight: 1770
 url: /hi/net/aspose.tasks/resourcecollection/
 ---
 ## ResourceCollection class
 
-के संग्रह का प्रतिनिधित्व करता है[`Resource`](../resource/) वस्तुओं.
+[`Resource`](../resource/) ऑब्जेक्ट्स का संग्रह दर्शाता है।
 
 ```csharp
 public class ResourceCollection : IList<Resource>
@@ -18,28 +18,75 @@ public class ResourceCollection : IList<Resource>
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.tasks/resourcecollection/count/) { get; } | ResourceCollection. में निहित तत्वों की संख्या प्राप्त करता है केवल पढ़ने के लिएInt32. |
+| [Count](../../aspose.tasks/resourcecollection/count/) { get; } | ResourceCollection में सम्मिलित तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32। |
 | [Item](../../aspose.tasks/resourcecollection/item/) { get; set; } | निर्दिष्ट इंडेक्स पर तत्व लौटाता है। |
-| [ParentProject](../../aspose.tasks/resourcecollection/parentproject/) { get; } | रिसोर्सकोलेक्शन ऑब्जेक्ट का मूल प्रोजेक्ट प्राप्त करता है। |
+| [ParentProject](../../aspose.tasks/resourcecollection/parentproject/) { get; } | ResourceCollection ऑब्जेक्ट के पैरेंट प्रोजेक्ट को प्राप्त करता है। |
 
-## तरीकों
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.tasks/resourcecollection/add/#add)() | परियोजना संसाधन संग्रह की अंतिम स्थिति में नया संसाधन जोड़ता है। |
-| [Add](../../aspose.tasks/resourcecollection/add/#add_1)(string) | परियोजना संसाधन संग्रह की अंतिम स्थिति में नया संसाधन जोड़ता है। |
-| [Add](../../aspose.tasks/resourcecollection/add/#add_2)(string, int) | प्रोजेक्ट संसाधन संग्रह की निर्दिष्ट स्थिति पर नया संसाधन जोड़ता है। |
-| [Clear](../../aspose.tasks/resourcecollection/clear/)() | प्रत्यक्ष समाशोधन समर्थित नहीं है, यह विधि केवल NotSupportedException को फेंक देती है। |
-| [GetById](../../aspose.tasks/resourcecollection/getbyid/)(int) | निर्दिष्ट आईडी के साथ एक संसाधन लौटाता है। |
-| [GetByUid](../../aspose.tasks/resourcecollection/getbyuid/)(int) | निर्दिष्ट यूआईडी के साथ संसाधन लौटाता है। |
-| [GetEnumerator](../../aspose.tasks/resourcecollection/getenumerator/)() | इस संग्रह के लिए एक प्रगणक देता है। |
-| [Remove](../../aspose.tasks/resourcecollection/remove/)(Resource) | यह ICollection के Remove विधि का स्टब कार्यान्वयन है, जो केवल NotSupportedException को फेंकता है |
-| [ToList](../../aspose.tasks/resourcecollection/tolist/)() | रिसोर्सकोलेक्शन ऑब्जेक्ट को सूची में कनवर्ट करता है[`Resource`](../resource/) वस्तुओं. |
+| [Add](../../aspose.tasks/resourcecollection/add/#add)() | प्रोजेक्ट संसाधन संग्रह के अंतिम स्थान पर नया संसाधन जोड़ता है। |
+| [Add](../../aspose.tasks/resourcecollection/add/#add_1)(string) | प्रोजेक्ट संसाधन संग्रह के अंतिम स्थान पर नया संसाधन जोड़ता है। |
+| [Add](../../aspose.tasks/resourcecollection/add/#add_2)(string, int) | प्रोजेक्ट संसाधन संग्रह के निर्दिष्ट स्थान पर नया संसाधन जोड़ता है। |
+| [Clear](../../aspose.tasks/resourcecollection/clear/)() | सीधे क्लियरिंग का समर्थन नहीं है, यह मेथड केवल NotSupportedException फेंकता है। |
+| [GetById](../../aspose.tasks/resourcecollection/getbyid/)(int) | निर्दिष्ट id वाला संसाधन लौटाता है। |
+| [GetByUid](../../aspose.tasks/resourcecollection/getbyuid/)(int) | निर्दिष्ट Uid वाला संसाधन लौटाता है। |
+| [GetEnumerator](../../aspose.tasks/resourcecollection/getenumerator/)() | इस संग्रह के लिए एक एन्यूमरेटर लौटाता है। |
+| [Remove](../../aspose.tasks/resourcecollection/remove/)(Resource) | यह ICollection की Remove मेथड का स्टब इम्प्लीमेंटेशन है, जो केवल NotSupportedException फेंकता है। |
+| [ToList](../../aspose.tasks/resourcecollection/tolist/)() | ResourceCollection ऑब्जेक्ट को [`Resource`](../resource/) ऑब्जेक्ट्स की सूची में परिवर्तित करता है। |
 
-### यह सभी देखें
+## उदाहरण
+
+संसाधन संग्रहों के साथ काम करने का तरीका दिखाता है।
+
+```csharp
+var project = new Project(DataDir + "SampleProject.mpp");
+
+// खाली संसाधन जोड़ें
+var resource = project.Resources.Add();
+resource.Set(Rsc.Type, ResourceType.Work);
+
+// नाम के साथ संसाधन जोड़ें
+var developer = project.Resources.Add("Developer");
+developer.Set(Rsc.Type, ResourceType.Work);
+
+// निर्दिष्ट ID वाले संसाधन से पहले संसाधन जोड़ें
+var manager = project.Resources.Add("Manager", developer.Get(Rsc.Id));
+manager.Set(Rsc.Type, ResourceType.Work);
+
+var devResource = project.Resources.GetById(4);
+devResource.Set(Rsc.Code, "12345");
+
+var manResource = project.Resources.GetByUid(4);
+manResource.Set(Rsc.Code, "54321");
+
+// id द्वारा संसाधन प्राप्त करें
+project.Resources.GetById(1);
+
+Console.WriteLine("Print the resources of " + project.Resources.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Count of resources: " + project.Resources.Count);
+foreach (var rsc in project.Resources)
+{
+    Console.WriteLine("Resource Name: " + rsc.Get(Rsc.Name));
+}
+
+Console.WriteLine();
+
+// संसाधन संग्रह Clear ऑपरेशन का समर्थन नहीं करता है
+// project.Resources.Clear();
+// इसके बजाय अगला कोड नमूना उपयोग करें
+List<Resource> list = project.Resources.ToList();
+foreach (var rsc in list)
+{
+    rsc.Delete();
+}
+```
+
+### संबंधित देखें
 
 * class [Resource](../resource/)
-* नाम स्थान [Aspose.Tasks](../../aspose.tasks/)
-* सभा [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: CreateWorkTimephased
-second_title: Aspose.Tasks for .NET API Reference
-description: क एक नय उदहरण बनत है और आरंभ करत हैTimephasedDataaspose.tasks/timephaseddata/ कर्यआधरत समय चरणबद्ध डेट के लए वर्ग
+title: "TimephasedData.CreateWorkTimephased"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "TimephasedData मेथड। कार्य-आधारित समय-फ़ेज़्ड डेटा के लिए TimephasedData क्लास का नया इंस्टेंस बनाता और इनिशियलाइज़ करता है"
 type: docs
 weight: 40
 url: /hi/net/aspose.tasks/timephaseddata/createworktimephased/
 ---
 ## TimephasedData.CreateWorkTimephased method
 
-का एक नया उदाहरण बनाता है और आरंभ करता है[`TimephasedData`](../) कार्य-आधारित समय चरणबद्ध डेटा के लिए वर्ग।
+कार्य-आधारित समय-फ़ेज़्ड डेटा के लिए [`TimephasedData`](../) क्लास का नया इंस्टेंस बनाता और इनिशियलाइज़ करता है।
 
 ```csharp
 public static TimephasedData CreateWorkTimephased(int uid, DateTime start, DateTime finish, 
@@ -17,29 +17,119 @@ public static TimephasedData CreateWorkTimephased(int uid, DateTime start, DateT
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| uid | Int32 | कार्य का यूआईडी। |
-| start | DateTime | दिनांक-समय प्रारंभ करें। |
-| finish | DateTime | दिनांक-समय समाप्त करें। |
-| value | TimeSpan | समयावधि मान। |
+| uid | Int32 | टास्क का UID। |
+| प्रारंभ | DateTime | प्रारंभ तिथि-समय। |
+| समाप्ति | DateTime | समाप्ति तिथि-समय। |
+| value | TimeSpan | टाइमस्पैन मान। |
 | timeUnit | TimeUnitType | समय इकाई प्रकार। |
-| type | TimephasedDataType | समय-चरणबद्ध डेटा प्रकार। |
+| प्रकार | TimephasedDataType | समय-फ़ेज़्ड डेटा प्रकार। |
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-का एक उदाहरण[`TimephasedData`](../) कार्य-आधारित समय चरणबद्ध डेटा के लिए कक्षा।
+कार्य-आधारित समय-फ़ेज़्ड डेटा के लिए [`TimephasedData`](../) क्लास का एक इंस्टेंस।
 
 ### अपवाद
 
-| अपवाद | स्थिति |
+| अपवाद | शर्त |
 | --- | --- |
 | ArgumentException | यदि नकारात्मक कार्य मान निर्दिष्ट किया गया था। |
 
-### यह सभी देखें
+## उदाहरण
+
+कस्टम टाइमफ़ेज़्ड डेटा के साथ काम करने का तरीका दिखाता है।
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp") { CalculationMode = CalculationMode.None };
+
+var workResource = project.Resources.Add("Work Resource");
+workResource.Set(Rsc.Type, ResourceType.Work);
+var costResource = project.Resources.Add("Cost Resource");
+costResource.Set(Rsc.Type, ResourceType.Cost);
+
+var task = project.RootTask.Children.Add("Task");
+task.Set(Tsk.Start, new DateTime(2018, 1, 1, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(1, TimeUnitType.Day));
+
+var workAssignment = project.ResourceAssignments.Add(task, workResource);
+workAssignment.Set(Asn.WorkContour, WorkContourType.Contoured);
+var costAssignment = project.ResourceAssignments.Add(task, costResource);
+costAssignment.Set(Asn.WorkContour, WorkContourType.Contoured);
+
+// आइए कस्टम टाइमफ़ेज़्ड टीडीएस जोड़ें
+workAssignment.TimephasedData.Clear();
+
+// कार्य दिवस जोड़ें
+var td1 = TimephasedData.CreateWorkTimephased(
+    workAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 2, 8, 0, 0),
+    new DateTime(2018, 1, 5, 17, 0, 0),
+    TimeSpan.FromHours(40),
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentRemainingWork);
+
+// सप्ताहांत जोड़ें
+var td2 = TimephasedData.CreateWorkTimephased(
+    workAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 6, 8, 0, 0),
+    new DateTime(2018, 1, 8, 8, 0, 0),
+    TimeSpan.Zero,
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentRemainingWork);
+
+workAssignment.TimephasedData.Add(td1);
+workAssignment.TimephasedData.Add(td2);
+
+costAssignment.TimephasedData.Clear();
+
+// कार्य दिवस जोड़ें
+var td11 = TimephasedData.CreateCostTimephased(
+    costAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 2, 8, 0, 0),
+    new DateTime(2018, 1, 5, 17, 0, 0),
+    1,
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentCost);
+
+// सप्ताहांत जोड़ें
+var td22 = TimephasedData.CreateCostTimephased(
+    costAssignment.Get(Asn.Uid),
+    new DateTime(2018, 1, 6, 8, 0, 0),
+    new DateTime(2018, 1, 8, 8, 0, 0),
+    0,
+    TimeUnitType.Hour,
+    TimephasedDataType.AssignmentCost);
+
+costAssignment.TimephasedData.Add(td11);
+costAssignment.TimephasedData.Add(td22);
+
+Console.WriteLine("Print assignment timephased data:");
+foreach (var assignment in project.ResourceAssignments)
+{
+    Console.WriteLine("Assignment UID: " + assignment.Get(Asn.Uid));
+    foreach (var tds in assignment.TimephasedData)
+    {
+        Console.WriteLine("  Uid: " + tds.Uid);
+        Console.WriteLine("  Start: " + tds.Start);
+        Console.WriteLine("  Finish: " + tds.Finish);
+        Console.WriteLine("  Type: " + tds.TimephasedDataType);
+        Console.WriteLine("  Unit: " + tds.Unit);
+        Console.WriteLine("  Value: " + tds.Value);
+        Console.WriteLine("  ValueToCost: " + tds.ValueToCost);
+        Console.WriteLine("  ValueToDuration: " + tds.ValueToDuration);
+        Console.WriteLine("  ValueToUnits: " + tds.ValueToUnits);
+        Console.WriteLine();
+    }
+}
+
+project.Recalculate();
+```
+
+### संबंधित देखें
 
 * enum [TimeUnitType](../../timeunittype/)
 * enum [TimephasedDataType](../../timephaseddatatype/)
 * class [TimephasedData](../)
-* नाम स्थान [Aspose.Tasks](../../timephaseddata/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../timephaseddata/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

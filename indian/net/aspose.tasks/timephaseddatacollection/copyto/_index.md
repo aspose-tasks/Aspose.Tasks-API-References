@@ -1,14 +1,14 @@
 ---
-title: CopyTo
-second_title: Aspose.Tasks for .NET API Reference
-description: के तत्वं क प्रतलप बनत हैTimephasedDataCollectionaspose.tasks/timephaseddatacollection/ एक कArray  एक वशेष से शुरूArray अनुक्रमणक.
+title: "TimephasedDataCollection.CopyTo"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "TimephasedDataCollection मेथड। TimephasedDataCollection के तत्वों को एक एरे में कॉपी करता है जो एक विशिष्ट एरे इंडेक्स से शुरू होता है"
 type: docs
-weight: 90
+weight: 80
 url: /hi/net/aspose.tasks/timephaseddatacollection/copyto/
 ---
 ## TimephasedDataCollection.CopyTo method
 
-के तत्वों की प्रतिलिपि बनाता है[`TimephasedDataCollection`](../) एक कोArray , एक विशेष से शुरूArray अनुक्रमणिका.
+[`TimephasedDataCollection`](../) के तत्वों को एक एरे में कॉपी करता है, जो एक विशिष्ट एरे इंडेक्स से शुरू होता है।
 
 ```csharp
 public void CopyTo(TimephasedData[] array, int arrayIndex)
@@ -16,22 +16,172 @@ public void CopyTo(TimephasedData[] array, int arrayIndex)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| array | TimephasedData[] | एक आयामीArray वह उन तत्वों का गंतव्य है जिनसे प्रतिलिपि बनाई गई है[`TimephasedDataCollection`](../) . दArray शून्य-आधारित अनुक्रमण होना चाहिए। |
-| arrayIndex | Int32 | शून्य आधारित सूचकांक में*array* जिस पर नकल शुरू हो जाती है। |
+| array | TimephasedData[] | [`TimephasedDataCollection`](../) से कॉपी किए गए तत्वों का गंतव्य एक-आयामी एरे है। एरे में शून्य-आधारित इंडेक्सिंग होनी चाहिए। |
+| arrayIndex | Int32 | *array* में शून्य-आधारित इंडेक्स जहाँ से कॉपी शुरू होती है। |
 
 ### अपवाद
 
-| अपवाद | स्थिति |
+| अपवाद | शर्त |
 | --- | --- |
-| ArgumentNullException | *array* शून्य है। |
+| ArgumentNullException | *array* शून्य (null) है। |
 | ArgumentOutOfRangeException | *arrayIndex* 0 से कम है। |
-| ArgumentException | स्रोत में तत्वों की संख्या[`TimephasedDataCollection`](../) उपलब्ध स्थान से अधिक है*arrayIndex* गंतव्य के अंत तक*array* . |
+| ArgumentException | स्रोत [`TimephasedDataCollection`](../) में तत्वों की संख्या *arrayIndex* से लेकर गंतव्य *array* के अंत तक उपलब्ध स्थान से अधिक है। |
 
-### यह सभी देखें
+## उदाहरण
+
+timephased डेटा संग्रहों के साथ काम करने का तरीका दिखाता है।
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var resource = project.Resources.Add("Resource 1");
+resource.Set(Rsc.Type, ResourceType.Work);
+
+var resource2 = project.Resources.Add("Resource 2");
+resource2.Set(Rsc.Type, ResourceType.Work);
+
+var task = project.RootTask.Children.Add("Task 1");
+task.Set(Tsk.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+task.Set(Tsk.Duration, project.GetDuration(24, TimeUnitType.Hour));
+task.Set(Tsk.Work, project.GetDuration(3d, TimeUnitType.Hour));
+task.Set(Tsk.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var task2 = project.RootTask.Children.Add("Task 2");
+task2.Set(Tsk.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+task2.Set(Tsk.Duration, project.GetDuration(24, TimeUnitType.Hour));
+task2.Set(Tsk.Work, project.GetDuration(3d, TimeUnitType.Hour));
+task2.Set(Tsk.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var assignment = project.ResourceAssignments.Add(task, resource);
+assignment.Set(Asn.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+assignment.Set(Asn.Work, project.GetDuration(3, TimeUnitType.Hour));
+assignment.Set(Asn.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+var assignment2 = project.ResourceAssignments.Add(task2, resource2);
+assignment2.Set(Asn.Start, new DateTime(2019, 11, 11, 8, 0, 0));
+assignment2.Set(Asn.Work, project.GetDuration(3, TimeUnitType.Hour));
+assignment2.Set(Asn.Finish, new DateTime(2019, 11, 13, 17, 0, 0));
+
+// सेट कंटूरयुक्त कार्य कंटूर
+assignment.Set(Asn.WorkContour, WorkContourType.Contoured);
+
+Console.WriteLine("Is timephased data collection read-only?: " + assignment.TimephasedData.IsReadOnly);
+
+// जेनरेटेड tds साफ़ करें
+assignment.TimephasedData.Clear();
+
+var td = new TimephasedData
+             {
+                 Start = new DateTime(2019, 11, 11, 8, 0, 0),
+                 Finish = new DateTime(2019, 11, 11, 9, 0, 0),
+                 Uid = assignment.Get(Asn.Uid),
+                 Unit = TimeUnitType.Hour,
+                 Value = "PT1H0M0S",
+                 TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+             };
+assignment.TimephasedData.Add(td);
+
+var list = new List<TimephasedData>();
+var td2 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 12, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 12, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT1H0M0S",
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+var td3 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 13, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 13, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT1H0M0S",
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+
+list.Add(td2);
+list.Add(td3);
+assignment.TimephasedData.AddRange(list);
+
+// संग्रह को प्रकार और तिथि सीमा द्वारा फ़िल्टर किया जा सकता है।
+Console.WriteLine("Print filtered tds:");
+IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStartAndFinish(
+    TimephasedDataType.AssignmentRemainingWork,
+    new DateTime(2019, 11, 11, 0, 0, 0),
+    new DateTime(2019, 11, 13));
+foreach (var data in filteredTds)
+{
+    Console.WriteLine("Start: " + data.Start);
+    Console.WriteLine("Finish: " + data.Finish);
+    Console.WriteLine("Timephased Data Type: " + data.TimephasedDataType);
+    Console.WriteLine();
+}
+
+Console.WriteLine("--------------------------");
+Console.WriteLine();
+
+// ...
+// एक गलत td जोड़ें और फिर उसे हटाएँ
+var td4 = new TimephasedData
+              {
+                  Start = new DateTime(2019, 11, 13, 8, 0, 0),
+                  Finish = new DateTime(2019, 11, 13, 9, 0, 0),
+                  Uid = assignment.Get(Asn.Uid),
+                  Unit = TimeUnitType.Hour,
+                  Value = "PT0H0M1S", // wrong value
+                  TimephasedDataType = TimephasedDataType.AssignmentRemainingWork
+              };
+assignment.TimephasedData.Add(td4);
+
+// ...
+
+// गलत td आइटम को हटाएँ
+if (assignment.TimephasedData.Contains(td4))
+{
+    assignment.TimephasedData.Remove(td4);
+}
+
+// ...
+assignment.TimephasedData.AddRange(list);
+
+// timephased आइटम्स पर इटररेट करें
+Console.WriteLine("Print all timephased items:");
+Console.WriteLine("Timephased data count: " + assignment.TimephasedData.Count);
+foreach (var item in assignment.TimephasedData)
+{
+    Console.WriteLine("Start: " + item.Start);
+    Console.WriteLine("Finish: " + item.Finish);
+    Console.WriteLine("Timephased Data Type: " + item.TimephasedDataType);
+    Console.WriteLine();
+}
+
+// tds को दूसरे असाइनमेंट में कॉपी करें
+var timephasedDatas = new TimephasedData[assignment.TimephasedData.Count];
+assignment.TimephasedData.CopyTo(timephasedDatas, 0);
+
+assignment2.TimephasedData.Clear();
+foreach (var data in timephasedDatas)
+{
+    assignment2.TimephasedData.Add(data);
+}
+
+// कलेक्शन को साधारण सूची में बदला जा सकता है
+List<TimephasedData> tds = assignment.TimephasedData.ToList();
+
+// आइए tds को एक-एक करके हटाएँ
+foreach (var timephasedData in tds)
+{
+    assignment.TimephasedData.Remove(timephasedData);
+}
+```
+
+### संबंधित देखें
 
 * class [TimephasedData](../../timephaseddata/)
 * class [TimephasedDataCollection](../)
-* नाम स्थान [Aspose.Tasks](../../timephaseddatacollection/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../timephaseddatacollection/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

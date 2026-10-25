@@ -1,35 +1,82 @@
 ---
-title: Add
-second_title: Aspose.Tasks for .NET API Reference
-description: परयजन संसधन संग्रह क अंतम स्थत में नय संसधन जड़त है
+title: "ResourceCollection.Add"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "ResourceCollection मेथड। प्रोजेक्ट रिसोर्सेज़ कलेक्शन के अंतिम स्थान पर नया रिसोर्स जोड़ता है।"
 type: docs
 weight: 40
 url: /hi/net/aspose.tasks/resourcecollection/add/
 ---
 ## Add() {#add}
 
-परियोजना संसाधन संग्रह की अंतिम स्थिति में नया संसाधन जोड़ता है।
+प्रोजेक्ट संसाधन संग्रह के अंतिम स्थान पर नया संसाधन जोड़ता है।
 
 ```csharp
 public Resource Add()
 ```
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-जोड़ा गया संसाधन।
+संसाधन जोड़ा गया।
 
-### यह सभी देखें
+## उदाहरण
+
+संसाधन संग्रहों के साथ काम करने का तरीका दिखाता है।
+
+```csharp
+var project = new Project(DataDir + "SampleProject.mpp");
+
+// खाली संसाधन जोड़ें
+var resource = project.Resources.Add();
+resource.Set(Rsc.Type, ResourceType.Work);
+
+// नाम के साथ संसाधन जोड़ें
+var developer = project.Resources.Add("Developer");
+developer.Set(Rsc.Type, ResourceType.Work);
+
+// निर्दिष्ट ID वाले संसाधन से पहले संसाधन जोड़ें
+var manager = project.Resources.Add("Manager", developer.Get(Rsc.Id));
+manager.Set(Rsc.Type, ResourceType.Work);
+
+var devResource = project.Resources.GetById(4);
+devResource.Set(Rsc.Code, "12345");
+
+var manResource = project.Resources.GetByUid(4);
+manResource.Set(Rsc.Code, "54321");
+
+// id द्वारा संसाधन प्राप्त करें
+project.Resources.GetById(1);
+
+Console.WriteLine("Print the resources of " + project.Resources.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Count of resources: " + project.Resources.Count);
+foreach (var rsc in project.Resources)
+{
+    Console.WriteLine("Resource Name: " + rsc.Get(Rsc.Name));
+}
+
+Console.WriteLine();
+
+// संसाधन संग्रह Clear ऑपरेशन का समर्थन नहीं करता है
+// project.Resources.Clear();
+// इसके बजाय अगला कोड नमूना उपयोग करें
+List<Resource> list = project.Resources.ToList();
+foreach (var rsc in list)
+{
+    rsc.Delete();
+}
+```
+
+### संबंधित देखें
 
 * class [Resource](../../resource/)
 * class [ResourceCollection](../)
-* नाम स्थान [Aspose.Tasks](../../resourcecollection/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourcecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(string) {#add_1}
 
-परियोजना संसाधन संग्रह की अंतिम स्थिति में नया संसाधन जोड़ता है।
+प्रोजेक्ट संसाधन संग्रह के अंतिम स्थान पर नया संसाधन जोड़ता है।
 
 ```csharp
 public Resource Add(string resourceName)
@@ -37,24 +84,71 @@ public Resource Add(string resourceName)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| resourceName | String | एक संसाधन का नाम। |
+| resourceName | स्ट्रिंग | संसाधन का नाम। |
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-जोड़ा गया संसाधन।
+संसाधन जोड़ा गया।
 
-### यह सभी देखें
+## उदाहरण
+
+संसाधन संग्रहों के साथ काम करने का तरीका दिखाता है।
+
+```csharp
+var project = new Project(DataDir + "SampleProject.mpp");
+
+// खाली संसाधन जोड़ें
+var resource = project.Resources.Add();
+resource.Set(Rsc.Type, ResourceType.Work);
+
+// नाम के साथ संसाधन जोड़ें
+var developer = project.Resources.Add("Developer");
+developer.Set(Rsc.Type, ResourceType.Work);
+
+// निर्दिष्ट ID वाले संसाधन से पहले संसाधन जोड़ें
+var manager = project.Resources.Add("Manager", developer.Get(Rsc.Id));
+manager.Set(Rsc.Type, ResourceType.Work);
+
+var devResource = project.Resources.GetById(4);
+devResource.Set(Rsc.Code, "12345");
+
+var manResource = project.Resources.GetByUid(4);
+manResource.Set(Rsc.Code, "54321");
+
+// id द्वारा संसाधन प्राप्त करें
+project.Resources.GetById(1);
+
+Console.WriteLine("Print the resources of " + project.Resources.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Count of resources: " + project.Resources.Count);
+foreach (var rsc in project.Resources)
+{
+    Console.WriteLine("Resource Name: " + rsc.Get(Rsc.Name));
+}
+
+Console.WriteLine();
+
+// संसाधन संग्रह Clear ऑपरेशन का समर्थन नहीं करता है
+// project.Resources.Clear();
+// इसके बजाय अगला कोड नमूना उपयोग करें
+List<Resource> list = project.Resources.ToList();
+foreach (var rsc in list)
+{
+    rsc.Delete();
+}
+```
+
+### संबंधित देखें
 
 * class [Resource](../../resource/)
 * class [ResourceCollection](../)
-* नाम स्थान [Aspose.Tasks](../../resourcecollection/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourcecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## Add(string, int) {#add_2}
 
-प्रोजेक्ट संसाधन संग्रह की निर्दिष्ट स्थिति पर नया संसाधन जोड़ता है।
+प्रोजेक्ट संसाधन संग्रह के निर्दिष्ट स्थान पर नया संसाधन जोड़ता है।
 
 ```csharp
 public Resource Add(string resourceName, int beforeResourceId)
@@ -62,18 +156,65 @@ public Resource Add(string resourceName, int beforeResourceId)
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| resourceName | String | एक संसाधन का नाम। |
-| beforeResourceId | Int32 | प्रोजेक्ट संसाधन संग्रह में पिछले संसाधन की स्थिति। |
+| resourceName | स्ट्रिंग | संसाधन का नाम। |
+| beforeResourceId | Int32 | परियोजना संसाधन संग्रह में पिछले संसाधन की स्थिति। |
 
-### प्रतिलाभ की मात्रा
+### रिटर्न वैल्यू
 
-जोड़ा गया संसाधन।
+संसाधन जोड़ा गया।
 
-### यह सभी देखें
+## उदाहरण
+
+संसाधन संग्रहों के साथ काम करने का तरीका दिखाता है।
+
+```csharp
+var project = new Project(DataDir + "SampleProject.mpp");
+
+// खाली संसाधन जोड़ें
+var resource = project.Resources.Add();
+resource.Set(Rsc.Type, ResourceType.Work);
+
+// नाम के साथ संसाधन जोड़ें
+var developer = project.Resources.Add("Developer");
+developer.Set(Rsc.Type, ResourceType.Work);
+
+// निर्दिष्ट ID वाले संसाधन से पहले संसाधन जोड़ें
+var manager = project.Resources.Add("Manager", developer.Get(Rsc.Id));
+manager.Set(Rsc.Type, ResourceType.Work);
+
+var devResource = project.Resources.GetById(4);
+devResource.Set(Rsc.Code, "12345");
+
+var manResource = project.Resources.GetByUid(4);
+manResource.Set(Rsc.Code, "54321");
+
+// id द्वारा संसाधन प्राप्त करें
+project.Resources.GetById(1);
+
+Console.WriteLine("Print the resources of " + project.Resources.ParentProject.Get(Prj.Name) + " project.");
+Console.WriteLine("Count of resources: " + project.Resources.Count);
+foreach (var rsc in project.Resources)
+{
+    Console.WriteLine("Resource Name: " + rsc.Get(Rsc.Name));
+}
+
+Console.WriteLine();
+
+// संसाधन संग्रह Clear ऑपरेशन का समर्थन नहीं करता है
+// project.Resources.Clear();
+// इसके बजाय अगला कोड नमूना उपयोग करें
+List<Resource> list = project.Resources.ToList();
+foreach (var rsc in list)
+{
+    rsc.Delete();
+}
+```
+
+### संबंधित देखें
 
 * class [Resource](../../resource/)
 * class [ResourceCollection](../)
-* नाम स्थान [Aspose.Tasks](../../resourcecollection/)
-* सभा [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourcecollection/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

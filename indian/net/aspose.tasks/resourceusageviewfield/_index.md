@@ -1,14 +1,14 @@
 ---
-title: ResourceUsageViewField
-second_title: Aspose.Tasks for .NET API Reference
-description: में संभवत क्षेत्रं क प्रतनधत्व करत हैResourceUsageView./resourceusageview/ वस्तु संसधन उपयग दृश्य फ़ल्ड.
+title: "एनम ResourceUsageViewField"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "Aspose.Tasks.ResourceUsageViewField एनम। ResourceUsageView ऑब्जेक्ट में संभावित फ़ील्ड्स को दर्शाता है।"
 type: docs
-weight: 1570
+weight: 1820
 url: /hi/net/aspose.tasks/resourceusageviewfield/
 ---
 ## ResourceUsageViewField enumeration
 
-में संभावित क्षेत्रों का प्रतिनिधित्व करता है[`ResourceUsageView`](../resourceusageview/) वस्तु संसाधन उपयोग दृश्य फ़ील्ड.
+[`ResourceUsageView`](../resourceusageview/) ऑब्जेक्ट के resource usage view फ़ील्ड में संभावित फ़ील्ड का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum ResourceUsageViewField
@@ -16,81 +16,95 @@ public enum ResourceUsageViewField
 
 ### मान
 
-| नाम | कीमत | विवरण |
+| नाम | मान | विवरण |
 | --- | --- | --- |
-| Undefined | `-1` | अपरिभाषित संसाधन उपयोग दृश्य फ़ील्ड संसाधन उपयोग दृश्य फ़ील्ड इंगित करता है। |
-| Work | `0` | कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| OvertimeWork | `1` | ओवरटाइम कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| ActualWork | `2` | वास्तविक कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| ActualOvertimeWork | `3` | वास्तविक ओवरटाइम कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| CumulativeWork | `4` | संचयी कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| BaselineWork | `5` | आधारभूत कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Overallocation | `6` | इंगित करता हैOverallocation संसाधन उपयोग दृश्य फ़ील्ड. |
-| PercentAllocation | `7` | प्रतिशत आवंटन संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| PeakUnits | `8` | शिखर इकाइयों संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Cost | `9` | लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| ActualCost | `10` | वास्तविक लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| BaselineCost | `11` | आधारभूत लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| CumulativeCost | `12` | संचयी लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| BCWS | `13` | BCWS संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| BCWP | `14` | BCWP संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| ACWP | `15` | ACWP संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| SV | `16` | एसवी संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| CV | `17` | सीवी संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| RegularWork | `18` | नियमित कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| RemainingAvailability | `19` | शेष उपलब्धता संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| UnitAvailability | `20` | इकाई उपलब्धता संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| WorkAvailability | `21` | कार्य उपलब्धता संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline1Work | `22` | बेसलाइन1 कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline1Cost | `23` | बेसलाइन1 लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline2Work | `24` | बेसलाइन2 कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline2Cost | `25` | बेसलाइन2 लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline3Work | `26` | बेसलाइन3 कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline3Cost | `27` | बेसलाइन3 लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline4Work | `28` | बेसलाइन4 कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline4Cost | `29` | बेसलाइन4 लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline5Work | `30` | बेसलाइन5 कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline5Cost | `31` | बेसलाइन5 लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline6Work | `32` | बेसलाइन6 कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline6Cost | `33` | बेसलाइन6 लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline7Work | `34` | बेसलाइन7 कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline7Cost | `35` | बेसलाइन7 लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline8Work | `36` | बेसलाइन8 कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline8Cost | `37` | बेसलाइन 8 लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline9Work | `38` | बेसलाइन9 कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline9Cost | `39` | बेसलाइन9 लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline10Work | `40` | बेसलाइन 10 कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline10Cost | `41` | बेसलाइन 10 लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| BudgetWork | `42` | बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| BudgetCost | `43` | बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| BaselineBudgetWork | `44` | आधारभूत बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| BaselineBudgetCost | `45` | आधारभूत बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline1BudgetWork | `46` | बेसलाइन1 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड इंगित करता है। |
-| Baseline1BudgetCost | `47` | बेसलाइन1 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline2BudgetWork | `48` | बेसलाइन2 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड इंगित करता है। |
-| Baseline2BudgetCost | `49` | बेसलाइन2 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline3BudgetWork | `50` | बेसलाइन3 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline3BudgetCost | `51` | बेसलाइन3 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline4BudgetWork | `52` | बेसलाइन4 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline4BudgetCost | `53` | बेसलाइन4 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline5BudgetWork | `54` | बेसलाइन 5 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड इंगित करता है। |
-| Baseline5BudgetCost | `55` | बेसलाइन 5 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड इंगित करता है। |
-| Baseline6BudgetWork | `56` | बेसलाइन 6 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड इंगित करता है। |
-| Baseline6BudgetCost | `57` | बेसलाइन 6 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड इंगित करता है। |
-| Baseline7BudgetWork | `58` | बेसलाइन 7 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline7BudgetCost | `59` | बेसलाइन7 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| Baseline8BudgetWork | `60` | बेसलाइन 8 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड इंगित करता है। |
-| Baseline8BudgetCost | `61` | बेसलाइन 8 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड इंगित करता है। |
-| Baseline9BudgetWork | `62` | बेसलाइन9 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड इंगित करता है। |
-| Baseline9BudgetCost | `63` | बेसलाइन9 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड इंगित करता है। |
-| Baseline10BudgetWork | `64` | बेसलाइन 10 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड इंगित करता है। |
-| Baseline10BudgetCost | `65` | बेसलाइन 10 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड इंगित करता है। |
-| AllResourceRows | `66` | सभी संसाधन पंक्तियों संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
-| AllAssignmentRows | `67` | सभी असाइनमेंट पंक्तियों संसाधन उपयोग दृश्य फ़ील्ड को इंगित करता है। |
+| Undefined | `-1` | अपरिभाषित resource usage view फ़ील्ड को दर्शाता है। |
+| Work | `0` | Work resource usage view फ़ील्ड को दर्शाता है। |
+| OvertimeWork | `1` | Overtime Work resource usage view फ़ील्ड को दर्शाता है। |
+| ActualWork | `2` | Actual Work resource usage view फ़ील्ड को दर्शाता है। |
+| ActualOvertimeWork | `3` | Actual Overtime Work resource usage view फ़ील्ड को दर्शाता है। |
+| CumulativeWork | `4` | Cumulative Work resource usage view फ़ील्ड को दर्शाता है। |
+| BaselineWork | `5` | Baseline Work resource usage view फ़ील्ड को दर्शाता है। |
+| Overallocation | `6` | Overallocation resource usage view फ़ील्ड को दर्शाता है। |
+| PercentAllocation | `7` | Percent Allocation resource usage view फ़ील्ड को दर्शाता है। |
+| PeakUnits | `8` | Peak Units resource usage view फ़ील्ड को दर्शाता है। |
+| Cost | `9` | Cost resource usage view फ़ील्ड को दर्शाता है। |
+| ActualCost | `10` | Actual Cost resource usage view फ़ील्ड को दर्शाता है। |
+| BaselineCost | `11` | Baseline Cost resource usage view फ़ील्ड को दर्शाता है। |
+| CumulativeCost | `12` | Cumulative Cost resource usage view फ़ील्ड को दर्शाता है। |
+| BCWS | `13` | BCWS resource usage view फ़ील्ड को दर्शाता है। |
+| BCWP | `14` | BCWP resource usage view फ़ील्ड को दर्शाता है। |
+| ACWP | `15` | ACWP resource usage view फ़ील्ड को दर्शाता है। |
+| SV | `16` | SV resource usage view फ़ील्ड को दर्शाता है। |
+| CV | `17` | CV resource usage view फ़ील्ड को दर्शाता है। |
+| RegularWork | `18` | Regular Work resource usage view फ़ील्ड को दर्शाता है। |
+| RemainingAvailability | `19` | Remaining Availability resource usage view फ़ील्ड को दर्शाता है। |
+| UnitAvailability | `20` | Unit Availability resource usage view फ़ील्ड को दर्शाता है। |
+| WorkAvailability | `21` | Work Availability resource usage view फ़ील्ड को दर्शाता है। |
+| Baseline1Work | `22` | Baseline1 Work resource usage view फ़ील्ड को दर्शाता है। |
+| Baseline1Cost | `23` | Baseline1 लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline2Work | `24` | Baseline2 कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline2Cost | `25` | Baseline2 लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline3Work | `26` | Baseline3 कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline3Cost | `27` | Baseline3 लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline4Work | `28` | Baseline4 कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline4Cost | `29` | Baseline4 लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline5Work | `30` | Baseline5 कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline5Cost | `31` | Baseline5 लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline6Work | `32` | Baseline6 कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline6Cost | `33` | Baseline6 लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline7Work | `34` | Baseline7 कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline7Cost | `35` | Baseline7 लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline8Work | `36` | Baseline8 कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline8Cost | `37` | Baseline8 लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline9Work | `38` | Baseline9 कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline9Cost | `39` | Baseline9 लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline10Work | `40` | Baseline10 कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline10Cost | `41` | Baseline10 लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| BudgetWork | `42` | बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| BudgetCost | `43` | बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| BaselineBudgetWork | `44` | Baseline बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| BaselineBudgetCost | `45` | Baseline बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline1BudgetWork | `46` | Baseline1 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline1BudgetCost | `47` | Baseline1 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline2BudgetWork | `48` | Baseline2 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline2BudgetCost | `49` | Baseline2 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline3BudgetWork | `50` | Baseline3 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline3BudgetCost | `51` | Baseline3 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline4BudgetWork | `52` | Baseline4 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline4BudgetCost | `53` | Baseline4 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline5BudgetWork | `54` | Baseline5 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline5BudgetCost | `55` | Baseline5 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline6BudgetWork | `56` | Baseline6 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline6BudgetCost | `57` | Baseline6 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline7BudgetWork | `58` | Baseline7 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline7BudgetCost | `59` | Baseline7 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline8BudgetWork | `60` | Baseline8 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline8BudgetCost | `61` | Baseline8 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline9BudgetWork | `62` | Baseline9 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline9BudgetCost | `63` | Baseline9 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline10BudgetWork | `64` | Baseline10 बजट कार्य संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| Baseline10BudgetCost | `65` | Baseline10 बजट लागत संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| AllResourceRows | `66` | सभी संसाधन पंक्तियों के संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
+| AllAssignmentRows | `67` | सभी असाइनमेंट पंक्तियों के संसाधन उपयोग दृश्य फ़ील्ड को दर्शाता है। |
 
-### यह सभी देखें
+## उदाहरण
 
-* नाम स्थान [Aspose.Tasks](../../aspose.tasks/)
-* सभा [Aspose.Tasks](../../)
+संसाधन उपयोग दृश्य फ़ील्ड को कैसे पढ़ें, यह दिखाता है।
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+```csharp
+var project = new Project(DataDir + "ResourceUsageView.mpp");
+
+var view = (ResourceUsageView)project.Views.ToList()[2];
+foreach (var field in view.FieldCollection)
+{
+    Console.WriteLine("Field: " + field);
+}
+```
+
+### संबंधित देखें
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
+
+

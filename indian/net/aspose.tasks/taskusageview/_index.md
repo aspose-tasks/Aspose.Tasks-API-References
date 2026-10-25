@@ -1,14 +1,14 @@
 ---
-title: TaskUsageView
-second_title: Aspose.Tasks for .NET API Reference
-description: एक परयजन में कर्य उपयग दृश्य क प्रतनधत्व करत है
+title: "क्लास TaskUsageView"
+second_title: "Aspose.Tasks .NET के लिए API संदर्भ"
+description: "Aspose.Tasks.TaskUsageView क्लास. प्रोजेक्ट में टास्क उपयोग दृश्य का प्रतिनिधित्व करता है।"
 type: docs
-weight: 2170
+weight: 2480
 url: /hi/net/aspose.tasks/taskusageview/
 ---
 ## TaskUsageView class
 
-एक परियोजना में कार्य उपयोग दृश्य का प्रतिनिधित्व करता है।
+प्रोजेक्ट में कार्य उपयोग दृश्य का प्रतिनिधित्व करता है।
 
 ```csharp
 public class TaskUsageView : UsageView
@@ -18,40 +18,99 @@ public class TaskUsageView : UsageView
 
 | नाम | विवरण |
 | --- | --- |
-| [AlignDetailsData](../../aspose.tasks/usageview/aligndetailsdata/) { get; set; } | विवरण डेटा संरेखण प्राप्त या सेट करता है। |
-| [BottomTimescaleTier](../../aspose.tasks/usageview/bottomtimescaletier/) { get; set; } | व्यू के निचले टाइमस्केल टियर की सेटिंग प्राप्त या सेट करता है. [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/) |
-| [DisplayDetailsHeaderColumn](../../aspose.tasks/usageview/displaydetailsheadercolumn/) { get; set; } | एक मान प्राप्त या सेट करता है जो दर्शाता है कि दृश्य में विवरण हेडर कॉलम प्रदर्शित करना है या नहीं। |
-| [DisplayShortDetailHeaderNames](../../aspose.tasks/usageview/displayshortdetailheadernames/) { get; set; } | एक मान प्राप्त या सेट करता है जो इंगित करता है कि संक्षिप्त विवरण हेडर नाम प्रदर्शित करना है या नहीं। |
-| [FieldCollection](../../aspose.tasks/taskusageview/fieldcollection/) { get; } | हो जाता है[`TaskUsageViewFieldCollection`](../taskusageviewfieldcollection/) इस टास्कयूसेज व्यू. का ऑब्जेक्ट |
-| [Filter](../../aspose.tasks/view/filter/) { get; set; } | एक दृश्य में उपयोग किए जाने वाले फ़िल्टर को प्राप्त या सेट करता है। |
-| [Group](../../aspose.tasks/view/group/) { get; set; } | एकल दृश्य का समूह प्राप्त या सेट करता है। |
-| [HighlightFilter](../../aspose.tasks/view/highlightfilter/) { get; set; } | एक मान प्राप्त या सेट करता है जो इंगित करता है कि क्या Microsoft प्रोजेक्ट एक दृश्य के लिए फ़िल्टर को हाइलाइट करता है। |
-| [MiddleTimescaleTier](../../aspose.tasks/usageview/middletimescaletier/) { get; set; } | व्यू के मिडिल टाइमस्केल टियर की सेटिंग प्राप्त या सेट करता है। [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/) . |
-| [Name](../../aspose.tasks/view/name/) { get; set; } | व्यू ऑब्जेक्ट का नाम प्राप्त या सेट करता है। |
-| [PageInfo](../../aspose.tasks/view/pageinfo/) { get; } | का एक उदाहरण प्राप्त करता है[`PageInfo`](../view/pageinfo/)कक्षा। पृष्ठ सेटअप डेटा का प्रतिनिधित्व करता है जो mpp फ़ाइल स्वरूप में मौजूद है. |
-| [ParentProject](../../aspose.tasks/view/parentproject/) { get; } | दृश्य वस्तु का जनक प्राप्त करता है। केवल पढ़ने के लिए[`Project`](../project/) . |
-| [RepeatDetailsHeaderOnAllRows](../../aspose.tasks/usageview/repeatdetailsheaderonallrows/) { get; set; } | एक मान प्राप्त या सेट करता है जो दर्शाता है कि सभी असाइनमेंट पंक्ति पर विवरण हेडर को दोहराना है या नहीं। |
-| [Screen](../../aspose.tasks/view/screen/) { get; } | एकल दृश्य के लिए स्क्रीन प्रकार प्राप्त करता है। केवल पढ़ने के लिए[`ViewScreen`](../viewscreen/) . |
-| [ShowInMenu](../../aspose.tasks/view/showinmenu/) { get; set; } | एक मान प्राप्त या सेट करता है जो इंगित करता है कि क्या Microsoft प्रोजेक्ट दृश्य में एकल दृश्य नाम दिखाता है या रिबन में अन्य दृश्य ड्रॉप-डाउन सूची दिखाता है। |
-| [Table](../../aspose.tasks/view/table/) { get; set; } | एकल दृश्य की तालिका प्राप्त या सेट करता है। |
+| [AlignDetailsData](../../aspose.tasks/usageview/aligndetailsdata/) { get; set; } | विवरण डेटा संरेखण को प्राप्त करता है या सेट करता है। |
+| [BottomTimescaleTier](../../aspose.tasks/usageview/bottomtimescaletier/) { get; set; } | व्यू के नीचे टाइमस्केल टियर की सेटिंग्स को प्राप्त करता है या सेट करता है। [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/) |
+| [DisplayDetailsHeaderColumn](../../aspose.tasks/usageview/displaydetailsheadercolumn/) { get; set; } | व्यू में विवरण हेडर कॉलम दिखाना है या नहीं, यह दर्शाने वाला मान प्राप्त करता है या सेट करता है। |
+| [DisplayShortDetailHeaderNames](../../aspose.tasks/usageview/displayshortdetailheadernames/) { get; set; } | छोटे विवरण हेडर नामों को प्रदर्शित करने के लिए मान प्राप्त करता है या सेट करता है। |
+| [FieldCollection](../../aspose.tasks/taskusageview/fieldcollection/) { get; } | इस TaskUsageView का [`TaskUsageViewFieldCollection`](../taskusageviewfieldcollection/) ऑब्जेक्ट प्राप्त करता है। |
+| [Filter](../../aspose.tasks/view/filter/) { get; set; } | एकल दृश्य में उपयोग किए जाने वाले फ़िल्टर को प्राप्त करता है या सेट करता है। |
+| [Group](../../aspose.tasks/view/group/) { get; set; } | एकल दृश्य का समूह प्राप्त करता है या सेट करता है। |
+| [HighlightFilter](../../aspose.tasks/view/highlightfilter/) { get; set; } | Microsoft Project द्वारा एकल दृश्य के लिए फ़िल्टर को हाइलाइट करने के लिए मान प्राप्त करता है या सेट करता है। |
+| [MiddleTimescaleTier](../../aspose.tasks/usageview/middletimescaletier/) { get; set; } | दृश्य की मध्य टाइमस्केल टियर की सेटिंग्स प्राप्त करता है या सेट करता है। [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/). |
+| [Name](../../aspose.tasks/view/name/) { get; set; } | View ऑब्जेक्ट का नाम प्राप्त करता है या सेट करता है। |
+| [PageInfo](../../aspose.tasks/view/pageinfo/) { get; } | `[`PageInfo`](../view/pageinfo/)` क्लास का एक उदाहरण प्राप्त करता है। यह mpp फ़ाइल फ़ॉर्मेट में मौजूद पेज सेटअप डेटा का प्रतिनिधित्व करता है। |
+| [ParentProject](../../aspose.tasks/view/parentproject/) { get; } | View ऑब्जेक्ट का पैरेंट प्राप्त करता है। केवल‑पढ़ने योग्य [`Project`](../project/). |
+| [RepeatDetailsHeaderOnAllRows](../../aspose.tasks/usageview/repeatdetailsheaderonallrows/) { get; set; } | सभी असाइनमेंट पंक्तियों पर विवरण हेडर दोहराने के लिए मान प्राप्त करता है या सेट करता है, या नहीं। |
+| [Screen](../../aspose.tasks/view/screen/) { get; } | एकल दृश्य के लिए स्क्रीन प्रकार प्राप्त करता है। केवल‑पढ़ने योग्य [`ViewScreen`](../viewscreen/). |
+| [ShowInMenu](../../aspose.tasks/view/showinmenu/) { get; set; } | Microsoft Project द्वारा रिबन में View या Other Views ड्रॉप‑डाउन सूची में एकल दृश्य नाम दिखाने के लिए मान प्राप्त करता है या सेट करता है। |
+| [Table](../../aspose.tasks/view/table/) { get; set; } | एकल दृश्य की तालिका प्राप्त करता है या सेट करता है। |
 | [TimescaleSizePercentage](../../aspose.tasks/usageview/timescalesizepercentage/) { get; set; } |  |
-| [TopTimescaleTier](../../aspose.tasks/usageview/toptimescaletier/) { get; set; } | दृश्य के शीर्ष टाइमस्केल टियर की सेटिंग प्राप्त या सेट करता है. [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/) . |
-| [Type](../../aspose.tasks/view/type/) { get; } | एकल दृश्य में आइटम का प्रकार प्राप्त करता है, जैसे कार्य या संसाधन। केवल पढ़ने के लिए[`ItemType`](../itemtype/) . |
-| [Uid](../../aspose.tasks/view/uid/) { get; } | एक दृश्य का विशिष्ट पहचानकर्ता प्राप्त करता है। |
-| [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements/) { get; } | प्लेसमेंट और उपस्थिति का प्रतिनिधित्व करने वाली वस्तुओं का संग्रह प्राप्त करता है[`OleObject`](../oleobject/) दृश्य में. |
+| [TopTimescaleTier](../../aspose.tasks/usageview/toptimescaletier/) { get; set; } | दृश्य की शीर्ष टाइमस्केल टियर की सेटिंग्स प्राप्त करता है या सेट करता है। [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/). |
+| [Type](../../aspose.tasks/view/type/) { get; } | एकल दृश्य में आइटम के प्रकार को प्राप्त करता है, जैसे कार्य या संसाधन। केवल‑पढ़ने योग्य [`ItemType`](../itemtype/). |
+| [Uid](../../aspose.tasks/view/uid/) { get; } | एक दृश्य का अद्वितीय पहचानकर्ता प्राप्त करता है। |
+| [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements/) { get; } | दृश्य में [`OleObject`](../oleobject/) की प्लेसमेंट और उपस्थिति को दर्शाने वाले ऑब्जेक्ट्स का संग्रह प्राप्त करता है। |
 
-## तरीकों
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [CompareTo](../../aspose.tasks/view/compareto/)(View) | वर्तमान उदाहरण की तुलना उसी प्रकार के किसी अन्य ऑब्जेक्ट से करता है और एक पूर्णांक लौटाता है जो इंगित करता है कि क्या वर्तमान उदाहरण अन्य ऑब्जेक्ट के रूप में क्रमबद्ध क्रम में उसी स्थिति में पूर्ववर्ती, अनुवर्ती, या होता है। |
-| override [Equals](../../aspose.tasks/view/equals/)(object) | एक मान लौटाता है जो दर्शाता है कि यह उदाहरण निर्दिष्ट ऑब्जेक्ट के बराबर है या नहीं। |
-| override [GetHashCode](../../aspose.tasks/view/gethashcode/)() | के उदाहरण के लिए एक हैश कोड मान लौटाता है[`Resource`](../resource/) वर्ग. |
+| [CompareTo](../../aspose.tasks/view/compareto/)(View) | वर्तमान इंस्टेंस की समान प्रकार के दूसरे ऑब्जेक्ट के साथ तुलना करता है और एक पूर्णांक लौटाता है जो दर्शाता है कि वर्तमान इंस्टेंस क्रम में पहले, बाद में, या उसी स्थिति में है या नहीं। |
+| override [Equals](../../aspose.tasks/view/equals/)(object) | यह संकेत देने वाला मान लौटाता है कि यह उदाहरण निर्दिष्ट ऑब्जेक्ट के बराबर है या नहीं। |
+| override [GetHashCode](../../aspose.tasks/view/gethashcode/)() | `[`Resource`](../resource/)` क्लास के इंस्टेंस के लिए हैश कोड मान लौटाता है। |
 
-### यह सभी देखें
+## उदाहरण
+
+व्यू सेटिंग्स में परिभाषित टाइमस्केल सेटिंग्स के साथ टास्क उपयोग दृश्य को रेंडर करने का तरीका दिखाता है।
+
+```csharp
+var project = new Project(DataDir + "TaskUsageView.mpp");
+
+var view = project.Views.ToList()[2] as TaskUsageView;
+
+view.TopTimescaleTier.Unit = TimescaleUnit.None;
+
+view.MiddleTimescaleTier.Unit = TimescaleUnit.Weeks;
+view.MiddleTimescaleTier.Label = DateLabel.WeekDddMDd;
+view.MiddleTimescaleTier.Count = 1;
+
+view.BottomTimescaleTier.Unit = TimescaleUnit.Days;
+view.BottomTimescaleTier.Label = DateLabel.DayMmDd;
+view.BottomTimescaleTier.Count = 1;
+
+// SaveOptions को परिभाषित करें और निर्दिष्ट करें कि TaskUsageView टाइमस्केल सेटिंग्स का उपयोग किया जाना चाहिए।
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.DefinedInView,
+    PresentationFormat = PresentationFormat.TaskUsage
+};
+
+project.Save(OutDir + "TaskUsageView_CustomTimescale_out.pdf", options);
+```
+
+प्रीडिफाइंड टाइमस्केल सेटिंग्स के साथ टास्क उपयोग दृश्य को रेंडर करने का तरीका दिखाता है।
+
+```csharp
+var project = new Project(DataDir + "TaskUsageView.mpp");
+
+// SaveOptions को परिभाषित करें और प्रीडिफाइंड TimeScale सेटिंग्स 'Days' निर्दिष्ट करें।
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Days,
+
+    // प्रेजेंटेशन फ़ॉर्मेट को TaskUsage पर सेट करें
+    PresentationFormat = PresentationFormat.TaskUsage
+};
+
+var outputProject = "TaskUsageView_result_days_out.pdf";
+project.Save(OutDir + outputProject, options);
+
+// टाइमस्केल सेटिंग्स को ThirdsOfMonths पर सेट करें
+options.Timescale = Timescale.ThirdsOfMonths;
+
+outputProject = "TaskUsageView_result_thirdsOfMonths_out.pdf";
+project.Save(OutDir + outputProject, options);
+
+// टाइमस्केल सेटिंग्स को Months पर सेट करें
+options.Timescale = Timescale.Months;
+
+outputProject = "TaskUsageView_result_months_out.pdf";
+project.Save(OutDir + outputProject, options);
+```
+
+### संबंधित देखें
 
 * class [UsageView](../usageview/)
-* नाम स्थान [Aspose.Tasks](../../aspose.tasks/)
-* सभा [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
