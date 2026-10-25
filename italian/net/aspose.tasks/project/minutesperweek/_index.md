@@ -1,9 +1,9 @@
 ---
-title: Project.MinutesPerWeek
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene o imposta un valore di MinutesPerWeek.
+title: "Project.MinutesPerWeek"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Project. Ottiene o imposta un valore di MinutesPerWeek"
 type: docs
-weight: 570
+weight: 590
 url: /it/net/aspose.tasks/project/minutesperweek/
 ---
 ## Project.MinutesPerWeek property
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di MinutesPerWeek.
 public int MinutesPerWeek { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

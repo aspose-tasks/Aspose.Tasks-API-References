@@ -1,9 +1,9 @@
 ---
-title: Project.Name
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene o imposta un valore di Name.
+title: "Project.Name"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà del progetto. Ottiene o imposta un valore di Name"
 type: docs
-weight: 630
+weight: 650
 url: /it/net/aspose.tasks/project/name/
 ---
 ## Project.Name property
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di Name.
 public string Name { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

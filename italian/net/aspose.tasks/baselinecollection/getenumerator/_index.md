@@ -1,14 +1,14 @@
 ---
-title: BaselineCollection.GetEnumerator
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: BaselineCollection metodo. Restituisce un enumeratore per questa raccolta.
+title: "BaselineCollection.GetEnumerator"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "BaselineCollection metodo. Restituisce un enumeratore per questa collezione"
 type: docs
 weight: 50
 url: /it/net/aspose.tasks/baselinecollection/getenumerator/
 ---
 ## BaselineCollection.GetEnumerator method
 
-Restituisce un enumeratore per questa raccolta.
+Restituisce un enumeratore per questa collezione.
 
 ```csharp
 public IEnumerator<Baseline> GetEnumerator()
@@ -16,13 +16,44 @@ public IEnumerator<Baseline> GetEnumerator()
 
 ### Valore di ritorno
 
-un enumeratore per questa raccolta.
+un enumeratore per questa collezione.
 
-### Guarda anche
+## Esempi
+
+Mostra come lavorare con le collezioni di baseline.
+
+```csharp
+var project = new Project(DataDir + "WorkWithBaselineCollection.mpp");
+var resource = project.Resources.GetByUid(1);
+
+Console.WriteLine("Count of assignment baselines: " + resource.Baselines.Count);
+Console.WriteLine("Parent Resource Name: " + resource.Baselines.ParentResource.Get(Rsc.Name));
+
+// leggi le informazioni di baseline
+foreach (var baseline in resource.Baselines)
+{
+    Console.WriteLine("Baseline Number: " + baseline.BaselineNumber);
+    Console.WriteLine("Cost: " + baseline.Cost);
+    Console.WriteLine("Work: " + baseline.Work);
+    Console.WriteLine("BCWP: " + baseline.Bcwp);
+    Console.WriteLine("BCWS: " + baseline.Bcws);
+    Console.WriteLine();
+}
+
+Console.WriteLine("Delete all baselines: ");
+List<Baseline> baselines = resource.Baselines.ToList();
+foreach (var baseline in baselines)
+{
+    Console.WriteLine("Delete baseline with name: " + baseline.BaselineNumber);
+    resource.Baselines.Remove(baseline);
+}
+```
+
+### Vedi anche
 
 * class [Baseline](../../baseline/)
 * class [BaselineCollection](../)
-* spazio dei nomi [Aspose.Tasks](../../baselinecollection/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../baselinecollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

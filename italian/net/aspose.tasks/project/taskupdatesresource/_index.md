@@ -1,9 +1,9 @@
 ---
-title: Project.TaskUpdatesResource
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene o imposta un valore che indica se TaskUpdatesResource è impostato o meno.
+title: "Project.TaskUpdatesResource"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Project. Ottiene o imposta un valore che indica se TaskUpdatesResource è impostato o meno"
 type: docs
-weight: 910
+weight: 940
 url: /it/net/aspose.tasks/project/taskupdatesresource/
 ---
 ## Project.TaskUpdatesResource property
@@ -14,11 +14,11 @@ Ottiene o imposta un valore che indica se TaskUpdatesResource è impostato o men
 public NullableBool TaskUpdatesResource { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

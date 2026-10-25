@@ -1,7 +1,7 @@
 ---
-title: Resource.Code
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Resource proprietà. Ottiene o imposta un valore di Code.
+title: "Resource.Code"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Resource property. Ottiene o imposta un valore di Code"
 type: docs
 weight: 240
 url: /it/net/aspose.tasks/resource/code/
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di Code.
 public string Code { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Resource](../)
-* spazio dei nomi [Aspose.Tasks](../../resource/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

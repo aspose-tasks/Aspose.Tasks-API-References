@@ -1,9 +1,9 @@
 ---
-title: PrimaveraTaskProperties.PhysicalPercentComplete
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: PrimaveraTaskProperties proprietà. Ottiene il valore di Physical Percent Complete.
+title: "PrimaveraTaskProperties.PhysicalPercentComplete"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "PrimaveraTaskProperties proprietà. Ottiene il valore della percentuale fisica completata"
 type: docs
-weight: 50
+weight: 180
 url: /it/net/aspose.tasks/primaverataskproperties/physicalpercentcomplete/
 ---
 ## PrimaveraTaskProperties.PhysicalPercentComplete property
@@ -14,14 +14,14 @@ Ottiene il valore di Physical Percent Complete.
 public double PhysicalPercentComplete { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
-Applicabile solo alle attività (compiti non di riepilogo).
+Applicabile solo alle attività (attività non riepilogo).
 
-### Guarda anche
+### Vedi anche
 
 * class [PrimaveraTaskProperties](../)
-* spazio dei nomi [Aspose.Tasks](../../primaverataskproperties/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

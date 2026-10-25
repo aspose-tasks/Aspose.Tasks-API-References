@@ -1,9 +1,9 @@
 ---
-title: Tsk.FreeSlackTimeSpan
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Tsk campo. Il tempo in cui unattività può essere ritardata senza ritardare le attività successive.
+title: "Tsk.FreeSlackTimeSpan"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Tsk. Il tempo in cui un'attività può essere ritardata senza ritardare alcuna attività successiva."
 type: docs
-weight: 460
+weight: 450
 url: /it/net/aspose.tasks/tsk/freeslacktimespan/
 ---
 ## Tsk.FreeSlackTimeSpan field
@@ -14,12 +14,24 @@ Il tempo in cui un'attività può essere ritardata senza ritardare le attività 
 public static readonly Key<TimeSpan, TaskKey> FreeSlackTimeSpan;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere la proprietà Tsk.FreeSlackTimeSpan. La proprietà è calcolata, quindi di solito non è necessario impostarla esplicitamente.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+Console.WriteLine("Free Slack: " + task.Get(Tsk.FreeSlackTimeSpan));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* spazio dei nomi [Aspose.Tasks](../../tsk/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

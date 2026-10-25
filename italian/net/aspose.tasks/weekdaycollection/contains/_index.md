@@ -1,14 +1,14 @@
 ---
-title: WeekDayCollection.Contains
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: WeekDayCollection metodo. Verifica se la raccolta contieneWeekDay .specificato.
+title: "WeekDayCollection.Contains"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "WeekDayCollection metodo. Verifica se la collezione contiene il WeekDay specificato"
 type: docs
 weight: 50
 url: /it/net/aspose.tasks/weekdaycollection/contains/
 ---
 ## WeekDayCollection.Contains method
 
-Verifica se la raccolta contiene[`WeekDay`](../../weekday/) .specificato.
+Verifica se la collezione contiene il [`WeekDay`](../../weekday/) specificato.
 
 ```csharp
 public bool Contains(WeekDay item)
@@ -16,17 +16,95 @@ public bool Contains(WeekDay item)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| item | WeekDay | L'elemento da controllare rispetto a. |
+| elemento | WeekDay | L'elemento da confrontare. |
 
 ### Valore di ritorno
 
-true, se la raccolta contiene l'elemento specificato, false in caso contrario.
+true, se la collezione contiene l'elemento specificato, false altrimenti.
 
-### Guarda anche
+## Esempi
+
+Mostra come lavorare con le raccolte di giorni della settimana.
+
+```csharp
+var project = new Project();
+var calendar = project.Calendars.GetByName("Standard");
+
+// cancella i giorni della settimana
+calendar.WeekDays.Clear();
+
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Wednesday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Thursday));
+calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Friday));
+var saturday = WeekDay.CreateDefaultWorkingDay(DayType.Saturday);
+var sunday = WeekDay.CreateDefaultWorkingDay(DayType.Sunday);
+
+calendar.WeekDays.Add(saturday);
+calendar.WeekDays.Add(sunday);
+
+var fridayWorkingTimes = new List<WorkingTime> { new WorkingTime(new DateTime(2020, 4, 13, 8, 0, 0), new DateTime(2020, 4, 13, 12, 0, 0)) };
+
+var friday = new WeekDay(DayType.Friday, fridayWorkingTimes);
+if (calendar.WeekDays.Contains(friday))
+{
+    calendar.WeekDays.Insert(4, friday);
+}
+
+Console.WriteLine("Calendar: " + calendar.Name);
+Console.WriteLine("Week days count: " + calendar.WeekDays.Count);
+foreach (var day in calendar.WeekDays)
+{
+    Console.WriteLine(day.DayType);
+    foreach (var workingTime in day.WorkingTimes)
+    {
+        Console.WriteLine("From: " + workingTime.From);
+        Console.WriteLine("To: " + workingTime.To);
+        Console.WriteLine();
+    }
+}
+
+// rimuovi il giorno della settimana sabato
+calendar.WeekDays.RemoveAt(5);
+
+// rimuovi il giorno della settimana domenica
+if (calendar.WeekDays.IndexOf(saturday) > 0)
+{
+    calendar.WeekDays.Remove(sunday);
+}
+
+Console.WriteLine("Working times after weekend was removed: ");
+List<WeekDay> weekDays = calendar.WeekDays.ToList();
+foreach (var day in weekDays)
+{
+    Console.WriteLine(day.DayType);
+    foreach (var workingTime in day.WorkingTimes)
+    {
+        Console.WriteLine("From: " + workingTime.From);
+        Console.WriteLine("To: " + workingTime.To);
+        Console.WriteLine();
+    }
+}
+
+var hour24Calendar = project.Calendars.Add("24 Hours");
+Calendar.Make24HourCalendar(hour24Calendar);
+
+// copia i giorni della settimana
+var weekDaysArray = new WeekDay[calendar.WeekDays.Count];
+calendar.WeekDays.CopyTo(weekDaysArray, 0);
+
+foreach (var weekDay in weekDaysArray)
+{
+    hour24Calendar.WeekDays.Add(weekDay);
+}
+```
+
+### Vedi anche
 
 * class [WeekDay](../../weekday/)
 * class [WeekDayCollection](../)
-* spazio dei nomi [Aspose.Tasks](../../weekdaycollection/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../weekdaycollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

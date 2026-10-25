@@ -1,9 +1,9 @@
 ---
-title: Prj.Category
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Prj campo. La categoria di un progetto.
+title: "Prj.Category"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Prj field. La categoria di un progetto"
 type: docs
-weight: 90
+weight: 100
 url: /it/net/aspose.tasks/prj/category/
 ---
 ## Prj.Category field
@@ -14,12 +14,24 @@ La categoria di un progetto.
 public static readonly Key<string, PrjKey> Category;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere/scrivere la proprietà Prj.Category.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Category, "Special");
+
+Console.WriteLine("Category: " + project.Get(Prj.Category));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* spazio dei nomi [Aspose.Tasks](../../prj/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

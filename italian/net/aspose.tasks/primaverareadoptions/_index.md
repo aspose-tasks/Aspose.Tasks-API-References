@@ -1,9 +1,9 @@
 ---
-title: Class PrimaveraReadOptions
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.PrimaveraReadOptions classe. Consente di specificare opzioni aggiuntive durante la lettura di file Primavera Xml o Primavera Xer.
+title: "Classe PrimaveraReadOptions"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Classe Aspose.Tasks.PrimaveraReadOptions. Consente di specificare opzioni aggiuntive durante la lettura di file Primavera Xml o Primavera Xer."
 type: docs
-weight: 1130
+weight: 1370
 url: /it/net/aspose.tasks/primaverareadoptions/
 ---
 ## PrimaveraReadOptions class
@@ -18,7 +18,7 @@ public class PrimaveraReadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [PrimaveraReadOptions](primaverareadoptions/)() | Inizializza una nuova istanza di`PrimaveraReadOptions` classe. |
+| [PrimaveraReadOptions](primaverareadoptions/)() | Inizializza una nuova istanza della classe `PrimaveraReadOptions`. |
 
 ## Proprietà
 
@@ -26,11 +26,25 @@ public class PrimaveraReadOptions
 | --- | --- |
 | [PreserveUids](../../aspose.tasks/primaverareadoptions/preserveuids/) { get; set; } | Ottiene o imposta un flag che specifica se gli identificatori univoci originali delle entità devono essere conservati. |
 | [ProjectUid](../../aspose.tasks/primaverareadoptions/projectuid/) { get; set; } | Ottiene o imposta l'UID di un progetto da leggere da un file contenente più progetti. |
-| [UndefinedConstraintHandlingBehavior](../../aspose.tasks/primaverareadoptions/undefinedconstrainthandlingbehavior/) { get; set; } | Specifica il comportamento utilizzato per elaborare attività con vincoli non definiti letti dal formato XER. |
+| [ReadBaselineProjects](../../aspose.tasks/primaverareadoptions/readbaselineprojects/) { get; set; } | Ottiene o imposta un flag che specifica se i progetti di baseline devono essere caricati. Il valore predefinito è true. |
+| [UndefinedConstraintHandlingBehavior](../../aspose.tasks/primaverareadoptions/undefinedconstrainthandlingbehavior/) { get; set; } | Specifica il comportamento utilizzato per elaborare le attività con vincoli non definiti letti dal formato XER. |
 
-### Guarda anche
+## Esempi
 
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
-* assemblea [Aspose.Tasks](../../)
+Mostra come leggere un progetto da un file Primavera XML o Primavera XER contenente più progetti.
+
+```csharp
+var options = new PrimaveraReadOptions();
+options.ProjectUid = 3881;
+
+// Restituisce il progetto con UID speciale
+var project = new Project(DataDir + "PrimaveraProject.xml", options);
+Console.WriteLine(project.Get(Prj.Name));
+```
+
+### Vedi anche
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

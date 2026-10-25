@@ -1,9 +1,9 @@
 ---
-title: Prj.TaskUpdatesResource
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Prj campo. Determina se gli aggiornamenti alle attività aggiornano le risorse.
+title: "Prj.TaskUpdatesResource"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Prj field. Determina se gli aggiornamenti alle attività aggiornano le risorse"
 type: docs
-weight: 700
+weight: 710
 url: /it/net/aspose.tasks/prj/taskupdatesresource/
 ---
 ## Prj.TaskUpdatesResource field
@@ -14,13 +14,25 @@ Determina se gli aggiornamenti alle attività aggiornano le risorse.
 public static readonly Key<NullableBool, PrjKey> TaskUpdatesResource;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere/scrivere la proprietà Prj.TaskUpdatesResource.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.TaskUpdatesResource, true);
+
+Console.WriteLine("Task Updates Resource: " + project.Get(Prj.TaskUpdatesResource));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* spazio dei nomi [Aspose.Tasks](../../prj/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Project.Get
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project metodo. Restituisce il valore a cui è mappata la proprietà in questo contenitore.
+title: "Project.Get"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo del progetto. Restituisce il valore a cui la proprietà è mappata in questo contenitore"
 type: docs
-weight: 1050
+weight: 1080
 url: /it/net/aspose.tasks/project/get/
 ---
 ## Project.Get&lt;T&gt; method
 
-Restituisce il valore a cui è mappata la proprietà in questo contenitore.
+Restituisce il valore a cui la proprietà è mappata in questo contenitore.
 
 ```csharp
 public T Get<T>(Key<T, PrjKey> key)
@@ -17,18 +17,30 @@ public T Get<T>(Key<T, PrjKey> key)
 | Parametro | Descrizione |
 | --- | --- |
 | T | il tipo del valore mappato. |
-| key | la chiave di proprietà specificata.[`Prj`](../../prj/) per ottenere la chiave della proprietà. |
+| key | la chiave della proprietà specificata. [`Prj`](../../prj/) per ottenere la chiave della proprietà. |
 
 ### Valore di ritorno
 
-il valore a cui è mappata la proprietà in questo contenitore.
+il valore a cui la proprietà è mappata in questo contenitore.
 
-### Guarda anche
+## Esempi
+
+Mostra come verificare la versione di un progetto.
+
+```csharp
+var project = new Project(DataDir + "DetermineProjectVersion.mpp");
+
+// Visualizza versione del progetto
+Console.WriteLine("Project Version : " + project.Get(Prj.SaveVersion));
+Console.WriteLine("Last Saved : " + project.Get(Prj.LastSaved).ToShortDateString());
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

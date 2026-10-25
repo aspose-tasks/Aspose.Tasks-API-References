@@ -1,25 +1,47 @@
 ---
-title: Rsc.HyperlinkSubAddress
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Rsc campo. Il segnalibro del documento di un collegamento ipertestuale associato a una risorsa.
+title: "Rsc.HyperlinkSubAddress"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Rsc. La posizione specifica in un documento in un collegamento ipertestuale associato a un'attività"
 type: docs
 weight: 340
 url: /it/net/aspose.tasks/rsc/hyperlinksubaddress/
 ---
 ## Rsc.HyperlinkSubAddress field
 
-Il segnalibro del documento di un collegamento ipertestuale associato a una risorsa.
+La posizione specifica in un documento in un collegamento ipertestuale associato a un'attività.
 
 ```csharp
 public static readonly Key<string, RscKey> HyperlinkSubAddress;
 ```
 
-### Guarda anche
+## Osservazioni
+
+L'indirizzo completo (Hyperlink Href in Microsoft Project) del collegamento ipertestuale è una concatenazione di HyperlinkAddress e HyperlinkSubAddress.
+
+## Esempi
+
+Mostra come leggere/scrivere le proprietà dei collegamenti ipertestuali delle risorse.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Hyperlink, "Click to visit our site");
+resource.Set(Rsc.HyperlinkAddress, "https://products.aspose.com");
+resource.Set(Rsc.HyperlinkSubAddress, "/total/net");
+
+Console.WriteLine("Hyperlink: " + resource.Get(Rsc.Hyperlink));
+Console.WriteLine("Hyperlink Address: " + resource.Get(Rsc.HyperlinkAddress));
+Console.WriteLine("Hyperlink Sub Address: " + resource.Get(Rsc.HyperlinkSubAddress));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* spazio dei nomi [Aspose.Tasks](../../rsc/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

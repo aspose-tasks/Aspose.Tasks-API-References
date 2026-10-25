@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.CostRateTableType
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ResourceAssignment proprietà. Ottiene o imposta un valore di CostRateTableType.
+title: "ResourceAssignment.CostRateTableType"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà ResourceAssignment. Ottiene o imposta un valore di CostRateTableType"
 type: docs
 weight: 200
 url: /it/net/aspose.tasks/resourceassignment/costratetabletype/
@@ -14,11 +14,11 @@ Ottiene o imposta un valore di CostRateTableType.
 public RateType CostRateTableType { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * enum [RateType](../../ratetype/)
 * class [ResourceAssignment](../)
-* spazio dei nomi [Aspose.Tasks](../../resourceassignment/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

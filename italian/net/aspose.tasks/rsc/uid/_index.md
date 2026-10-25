@@ -1,9 +1,9 @@
 ---
-title: Rsc.Uid
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Rsc campo. Lidentificatore univoco di una risorsa.
+title: "Rsc.Uid"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Rsc. L'identificatore unico di una risorsa"
 type: docs
-weight: 680
+weight: 670
 url: /it/net/aspose.tasks/rsc/uid/
 ---
 ## Rsc.Uid field
@@ -14,12 +14,26 @@ L'identificatore univoco di una risorsa.
 public static readonly Key<int, RscKey> Uid;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere/scrivere la proprietà Rsc.Uid.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.Uid, 99);
+
+Console.WriteLine("Uid: " + resource.Get(Rsc.Uid));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* spazio dei nomi [Aspose.Tasks](../../rsc/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

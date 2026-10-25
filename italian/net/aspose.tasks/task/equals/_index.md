@@ -1,7 +1,7 @@
 ---
-title: Task.Equals
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task metodo. Restituisce un valore che indica se questa istanza è uguale a unattività specificata.
+title: "Task.Equals"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo di Task. Restituisce un valore che indica se questa istanza è uguale a un'attività specificata"
 type: docs
 weight: 1330
 url: /it/net/aspose.tasks/task/equals/
@@ -16,17 +16,36 @@ public bool Equals(Task other)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| other | Task | L'attività specificata da confrontare con questa istanza. |
+| altro | Attività | L'attività specificata da confrontare con questa istanza. |
 
 ### Valore di ritorno
 
-restituisce true se l'attività specificata e questa istanza hanno ID univoci uguali.
+restituisce true se l'attività specificata e questa istanza hanno ID unici uguali.
 
-### Guarda anche
+## Esempi
+
+Mostra come iterare le assegnazioni dell'attività.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // visualizza le assegnazioni del task
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
+
+### Vedi anche
 
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -40,16 +59,35 @@ public override bool Equals(object obj)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| obj | Object | L'oggetto specificato da confrontare con questa istanza. |
+| obj | Oggetto | L'oggetto specificato da confrontare con questa istanza. |
 
 ### Valore di ritorno
 
-restituisce true se l'attività specificata e questa istanza hanno ID univoci uguali.
+restituisce true se l'attività specificata e questa istanza hanno ID unici uguali.
 
-### Guarda anche
+## Esempi
+
+Mostra come iterare le assegnazioni dell'attività.
+
+```csharp
+var project = new Project(DataDir + "BudgetWorkAndCost.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+foreach (var task in collector.Tasks)
+{
+    // visualizza le assegnazioni del task
+    foreach (var assignment in task.Assignments)
+    {
+        Console.WriteLine(assignment.ToString());
+    }
+}
+```
+
+### Vedi anche
 
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

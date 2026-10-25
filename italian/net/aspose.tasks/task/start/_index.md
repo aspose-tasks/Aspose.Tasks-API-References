@@ -1,9 +1,9 @@
 ---
-title: Task.Start
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore di Start.
+title: "Task.Start"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene o imposta un valore di Start"
 type: docs
-weight: 1130
+weight: 1120
 url: /it/net/aspose.tasks/task/start/
 ---
 ## Task.Start property
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di Start.
 public DateTime Start { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

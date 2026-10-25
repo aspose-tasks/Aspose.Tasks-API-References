@@ -1,24 +1,77 @@
 ---
-title: GroupCriterionCollection.ParentGroup
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: GroupCriterionCollection proprietà. Ottiene lelemento padre delloggetto GroupCriterion.
+title: "GroupCriterionCollection.ParentGroup"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "proprietà GroupCriterionCollection. Ottiene il genitore dell'oggetto GroupCriterion."
 type: docs
 weight: 30
 url: /it/net/aspose.tasks/groupcriterioncollection/parentgroup/
 ---
 ## GroupCriterionCollection.ParentGroup property
 
-Ottiene l'elemento padre dell'oggetto GroupCriterion.
+Ottiene il genitore dell'oggetto GroupCriterion.
 
 ```csharp
 public Group ParentGroup { get; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come lavorare con una raccolta di criteri di gruppo.
+
+```csharp
+var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
+
+var group = project.TaskGroups.ToList()[0];
+
+// itera sui criteri di gruppo
+Console.WriteLine("Print group criteria of {0} group: ", group.GroupCriteria.ParentGroup.Name);
+Console.WriteLine("Group criterion count: " + group.GroupCriteria.Count);
+foreach (var criterion in group.GroupCriteria)
+{
+    Console.WriteLine("Index: " + criterion.Index);
+    Console.WriteLine("Field: " + criterion.Field);
+    Console.WriteLine("Group On: " + criterion.GroupOn);
+    Console.WriteLine();
+}
+
+group.GroupCriteria.Clear();
+
+if (!group.GroupCriteria.IsReadOnly)
+{
+    List<GroupCriterion> groupCriteria = group.GroupCriteria.ToList();
+    foreach (var criterion in groupCriteria)
+    {
+        group.GroupCriteria.Remove(criterion);
+    }
+}
+
+var criterionToAdd = new GroupCriterion
+{
+    Ascending = true,
+    Field = Field.TaskActive
+};
+
+if (!group.GroupCriteria.Contains(criterionToAdd))
+{
+    group.GroupCriteria.Add(criterionToAdd);
+}
+
+// copia i criteri in un altro gruppo
+var otherGroup = project.TaskGroups.ToList()[0];
+
+var criteria = new GroupCriterion[group.GroupCriteria.Count];
+group.GroupCriteria.CopyTo(criteria, 0);
+foreach (var criterion in criteria)
+{
+    otherGroup.GroupCriteria.Add(criterion);
+}
+```
+
+### Vedi anche
 
 * class [Group](../../group/)
 * class [GroupCriterionCollection](../)
-* spazio dei nomi [Aspose.Tasks](../../groupcriterioncollection/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../groupcriterioncollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

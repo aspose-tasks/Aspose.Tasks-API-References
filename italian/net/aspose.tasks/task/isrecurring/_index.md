@@ -1,7 +1,7 @@
 ---
-title: Task.IsRecurring
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore che indica se IsRecurring è impostato o meno.
+title: "Task.IsRecurring"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene o imposta un valore che indica se IsRecurring è impostato o meno"
 type: docs
 weight: 710
 url: /it/net/aspose.tasks/task/isrecurring/
@@ -14,11 +14,11 @@ Ottiene o imposta un valore che indica se IsRecurring è impostato o meno.
 public NullableBool IsRecurring { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * struct [NullableBool](../../nullablebool/)
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

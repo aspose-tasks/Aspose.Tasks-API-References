@@ -1,9 +1,9 @@
 ---
-title: Project.TimescaleStart
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene o imposta un valore di TimescaleStart.
+title: "Project.TimescaleStart"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà del progetto. Ottiene o imposta un valore di TimescaleStart"
 type: docs
-weight: 940
+weight: 970
 url: /it/net/aspose.tasks/project/timescalestart/
 ---
 ## Project.TimescaleStart property
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di TimescaleStart.
 public DateTime TimescaleStart { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

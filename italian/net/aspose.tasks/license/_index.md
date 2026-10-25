@@ -1,35 +1,35 @@
 ---
-title: Class License
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.License classe. Fornisce metodi per concedere in licenza il componente.
+title: "Classe License"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Classe Aspose.Tasks.License. Fornisce metodi per licenziare il componente"
 type: docs
-weight: 860
+weight: 980
 url: /it/net/aspose.tasks/license/
 ---
 ## License class
 
-Fornisce metodi per concedere in licenza il componente.
+Fornisce metodi per licenziare il componente.
 
 ```csharp
-public class License
+public sealed class License
 ```
 
 ## Costruttori
 
 | Nome | Descrizione |
 | --- | --- |
-| [License](license/)() | Inizializza una nuova istanza di`License` classe. |
+| [License](license/)() | Inizializza una nuova istanza della classe `License`. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [SetLicense](../../aspose.tasks/license/setlicense/#setlicense)(Stream) | Concede in licenza il componente. |
-| [SetLicense](../../aspose.tasks/license/setlicense/#setlicense_1)(string) | Concede in licenza il componente. |
+| [SetLicense](../../aspose.tasks/license/setlicense/#setlicense)(Stream) | Licenzia il componente. |
+| [SetLicense](../../aspose.tasks/license/setlicense/#setlicense_1)(string) | Licenzia il componente. |
 
-### Esempi
+## Esempi
 
-In questo esempio, verrà effettuato un tentativo di trovare un file di licenza denominato MyLicense.lic nella cartella che contiene  il componente, nella cartella che contiene l'assembly chiamante, nella cartella dell'assembly di entrata e poi nelle risorse embedded dell'assembly chiamante.
+In questo esempio, verrà tentato di trovare un file di licenza chiamato MyLicense.lic nella cartella che contiene il componente, nella cartella che contiene l'assembly chiamante, nella cartella dell'assembly di ingresso e poi nelle risorse incorporate dell'assembly chiamante.
 
 ```csharp
 [C#]
@@ -51,9 +51,16 @@ License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
-### Guarda anche
+Mostra come applicare una licenza di Aspose.Tasks.
 
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
-* assemblea [Aspose.Tasks](../../)
+```csharp
+var license = new License();
+license.SetLicense("Aspose.Tasks.lic");
+```
+
+### Vedi anche
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

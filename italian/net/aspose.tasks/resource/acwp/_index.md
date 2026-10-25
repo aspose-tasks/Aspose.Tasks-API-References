@@ -1,7 +1,7 @@
 ---
-title: Resource.ACWP
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Resource proprietà. Ottiene o imposta un valore di ACWP.
+title: "Resource.ACWP"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Resource. Ottiene o imposta un valore di ACWP"
 type: docs
 weight: 90
 url: /it/net/aspose.tasks/resource/acwp/
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di ACWP.
 public double ACWP { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Resource](../)
-* spazio dei nomi [Aspose.Tasks](../../resource/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

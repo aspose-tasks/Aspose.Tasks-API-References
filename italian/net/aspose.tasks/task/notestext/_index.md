@@ -1,9 +1,9 @@
 ---
-title: Task.NotesText
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore di NotesText.
+title: "Task.NotesText"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene o imposta un valore di NotesText"
 type: docs
-weight: 880
+weight: 870
 url: /it/net/aspose.tasks/task/notestext/
 ---
 ## Task.NotesText property
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di NotesText.
 public string NotesText { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

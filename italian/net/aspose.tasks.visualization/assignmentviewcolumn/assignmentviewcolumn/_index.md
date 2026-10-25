@@ -1,7 +1,7 @@
 ---
-title: AssignmentViewColumn.AssignmentViewColumn
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: AssignmentViewColumn costruttore. Inizializza una nuova istanza della classe AssignmentViewColumn.
+title: "AssignmentViewColumn.AssignmentViewColumn"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore AssignmentViewColumn. Inizializza una nuova istanza della classe AssignmentViewColumn"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks.visualization/assignmentviewcolumn/assignmentviewcolumn/
@@ -16,15 +16,41 @@ public AssignmentViewColumn(string name, int width, AssignmentToColumnTextConver
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| name | String | Nome della colonna. |
-| width | Int32 | Larghezza della colonna in pixel. |
-| converter | AssignmentToColumnTextConverter | Dati di assegnazione al convertitore di testo della colonna. |
+| nome | Stringa | Nome della colonna. |
+| larghezza | Int32 | Larghezza della colonna in pixel. |
+| convertitore | AssignmentToColumnTextConverter | Convertitore di dati di assegnazione in testo di colonna. |
 
-### Guarda anche
+## Esempi
+
+Mostra come aggiungere colonne per le visualizzazioni delle assegnazioni.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new Spreadsheet2003SaveOptions();
+
+var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
+options.AssignmentView.Columns.Add(column);
+
+foreach (var assignment in project.ResourceAssignments)
+{
+    foreach (var col in options.AssignmentView.Columns)
+    {
+        var assnCol = (AssignmentViewColumn)col;
+        Console.WriteLine("Column Field: " + assnCol.Field);
+        Console.WriteLine("Column Text ( converted ): " + assnCol.GetColumnText(assignment));
+        Console.WriteLine();
+    }
+}
+
+project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
+```
+
+### Vedi anche
 
 * delegate [AssignmentToColumnTextConverter](../../assignmenttocolumntextconverter/)
 * class [AssignmentViewColumn](../)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../assignmentviewcolumn/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../assignmentviewcolumn/)
+* assembly [Aspose.Tasks](../../../)
 
 

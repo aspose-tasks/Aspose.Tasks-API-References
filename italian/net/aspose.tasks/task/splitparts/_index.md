@@ -1,24 +1,42 @@
 ---
-title: Task.SplitParts
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene una raccolta SplitPart che rappresenta le parti di unattività.
+title: "Task.SplitParts"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene una raccolta SplitPart che rappresenta le porzioni di un'attività"
 type: docs
-weight: 1120
+weight: 1110
 url: /it/net/aspose.tasks/task/splitparts/
 ---
 ## Task.SplitParts property
 
-Ottiene una raccolta SplitPart che rappresenta le parti di un'attività.
+Ottiene una collezione SplitPart che rappresenta le parti di un'attività.
 
 ```csharp
 public SplitPartCollection SplitParts { get; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come visualizzare le parti divise dell'attività.
+
+```csharp
+var project = new Project(DataDir + "ViewSplitTasks.mpp");
+
+// Accedi all'attività 
+var task = project.RootTask.Children.GetById(4);
+
+// Visualizza le parti divise dell'attività
+var collection = task.SplitParts;
+foreach (var splitPart in collection)
+{
+    Console.WriteLine("Start: " + splitPart.Start + "\nFinish: " + splitPart.Finish + "\n");
+}
+```
+
+### Vedi anche
 
 * class [SplitPartCollection](../../splitpartcollection/)
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

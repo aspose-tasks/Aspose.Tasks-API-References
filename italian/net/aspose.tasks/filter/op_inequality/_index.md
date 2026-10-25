@@ -1,7 +1,7 @@
 ---
-title: Filter.op_Inequality
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Filter metodo. Restituisce un valore che indica se questa istanza non è uguale a un oggetto specificato.
+title: "Filter.op_Inequality"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo Filter. Restituisce un valore che indica se questa istanza non è uguale a un oggetto specificato"
 type: docs
 weight: 150
 url: /it/net/aspose.tasks/filter/op_inequality/
@@ -23,10 +23,27 @@ public static bool operator !=(Filter a, Filter b)
 
 un valore che indica se questa istanza non è uguale a un oggetto specificato
 
-### Guarda anche
+## Esempi
+
+Mostra come verificare l'uguaglianza del filtro.
+
+```csharp
+var project = new Project(DataDir + "ReadFilterDefinitionData.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+
+var filter1 = filters[0];
+var filter2 = filters[1];
+
+// l'uguaglianza dei filtri viene verificata rispetto all'UID del filtro.
+Console.WriteLine("Filter 1 UID: " + filter1.Uid);
+Console.WriteLine("Filter 2 UID: " + filter2.Uid);
+Console.WriteLine("Are filters equal: " + filter1.Equals(filter2));
+```
+
+### Vedi anche
 
 * class [Filter](../)
-* spazio dei nomi [Aspose.Tasks](../../filter/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

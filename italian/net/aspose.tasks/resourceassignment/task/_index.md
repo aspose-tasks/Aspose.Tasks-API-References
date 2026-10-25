@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.Task
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ResourceAssignment proprietà. Lattività a cui è assegnata una risorsa.
+title: "ResourceAssignment.Task"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà ResourceAssignment. Il task a cui è assegnata una risorsa"
 type: docs
 weight: 590
 url: /it/net/aspose.tasks/resourceassignment/task/
@@ -14,11 +14,11 @@ L'attività a cui è assegnata una risorsa.
 public Task Task { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Task](../../task/)
 * class [ResourceAssignment](../)
-* spazio dei nomi [Aspose.Tasks](../../resourceassignment/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

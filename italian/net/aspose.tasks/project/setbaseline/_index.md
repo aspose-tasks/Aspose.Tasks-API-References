@@ -1,14 +1,14 @@
 ---
-title: Project.SetBaseline
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project metodo. Salva i campi della linea di base nella linea di base specificata per lintero progetto.
+title: "Project.SetBaseline"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo di Project. Salva i campi della baseline nella baseline specificata per l'intero progetto"
 type: docs
-weight: 1230
+weight: 1250
 url: /it/net/aspose.tasks/project/setbaseline/
 ---
 ## SetBaseline(BaselineType) {#setbaseline}
 
-Salva i campi della linea di base nella linea di base specificata per l'intero progetto.
+Salva i campi di baseline nella baseline specificata per l'intero progetto.
 
 ```csharp
 public void SetBaseline(BaselineType baselineType)
@@ -16,20 +16,35 @@ public void SetBaseline(BaselineType baselineType)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| baselineType | BaselineType | Il tipo di baseline in cui salvare i dati di baseline. |
+| baselineType | BaselineType | Il tipo di baseline in cui salvare i dati della baseline. |
 
-### Guarda anche
+## Esempi
+
+Mostra come creare baseline per un intero progetto.
+
+```csharp
+var project = new Project();
+
+// Aggiunta di attività
+project.RootTask.Children.Add("Task");
+project.RootTask.Children.Add("Task2");
+
+// Imposta baseline per le attività specificate
+project.SetBaseline(BaselineType.Baseline);
+```
+
+### Vedi anche
 
 * enum [BaselineType](../../baselinetype/)
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SetBaseline(BaselineType, IEnumerable&lt;Task&gt;) {#setbaseline_1}
 
-Salva i campi della linea di base nella linea di base specificata per le attività selezionate.
+Salva i campi di baseline nella baseline specificata per le attività selezionate.
 
 ```csharp
 public void SetBaseline(BaselineType baselineType, IEnumerable<Task> taskCollection)
@@ -37,15 +52,30 @@ public void SetBaseline(BaselineType baselineType, IEnumerable<Task> taskCollect
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| baselineType | BaselineType | Il tipo di baseline in cui salvare i dati di baseline. |
-| taskCollection | IEnumerable`1 | Elenco di attività per le quali salvare i dati di riferimento. |
+| baselineType | BaselineType | Il tipo di baseline in cui salvare i dati della baseline. |
+| taskCollection | IEnumerable`1 | Elenco di attività per le quali salvare i dati della baseline. |
 
-### Guarda anche
+## Esempi
+
+Mostra come creare baseline impostate per attività specifiche.
+
+```csharp
+var project = new Project();
+
+// Aggiunta di attività
+var task = project.RootTask.Children.Add("Task");
+var task2 = project.RootTask.Children.Add("Task2");
+
+// Imposta baseline per le attività specificate
+project.SetBaseline(BaselineType.Baseline, new[] { task, task2 });
+```
+
+### Vedi anche
 
 * enum [BaselineType](../../baselinetype/)
 * class [Task](../../task/)
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

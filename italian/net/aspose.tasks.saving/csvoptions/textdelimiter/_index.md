@@ -1,7 +1,7 @@
 ---
-title: CsvOptions.TextDelimiter
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: CsvOptions proprietà. Ottiene o imposta un delimitatore di testo.
+title: "CsvOptions.TextDelimiter"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà CsvOptions. Ottiene o imposta un delimitatore di testo"
 type: docs
 weight: 50
 url: /it/net/aspose.tasks.saving/csvoptions/textdelimiter/
@@ -14,11 +14,27 @@ Ottiene o imposta un delimitatore di testo.
 public CsvTextDelimiter TextDelimiter { get; set; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come utilizzare &lt;see cref="Aspose.Tasks.Saving.CsvOptions" /&gt; per salvare un progetto come file CSV.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+var options = new CsvOptions
+{
+    DataCategory = DataCategory.Resources,
+    TextDelimiter = CsvTextDelimiter.Semicolon,
+    Encoding = Encoding.Unicode, IncludeHeaders = true
+};
+
+project.Save(OutDir + "WorkWithCsvOptions_out.csv", options);
+```
+
+### Vedi anche
 
 * enum [CsvTextDelimiter](../../csvtextdelimiter/)
 * class [CsvOptions](../)
-* spazio dei nomi [Aspose.Tasks.Saving](../../csvoptions/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../csvoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

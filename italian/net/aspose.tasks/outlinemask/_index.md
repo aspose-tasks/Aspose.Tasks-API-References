@@ -1,14 +1,14 @@
 ---
-title: Class OutlineMask
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.OutlineMask classe. Rappresenta quattro elementi di una maschera che definisce un formato di codice contorno.
+title: "Classe OutlineMask"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Classe Aspose.Tasks.OutlineMask. Rappresenta quattro elementi di una maschera che definisce un formato di codice di contorno"
 type: docs
-weight: 1060
+weight: 1190
 url: /it/net/aspose.tasks/outlinemask/
 ---
 ## OutlineMask class
 
-Rappresenta quattro elementi di una maschera che definisce un formato di codice contorno.
+Rappresenta quattro elementi di una maschera che definisce un formato di codice di contorno.
 
 ```csharp
 public class OutlineMask
@@ -18,20 +18,60 @@ public class OutlineMask
 
 | Nome | Descrizione |
 | --- | --- |
-| [OutlineMask](outlinemask/)() | Inizializza una nuova istanza di`OutlineMask` classe. |
+| [OutlineMask](outlinemask/)() | Inizializza una nuova istanza della classe `OutlineMask`. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Length](../../aspose.tasks/outlinemask/length/) { get; set; } | Ottiene o imposta la lunghezza massima (in caratteri) dei valori del codice struttura. 0 se la lunghezza non è definita. |
+| [Length](../../aspose.tasks/outlinemask/length/) { get; set; } | Ottiene o imposta la lunghezza massima (in caratteri) dei valori del codice di contorno. 0 se la lunghezza non è definita. |
 | [Level](../../aspose.tasks/outlinemask/level/) { get; set; } | Ottiene o imposta il livello di una maschera. |
-| [Separator](../../aspose.tasks/outlinemask/separator/) { get; set; } | Ottiene o imposta il separatore dei valori del codice. |
-| [Type](../../aspose.tasks/outlinemask/type/) { get; set; } | Ottiene o imposta il tipo di maschera. |
+| [Separator](../../aspose.tasks/outlinemask/separator/) { get; set; } | Ottiene o imposta il separatore dei valori di codice. |
+| [Type](../../aspose.tasks/outlinemask/type/) { get; set; } | Ottiene o imposta il tipo di una maschera. |
 
-### Guarda anche
+## Esempi
 
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
-* assemblea [Aspose.Tasks](../../)
+Mostra come lavorare con le maschere di contorno.
+
+```csharp
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+
+var outline = new OutlineCodeDefinition();
+outline.FieldId = ExtendedAttributeTask.OutlineCode7.ToString("D");
+outline.Alias = "My Outline Code";
+
+project.OutlineCodes.Add(outline);
+
+var mask = new OutlineMask();
+
+// imposta il tipo di una maschera
+mask.Type = MaskType.Characters;
+
+// imposta il separatore dei valori di codice
+mask.Separator = "/";
+
+// imposta il livello di una maschera
+mask.Level = 1;
+
+// imposta la lunghezza massima (in caratteri) dei valori di codice di contorno. 0 se la lunghezza non è definita.
+mask.Length = 2;
+
+// aggiungi la maschera alla definizione
+outline.Masks.Add(mask);
+
+var value = new OutlineValue();
+value.Value = "Text value 1";
+value.ValueId = 1;
+value.Type = OutlineValueType.Text;
+value.Description = "Text value descr 1";
+outline.Values.Add(value);
+
+// ...
+```
+
+### Vedi anche
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

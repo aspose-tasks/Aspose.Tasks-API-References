@@ -1,25 +1,42 @@
 ---
-title: Rsc.PercentWorkComplete
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Rsc campo. La percentuale di lavoro completato in tutte le attività.
+title: "Rsc.PercentWorkComplete"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Rsc. La percentuale di lavoro completato su tutte le attività"
 type: docs
-weight: 560
+weight: 550
 url: /it/net/aspose.tasks/rsc/percentworkcomplete/
 ---
 ## Rsc.PercentWorkComplete field
 
-La percentuale di lavoro completato in tutte le attività.
+La percentuale di lavoro completato su tutti i compiti.
 
 ```csharp
 public static readonly Key<int, RscKey> PercentWorkComplete;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere la percentuale di lavoro completato della risorsa.
+
+```csharp
+var project = new Project(DataDir + "ResourcePercentWorkComplete.mpp");
+
+// Visualizza la percentuale di completamento del lavoro per tutte le risorse
+foreach (var res in project.Resources)
+{
+    if (res.Get(Rsc.Name) != null)
+    {
+        Console.WriteLine(res.Get(Rsc.PercentWorkComplete));
+    }
+}
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* spazio dei nomi [Aspose.Tasks](../../rsc/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

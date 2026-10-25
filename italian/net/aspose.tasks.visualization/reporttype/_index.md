@@ -1,43 +1,55 @@
 ---
-title: Enum ReportType
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.Visualization.ReportType enum. Tipo di resoconto grafico del progetto.
+title: "Enum ReportType"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Aspose.Tasks.Visualization.ReportType enum. Tipo di report grafico dei progetti"
 type: docs
-weight: 2980
+weight: 3330
 url: /it/net/aspose.tasks.visualization/reporttype/
 ---
 ## ReportType enumeration
 
-Tipo di resoconto grafico del progetto.
+Tipo del report grafico del progetto.
 
 ```csharp
 public enum ReportType
 ```
 
-### I valori
+### Valori
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| ProjectOverview | `0` | Mostra la data di inizio e di fine del progetto, la percentuale di completamento della durata, la percentuale di completamento per le attività di primo livello e le prossime pietre miliari. |
-| CostOverview | `1` | Mostra le date di inizio e di fine del progetto, l'attuale costo pianificato e rimanente, % di completamento e valori di costo per le attività di primo livello. |
-| WorkOverview | `2` | Mostra il lavoro previsto, effettivo e rimanente per ogni attività di primo livello e il lavoro per le risorse di lavoro. |
-| ResourceOverview | `3` | Mostra il lavoro previsto, effettivo e rimanente per risorsa. |
-| ResourceCostOverview | `4` | Mostra il costo previsto, effettivo e rimanente per risorsa. |
-| CriticalTasks | `5` | Mostra le attività del progetto critiche. |
-| LateTasks | `6` | Mostra le attività del progetto in ritardo. |
-| Milestones | `7` | Mostra le pietre miliari in ritardo, in arrivo e completate. |
+| ProjectOverview | `0` | Mostra la data di inizio e fine del progetto, la percentuale di durata completata, la percentuale completata per le attività di livello superiore e le tappe imminenti. |
+| CostOverview | `1` | Mostra le date di inizio e fine del progetto, il costo programmato e residuo attuale, % completato e i valori di costo per le attività di livello superiore. |
+| WorkOverview | `2` | Mostra il lavoro di baseline, reale e residuo per ogni attività di livello superiore e il lavoro per le risorse di lavoro. |
+| ResourceOverview | `3` | Mostra il lavoro di baseline, reale e residuo per risorsa. |
+| ResourceCostOverview | `4` | Mostra il costo di baseline, reale e residuo per risorsa. |
+| CriticalTasks | `5` | Mostra le attività del progetto che sono critiche. |
+| LateTasks | `6` | Mostra le attività del progetto che sono in ritardo. |
+| Milestones | `7` | Mostra le tappe che sono in ritardo, imminenti e completate. |
 | UpcomingTask | `8` | Mostra le attività in scadenza durante la settimana corrente e le attività che iniziano durante la settimana corrente. |
-| CostOverruns | `9` | Mostra la variazione dei costi per attività e risorsa. |
-| TaskCostOverview | `10` | Mostra il costo previsto, effettivo e rimanente di tutte le attività di primo livello. |
-| OverallocatedResources | `11` | Mostra il numero di ore lavorative rimanenti per le risorse allocate in eccesso. |
-| SlippingTasks | `12` | Mostra le attività che dovrebbero terminare dopo le date di fine previste (la previsione deve essere impostata). |
-| BestPracticeAnalyzer | `13` | Mostra attività senza lavoro effettivo, attività non assegnate, attività con durata inferiore a 8 ore e riepiloghi assegnati con le risorse. |
-| Burndown | `14` | Include i grafici di burndown del lavoro e di burndown delle attività. Il grafico di burndown del lavoro mostra la quantità di lavoro che le persone hanno completato, quanto è programmato per essere completato prima della data di fine del progetto, e la stima di base di quanto lavoro sarebbe stato completato a questo punto nel progetto. Il grafico di burndown delle attività mostra il numero di attività completate, il numero rimanente, e la stima di base di quante ne sarebbero state completate a questo punto del progetto. |
-| CashFlow | `15` | Mostra i costi e i costi cumulativi per trimestre per tutte le attività di primo livello. |
+| CostOverruns | `9` | Mostra la varianza di costo per attività e per risorsa. |
+| TaskCostOverview | `10` | Mostra il costo di baseline, reale e residuo di tutte le attività di livello superiore. |
+| OverallocatedResources | `11` | Mostra il numero di ore di lavoro residuo per le risorse sovraassegnate. |
+| SlippingTasks | `12` | Mostra le attività che devono terminare dopo le loro date di fine di baseline (la baseline deve essere impostata). |
+| BestPracticeAnalyzer | `13` | Mostra le attività senza lavoro reale, le attività non assegnate, le attività con durata inferiore a 8 ore e i riepiloghi assegnati alle risorse. |
+| Burndown | `14` | Include i grafici work burndown e task burndown. Il grafico work burndown mostra quanto lavoro le persone hanno completato, quanto è programmato per essere completato prima della data di fine progetto, e la stima di baseline di quanto lavoro sarebbe completato a questo punto del progetto. Il grafico task burndown mostra il numero di attività completate, il numero residuo e la stima di baseline di quante sarebbero completate a questo punto del progetto. |
+| CashFlow | `15` | Mostra i costi e i costi cumulativi per trimestre per tutte le attività di livello superiore. |
 
-### Guarda anche
+## Esempi
 
-* spazio dei nomi [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* assemblea [Aspose.Tasks](../../)
+Mostra come salvare il report di avanzamento del progetto in formato PDF nello stream specificato.
+
+```csharp
+var project = new Project(DataDir + @"Homemoveplan.mpp");
+using (var stream = new FileStream(OutDir + "Burndown_out.pdf", FileMode.Create))
+{
+    project.SaveReport(stream, ReportType.Burndown);
+}
+```
+
+### Vedi anche
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

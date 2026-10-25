@@ -1,23 +1,96 @@
 ---
-title: OutlineCodeDefinitionCollection.IsReadOnly
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: OutlineCodeDefinitionCollection proprietà. Ottiene un valore che indica se questa raccolta è di sola lettura altrimenti falso.
+title: "OutlineCodeDefinitionCollection.IsReadOnly"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà OutlineCodeDefinitionCollection. Ottiene un valore che indica se questa collezione è di sola lettura, altrimenti false."
 type: docs
 weight: 20
 url: /it/net/aspose.tasks/outlinecodedefinitioncollection/isreadonly/
 ---
 ## OutlineCodeDefinitionCollection.IsReadOnly property
 
-Ottiene un valore che indica se questa raccolta è di sola lettura; altrimenti, falso.
+Restituisce un valore che indica se questa collezione è di sola lettura; altrimenti, false.
 
 ```csharp
 public bool IsReadOnly { get; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come lavorare con le collezioni di definizioni di codici outline.
+
+```csharp
+var project = new Project(DataDir + "OutlineCodes.mpp");
+
+Console.WriteLine("Count of outline code definitions: " + project.OutlineCodes.Count);
+foreach (var outlineCode in project.OutlineCodes)
+{
+    Console.WriteLine("Field Name: " + outlineCode.FieldName);
+    Console.WriteLine("Alias: " + outlineCode.Alias);
+    Console.WriteLine();
+}
+
+// aggiungi una definizione di codice outline personalizzata
+var outlineCodeDefinition = new OutlineCodeDefinition { FieldId = ((int)ExtendedAttributeTask.OutlineCode3).ToString("D"), Alias = "My Outline Code" };
+
+var outlineCodeDefinition2 = new OutlineCodeDefinition { FieldId = ((int)ExtendedAttributeTask.OutlineCode1).ToString("D"), Alias = "My Outline Code 2" };
+
+if (!project.OutlineCodes.IsReadOnly)
+{
+    project.OutlineCodes.Add(outlineCodeDefinition);
+
+    // inserisci la definizione di codice outline nella posizione
+    project.OutlineCodes.Insert(0, outlineCodeDefinition2);
+}
+
+// trova l'indice della definizione di codice outline
+var index = project.OutlineCodes.IndexOf(outlineCodeDefinition);
+
+// modifica la definizione del codice di contorno
+project.OutlineCodes[index].Alias = "New Alias";
+
+// ...
+// lavora con le definizioni del codice di contorno
+// ...
+
+// rimuovi la definizione del codice di contorno
+if (project.OutlineCodes.Contains(outlineCodeDefinition))
+{
+    project.OutlineCodes.Remove(outlineCodeDefinition);
+}
+
+// rimuovi una definizione del codice di contorno per indice
+project.OutlineCodes.RemoveAt(0);
+
+var otherProject = new Project(DataDir + "Blank2010.mpp");
+
+// rimuovi le definizioni del codice di contorno
+otherProject.OutlineCodes.Clear();
+
+// copia le definizioni del codice di contorno
+var outlineCodeDefinitions = new OutlineCodeDefinition[project.OutlineCodes.Count];
+project.OutlineCodes.CopyTo(outlineCodeDefinitions, 0);
+
+foreach (var definition in outlineCodeDefinitions)
+{
+    otherProject.OutlineCodes.Add(definition);
+}
+
+// ...
+// lavora con le definizioni del codice di contorno
+// ...
+
+// rimuovi le definizioni del codice di contorno una alla volta
+List<OutlineCodeDefinition> definitions = otherProject.OutlineCodes.ToList();
+foreach (var definition in definitions)
+{
+    otherProject.OutlineCodes.Remove(definition);
+}
+```
+
+### Vedi anche
 
 * class [OutlineCodeDefinitionCollection](../)
-* spazio dei nomi [Aspose.Tasks](../../outlinecodedefinitioncollection/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../outlinecodedefinitioncollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

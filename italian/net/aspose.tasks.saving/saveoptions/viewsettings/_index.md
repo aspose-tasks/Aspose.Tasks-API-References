@@ -1,14 +1,14 @@
 ---
-title: SaveOptions.ViewSettings
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: SaveOptions proprietà. Ottiene o imposta una vista View  rendere. Puoi utilizzare queste opzioni per specificare in modo esplicito quale vista deve essere salvata nei formati PDF HTML o Immagine. Se questa proprietà è impostataPresentationFormat proprietà viene ignorata quando il progetto viene salvato. La vista dovrebbe provenire da una delle seguenti schermate Screen  Gantt TaskSheet TaskUsage ResourceSheet ResourceUsage
+title: "SaveOptions.ViewSettings"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà SaveOptions. Ottiene o imposta una vista View da renderizzare. È possibile utilizzare questa opzione per specificare esplicitamente quale vista deve essere salvata nei formati PDF, HTML o Image. Se questa proprietà è impostata, la proprietà PresentationFormat viene ignorata quando il progetto viene salvato. La vista deve provenire da una delle seguenti schermate Screen: Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage."
 type: docs
 weight: 240
 url: /it/net/aspose.tasks.saving/saveoptions/viewsettings/
 ---
 ## SaveOptions.ViewSettings property
 
-Ottiene o imposta una vista ([`View`](../view/) ) rendere. Puoi utilizzare queste opzioni per specificare in modo esplicito quale vista deve essere salvata nei formati PDF, HTML o Immagine. Se questa proprietà è impostata,[`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/) proprietà viene ignorata quando il progetto viene salvato. La vista dovrebbe provenire da una delle seguenti schermate (([`Screen`](../../../aspose.tasks/view/screen/) )): (Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage)
+Ottiene o imposta una vista ([`View`](../view/)) da renderizzare. È possibile utilizzare questa opzione per specificare esplicitamente quale vista deve essere salvata nei formati PDF, HTML o Image. Se questa proprietà è impostata, la proprietà [`PresentationFormat`](../../../aspose.tasks.visualization/presentationformat/) viene ignorata quando il progetto viene salvato. La vista deve provenire da una delle seguenti schermate (([`Screen`](../../../aspose.tasks/view/screen/))): (Gantt, TaskSheet, TaskUsage, ResourceSheet, ResourceUsage).
 
 ```csharp
 public View ViewSettings { get; set; }
@@ -18,13 +18,34 @@ public View ViewSettings { get; set; }
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentException | Quando viene chiamato il metodo set e viene fornita un'istanza della classe View con un valore non supportato della proprietà Screen. |
+| ArgumentException | Quando il metodo set viene chiamato e viene fornita un'istanza della classe View con un valore non supportato della proprietà Screen. |
 
-### Guarda anche
+## Esempi
+
+Mostra come utilizzare 'SaveOptions.ViewSettings' per specificare la vista che deve essere renderizzata in PDF.
+
+```csharp
+var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
+
+var view = project.Views.First(v => v.Screen == ViewScreen.Gantt);
+Console.WriteLine("Page size specified in view settings: " + view.PageInfo.PageSettings.PaperSize);
+Console.WriteLine("Page orientation: {0}", view.PageInfo.PageSettings.IsPortrait ? "Portrait" : "Landscape");
+
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+saveOptions.PageSize = PageSize.DefinedInView;
+saveOptions.Timescale = Timescale.DefinedInView;
+saveOptions.StartDate = new DateTime(2012, 12, 22);
+saveOptions.EndDate = new DateTime(2013, 05, 10);
+saveOptions.ViewSettings = view;
+
+project.Save(OutDir + "SaveToPdfUsingSpecificView_out.pdf", saveOptions);
+```
+
+### Vedi anche
 
 * class [View](../../../aspose.tasks/view/)
 * class [SaveOptions](../)
-* spazio dei nomi [Aspose.Tasks.Saving](../../saveoptions/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../saveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

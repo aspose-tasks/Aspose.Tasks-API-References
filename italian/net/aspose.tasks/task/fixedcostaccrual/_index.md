@@ -1,7 +1,7 @@
 ---
-title: Task.FixedCostAccrual
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore di FixedCostAccrual.
+title: "Task.FixedCostAccrual"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene o imposta un valore di FixedCostAccrual"
 type: docs
 weight: 490
 url: /it/net/aspose.tasks/task/fixedcostaccrual/
@@ -14,11 +14,11 @@ Ottiene o imposta un valore di FixedCostAccrual.
 public CostAccrualType FixedCostAccrual { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * enum [CostAccrualType](../../costaccrualtype/)
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

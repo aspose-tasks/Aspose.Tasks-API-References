@@ -1,22 +1,45 @@
 ---
-title: Class NoPrinterInstalledException
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.NoPrinterInstalledException classe. Rappresenta uneccezione che viene generata quando non è presente alcuna stampante installata nel sistema operativo.
+title: "Classe NoPrinterInstalledException"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Classe Aspose.Tasks.NoPrinterInstalledException. Rappresenta un'eccezione che viene sollevata quando non è presente alcuna stampante installata nel sistema operativo"
 type: docs
-weight: 970
+weight: 1100
 url: /it/net/aspose.tasks/noprinterinstalledexception/
 ---
 ## NoPrinterInstalledException class
 
-Rappresenta un'eccezione che viene generata quando non è presente alcuna stampante installata nel sistema operativo.
+Rappresenta un'eccezione che viene lanciata quando non è presente alcuna stampante installata nel sistema operativo.
 
 ```csharp
 public class NoPrinterInstalledException : Exception
 ```
 
-### Guarda anche
+## Esempi
 
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
-* assemblea [Aspose.Tasks](../../)
+Mostra come utilizzare le opzioni di stampa.
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "Project2.mpp");
+    var options = new PrintOptions
+    {
+        Timescale = Timescale.ThirdsOfMonths
+    };
+    if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
+    {
+        project.Print(options);
+    }
+}
+catch (NoPrinterInstalledException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### Vedi anche
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

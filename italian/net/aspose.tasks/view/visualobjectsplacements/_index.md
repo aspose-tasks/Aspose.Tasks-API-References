@@ -1,24 +1,53 @@
 ---
-title: View.VisualObjectsPlacements
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: View proprietà. Ottiene una raccolta di oggetti che rappresentano il posizionamento e laspetto diOleObject nella vista.
+title: "View.VisualObjectsPlacements"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà View. Ottiene una raccolta di oggetti che rappresentano la posizione e l'aspetto di OleObject nella vista"
 type: docs
 weight: 130
 url: /it/net/aspose.tasks/view/visualobjectsplacements/
 ---
 ## View.VisualObjectsPlacements property
 
-Ottiene una raccolta di oggetti che rappresentano il posizionamento e l'aspetto di[`OleObject`](../../oleobject/) nella vista.
+Ottiene una raccolta di oggetti che rappresentano la posizione e l'aspetto di [`OleObject`](../../oleobject/) nella vista.
 
 ```csharp
 public IEnumerable<VisualObjectPlacement> VisualObjectsPlacements { get; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come ottenere le proprietà di posizione e aspetto dell'oggetto OLE.
+
+```csharp
+[Test]
+public void GetVisualObjectPlacementProperties()
+{
+    var project = new Project(DataDir + "TaskImage2010.mpp");
+    var oleObject = project.OleObjects.First();
+
+    project.Save(OutDir + "ClearedProject.mpp");
+    var view = project.Views.First(v => v.Name == "&Gantt Chart");
+    var oleObjectPlacement = view.VisualObjectsPlacements.First(p => p.OleObjectId == oleObject.Id);
+
+    Console.WriteLine("BorderLineColor: {0}", oleObjectPlacement.BorderLineColor);
+    Console.WriteLine("BorderLineColor: {0}", oleObjectPlacement.BorderLineThickness);
+
+    if (oleObjectPlacement.TaskId > 0)
+    {
+        Console.WriteLine("Attached to task: {0}", oleObjectPlacement.TaskId);
+    }
+    else
+    {
+        Console.WriteLine("Attached to timescale date: {0}", oleObjectPlacement.TimescaleDate);
+    }
+}
+```
+
+### Vedi anche
 
 * class [VisualObjectPlacement](../../../aspose.tasks.visualization/visualobjectplacement/)
 * class [View](../)
-* spazio dei nomi [Aspose.Tasks](../../view/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../view/)
+* assembly [Aspose.Tasks](../../../)
 
 

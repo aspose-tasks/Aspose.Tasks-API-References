@@ -1,36 +1,49 @@
 ---
-title: Enum CostAccrualType
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.CostAccrualType enum. Specifica il tipo di costo di competenza.
+title: "Enum CostAccrualType"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Aspose.Tasks.CostAccrualType enum. Specifica il tipo di costo di accantonamento."
 type: docs
 weight: 350
 url: /it/net/aspose.tasks/costaccrualtype/
 ---
 ## CostAccrualType enumeration
 
-Specifica il tipo di costo di competenza.
+Specifica il tipo di costo di accumulo.
 
 ```csharp
 public enum CostAccrualType
 ```
 
-### I valori
+### Valori
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Undefined | `-1` | Indica un valore non definito significa che il campo non è stato definito nel file di progetto originale. |
-| Start | `0` | Indica il tipo di accumulo del costo iniziale. |
-| Prorated | `1` | Indica il tipo di accumulo del costo ripartito proporzionalmente. |
-| End | `2` | Indica il tipo di competenza del costo finale. |
-| Invalid | `3` | Indica il tipo di accumulo costi non valido. |
+| Undefined | `-1` | Indica che il valore non definito significa che il campo non era definito nel file di progetto originale. |
+| Start | `0` | Indica il tipo di accantonamento del costo di avvio. |
+| Prorated | `1` | Indica il tipo di accantonamento del costo proporzionale. |
+| End | `2` | Indica il tipo di accantonamento del costo di fine. |
+| Invalid | `3` | Indica un tipo di accantonamento del costo non valido. |
 
-### Osservazioni
+## Osservazioni
 
-Durante l'esportazione in XML i valori non definiti verranno eliminati dall'XML risultante.
+Durante l'esportazione in XML i valori Undefined verranno eliminati dall'XML risultante.
 
-### Guarda anche
+## Esempi
 
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
-* assemblea [Aspose.Tasks](../../)
+Mostra come e quando i costi standard e gli straordinari delle risorse devono essere addebitati o accantonati (metodo di accantonamento: determina quando il costo per una risorsa è sostenuto e quando i costi effettivi sono addebitati a un progetto. È possibile sostenere i costi all'inizio [Start] o alla fine [End] di un'attività o proporzionarli [Prorated] durante l'attività.), al costo di un'attività (CostAccrualType.End).
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var resource = project.Resources.GetById(1);
+// imposta tipo di accantonamento del costo
+// se selezioni l'opzione End, i costi non vengono accantonati finché il lavoro rimanente non è zero.
+resource.Set(Rsc.AccrueAt, CostAccrualType.End);
+// lavorare con il progetto...
+```
+
+### Vedi anche
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

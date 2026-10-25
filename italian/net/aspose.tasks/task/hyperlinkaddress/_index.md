@@ -1,23 +1,27 @@
 ---
-title: Task.HyperlinkAddress
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore di HyperlinkAddress.
+title: "Task.HyperlinkAddress"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà di Task. Ottiene o imposta l'indirizzo di un collegamento ipertestuale associato a un'attività"
 type: docs
 weight: 540
 url: /it/net/aspose.tasks/task/hyperlinkaddress/
 ---
 ## Task.HyperlinkAddress property
 
-Ottiene o imposta un valore di HyperlinkAddress.
+Ottiene o imposta l'indirizzo per un collegamento ipertestuale associato a un task.
 
 ```csharp
 public string HyperlinkAddress { get; set; }
 ```
 
-### Guarda anche
+## Osservazioni
+
+L'indirizzo completo (Hyperlink Href in Microsoft Project) del collegamento ipertestuale è una concatenazione di HyperlinkAddress e HyperlinkSubAddress.
+
+### Vedi anche
 
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

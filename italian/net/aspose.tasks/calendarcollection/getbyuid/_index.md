@@ -1,7 +1,7 @@
 ---
-title: CalendarCollection.GetByUid
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: CalendarCollection metodo. Restituisce un calendario con lUID specificato.
+title: "CalendarCollection.GetByUid"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo CalendarCollection. Restituisce un calendario con l'UID specificato"
 type: docs
 weight: 40
 url: /it/net/aspose.tasks/calendarcollection/getbyuid/
@@ -22,11 +22,26 @@ public Calendar GetByUid(int uid)
 
 Calendario con un UID specificato.
 
-### Guarda anche
+## Esempi
+
+Mostra come ottenere i calendari per nome o per ID.
+
+```csharp
+var project = new Project(DataDir + "Project5.mpp");
+
+var calendarByName = project.Calendars.GetByName("TestCalendar");
+var calendarByUid = project.Calendars.GetByUid(4);
+
+Console.WriteLine("Calendar Name: " + calendarByName.Name);
+Console.WriteLine("Calendar Name: " + calendarByUid.Name);
+Console.WriteLine("Are calendars equals: " + calendarByName.Equals(calendarByUid));
+```
+
+### Vedi anche
 
 * class [Calendar](../../calendar/)
 * class [CalendarCollection](../)
-* spazio dei nomi [Aspose.Tasks](../../calendarcollection/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendarcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

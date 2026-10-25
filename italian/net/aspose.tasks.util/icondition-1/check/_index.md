@@ -1,7 +1,7 @@
 ---
-title: ICondition1.Check
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ICondition metodo. Restituisce true se loggetto specificato soddisfa le condizioni.
+title: "ICondition1.Check"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo ICondition. Restituisce true se l'oggetto specificato soddisfa le condizioni"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks.util/icondition-1/check/
@@ -22,10 +22,56 @@ public bool Check(T el)
 
 Vero se l'oggetto soddisfa le condizioni.
 
-### Guarda anche
+## Esempi
+
+Mostra come utilizzare il metodo Filter di list util.
+
+```csharp
+public void WorkWithListUtilsFilter()
+{
+    var project = new Project(DataDir + "Project2003.mpp");
+    List<Filter> filters = project.TaskFilters.ToList();
+
+    Assert.AreEqual(3, filters.Count, "Project.TaskFilters count");
+
+    ListUtils.Filter(filters, new FilterByIndex(1));
+
+    foreach (var filter in filters)
+    {
+        Console.WriteLine("Name: " + filter.Name);
+        Console.WriteLine("Filter Type: " + filter.FilterType);
+        Console.WriteLine("Show In Menu: " + filter.ShowInMenu);
+        Console.WriteLine("Show Related Summary Rows: " + filter.ShowRelatedSummaryRows);
+        Console.WriteLine();
+    }
+}
+
+public class FilterByIndex : ICondition<Filter>
+{
+    private readonly int index;
+
+    public FilterByIndex(int index)
+    {
+        this.index = index;
+    }
+
+    /// <summary>
+    /// Restituisce true se l'oggetto specificato soddisfa le condizioni.
+    /// </summary>
+    /// <param name=\"el\">L'oggetto da verificare.</param>
+    /// <returns>True se l'oggetto soddisfa le condizioni.</returns>
+    /// <inheritdoc />
+    public bool Check(Filter el)
+    {
+        return el.Index == this.index;
+    }
+}
+```
+
+### Vedi anche
 
 * interface [ICondition&lt;T&gt;](../)
-* spazio dei nomi [Aspose.Tasks.Util](../../icondition-1/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../icondition-1/)
+* assembly [Aspose.Tasks](../../../)
 
 

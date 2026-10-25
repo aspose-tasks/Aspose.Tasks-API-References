@@ -1,9 +1,9 @@
 ---
-title: Project.SplitsInProgressTasks
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene o imposta un valore che indica se SplitsInProgressTasks è impostato o meno.
+title: "Project.SplitsInProgressTasks"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Project. Ottiene o imposta un valore che indica se SplitsInProgressTasks è impostato o meno"
 type: docs
-weight: 810
+weight: 840
 url: /it/net/aspose.tasks/project/splitsinprogresstasks/
 ---
 ## Project.SplitsInProgressTasks property
@@ -14,11 +14,11 @@ Ottiene o imposta un valore che indica se SplitsInProgressTasks è impostato o m
 public NullableBool SplitsInProgressTasks { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * struct [NullableBool](../../nullablebool/)
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

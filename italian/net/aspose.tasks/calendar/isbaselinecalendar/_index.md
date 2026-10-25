@@ -1,23 +1,35 @@
 ---
-title: Calendar.IsBaselineCalendar
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Calendar proprietà. Ottiene o imposta un valore che indica se il calendario è un calendario di base.
+title: "Calendar.IsBaselineCalendar"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Calendar. Ottiene o imposta un valore che indica se il calendario è un calendario di baseline"
 type: docs
-weight: 70
+weight: 80
 url: /it/net/aspose.tasks/calendar/isbaselinecalendar/
 ---
 ## Calendar.IsBaselineCalendar property
 
-Ottiene o imposta un valore che indica se il calendario è un calendario di base.
+Ottiene o imposta un valore che indica se il calendario è un calendario di baseline.
 
 ```csharp
 public bool IsBaselineCalendar { get; set; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come verificare se un calendario è un calendario di baseline o meno.
+
+```csharp
+var project = new Project(DataDir + "IsBaselineCalendar.mpp");
+
+var calendar = project.Calendars.GetByUid(3);
+
+Console.WriteLine("Is baseline calendar: " + calendar.IsBaselineCalendar);
+```
+
+### Vedi anche
 
 * class [Calendar](../)
-* spazio dei nomi [Aspose.Tasks](../../calendar/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

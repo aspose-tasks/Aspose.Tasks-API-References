@@ -1,23 +1,23 @@
 ---
-title: PrimaveraTaskProperties.RemainingNonLaborUnits
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: PrimaveraTaskProperties proprietà. Ottiene il valore delle rimanenti unità non lavorative.
+title: "PrimaveraTaskProperties.RemainingNonLaborUnits"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "PrimaveraTaskProperties proprietà. Ottiene il valore delle unità non di lavoro residue"
 type: docs
-weight: 150
+weight: 320
 url: /it/net/aspose.tasks/primaverataskproperties/remainingnonlaborunits/
 ---
 ## PrimaveraTaskProperties.RemainingNonLaborUnits property
 
-Ottiene il valore delle rimanenti unità non lavorative.
+Ottiene il valore delle unità non lavorative rimanenti.
 
 ```csharp
 public double RemainingNonLaborUnits { get; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [PrimaveraTaskProperties](../)
-* spazio dei nomi [Aspose.Tasks](../../primaverataskproperties/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../primaverataskproperties/)
+* assembly [Aspose.Tasks](../../../)
 
 

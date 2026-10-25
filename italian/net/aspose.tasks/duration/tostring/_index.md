@@ -1,14 +1,14 @@
 ---
-title: Duration.ToString
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Duration metodo. Restituisce una rappresentazione in forma di stringa di questa istanza.
+title: "Duration.ToString"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo Duration. Restituisce una rappresentazione stringa di questa istanza"
 type: docs
 weight: 120
 url: /it/net/aspose.tasks/duration/tostring/
 ---
 ## Duration.ToString method
 
-Restituisce una rappresentazione in forma di stringa di questa istanza.
+Restituisce una rappresentazione stringa di questa istanza.
 
 ```csharp
 public override string ToString()
@@ -16,12 +16,25 @@ public override string ToString()
 
 ### Valore di ritorno
 
-una rappresentazione di stringa di questa istanza.
+una rappresentazione stringa di questa istanza.
 
-### Guarda anche
+## Esempi
+
+Mostra come convertire una durata in una stringa.
+
+```csharp
+var project = new Project(DataDir + "TaskDurations.mpp");
+var task = project.RootTask.Children.GetById(1);
+
+// ottieni la durata dell'attività
+var duration = task.Get(Tsk.Duration);
+Console.WriteLine("The duration as a string: " + duration.ToString());
+```
+
+### Vedi anche
 
 * struct [Duration](../)
-* spazio dei nomi [Aspose.Tasks](../../duration/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 

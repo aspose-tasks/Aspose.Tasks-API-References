@@ -1,9 +1,9 @@
 ---
-title: Project.SaveAsTemplate
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project metodo. Salva il progetto come modello.
+title: "Project.SaveAsTemplate"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo di Project. Salva il progetto come modello."
 type: docs
-weight: 1190
+weight: 1210
 url: /it/net/aspose.tasks/project/saveastemplate/
 ---
 ## SaveAsTemplate(string, SaveTemplateOptions) {#saveastemplate_3}
@@ -16,15 +16,43 @@ public void SaveAsTemplate(string fileName, SaveTemplateOptions options)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | String | Il nome del file. |
-| options | SaveTemplateOptions | le opzioni di salvataggio specificate[`SaveTemplateOptions`](../../../aspose.tasks.saving/savetemplateoptions/). |
+| fileName | Stringa | Il nome del file. |
+| options | SaveTemplateOptions | le opzioni di salvataggio specificate [`SaveTemplateOptions`](../../../aspose.tasks.saving/savetemplateoptions/). |
 
-### Guarda anche
+## Esempi
+
+Mostra come salvare il progetto come modello.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var projectFileInfo = Project.GetProjectFileInfo(DataDir + "Project2.mpp");
+
+if (FileFormat.MPP14 == projectFileInfo.ProjectFileFormat)
+{
+    Console.WriteLine("Project file format is ok");
+}
+
+var options = new SaveTemplateOptions
+{
+    RemoveActualValues = true,
+    RemoveBaselineValues = true
+};
+
+project.SaveAsTemplate(OutDir + "SaveProjectDataAsTemplate_out.mpt", options);
+
+var templateFileInfo = Project.GetProjectFileInfo(OutDir + "SaveProjectDataAsTemplate_out.mpt");
+if (FileFormat.MPT14 == templateFileInfo.ProjectFileFormat)
+{
+    Console.WriteLine("Template FileFormat is ok");
+}
+```
+
+### Vedi anche
 
 * class [SaveTemplateOptions](../../../aspose.tasks.saving/savetemplateoptions/)
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -38,19 +66,47 @@ public void SaveAsTemplate(string fileName)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | String | il nome del file specificato. |
+| fileName | Stringa | il nome del file specificato. |
 
-### Guarda anche
+## Esempi
+
+Mostra come salvare il progetto come modello.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var projectFileInfo = Project.GetProjectFileInfo(DataDir + "Project2.mpp");
+
+if (FileFormat.MPP14 == projectFileInfo.ProjectFileFormat)
+{
+    Console.WriteLine("Project file format is ok");
+}
+
+var options = new SaveTemplateOptions
+{
+    RemoveActualValues = true,
+    RemoveBaselineValues = true
+};
+
+project.SaveAsTemplate(OutDir + "SaveProjectDataAsTemplate_out.mpt", options);
+
+var templateFileInfo = Project.GetProjectFileInfo(OutDir + "SaveProjectDataAsTemplate_out.mpt");
+if (FileFormat.MPT14 == templateFileInfo.ProjectFileFormat)
+{
+    Console.WriteLine("Template FileFormat is ok");
+}
+```
+
+### Vedi anche
 
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SaveAsTemplate(Stream) {#saveastemplate}
 
-Salva il progetto come modello in un flusso specificato.
+Salva il progetto come modello in uno stream specificato.
 
 ```csharp
 public void SaveAsTemplate(Stream stream)
@@ -58,19 +114,47 @@ public void SaveAsTemplate(Stream stream)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| stream | Stream | il flusso specificato in cui salvare il progetto. |
+| flusso | Flusso | lo stream specificato su cui salvare il progetto. |
 
-### Guarda anche
+## Esempi
+
+Mostra come salvare il progetto come modello.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var projectFileInfo = Project.GetProjectFileInfo(DataDir + "Project2.mpp");
+
+if (FileFormat.MPP14 == projectFileInfo.ProjectFileFormat)
+{
+    Console.WriteLine("Project file format is ok");
+}
+
+var options = new SaveTemplateOptions
+{
+    RemoveActualValues = true,
+    RemoveBaselineValues = true
+};
+
+project.SaveAsTemplate(OutDir + "SaveProjectDataAsTemplate_out.mpt", options);
+
+var templateFileInfo = Project.GetProjectFileInfo(OutDir + "SaveProjectDataAsTemplate_out.mpt");
+if (FileFormat.MPT14 == templateFileInfo.ProjectFileFormat)
+{
+    Console.WriteLine("Template FileFormat is ok");
+}
+```
+
+### Vedi anche
 
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## SaveAsTemplate(Stream, SaveTemplateOptions) {#saveastemplate_1}
 
-Salva il progetto come modello in un flusso specificato.
+Salva il progetto come modello in uno stream specificato.
 
 ```csharp
 public void SaveAsTemplate(Stream stream, SaveTemplateOptions options)
@@ -78,14 +162,42 @@ public void SaveAsTemplate(Stream stream, SaveTemplateOptions options)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| stream | Stream | Stream in cui salvare il modello di progetto. |
-| options | SaveTemplateOptions | le opzioni di salvataggio specificate[`SaveTemplateOptions`](../../../aspose.tasks.saving/savetemplateoptions/). |
+| flusso | Flusso | Stream su cui salvare il modello del progetto. |
+| options | SaveTemplateOptions | le opzioni di salvataggio specificate [`SaveTemplateOptions`](../../../aspose.tasks.saving/savetemplateoptions/). |
 
-### Guarda anche
+## Esempi
+
+Mostra come salvare il progetto come modello.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+var projectFileInfo = Project.GetProjectFileInfo(DataDir + "Project2.mpp");
+
+if (FileFormat.MPP14 == projectFileInfo.ProjectFileFormat)
+{
+    Console.WriteLine("Project file format is ok");
+}
+
+var options = new SaveTemplateOptions
+{
+    RemoveActualValues = true,
+    RemoveBaselineValues = true
+};
+
+project.SaveAsTemplate(OutDir + "SaveProjectDataAsTemplate_out.mpt", options);
+
+var templateFileInfo = Project.GetProjectFileInfo(OutDir + "SaveProjectDataAsTemplate_out.mpt");
+if (FileFormat.MPT14 == templateFileInfo.ProjectFileFormat)
+{
+    Console.WriteLine("Template FileFormat is ok");
+}
+```
+
+### Vedi anche
 
 * class [SaveTemplateOptions](../../../aspose.tasks.saving/savetemplateoptions/)
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

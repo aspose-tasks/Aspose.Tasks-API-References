@@ -1,24 +1,42 @@
 ---
-title: Task.RecurringInfo
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene listanza diRecurringTaskInfo classe per lattività che è unattività ricorrente se lattività non è ricorrente restituisce null  Le informazioni per listanza diRecurringTaskInfo è presente solo nel formato di file mpp.
+title: "Task.RecurringInfo"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene l'istanza della classe RecurringTaskInfo per l'attività che è un'attività ricorrente; se l'attività non è ricorrente restituisce null. Le informazioni per l'istanza di RecurringTaskInfo sono presenti solo nel formato file mpp"
 type: docs
-weight: 1040
+weight: 1030
 url: /it/net/aspose.tasks/task/recurringinfo/
 ---
 ## Task.RecurringInfo property
 
-Ottiene l'istanza di[`RecurringTaskInfo`](../../recurringtaskinfo/) classe per l'attività che è un'attività ricorrente; se l'attività non è ricorrente, restituisce null;  Le informazioni per l'istanza di[`RecurringTaskInfo`](../../recurringtaskinfo/) è presente solo nel formato di file mpp.
+Ottiene l'istanza della classe [`RecurringTaskInfo`](../../recurringtaskinfo/) per l'attività che è un'attività ricorrente; se l'attività non è ricorrente restituisce null; le informazioni per l'istanza di [`RecurringTaskInfo`](../../recurringtaskinfo/) sono presenti solo nel formato file mpp.
 
 ```csharp
 public RecurringTaskInfo RecurringInfo { get; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere le informazioni ricorrenti dell'attività.
+
+```csharp
+var project = new Project(DataDir + "TestRecurringTask2016.mpp");
+
+var task = project.RootTask.Children.GetById(1);
+
+Console.WriteLine("Recurrence Pattern: " + task.RecurringInfo.RecurrencePattern);
+Console.WriteLine("Start Date: " + task.RecurringInfo.StartDate);
+Console.WriteLine("End Date: " + task.RecurringInfo.EndDate);
+Console.WriteLine("Duration: " + task.RecurringInfo.Duration);
+Console.WriteLine("Occurrences: " + task.RecurringInfo.Occurrences);
+Console.WriteLine("Weekly Days: " + task.RecurringInfo.WeeklyDays);
+Console.WriteLine("WeeklyRepetitions: " + task.RecurringInfo.WeeklyRepetitions);
+```
+
+### Vedi anche
 
 * class [RecurringTaskInfo](../../recurringtaskinfo/)
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

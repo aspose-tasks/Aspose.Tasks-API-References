@@ -1,9 +1,9 @@
 ---
-title: Task.ManualFinish
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore di ManualFinish.
+title: "Task.ManualFinish"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene o imposta un valore di ManualFinish"
 type: docs
-weight: 840
+weight: 830
 url: /it/net/aspose.tasks/task/manualfinish/
 ---
 ## Task.ManualFinish property
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di ManualFinish.
 public DateTime ManualFinish { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

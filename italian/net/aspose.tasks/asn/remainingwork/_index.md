@@ -1,26 +1,45 @@
 ---
-title: Asn.RemainingWork
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Asn campo. Il lavoro rimanente programmato per completare un compito.
+title: "Asn.RemainingWork"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Asn. Il lavoro rimanente programmato per completare un'assegnazione"
 type: docs
 weight: 460
 url: /it/net/aspose.tasks/asn/remainingwork/
 ---
 ## Asn.RemainingWork field
 
-Il lavoro rimanente programmato per completare un compito.
+Il lavoro rimanente programmato per completare un'assegnazione.
 
 ```csharp
 public static readonly Key<Duration, AsnKey> RemainingWork;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere i lavori/costi di straordinario/residui di un'assegnazione.
+
+```csharp
+var project = new Project(DataDir + "ResourceAssignmentOvertimes.mpp");
+
+// Stampa gli straordinari dell'assegnazione
+foreach (var ra in project.ResourceAssignments)
+{
+    Console.WriteLine(ra.Get(Asn.OvertimeWork).ToString());
+    Console.WriteLine(ra.Get(Asn.OvertimeCost));
+    Console.WriteLine(ra.Get(Asn.RemainingWork).ToString());
+    Console.WriteLine(ra.Get(Asn.RemainingCost));
+    Console.WriteLine(ra.Get(Asn.RemainingOvertimeWork).ToString());
+    Console.WriteLine(ra.Get(Asn.RemainingOvertimeCost));
+}
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [AsnKey](../../asnkey/)
 * class [Asn](../)
-* spazio dei nomi [Aspose.Tasks](../../asn/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../asn/)
+* assembly [Aspose.Tasks](../../../)
 
 

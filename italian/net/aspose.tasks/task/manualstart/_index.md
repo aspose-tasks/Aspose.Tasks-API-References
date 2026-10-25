@@ -1,9 +1,9 @@
 ---
-title: Task.ManualStart
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore di ManualStart.
+title: "Task.ManualStart"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene o imposta un valore di ManualStart"
 type: docs
-weight: 850
+weight: 840
 url: /it/net/aspose.tasks/task/manualstart/
 ---
 ## Task.ManualStart property
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di ManualStart.
 public DateTime ManualStart { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

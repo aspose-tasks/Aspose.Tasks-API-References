@@ -1,23 +1,60 @@
 ---
-title: Table.Index
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Table proprietà. Ottiene lindice di un oggetto Table nelloggetto che contiene le tabelle.
+title: "Table.Index"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Table. Ottiene l'indice di un oggetto Table nell'oggetto contenitore Tables"
 type: docs
 weight: 40
 url: /it/net/aspose.tasks/table/index/
 ---
 ## Table.Index property
 
-Ottiene l'indice di un oggetto Table nell'oggetto che contiene le tabelle.
+Ottiene l'indice di un oggetto Table nell'oggetto contenitore Tables.
 
 ```csharp
 public int Index { get; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come definire una nuova tabella (utilizzata per le visualizzazioni).
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+// ottieni una tabella da modificare
+var table = project.Tables.ToList()[0];
+Console.WriteLine("Uid of the table: " + table.Uid);
+Console.WriteLine("Index of the table: " + table.Index);
+Console.WriteLine("Name of the table: " + table.Name);
+Console.WriteLine("Type of the table: " + table.TableType);
+
+// regola alcune proprietà
+// imposta un valore che indica se l'altezza della riga di intestazione della tabella può essere regolata
+table.AdjustHeaderRowHeight = true;
+
+// imposta il formato data della tabella.
+table.DateFormat = DateFormat.DateDdMmYyyy;
+
+// imposta un valore che indica se la prima colonna di una tabella è bloccata o modificabile
+table.LockFirstColumn = true;
+
+// imposta l'altezza della riga in una tabella, dove l'altezza della riga è il numero di righe di testo
+table.RowHeight = 10;
+
+// imposta un valore che indica se mostrare l'interfaccia 'Aggiungi Nuova Colonna'
+table.ShowAddNewColumn = true;
+
+// imposta un valore che indica se il progetto mostra il nome della tabella nell'elenco a discesa Tabelle nella scheda Visualizza del Ribbon
+table.ShowInMenu = true;
+
+// consente di salvare la tabella aggiornata
+project.Save(OutDir + "WorkWithTable_out.mpp", SaveFileFormat.Mpp);
+```
+
+### Vedi anche
 
 * class [Table](../)
-* spazio dei nomi [Aspose.Tasks](../../table/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../table/)
+* assembly [Aspose.Tasks](../../../)
 
 

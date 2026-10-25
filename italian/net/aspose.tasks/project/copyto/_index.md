@@ -1,9 +1,9 @@
 ---
-title: Project.CopyTo
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project metodo. Copia i dati principali e le proprietà del progetto in un altro progetto.
+title: "Project.CopyTo"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo di Project. Copia i dati principali e le proprietà del progetto in un altro progetto"
 type: docs
-weight: 1030
+weight: 1060
 url: /it/net/aspose.tasks/project/copyto/
 ---
 ## CopyTo(Project) {#copyto}
@@ -16,13 +16,27 @@ public void CopyTo(Project another)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| another | Project | Un altro progetto in cui copiare i dati. |
+| un altro | Project | Un altro progetto a cui copiare i dati. |
 
-### Guarda anche
+## Esempi
+
+Mostra come copiare i dati del progetto in un altro progetto.
+
+```csharp
+var project = new Project(DataDir + "CopyToProjectEmpty.xml");
+File.Copy(DataDir + "CopyToProjectEmpty.mpp", DataDir + "ProjectCopying_out.mpp", true);
+
+var mppProject = new Project(DataDir + "ProjectCopying_out.mpp");
+
+// ignora la copia dei dati della vista durante la copia dei dati comuni del progetto.
+project.CopyTo(mppProject);
+```
+
+### Vedi anche
 
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -36,14 +50,32 @@ public void CopyTo(Project another, CopyToOptions options)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| another | Project | Un altro progetto in cui copiare i dati. |
-| options | CopyToOptions | Opzioni di copia per controllare il processo di copia. |
+| un altro | Project | Un altro progetto a cui copiare i dati. |
+| opzioni | CopyToOptions | Opzioni di copia per controllare il processo di copia. |
 
-### Guarda anche
+## Esempi
+
+Mostra come copiare il progetto utilizzando l'istanza &lt;see cref=\"Aspose.Tasks.CopyToOptions\"/&gt;.
+
+```csharp
+var project = new Project(DataDir + "CopyToProjectEmpty.xml");
+File.Copy(DataDir + "CopyToProjectEmpty.mpp", OutDir + "ProjectCopying_out.mpp", true);
+
+var mppProject = new Project(OutDir + "ProjectCopying_out.mpp");
+
+// ignora la copia dei dati della vista durante la copia dei dati comuni del progetto.
+var options = new CopyToOptions
+{
+    CopyViewData = false
+};
+project.CopyTo(mppProject, options);
+```
+
+### Vedi anche
 
 * class [CopyToOptions](../../copytooptions/)
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

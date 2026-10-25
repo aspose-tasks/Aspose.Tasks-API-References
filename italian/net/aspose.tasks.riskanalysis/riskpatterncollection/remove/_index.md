@@ -1,14 +1,14 @@
 ---
-title: RiskPatternCollection.Remove
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: RiskPatternCollection metodo. Rimuove la prima occorrenza di un oggetto specifico da questa raccolta.
+title: "RiskPatternCollection.Remove"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo RiskPatternCollection. Rimuove la prima occorrenza di un oggetto specifico da questa raccolta"
 type: docs
 weight: 90
 url: /it/net/aspose.tasks.riskanalysis/riskpatterncollection/remove/
 ---
 ## RiskPatternCollection.Remove method
 
-Rimuove la prima occorrenza di un oggetto specifico da questa raccolta.
+Rimuove la prima occorrenza di un oggetto specifico da questa collezione.
 
 ```csharp
 public bool Remove(RiskPattern item)
@@ -16,17 +16,103 @@ public bool Remove(RiskPattern item)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| item | RiskPattern | l'oggetto specificato da rimuovere. |
+| elemento | RiskPattern | l'oggetto specificato da rimuovere. |
 
 ### Valore di ritorno
 
-true se l'oggetto specificato è stato rimosso correttamente da questa raccolta; altrimenti, falso.
+true se l'oggetto specificato è stato rimosso con successo da questa collezione; altrimenti, false.
 
-### Guarda anche
+## Esempi
+
+Mostra come lavorare con le collezioni di pattern di rischio.
+
+```csharp
+var settings = new RiskAnalysisSettings
+{
+    // Imposta il numero di iterazioni per la simulazione Monte Carlo (il valore predefinito è 100).
+    IterationsCount = 200
+};
+
+var project = new Project(DataDir + "Software Development Plan-1.mpp");
+var task1 = project.RootTask.Children.GetById(17);
+var task2 = project.RootTask.Children.GetById(18);
+
+// per quanto riguarda RiskPatternCollection, non è di sola lettura
+Console.WriteLine("Is pattern collection read-only?: " + settings.Patterns.IsReadOnly);
+
+// si possono aggiungere nuovi pattern
+var pattern1 = new RiskPattern(task1)
+{
+    Distribution = ProbabilityDistributionType.Normal,
+    Optimistic = 60,
+    Pessimistic = 140,
+    ConfidenceLevel = ConfidenceLevel.CL75
+};
+var pattern2 = new RiskPattern(task2)
+{
+    Distribution = ProbabilityDistributionType.Normal,
+    Optimistic = 70,
+    Pessimistic = 130,
+    ConfidenceLevel = ConfidenceLevel.CL75
+};
+
+settings.Patterns.Add(pattern1);
+settings.Patterns.Add(pattern2);
+
+// iterare sui pattern aggiunti
+Console.WriteLine("Patterns count: " + settings.Patterns.Count);
+foreach (var pattern in settings.Patterns)
+{
+    Console.WriteLine("Task: " + pattern.Task);
+    Console.WriteLine("Distribution: " + pattern.Distribution);
+    Console.WriteLine("Optimistic: " + pattern.Optimistic);
+    Console.WriteLine("Pessimistic: " + pattern.Pessimistic);
+    Console.WriteLine("Confidence Level: " + pattern.ConfidenceLevel);
+    Console.WriteLine();
+}
+
+// modifica il pattern nella collezione usando l'accesso per indice
+settings.Patterns[task1].Optimistic = 70;
+settings.Patterns[task1].Pessimistic = 140;
+
+// verifica i pattern dopo le modifiche
+Console.WriteLine("Print edited patterns: ");
+foreach (var pattern in settings.Patterns)
+{
+    Console.WriteLine("Task: " + pattern.Task);
+    Console.WriteLine("Distribution: " + pattern.Distribution);
+    Console.WriteLine("Optimistic: " + pattern.Optimistic);
+    Console.WriteLine("Pessimistic: " + pattern.Pessimistic);
+    Console.WriteLine("Confidence Level: " + pattern.ConfidenceLevel);
+    Console.WriteLine();
+}
+
+// possiamo rimuovere il pattern
+Console.WriteLine("Removing the first pattern...");
+settings.Patterns.Remove(pattern1);
+
+// verifica che il pattern non sia nella collezione
+Console.WriteLine("Is collection contains the first pattern?: " + settings.Patterns.Contains(pattern1));
+
+// è possibile svuotare la collezione in due modi
+
+// copia i pattern nell'array e cancellali uno per uno
+var patterns = new RiskPattern[settings.Patterns.Count];
+settings.Patterns.CopyTo(patterns, 0);
+foreach (var pattern in patterns)
+{
+    settings.Patterns.Remove(pattern);
+}
+
+// oppure si può svuotare completamente una collezione di pattern
+settings.Patterns.Clear();
+```
+
+### Vedi anche
 
 * class [RiskPattern](../../riskpattern/)
 * class [RiskPatternCollection](../)
-* spazio dei nomi [Aspose.Tasks.RiskAnalysis](../../riskpatterncollection/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.RiskAnalysis](../../riskpatterncollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Class TasksRenderingException
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.TasksRenderingException classe. Rappresenta leccezione che può verificarsi durante il rendering della vista di un progetto in un formato grafico.
+title: "Classe TasksRenderingException"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Classe Aspose.Tasks.TasksRenderingException. Rappresenta l'eccezione che può verificarsi durante il rendering della vista di un progetto in formato grafico"
 type: docs
-weight: 2240
+weight: 2550
 url: /it/net/aspose.tasks/tasksrenderingexception/
 ---
 ## TasksRenderingException class
@@ -14,10 +14,10 @@ Rappresenta l'eccezione che può verificarsi durante il rendering della vista di
 public class TasksRenderingException : TasksException
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [TasksException](../tasksexception/)
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
-* assemblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

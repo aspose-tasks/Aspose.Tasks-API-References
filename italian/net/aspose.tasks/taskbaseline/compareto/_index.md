@@ -1,14 +1,14 @@
 ---
-title: TaskBaseline.CompareTo
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: TaskBaseline metodo. Implementazione dellinterfaccia comparabile. Confronta questa istanza con loggetto Baseline specificato.
+title: "TaskBaseline.CompareTo"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo TaskBaseline. Implementazione dell'interfaccia IComparable. Confronta questa istanza con l'oggetto Baseline specificato"
 type: docs
-weight: 100
+weight: 90
 url: /it/net/aspose.tasks/taskbaseline/compareto/
 ---
 ## TaskBaseline.CompareTo method
 
-Implementazione dell'interfaccia comparabile. Confronta questa istanza con l'oggetto Baseline specificato.
+Implementazione dell'interfaccia IComparable. Confronta questa istanza con l'oggetto Baseline specificato.
 
 ```csharp
 public int CompareTo(TaskBaseline other)
@@ -16,16 +16,37 @@ public int CompareTo(TaskBaseline other)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| other | TaskBaseline | l'oggetto Baseline specificato con cui confrontare questa istanza. |
+| altro | TaskBaseline | l'oggetto Baseline specificato con cui confrontare questa istanza. |
 
 ### Valore di ritorno
 
-restituisce -1 se questa istanza è minore dell'oggetto specificato, 1 se questa istanza è maggiore dell'oggetto specificato; altrimenti restituisce 0
+restituisce -1 se questa istanza è inferiore all'oggetto specificato, 1 se questa istanza è superiore all'oggetto specificato; altrimenti restituisce 0
 
-### Guarda anche
+## Esempi
+
+Mostra come verificare l'uguaglianza delle baseline.
+
+```csharp
+var project = new Project();
+
+// creazione di TaskBaseline
+var task = project.RootTask.Children.Add("Task");
+project.SetBaseline(BaselineType.Baseline);
+
+// visualizza la durata della baseline dell'attività
+var baseline1 = task.Baselines.ToList()[0];
+var baseline2 = task.Baselines.ToList()[0];
+
+// l'uguaglianza delle baseline è verificata confrontando i numeri delle baseline.
+Console.WriteLine("Baseline Number 1: " + baseline1.BaselineNumber);
+Console.WriteLine("Baseline Number 2: " + baseline2.BaselineNumber);
+Console.WriteLine("Are baselines equal: " + baseline1.Equals(baseline2));
+```
+
+### Vedi anche
 
 * class [TaskBaseline](../)
-* spazio dei nomi [Aspose.Tasks](../../taskbaseline/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../taskbaseline/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Delegate AssignmentToColumnTextConverter
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Dati ResourceAssignment al convertitore di stringhe della colonna.
+title: "Delegato AssignmentToColumnTextConverter"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Convertitore di stringhe dei dati ResourceAssignment in colonne"
 type: docs
-weight: 2590
+weight: 2920
 url: /it/net/aspose.tasks.visualization/assignmenttocolumntextconverter/
 ---
 ## AssignmentToColumnTextConverter delegate
 
-Dati ResourceAssignment al convertitore di stringhe della colonna.
+Convertitore da dati ResourceAssignment a stringa della colonna.
 
 ```csharp
 public delegate string AssignmentToColumnTextConverter(ResourceAssignment assignment);
@@ -16,16 +16,42 @@ public delegate string AssignmentToColumnTextConverter(ResourceAssignment assign
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| assignment | ResourceAssignment | L'incarico di convertire. |
+| assegnazione | ResourceAssignment | L'assegnazione da convertire. |
 
 ### Valore di ritorno
 
-Stringa di dati per la colonna.
+Dati stringa per la colonna.
 
-### Guarda anche
+## Esempi
+
+Mostra come aggiungere colonne per le visualizzazioni delle assegnazioni.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new Spreadsheet2003SaveOptions();
+
+var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
+options.AssignmentView.Columns.Add(column);
+
+foreach (var assignment in project.ResourceAssignments)
+{
+    foreach (var col in options.AssignmentView.Columns)
+    {
+        var assnCol = (AssignmentViewColumn)col;
+        Console.WriteLine("Column Field: " + assnCol.Field);
+        Console.WriteLine("Column Text ( converted ): " + assnCol.GetColumnText(assignment));
+        Console.WriteLine();
+    }
+}
+
+project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
+```
+
+### Vedi anche
 
 * class [ResourceAssignment](../../aspose.tasks/resourceassignment/)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* assemblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

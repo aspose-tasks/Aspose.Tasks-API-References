@@ -1,14 +1,14 @@
 ---
-title: ProjectView.GetDefaultTaskSheetView
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ProjectView metodo. Include id indicatori nome durata inizio fine predecessori e colonne attività nomi risorse.
+title: "ProjectView.GetDefaultTaskSheetView"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo ProjectView. Include gli indicatori id, nome, durata, inizio, fine, predecessori e nomi delle risorse nelle colonne delle attività"
 type: docs
 weight: 60
 url: /it/net/aspose.tasks.visualization/projectview/getdefaulttasksheetview/
 ---
 ## ProjectView.GetDefaultTaskSheetView method
 
-Include id, indicatori, nome, durata, inizio, fine, predecessori e colonne attività nomi risorse.
+Include le colonne id, indicatori, nome, durata, inizio, fine, predecessori e nomi delle risorse delle attività.
 
 ```csharp
 public static ProjectView GetDefaultTaskSheetView()
@@ -16,12 +16,27 @@ public static ProjectView GetDefaultTaskSheetView()
 
 ### Valore di ritorno
 
-una vista che contiene un elenco di[`GanttChartColumn`](../../ganttchartcolumn/).
+una vista che contiene un elenco di [`GanttChartColumn`](../../ganttchartcolumn/).
 
-### Guarda anche
+## Esempi
+
+Mostra come salvare un progetto con la vista task sheet.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    Timescale = Timescale.Months,
+    View = ProjectView.GetDefaultTaskSheetView()
+};
+
+project.Save(OutDir + "WorkWithProjectView_TaskSheetView_out.pdf", options);
+```
+
+### Vedi anche
 
 * class [ProjectView](../)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../projectview/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../projectview/)
+* assembly [Aspose.Tasks](../../../)
 
 

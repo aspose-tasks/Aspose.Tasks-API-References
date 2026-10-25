@@ -1,23 +1,23 @@
 ---
-title: Project.Keywords
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene o imposta un valore di parole chiave.
+title: "Project.Keywords"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Project. Ottiene o imposta un valore di Keywords"
 type: docs
-weight: 500
+weight: 520
 url: /it/net/aspose.tasks/project/keywords/
 ---
 ## Project.Keywords property
 
-Ottiene o imposta un valore di parole chiave.
+Ottiene o imposta un valore di Keywords.
 
 ```csharp
 public string Keywords { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

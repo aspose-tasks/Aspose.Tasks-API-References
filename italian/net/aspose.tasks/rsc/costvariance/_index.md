@@ -1,25 +1,39 @@
 ---
-title: Rsc.CostVariance
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Rsc campo. La differenza tra il costo previsto e il costo totale per una risorsa.
+title: "Rsc.CostVariance"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Rsc. La differenza tra il costo di base e il costo totale per una risorsa"
 type: docs
 weight: 250
 url: /it/net/aspose.tasks/rsc/costvariance/
 ---
 ## Rsc.CostVariance field
 
-La differenza tra il costo previsto e il costo totale per una risorsa.
+La differenza tra il costo di base e il costo totale per una risorsa.
 
 ```csharp
 public static readonly Key<double, RscKey> CostVariance;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere/scrivere la proprietà Rsc.CostVariance.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.CostVariance, 10);
+
+Console.WriteLine("Cost Variance: " + resource.Get(Rsc.CostVariance));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* spazio dei nomi [Aspose.Tasks](../../rsc/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

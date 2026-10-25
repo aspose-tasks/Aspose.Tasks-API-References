@@ -1,14 +1,14 @@
 ---
-title: Calendar.GetPreviousWorkingDayEnd
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Calendar metodo. Calcola la fine della data lavorativa precedente dalla data specificata.
+title: "Calendar.GetPreviousWorkingDayEnd"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo Calendar. Calcola la fine della data lavorativa precedente dalla data specificata"
 type: docs
-weight: 170
+weight: 190
 url: /it/net/aspose.tasks/calendar/getpreviousworkingdayend/
 ---
 ## Calendar.GetPreviousWorkingDayEnd method
 
-Calcola la fine della data lavorativa precedente dalla data specificata.
+Calcola la fine della data lavorativa precedente a partire dalla data specificata.
 
 ```csharp
 public DateTime GetPreviousWorkingDayEnd(DateTime date)
@@ -16,16 +16,32 @@ public DateTime GetPreviousWorkingDayEnd(DateTime date)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| date | DateTime | l'istanza specificata diDateTime struct. |
+| data | DateTime | La data per calcolare la fine della giornata lavorativa precedente. |
 
 ### Valore di ritorno
 
-Inizio della giornata lavorativa precedenteDateTime
+La fine della giornata lavorativa precedente
 
-### Guarda anche
+## Esempi
+
+Mostra come ottenere la fine del giorno lavorativo precedente usando un calendario.
+
+```csharp
+var project = new Project(DataDir + "Project1.mpp");
+
+var calendar = project.Calendars.GetByUid(1);
+
+// ottieni la fine del giorno lavorativo precedente
+var previousWorkingDayEnd = calendar.GetPreviousWorkingDayEnd(new DateTime(2020, 4, 10, 13, 0, 0));
+
+// Il 9 aprile 2020 18:00 verrà stampato
+Console.WriteLine(previousWorkingDayEnd);
+```
+
+### Vedi anche
 
 * class [Calendar](../)
-* spazio dei nomi [Aspose.Tasks](../../calendar/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../calendar/)
+* assembly [Aspose.Tasks](../../../)
 
 

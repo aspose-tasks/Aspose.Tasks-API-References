@@ -1,24 +1,24 @@
 ---
-title: ImageSaveOptions.PageSavingCallback
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ImageSaveOptions proprietà. Ottiene o imposta un callback definito dallutente utilizzato per ottenere un flusso di output per ogni pagina sottoposta a rendering.
+title: "ImageSaveOptions.PageSavingCallback"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà ImageSaveOptions. Ottiene o imposta una callback definita dall'utente che viene usata per ottenere uno stream di output per ogni pagina renderizzata"
 type: docs
-weight: 70
+weight: 60
 url: /it/net/aspose.tasks.saving/imagesaveoptions/pagesavingcallback/
 ---
 ## ImageSaveOptions.PageSavingCallback property
 
-Ottiene o imposta un callback definito dall'utente utilizzato per ottenere un flusso di output per ogni pagina sottoposta a rendering.
+Ottiene o imposta un callback definito dall'utente che viene utilizzato per ottenere uno stream di output per ogni pagina renderizzata.
 
 ```csharp
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [ImageSaveOptions](../)
-* spazio dei nomi [Aspose.Tasks.Saving](../../imagesaveoptions/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../imagesaveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

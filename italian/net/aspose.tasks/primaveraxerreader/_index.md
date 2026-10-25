@@ -1,35 +1,55 @@
 ---
-title: Class PrimaveraXerReader
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.PrimaveraXerReader classe. Rappresenta un lettore per leggere gli UID del progetto dal file Primavera XER
+title: "Classe PrimaveraXerReader"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Classe Aspose.Tasks.PrimaveraXerReader. Rappresenta un lettore per leggere gli UID del progetto da un file Primavera XER"
 type: docs
-weight: 1150
+weight: 1390
 url: /it/net/aspose.tasks/primaveraxerreader/
 ---
 ## PrimaveraXerReader class
 
-Rappresenta un lettore per leggere gli UID del progetto dal file Primavera XER
+Rappresenta un lettore per leggere gli UID del progetto da un file Primavera XER
 
 ```csharp
-public class PrimaveraXerReader
+public sealed class PrimaveraXerReader : PrimaveraBaseReader
 ```
 
 ## Costruttori
 
 | Nome | Descrizione |
 | --- | --- |
-| [PrimaveraXerReader](primaveraxerreader/#constructor)(Stream) | Inizializza una nuova istanza di`PrimaveraXerReader` classe. |
-| [PrimaveraXerReader](primaveraxerreader/#constructor_1)(string) | Inizializza una nuova istanza di`PrimaveraXerReader` classe. |
+| [PrimaveraXerReader](primaveraxerreader/#constructor)(Stream) | Inizializza una nuova istanza della classe `PrimaveraXerReader`. |
+| [PrimaveraXerReader](primaveraxerreader/#constructor_1)(string) | Inizializza una nuova istanza della classe `PrimaveraXerReader`. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetProjectUids](../../aspose.tasks/primaveraxerreader/getprojectuids/)() | Restituisce un elenco degli identificatori univoci dei progetti. |
+| [GetProjectInfos](../../aspose.tasks/primaverabasereader/getprojectinfos/)() | Restituisce un elenco degli oggetti di informazioni brevi del progetto. |
+| [GetProjectUids](../../aspose.tasks/primaverabasereader/getprojectuids/)() | Restituisci un elenco degli identificatori univoci dei progetti. |
+| virtual [LoadProject](../../aspose.tasks/primaverabasereader/loadproject/)(int) | Carica il progetto con l'identificatore univoco specificato. |
 
-### Guarda anche
+## Esempi
 
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
-* assemblea [Aspose.Tasks](../../)
+Mostra come esaminare le informazioni dei progetti brevi da un file Primavera XER.
+
+```csharp
+var reader = new PrimaveraXerReader(DataDir + "MultiprojectWithExternal.xer");
+var projectInfos = reader.GetProjectInfos();
+foreach (var info in projectInfos)
+{
+    Console.WriteLine("{0} - '{1}' - {2}", info.Uid, info.Name, info.ExportFlag);
+}
+
+var project = reader.LoadProject(5494);
+
+Console.WriteLine("Loaded project '{0}' with Uid {1}", project.Name, project.Uid);
+```
+
+### Vedi anche
+
+* class [PrimaveraBaseReader](../primaverabasereader/)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

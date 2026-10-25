@@ -1,23 +1,23 @@
 ---
-title: Project.CriticalSlackLimit
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene o imposta un valore di CriticalSlackLimit.
+title: "Project.CriticalSlackLimit"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Project. I task sono considerati critici da MS Project se il margine totale è minore o uguale a questo numero di giorni"
 type: docs
-weight: 180
+weight: 190
 url: /it/net/aspose.tasks/project/criticalslacklimit/
 ---
 ## Project.CriticalSlackLimit property
 
-Ottiene o imposta un valore di CriticalSlackLimit.
+Le attività sono considerate critiche da MS Project se il margine totale è inferiore o uguale a questo numero di giorni.
 
 ```csharp
 public int CriticalSlackLimit { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,25 +1,37 @@
 ---
-title: Prj.Company
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Prj campo. Lazienda in cui è stato creato un progetto.
+title: "Prj.Company"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Prj. L'azienda dove è stato creato un progetto."
 type: docs
-weight: 110
+weight: 120
 url: /it/net/aspose.tasks/prj/company/
 ---
 ## Prj.Company field
 
-L'azienda in cui è stato creato un progetto.
+L'azienda dove è stato creato un progetto.
 
 ```csharp
 public static readonly Key<string, PrjKey> Company;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere/scrivere la proprietà Prj.Company.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Company, "Aspose");
+
+Console.WriteLine("Company: " + project.Get(Prj.Company));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* spazio dei nomi [Aspose.Tasks](../../prj/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

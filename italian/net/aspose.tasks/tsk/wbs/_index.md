@@ -1,25 +1,43 @@
 ---
-title: Tsk.WBS
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Tsk campo. Codici WBS Work Breakdown Structure.
+title: "Tsk.WBS"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Tsk campo. Codici della struttura di scomposizione del lavoro WBS"
 type: docs
-weight: 1150
+weight: 1130
 url: /it/net/aspose.tasks/tsk/wbs/
 ---
 ## Tsk.WBS field
 
-Codici WBS (Work Breakdown Structure).
+Codici della struttura di suddivisione del lavoro (WBS).
 
 ```csharp
 public static readonly Key<string, TaskKey> WBS;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere i codici WBS dell'attività.
+
+```csharp
+var project = new Project(DataDir + "TaskWBS.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Analizza tutti i task raccolti
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine(task.Get(Tsk.WBS));
+    Console.WriteLine(task.Get(Tsk.WBSLevel));
+}
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* spazio dei nomi [Aspose.Tasks](../../tsk/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

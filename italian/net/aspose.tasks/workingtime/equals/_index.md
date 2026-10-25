@@ -1,14 +1,14 @@
 ---
-title: WorkingTime.Equals
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: WorkingTime metodo. Controlla che gli oggetti siano uguali.
+title: "WorkingTime.Equals"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo WorkingTime. Verifica che gli oggetti siano uguali"
 type: docs
 weight: 40
 url: /it/net/aspose.tasks/workingtime/equals/
 ---
 ## WorkingTime.Equals method
 
-Controlla che gli oggetti siano uguali.
+Verifica che gli oggetti siano uguali.
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,16 +16,33 @@ public override bool Equals(object obj)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| obj | Object | Secondo oggetto da confrontare. |
+| obj | Oggetto | Secondo oggetto da confrontare. |
 
 ### Valore di ritorno
 
-Vero se gli oggetti sono uguali, falso altrimenti.
+True se gli oggetti sono uguali, false altrimenti.
 
-### Guarda anche
+## Esempi
+
+Mostra come verificare l'uguaglianza del tempo di lavoro.
+
+```csharp
+var workingTime1 = new WorkingTime(9, 12);
+var workingTime2 = new WorkingTime(13, 17);
+
+// L'uguaglianza dei calendari è verificata rispetto alle date di inizio e fine del tempo di lavoro.
+Console.WriteLine("Working Time 1 (From): " + workingTime1.From);
+Console.WriteLine("Working Time 1 (To): " + workingTime1.To);
+
+Console.WriteLine("Working Time 2 (From): " + workingTime2.From);
+Console.WriteLine("Working Time 2 (To): " + workingTime2.To);
+Console.WriteLine("Are working times equal: " + workingTime1.Equals(workingTime2));
+```
+
+### Vedi anche
 
 * class [WorkingTime](../)
-* spazio dei nomi [Aspose.Tasks](../../workingtime/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../workingtime/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: VisualObjectPlacement.BorderLineThickness
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: VisualObjectPlacement proprietà. Ottiene o imposta lo spessore della linea del bordo i valori consentiti sono 0  5.
+title: "VisualObjectPlacement.BorderLineThickness"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "VisualObjectPlacement proprietà. Ottiene o imposta lo spessore della linea del bordo; i valori consentiti sono 0  5"
 type: docs
 weight: 40
 url: /it/net/aspose.tasks.visualization/visualobjectplacement/borderlinethickness/
@@ -14,10 +14,10 @@ Ottiene o imposta lo spessore della linea del bordo (i valori consentiti sono 0 
 public byte BorderLineThickness { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [VisualObjectPlacement](../)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

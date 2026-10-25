@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignmentCollection.Item
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ResourceAssignmentCollection proprietà. Restituisce lelemento allindice specificato.
+title: "ResourceAssignmentCollection.Item"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà ResourceAssignmentCollection. Restituisce l'elemento all'indice specificato"
 type: docs
 weight: 30
 url: /it/net/aspose.tasks/resourceassignmentcollection/item/
@@ -16,17 +16,17 @@ public ResourceAssignment this[int index] { get; set; }
 
 | Parametro | Descrizione |
 | --- | --- |
-| index | L'indice in base zero dell'elemento da ottenere. |
+| indice | L'indice basato su zero dell'elemento da ottenere. |
 
 ### Valore di ritorno
 
 l'elemento all'indice specificato.
 
-### Guarda anche
+### Vedi anche
 
 * class [ResourceAssignment](../../resourceassignment/)
 * class [ResourceAssignmentCollection](../)
-* spazio dei nomi [Aspose.Tasks](../../resourceassignmentcollection/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignmentcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

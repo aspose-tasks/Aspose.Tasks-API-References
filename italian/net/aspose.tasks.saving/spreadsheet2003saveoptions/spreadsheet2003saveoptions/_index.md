@@ -1,23 +1,43 @@
 ---
-title: Spreadsheet2003SaveOptions.Spreadsheet2003SaveOptions
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Spreadsheet2003SaveOptions costruttore. Inizializza una nuova istanza diSpreadsheet2003SaveOptions classe.
+title: "Spreadsheet2003SaveOptions.Spreadsheet2003SaveOptions"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore di Spreadsheet2003SaveOptions. Inizializza una nuova istanza della classe Spreadsheet2003SaveOptions"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks.saving/spreadsheet2003saveoptions/spreadsheet2003saveoptions/
 ---
 ## Spreadsheet2003SaveOptions constructor
 
-Inizializza una nuova istanza di[`Spreadsheet2003SaveOptions`](../) classe.
+Inizializza una nuova istanza della classe [`Spreadsheet2003SaveOptions`](../).
 
 ```csharp
 public Spreadsheet2003SaveOptions()
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come aggiungere colonne da esportare durante l'esportazione del progetto nel formato Spreadsheet2003.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+
+var options = new Spreadsheet2003SaveOptions();
+var ganttChartColumn = new GanttChartColumn("WBS", 100, delegate(Task task) { return task.Get(Tsk.WBS); });
+options.View.Columns.Add(ganttChartColumn);
+
+var resourceViewColumn = new ResourceViewColumn("Cost center", 100, delegate(Resource resource) { return resource.Get(Rsc.CostCenter); });
+options.ResourceView.Columns.Add(resourceViewColumn);
+
+var assignmentViewColumn = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
+options.AssignmentView.Columns.Add(assignmentViewColumn);
+
+project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
+```
+
+### Vedi anche
 
 * class [Spreadsheet2003SaveOptions](../)
-* spazio dei nomi [Aspose.Tasks.Saving](../../spreadsheet2003saveoptions/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../spreadsheet2003saveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

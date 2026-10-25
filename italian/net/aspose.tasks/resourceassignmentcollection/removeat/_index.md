@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignmentCollection.RemoveAt
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ResourceAssignmentCollection metodo. Rimuove lassegnazione allindice specificato se la raccolta non è di sola lettura altrimenti genera NotSupportedException.
+title: "ResourceAssignmentCollection.RemoveAt"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo ResourceAssignmentCollection. Rimuove l'assegnazione all'indice specificato se la collezione non è di sola lettura, altrimenti genera NotSupportedException"
 type: docs
 weight: 90
 url: /it/net/aspose.tasks/resourceassignmentcollection/removeat/
@@ -16,12 +16,12 @@ public void RemoveAt(int index)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| index | Int32 | Indice a base zero. |
+| indice | Int32 | Indice basato su zero. |
 
-### Guarda anche
+### Vedi anche
 
 * class [ResourceAssignmentCollection](../)
-* spazio dei nomi [Aspose.Tasks](../../resourceassignmentcollection/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignmentcollection/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class VbaModuleAttributeCollection
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.VbaModuleAttributeCollection classe. Rappresenta una raccolta diVbaModuleAttribute oggetti.
+title: "Classe VbaModuleAttributeCollection"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Classe Aspose.Tasks.VbaModuleAttributeCollection. Rappresenta una collezione di oggetti VbaModuleAttribute"
 type: docs
-weight: 2510
+weight: 2830
 url: /it/net/aspose.tasks/vbamoduleattributecollection/
 ---
 ## VbaModuleAttributeCollection class
 
-Rappresenta una raccolta di[`VbaModuleAttribute`](../vbamoduleattribute/) oggetti.
+Rappresenta una collezione di oggetti [`VbaModuleAttribute`](../vbamoduleattribute/).
 
 ```csharp
 public class VbaModuleAttributeCollection : ReadOnlyCollectionBase<VbaModuleAttribute>
@@ -29,11 +29,29 @@ public class VbaModuleAttributeCollection : ReadOnlyCollectionBase<VbaModuleAttr
 | [GetEnumerator](../../aspose.tasks/readonlycollectionbase-1/getenumerator/)() |  |
 | [ToList](../../aspose.tasks/readonlycollectionbase-1/tolist/)() |  |
 
-### Guarda anche
+## Esempi
+
+Mostra come iterare sulla collezione di attributi del modulo VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Attributes Count: " + module.Attributes.Count);
+    foreach (var attribute in module.Attributes)
+    {
+        Console.WriteLine("Attribute Name: " + attribute.Key);
+        Console.WriteLine("Attribute Value: " + attribute.Value);
+    }
+}
+```
+
+### Vedi anche
 
 * class [ReadOnlyCollectionBase&lt;T&gt;](../readonlycollectionbase-1/)
 * class [VbaModuleAttribute](../vbamoduleattribute/)
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
-* assemblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Task.ExternalTaskProject
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore di ExternalTaskProject.
+title: "Task.ExternalTaskProject"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene o imposta un valore di ExternalTaskProject"
 type: docs
 weight: 420
 url: /it/net/aspose.tasks/task/externaltaskproject/
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di ExternalTaskProject.
 public string ExternalTaskProject { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,23 +1,42 @@
 ---
-title: Class InvalidPasswordException
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.InvalidPasswordException classe. Rappresenta il tipo di eccezione che viene generato quando un file protetto da password viene aperto con una password errata.
+title: "Classe InvalidPasswordException"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Classe Aspose.Tasks.InvalidPasswordException. Rappresenta il tipo di eccezione che viene lanciata quando si apre un file protetto da password con una password errata."
 type: docs
-weight: 830
+weight: 910
 url: /it/net/aspose.tasks/invalidpasswordexception/
 ---
 ## InvalidPasswordException class
 
-Rappresenta il tipo di eccezione che viene generato quando un file protetto da password viene aperto con una password errata.
+Rappresenta il tipo di eccezione che viene lanciata quando si apre un file protetto da password con una password errata.
 
 ```csharp
 public class InvalidPasswordException : TasksException
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come gestire &lt;see cref=\"InvalidPasswordException\"/&gt; durante la lettura di file di progetto protetti da password.
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "PasswordProtected.mpp");
+
+    // lavorare con il progetto ...
+    Console.WriteLine("Project Name: " + project.Get(Prj.Name));
+}
+catch (TasksReadingException e)
+{
+    // il messaggio è "Il progetto è protetto da password. La password non è fornita o è errata."
+    Console.WriteLine(e.Message);
+}
+```
+
+### Vedi anche
 
 * class [TasksException](../tasksexception/)
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
-* assemblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

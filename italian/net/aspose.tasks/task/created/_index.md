@@ -1,7 +1,7 @@
 ---
-title: Task.Created
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore di Created.
+title: "Task.Created"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene o imposta un valore di Created"
 type: docs
 weight: 280
 url: /it/net/aspose.tasks/task/created/
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di Created.
 public DateTime Created { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: SaveOptions.PageCount
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: SaveOptions proprietà. Ottiene o imposta il numero di pagine del progetto.
+title: "SaveOptions.PageCount"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà SaveOptions. Ottiene o imposta il numero di pagine del progetto"
 type: docs
-weight: 110
+weight: 120
 url: /it/net/aspose.tasks.saving/saveoptions/pagecount/
 ---
 ## SaveOptions.PageCount property
@@ -14,10 +14,28 @@ Ottiene o imposta il numero di pagine del progetto.
 public int PageCount { get; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come salvare le pagine selezionate di un progetto in un file PDF.
+
+```csharp
+var project = new Project(DataDir + "Software Development Plan.mpp");
+var options = new PdfSaveOptions();
+options.RenderToSinglePage = false;
+options.Pages = new List<int>();
+
+// verifichiamo il numero di pagine che possono essere esportate
+Console.WriteLine("Page Count: " + options.PageCount);
+
+options.Pages.Add(1);
+options.Pages.Add(4);
+project.Save(OutDir + "SaveToMultiplePDFFiles_out.pdf", options);
+```
+
+### Vedi anche
 
 * class [SaveOptions](../)
-* spazio dei nomi [Aspose.Tasks.Saving](../../saveoptions/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../saveoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

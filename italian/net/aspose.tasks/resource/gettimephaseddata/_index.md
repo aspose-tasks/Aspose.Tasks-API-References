@@ -1,14 +1,14 @@
 ---
-title: Resource.GetTimephasedData
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Resource metodo. Restituisce unistanza diTimephasedDataCollection class per questo oggetto con ilTimephasedData valori allinterno delle date di inizio e di fine specificateTimephasedDataType .
+title: "Resource.GetTimephasedData"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo di Resource. Restituisce un'istanza della classe TimephasedDataCollection per questo oggetto con i valori TimephasedData entro le date di inizio e fine specificate per il TimephasedDataType specificato"
 type: docs
-weight: 860
+weight: 850
 url: /it/net/aspose.tasks/resource/gettimephaseddata/
 ---
 ## GetTimephasedData(DateTime, DateTime, TimephasedDataType) {#gettimephaseddata_1}
 
-Restituisce un'istanza di[`TimephasedDataCollection`](../../timephaseddatacollection/) class per questo oggetto con il[`TimephasedData`](../timephaseddata/) valori all'interno delle date di inizio e di fine specificate[`TimephasedDataType`](../../timephaseddatatype/) .
+Restituisce un'istanza della classe [`TimephasedDataCollection`](../../timephaseddatacollection/) per questo oggetto con i valori [`TimephasedData`](../timephaseddata/) entro le date di inizio e fine specificate per il [`TimephasedDataType`](../../timephaseddatatype/).
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end, 
@@ -17,27 +17,54 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end,
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| start | DateTime | La data di inizio per i dati rapportati alla scala cronologica. |
-| end | DateTime | La data di fine per i dati rapportati alla scala cronologica. |
-| timephasedType | TimephasedDataType | Il tipo di dati rapportati alla scala temporale ([`TimephasedDataType`](../../timephaseddatatype/)). |
+| inizio | DateTime | La data di inizio per i dati time phased. |
+| fine | DateTime | La data di fine per i dati time phased. |
+| timephasedType | TimephasedDataType | Il tipo di dati time phased ([`TimephasedDataType`](../../timephaseddatatype/)). |
 
 ### Valore di ritorno
 
-Lista di[`TimephasedData`](../timephaseddata/).
+Elenco di [`TimephasedData`](../timephaseddata/).
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere i dati timephased delle risorse di lavoro/costo.
+
+```csharp
+var project = new Project(DataDir + "ResourceTimephasedData.mpp");
+
+// Ottieni la Resource tramite il suo ID
+var resource = project.Resources.GetByUid(1);
+
+// Stampa i dati Timephased di ResourceWork
+Console.WriteLine("Timephased data of ResourceWork");
+foreach (var td in resource.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate)))
+{
+    Console.Write("Start: " + td.Start.ToShortDateString());
+    Console.WriteLine(" Work: " + td.Value);
+}
+
+// Stampa i dati Timephased di ResourceCost
+Console.WriteLine("Timephased data of ResourceCost");
+foreach (var td in resource.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate), TimephasedDataType.ResourceCost))
+{
+    Console.Write("Start: " + td.Start.ToShortDateString());
+    Console.WriteLine(" Cost: " + td.Value);
+}
+```
+
+### Vedi anche
 
 * class [TimephasedDataCollection](../../timephaseddatacollection/)
 * enum [TimephasedDataType](../../timephaseddatatype/)
 * class [Resource](../)
-* spazio dei nomi [Aspose.Tasks](../../resource/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## GetTimephasedData(DateTime, DateTime) {#gettimephaseddata}
 
-Ritorna[`TimephasedDataCollection`](../../timephaseddatacollection/) per questo oggetto con[`TimephasedData`](../timephaseddata/) valori entro determinate date di inizio e fine.
+Restituisce [`TimephasedDataCollection`](../../timephaseddatacollection/) per questo oggetto con i valori [`TimephasedData`](../timephaseddata/) entro le date di inizio e fine specificate.
 
 ```csharp
 public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
@@ -45,18 +72,45 @@ public TimephasedDataCollection GetTimephasedData(DateTime start, DateTime end)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| start | DateTime | La data di inizio per i dati rapportati alla scala cronologica. |
-| end | DateTime | La data di fine per i dati rapportati alla scala cronologica. |
+| inizio | DateTime | La data di inizio per i dati time phased. |
+| fine | DateTime | La data di fine per i dati time phased. |
 
 ### Valore di ritorno
 
-Lista di[`TimephasedData`](../../timephaseddata/).
+Elenco di [`TimephasedData`](../../timephaseddata/).
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere i dati timephased delle risorse di lavoro/costo.
+
+```csharp
+var project = new Project(DataDir + "ResourceTimephasedData.mpp");
+
+// Ottieni la Resource tramite il suo ID
+var resource = project.Resources.GetByUid(1);
+
+// Stampa i dati Timephased di ResourceWork
+Console.WriteLine("Timephased data of ResourceWork");
+foreach (var td in resource.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate)))
+{
+    Console.Write("Start: " + td.Start.ToShortDateString());
+    Console.WriteLine(" Work: " + td.Value);
+}
+
+// Stampa i dati Timephased di ResourceCost
+Console.WriteLine("Timephased data of ResourceCost");
+foreach (var td in resource.GetTimephasedData(project.Get(Prj.StartDate), project.Get(Prj.FinishDate), TimephasedDataType.ResourceCost))
+{
+    Console.Write("Start: " + td.Start.ToShortDateString());
+    Console.WriteLine(" Cost: " + td.Value);
+}
+```
+
+### Vedi anche
 
 * class [TimephasedDataCollection](../../timephaseddatacollection/)
 * class [Resource](../)
-* spazio dei nomi [Aspose.Tasks](../../resource/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

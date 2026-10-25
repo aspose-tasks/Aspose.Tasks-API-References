@@ -1,7 +1,7 @@
 ---
-title: RemoveTask.PostAlg
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: RemoveTask metodo. Non fare nulla.
+title: "RemoveTask.PostAlg"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo RemoveTask. Non fa nulla"
 type: docs
 weight: 30
 url: /it/net/aspose.tasks.util/removetask/postalg/
@@ -16,14 +16,54 @@ public void PostAlg(Task el, int level)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| el | Task | Oggetto da elaborare. |
-| level | Int32 | Livello del nodo dell'albero. |
+| el | Attività | Oggetto da elaborare. |
+| livello | Int32 | Livello del nodo dell'albero. |
 
-### Guarda anche
+## Esempi
+
+Mostra come utilizzare l'algoritmo basato su albero &lt;see cref="Aspose.Tasks.Util.RemoveTask" /&gt;.
+
+```csharp
+public void WorkWithRemoveTask()
+{
+    var project = new Project(DataDir + "Project1.mpp");
+    var task1 = project.RootTask.Children.Add("1");
+    var task2 = project.RootTask.Children.Add("2");
+    var task3 = project.RootTask.Children.Add("3");
+    var task4 = project.RootTask.Children.Add("4");
+
+    List<Task> tasks = new List<Task>(project.RootTask.SelectAllChildTasks());
+    Console.WriteLine("Number of tasks before using the algorithm: " + tasks.Count);
+    foreach (var task in project.RootTask.SelectAllChildTasks())
+    {
+        Console.WriteLine("Task Name: " + task.Get(Tsk.Name));
+    }
+
+    Console.WriteLine();
+
+    // utilizza l'algoritmo basato su albero per eliminare task1 dall'albero
+    var algorithm = new RemoveTask(task1);
+
+    // applica l'algoritmo all'albero delle attività
+    TaskUtils.Apply(project.RootTask, algorithm, 0);
+
+    // controlla i risultati
+    tasks = new List<Task>(project.RootTask.SelectAllChildTasks());
+    Console.WriteLine("Number of tasks after using the algorithm: " + tasks.Count);
+    foreach (var task in project.RootTask.SelectAllChildTasks())
+    {
+        Console.WriteLine("Task Name: " + task.Get(Tsk.Name));
+    }
+
+    // ...
+}
+```
+
+### Vedi anche
 
 * class [Task](../../../aspose.tasks/task/)
 * class [RemoveTask](../)
-* spazio dei nomi [Aspose.Tasks.Util](../../removetask/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Util](../../removetask/)
+* assembly [Aspose.Tasks](../../../)
 
 

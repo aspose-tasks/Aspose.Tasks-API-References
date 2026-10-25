@@ -1,30 +1,55 @@
 ---
-title: TextStyle.TextStyle
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: TextStyle costruttore. Inizializza una nuova istanza diTextStyle classe con impostazioni predefinite.
+title: "TextStyle.TextStyle"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore TextStyle. Inizializza una nuova istanza della classe TextStyle con impostazioni predefinite"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks.visualization/textstyle/textstyle/
 ---
 ## TextStyle() {#constructor}
 
-Inizializza una nuova istanza di[`TextStyle`](../) classe con impostazioni predefinite.
+Inizializza una nuova istanza della classe [`TextStyle`](../) con impostazioni predefinite.
 
 ```csharp
 public TextStyle()
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come personalizzare gli stili di testo che vengono usati per formattare diversi elementi di testo in un progetto.
+
+```csharp
+var project = new Project(DataDir + "CreateProject2.mpp");
+SaveOptions options = new PdfSaveOptions
+{
+    PresentationFormat = PresentationFormat.ResourceSheet
+};
+
+var style = new TextStyle();
+style.Color = Color.OrangeRed;
+style.Font = new FontDescriptor(FontFamily.GenericMonospace.Name, 10F, FontStyles.Bold | FontStyles.Italic);
+style.ItemType = TextItemType.OverallocatedResources;
+style.BackgroundColor = Color.Aqua;
+style.BackgroundPattern = BackgroundPattern.DarkDither;
+
+options.TextStyles = new List<TextStyle>
+{
+    style
+};
+project.Save(OutDir + "CustomizeTextStyle_out.pdf", options);
+```
+
+### Vedi anche
 
 * class [TextStyle](../)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../textstyle/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## TextStyle(float, FontStyles) {#constructor_3}
 
-Inizializza una nuova istanza di[`TextStyle`](../) class con il carattere predefinito e la dimensione e lo stile del carattere specificati.
+Inizializza una nuova istanza della classe [`TextStyle`](../) con il carattere predefinito e la dimensione e lo stile del carattere specificati.
 
 ```csharp
 public TextStyle(float fontSize, FontStyles fontStyle)
@@ -35,18 +60,18 @@ public TextStyle(float fontSize, FontStyles fontStyle)
 | fontSize | Single | Dimensione del carattere di TextStyle. |
 | fontStyle | FontStyles | Stile del carattere di TextStyle. |
 
-### Guarda anche
+### Vedi anche
 
 * enum [FontStyles](../../fontstyles/)
 * class [TextStyle](../)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../textstyle/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## TextStyle(FontStyles) {#constructor_2}
 
-Inizializza una nuova istanza di[`TextStyle`](../) class con il carattere predefinito e lo stile del carattere specificato.
+Inizializza una nuova istanza della classe [`TextStyle`](../) con il carattere predefinito e lo stile del carattere specificati.
 
 ```csharp
 public TextStyle(FontStyles fontStyle)
@@ -56,18 +81,18 @@ public TextStyle(FontStyles fontStyle)
 | --- | --- | --- |
 | fontStyle | FontStyles | Stile del carattere da applicare al carattere predefinito. |
 
-### Guarda anche
+### Vedi anche
 
 * enum [FontStyles](../../fontstyles/)
 * class [TextStyle](../)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../textstyle/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## TextStyle(FontDescriptor) {#constructor_1}
 
-Inizializza una nuova istanza di[`TextStyle`](../) classe con le impostazioni del carattere specificate.
+Inizializza una nuova istanza della classe [`TextStyle`](../) con le impostazioni del carattere specificate.
 
 ```csharp
 public TextStyle(FontDescriptor font)
@@ -75,13 +100,13 @@ public TextStyle(FontDescriptor font)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| font | FontDescriptor | Carattere del TextStyle. |
+| font | FontDescriptor | Carattere di TextStyle. |
 
-### Guarda anche
+### Vedi anche
 
 * class [FontDescriptor](../../fontdescriptor/)
 * class [TextStyle](../)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../textstyle/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../textstyle/)
+* assembly [Aspose.Tasks](../../../)
 
 

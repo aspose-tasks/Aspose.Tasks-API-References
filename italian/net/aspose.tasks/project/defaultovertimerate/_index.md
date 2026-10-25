@@ -1,9 +1,9 @@
 ---
-title: Project.DefaultOvertimeRate
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene o imposta un valore di DefaultOvertimeRate.
+title: "Project.DefaultOvertimeRate"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Project. Ottiene o imposta un valore di DefaultOvertimeRate"
 type: docs
-weight: 300
+weight: 310
 url: /it/net/aspose.tasks/project/defaultovertimerate/
 ---
 ## Project.DefaultOvertimeRate property
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di DefaultOvertimeRate.
 public double DefaultOvertimeRate { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

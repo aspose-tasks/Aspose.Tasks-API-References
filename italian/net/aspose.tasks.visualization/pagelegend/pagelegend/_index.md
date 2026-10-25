@@ -1,23 +1,23 @@
 ---
-title: PageLegend.PageLegend
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: PageLegend costruttore. Default_Costruttore
+title: "PageLegend.PageLegend"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore PageLegend. Il costruttore predefinito"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks.visualization/pagelegend/pagelegend/
 ---
 ## PageLegend constructor
 
-Default_Costruttore
+Il costruttore predefinito.
 
 ```csharp
 public PageLegend()
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [PageLegend](../)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../pagelegend/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../pagelegend/)
+* assembly [Aspose.Tasks](../../../)
 
 

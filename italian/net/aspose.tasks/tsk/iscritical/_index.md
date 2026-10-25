@@ -1,26 +1,46 @@
 ---
-title: Tsk.IsCritical
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Tsk campo. Determina se unattività si trova sul percorso critico.
+title: "Tsk.IsCritical"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Tsk. Determina se un'attività è sul percorso critico"
 type: docs
-weight: 570
+weight: 560
 url: /it/net/aspose.tasks/tsk/iscritical/
 ---
 ## Tsk.IsCritical field
 
-Determina se un'attività si trova sul percorso critico.
+Determina se un'attività è sul percorso critico.
 
 ```csharp
 public static readonly Key<NullableBool, TaskKey> IsCritical;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come trovare attività critiche e/o basate sullo sforzo.
+
+```csharp
+var project = new Project(DataDir + "CriticalEffortDrivenTasks.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Analizza tutti i task raccolti
+foreach (var task in collector.Tasks)
+{
+    var effortDriven = task.Get(Tsk.IsEffortDriven).Value ? "EffortDriven" : "Non-EffortDriven";
+    var nonCritical = task.Get(Tsk.IsCritical).Value ? "Critical" : "Non-Critical";
+    Console.WriteLine(task.Get(Tsk.Name) + " : " + effortDriven);
+    Console.WriteLine(task.Get(Tsk.Name) + " : " + nonCritical);
+}
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [NullableBool](../../nullablebool/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* spazio dei nomi [Aspose.Tasks](../../tsk/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

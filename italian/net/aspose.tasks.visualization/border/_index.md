@@ -1,30 +1,50 @@
 ---
-title: Enum Border
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.Visualization.Border enum. Specifica i bordi del tipo.
+title: "Enum Border"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Aspose.Tasks.Visualization.Border enum. Specifica il tipo di bordi."
 type: docs
-weight: 2640
+weight: 2970
 url: /it/net/aspose.tasks.visualization/border/
 ---
 ## Border enumeration
 
-Specifica i bordi del tipo.
+Specifica il tipo di bordi.
 
 ```csharp
 public enum Border
 ```
 
-### I valori
+### Valori
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | NoBorder | `0` | Nessun bordo. |
-| AroundEveryPage | `1` | In ogni pagina. |
+| AroundEveryPage | `1` | Intorno a ogni pagina. |
 | OutsidePages | `2` | Nelle pagine esterne. |
 
-### Guarda anche
+## Esempi
 
-* spazio dei nomi [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
-* assemblea [Aspose.Tasks](../../)
+Mostra come lavorare con i margini di pagina.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+// consente di modificare la vista predefinita
+var margins = project.DefaultView.PageInfo.Margins;
+
+// consente di modificare i margini
+margins.Left = 10d;
+margins.Top = 10d;
+margins.Right = 10d;
+margins.Bottom = 10d;
+margins.Borders = Border.OutsidePages;
+
+project.Save(OutDir + "WorkWithPageMargins_out.mpp", SaveFileFormat.Mpp);
+```
+
+### Vedi anche
+
+* namespace [Aspose.Tasks.Visualization](../../aspose.tasks.visualization/)
+* assembly [Aspose.Tasks](../../)
 
 

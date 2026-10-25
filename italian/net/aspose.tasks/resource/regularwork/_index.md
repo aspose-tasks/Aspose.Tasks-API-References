@@ -1,9 +1,9 @@
 ---
-title: Resource.RegularWork
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Resource proprietà. Ottiene o imposta un valore di RegularWork.
+title: "Resource.RegularWork"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Resource. Ottiene o imposta un valore di RegularWork"
 type: docs
-weight: 660
+weight: 650
 url: /it/net/aspose.tasks/resource/regularwork/
 ---
 ## Resource.RegularWork property
@@ -14,11 +14,11 @@ Ottiene o imposta un valore di RegularWork.
 public Duration RegularWork { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * struct [Duration](../../duration/)
 * class [Resource](../)
-* spazio dei nomi [Aspose.Tasks](../../resource/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resource/)
+* assembly [Aspose.Tasks](../../../)
 
 

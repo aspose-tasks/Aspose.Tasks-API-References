@@ -1,7 +1,7 @@
 ---
-title: Task.ActualWorkProtected
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore di ActualWorkProtected.
+title: "Task.ActualWorkProtected"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene o imposta un valore di ActualWorkProtected"
 type: docs
 weight: 100
 url: /it/net/aspose.tasks/task/actualworkprotected/
@@ -14,11 +14,11 @@ Ottiene o imposta un valore di ActualWorkProtected.
 public Duration ActualWorkProtected { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

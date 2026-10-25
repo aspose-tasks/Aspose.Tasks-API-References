@@ -1,7 +1,7 @@
 ---
-title: ResourceAssignment.Confirmed
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: ResourceAssignment proprietà. Ottiene o imposta un valore che indica se Confirmed è impostato o meno.
+title: "ResourceAssignment.Confirmed"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà ResourceAssignment. Ottiene o imposta un valore che indica se Confirmed è impostato o meno"
 type: docs
 weight: 180
 url: /it/net/aspose.tasks/resourceassignment/confirmed/
@@ -14,10 +14,10 @@ Ottiene o imposta un valore che indica se Confirmed è impostato o meno.
 public bool Confirmed { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [ResourceAssignment](../)
-* spazio dei nomi [Aspose.Tasks](../../resourceassignment/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../resourceassignment/)
+* assembly [Aspose.Tasks](../../../)
 
 

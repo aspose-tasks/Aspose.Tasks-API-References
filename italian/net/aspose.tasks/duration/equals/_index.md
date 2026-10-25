@@ -1,7 +1,7 @@
 ---
-title: Duration.Equals
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Duration metodo. Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato.
+title: "Duration.Equals"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo Duration. Restituisce un valore che indica se questa istanza è uguale a un oggetto specificato"
 type: docs
 weight: 80
 url: /it/net/aspose.tasks/duration/equals/
@@ -16,17 +16,36 @@ public bool Equals(Duration other)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| other | Duration | L'oggetto da confrontare con questa istanza. |
+| altro | Durata | L'oggetto da confrontare con questa istanza. |
 
 ### Valore di ritorno
 
-ritorna **VERO**se un'altra istanza di Duration ha gli stessi valori TimeSpan e TimeUnit di questa istanza; Altrimenti, **falso**.
+Restituisce **True** se un'altra istanza Duration ha gli stessi valori di TimeSpan e TimeUnit di questa istanza; altrimenti, **false**.
 
-### Guarda anche
+## Esempi
+
+Mostra come verificare l'uguaglianza della durata.
+
+```csharp
+var project = new Project();
+
+var duration1 = project.GetDuration(1, TimeUnitType.Day);
+var duration2 = project.GetDuration(1, TimeUnitType.Day);
+var duration3 = project.GetDuration(1, TimeUnitType.Hour);
+
+// l'uguaglianza della durata è verificata rispetto al timespan sottostante
+Console.WriteLine("Duration 1: " + duration1.TimeSpan);
+Console.WriteLine("Duration 2: " + duration2.TimeSpan);
+Console.WriteLine("Duration 3: " + duration3.TimeSpan);
+Console.WriteLine("Are durations 1 and 2 equal: " + duration1.Equals(duration2));
+Console.WriteLine("Are durations 1 and 3 equal: " + duration1.Equals(duration3));
+```
+
+### Vedi anche
 
 * struct [Duration](../)
-* spazio dei nomi [Aspose.Tasks](../../duration/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
@@ -40,16 +59,35 @@ public override bool Equals(object obj)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| obj | Object | L'oggetto da confrontare con questa istanza. |
+| obj | Oggetto | L'oggetto da confrontare con questa istanza. |
 
 ### Valore di ritorno
 
-**VERO** se l'oggetto specificato è un oggetto Duration con gli stessi valori TimeSpan e TimeUnit di questa istanza; Altrimenti, **falso**.
+**True** if the specified object is a Duration that has the same TimeSpan and TimeUnit values as this instance; otherwise, **false**.
 
-### Guarda anche
+## Esempi
+
+Mostra come verificare l'uguaglianza della durata.
+
+```csharp
+var project = new Project();
+
+var duration1 = project.GetDuration(1, TimeUnitType.Day);
+var duration2 = project.GetDuration(1, TimeUnitType.Day);
+var duration3 = project.GetDuration(1, TimeUnitType.Hour);
+
+// l'uguaglianza della durata è verificata rispetto al timespan sottostante
+Console.WriteLine("Duration 1: " + duration1.TimeSpan);
+Console.WriteLine("Duration 2: " + duration2.TimeSpan);
+Console.WriteLine("Duration 3: " + duration3.TimeSpan);
+Console.WriteLine("Are durations 1 and 2 equal: " + duration1.Equals(duration2));
+Console.WriteLine("Are durations 1 and 3 equal: " + duration1.Equals(duration3));
+```
+
+### Vedi anche
 
 * struct [Duration](../)
-* spazio dei nomi [Aspose.Tasks](../../duration/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../duration/)
+* assembly [Aspose.Tasks](../../../)
 
 

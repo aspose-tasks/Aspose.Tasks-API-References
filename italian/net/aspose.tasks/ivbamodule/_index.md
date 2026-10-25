@@ -1,9 +1,9 @@
 ---
-title: Interface IVbaModule
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.IVbaModule interfaccia. Rappresenta un modulo con codice VBA.
+title: "Interfaccia IVbaModule"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Interfaccia Aspose.Tasks.IVbaModule. Rappresenta un modulo con codice VBA"
 type: docs
-weight: 810
+weight: 880
 url: /it/net/aspose.tasks/ivbamodule/
 ---
 ## IVbaModule interface
@@ -18,13 +18,29 @@ public interface IVbaModule
 
 | Nome | Descrizione |
 | --- | --- |
-| [Attributes](../../aspose.tasks/ivbamodule/attributes/) { get; } | Ottiene una raccolta di[`VbaModuleAttributeCollection`](../vbamoduleattributecollection/) |
-| [Name](../../aspose.tasks/ivbamodule/name/) { get; } | Ottiene un nome del modulo VBA |
-| [SourceCode](../../aspose.tasks/ivbamodule/sourcecode/) { get; } | Ottiene un codice sorgente del modulo VBA |
+| [Attributes](../../aspose.tasks/ivbamodule/attributes/) { get; } | Ottiene una collezione di [`VbaModuleAttributeCollection`](../vbamoduleattributecollection/) |
+| [Name](../../aspose.tasks/ivbamodule/name/) { get; } | Ottiene il nome del modulo VBA |
+| [SourceCode](../../aspose.tasks/ivbamodule/sourcecode/) { get; } | Ottiene il codice sorgente del modulo VBA |
 
-### Guarda anche
+## Esempi
 
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
-* assemblea [Aspose.Tasks](../../)
+Mostra come leggere i moduli di un progetto VBA.
+
+```csharp
+var project = new Project(DataDir + "VbaProject.mpp");
+
+Console.WriteLine("Total Modules Count: " + project.VbaProject.Modules.Count);
+
+foreach (var module in project.VbaProject.Modules)
+{
+    Console.WriteLine("Module Name: " + module.Name);
+    Console.WriteLine("Source Code: " + module.SourceCode);
+}
+```
+
+### Vedi anche
+
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

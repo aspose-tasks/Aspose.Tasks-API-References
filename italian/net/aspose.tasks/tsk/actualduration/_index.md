@@ -1,26 +1,47 @@
 ---
-title: Tsk.ActualDuration
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Tsk campo. Lintervallo di tempo di lavoro effettivo per unattività in base alla durata pianificata e al lavoro rimanente corrente o alla percentuale di completamento.
+title: "Tsk.ActualDuration"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Tsk. L'intervallo di tempo di lavoro effettivo per un'attività basato sulla durata programmata e sul lavoro rimanente corrente o sulla percentuale completata."
 type: docs
 weight: 30
 url: /it/net/aspose.tasks/tsk/actualduration/
 ---
 ## Tsk.ActualDuration field
 
-L'intervallo di tempo di lavoro effettivo per un'attività, in base alla durata pianificata e al lavoro rimanente corrente o alla percentuale di completamento.
+L'intervallo di tempo di lavoro effettivo per un'attività, basato sulla durata pianificata e sul lavoro rimanente attuale o sulla percentuale di completamento.
 
 ```csharp
 public static readonly Key<Duration, TaskKey> ActualDuration;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere le proprietà effettive dell'attività.
+
+```csharp
+var project = new Project(DataDir + "ActualTaskProperties.mpp");
+
+var collector = new ChildTasksCollector();
+TaskUtils.Apply(project.RootTask, collector, 0);
+
+// Analizza tutti i task raccolti
+foreach (var task in collector.Tasks)
+{
+    Console.WriteLine("Task Name : " + task.Get(Tsk.Name));
+    Console.WriteLine("Actual Start: " + task.Get(Tsk.ActualStart).ToLongDateString());
+    Console.WriteLine("Actual Finish: " + task.Get(Tsk.ActualFinish).ToLongDateString());
+    Console.WriteLine("Actual Duration: " + task.Get(Tsk.ActualDuration).TimeSpan.Hours);
+    Console.WriteLine("Actual Cost: " + task.Get(Tsk.ActualCost));
+}
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * struct [Duration](../../duration/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* spazio dei nomi [Aspose.Tasks](../../tsk/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 

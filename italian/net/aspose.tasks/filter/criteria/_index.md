@@ -1,24 +1,56 @@
 ---
-title: Filter.Criteria
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Filter proprietà. Ottiene o imposta i criteri che le attività o le risorse devono soddisfare per essere visualizzate nella vista MSP.
+title: "Filter.Criteria"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Filter. Ottiene o imposta i criteri che le attività o le risorse devono soddisfare per essere visualizzate nella vista MSP"
 type: docs
 weight: 20
 url: /it/net/aspose.tasks/filter/criteria/
 ---
 ## Filter.Criteria property
 
-Ottiene o imposta i criteri che le attività o le risorse devono soddisfare per essere visualizzate nella vista MSP.
+Ottiene o imposta i criteri che attività o risorse devono soddisfare per essere visualizzati nella vista MSP.
 
 ```csharp
 public FilterCriteria Criteria { get; set; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere i filtri delle attività.
+
+```csharp
+var project = new Project(DataDir + "Project2003.mpp");
+
+var filter = project.TaskFilters.ToList()[1];
+Console.WriteLine(filter.Criteria.CriteriaRows.Count);
+Console.WriteLine(filter.Criteria.Operation.ToString());
+
+var criteria1 = filter.Criteria.CriteriaRows[0];
+Console.WriteLine(criteria1.Test.ToString());
+Console.WriteLine(criteria1.Field.ToString());
+Console.WriteLine(criteria1.Values[0].ToString());
+
+var criteria2 = filter.Criteria.CriteriaRows[1];
+Console.WriteLine(criteria2.Operation.ToString());
+Console.WriteLine(criteria2.CriteriaRows.Count);
+
+var criteria21 = criteria2.CriteriaRows[0];
+Console.WriteLine(criteria21.Test.ToString());
+Console.WriteLine(criteria21.Field.ToString());
+Console.WriteLine(criteria21.Values[0].ToString());
+
+var criteria22 = criteria2.CriteriaRows[1];
+Console.WriteLine(criteria22.Test.ToString());
+Console.WriteLine(criteria22.Field.ToString());
+Console.WriteLine(criteria22.Values[0].ToString());
+Console.WriteLine(filter.Criteria);
+```
+
+### Vedi anche
 
 * class [FilterCriteria](../../filtercriteria/)
 * class [Filter](../)
-* spazio dei nomi [Aspose.Tasks](../../filter/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../filter/)
+* assembly [Aspose.Tasks](../../../)
 
 

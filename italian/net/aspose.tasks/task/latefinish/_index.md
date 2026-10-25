@@ -1,7 +1,7 @@
 ---
-title: Task.LateFinish
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore di LateFinish.
+title: "Task.LateFinish"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene o imposta un valore di LateFinish"
 type: docs
 weight: 770
 url: /it/net/aspose.tasks/task/latefinish/
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di LateFinish.
 public DateTime LateFinish { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

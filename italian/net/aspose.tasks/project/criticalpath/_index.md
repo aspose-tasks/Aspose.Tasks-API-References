@@ -1,14 +1,14 @@
 ---
-title: Project.CriticalPath
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene una raccolta che contiene un elenco di attività critiche che comprendono il percorso critico di questo progetto. Questa è unoperazione On dove n è il numero di attività nel progetto.
+title: "Project.CriticalPath"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà di Project. Ottiene una collezione che contiene un elenco di attività Critical che compongono il Critical Path di questo progetto. Questa è un'operazione On dove n è il numero di attività nel progetto"
 type: docs
-weight: 170
+weight: 180
 url: /it/net/aspose.tasks/project/criticalpath/
 ---
 ## Project.CriticalPath property
 
-Ottiene una raccolta che contiene un elenco di attività critiche che comprendono il percorso critico di questo progetto. Questa è un'operazione O(n), dove n è il numero di attività nel progetto.
+Ottiene una collezione che contiene un elenco di attività Critical che compongono il Critical Path di questo progetto. Questa è un'operazione O(n), dove n è il numero di attività nel progetto.
 
 ```csharp
 public TaskCollection CriticalPath { get; }
@@ -16,13 +16,38 @@ public TaskCollection CriticalPath { get; }
 
 ### Valore di ritorno
 
-una raccolta che rappresenta un elenco di tutte le attività critiche.
+una collezione che rappresenta un elenco di tutte le attività critical.
 
-### Guarda anche
+## Esempi
+
+Mostra come calcolare un critical path del progetto.
+
+```csharp
+var project = new Project()
+{
+    CalculationMode = CalculationMode.Automatic
+};
+
+var subtask1 = project.RootTask.Children.Add("1");
+var subtask2 = project.RootTask.Children.Add("2");
+project.TaskLinks.Add(subtask1, subtask2, TaskLinkType.FinishToStart);
+
+project.RootTask.Children.Add("3");
+
+// Visualizza il critical path ora
+foreach (var task in project.CriticalPath)
+{
+    Console.WriteLine(task.Get(Tsk.Id) + "  " + task.Get(Tsk.Name));
+    Console.WriteLine(task.Get(Tsk.Start));
+    Console.WriteLine(task.Get(Tsk.Finish) + "\n");
+}
+```
+
+### Vedi anche
 
 * class [TaskCollection](../../taskcollection/)
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

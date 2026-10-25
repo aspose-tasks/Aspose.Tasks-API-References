@@ -1,24 +1,51 @@
 ---
-title: Gridlines.IntervalPattern
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Gridlines proprietà. Ottiene o imposta il modello di linea per le griglie secondarie.
+title: "Gridlines.IntervalPattern"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Gridlines. Ottiene o imposta il modello di linea per le linee della griglia secondaria"
 type: docs
 weight: 40
 url: /it/net/aspose.tasks.visualization/gridlines/intervalpattern/
 ---
 ## Gridlines.IntervalPattern property
 
-Ottiene o imposta il modello di linea per le griglie secondarie.
+Ottiene o imposta il modello di linea per le linee della griglia secondarie.
 
 ```csharp
 public LinePattern IntervalPattern { get; set; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come lavorare con le linee della griglia.
+
+```csharp
+var project = new Project(DataDir + "Project2.mpp");
+
+var view = (GanttChartView)project.Views.ToList()[0];
+
+// consente di regolare la prima linea della griglia della vista
+var gridlines = view.Gridlines[0];
+// imposta il numero da 0 a 99 che specifica l'intervallo tra le linee della griglia.
+gridlines.Interval = 2;
+// imposta il colore delle linee della griglia secondarie.
+gridlines.IntervalColor = Color.Red;
+// imposta il modello di linea per le linee della griglia secondarie
+gridlines.IntervalPattern = LinePattern.Solid;
+// imposta il colore delle linee della griglia normali
+gridlines.NormalColor = Color.Blue;
+// imposta il modello di linea per le linee della griglia normali
+gridlines.NormalPattern = LinePattern.CloseDot;
+// imposta il tipo di linea della griglia
+gridlines.Type = GridlineType.GanttRow;
+
+project.Save(OutDir + "WorkWithGridlines_out.mpp", SaveFileFormat.Mpp);
+```
+
+### Vedi anche
 
 * enum [LinePattern](../../linepattern/)
 * class [Gridlines](../)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../gridlines/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../gridlines/)
+* assembly [Aspose.Tasks](../../../)
 
 

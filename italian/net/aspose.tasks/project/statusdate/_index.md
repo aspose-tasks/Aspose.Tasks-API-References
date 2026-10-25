@@ -1,9 +1,9 @@
 ---
-title: Project.StatusDate
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene o imposta un valore di StatusDate.
+title: "Project.StatusDate"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Project. Ottiene o imposta un valore di StatusDate"
 type: docs
-weight: 850
+weight: 880
 url: /it/net/aspose.tasks/project/statusdate/
 ---
 ## Project.StatusDate property
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di StatusDate.
 public DateTime StatusDate { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

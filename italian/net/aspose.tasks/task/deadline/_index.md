@@ -1,23 +1,23 @@
 ---
-title: Task.Deadline
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore di Scadenza.
+title: "Task.Deadline"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene o imposta un valore di Deadline"
 type: docs
 weight: 300
 url: /it/net/aspose.tasks/task/deadline/
 ---
 ## Task.Deadline property
 
-Ottiene o imposta un valore di Scadenza.
+Ottiene o imposta un valore di Deadline.
 
 ```csharp
 public DateTime Deadline { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

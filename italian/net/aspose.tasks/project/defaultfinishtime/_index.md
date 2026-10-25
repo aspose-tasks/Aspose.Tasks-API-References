@@ -1,9 +1,9 @@
 ---
-title: Project.DefaultFinishTime
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene o imposta un valore di DefaultFinishTime.
+title: "Project.DefaultFinishTime"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà del progetto. Ottiene o imposta un valore di DefaultFinishTime"
 type: docs
-weight: 280
+weight: 290
 url: /it/net/aspose.tasks/project/defaultfinishtime/
 ---
 ## Project.DefaultFinishTime property
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di DefaultFinishTime.
 public DateTime DefaultFinishTime { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

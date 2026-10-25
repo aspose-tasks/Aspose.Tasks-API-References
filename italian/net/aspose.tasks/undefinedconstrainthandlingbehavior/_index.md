@@ -1,9 +1,9 @@
 ---
-title: Enum UndefinedConstraintHandlingBehavior
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Aspose.Tasks.UndefinedConstraintHandlingBehavior enum. Specifica il comportamento utilizzato per gestire le attività con vincoli non definiti.
+title: "Enum UndefinedConstraintHandlingBehavior"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Enum Aspose.Tasks.UndefinedConstraintHandlingBehavior. Specifica il comportamento utilizzato per gestire le attività con vincoli non definiti"
 type: docs
-weight: 2320
+weight: 2630
 url: /it/net/aspose.tasks/undefinedconstrainthandlingbehavior/
 ---
 ## UndefinedConstraintHandlingBehavior enumeration
@@ -14,16 +14,16 @@ Specifica il comportamento utilizzato per gestire le attività con vincoli non d
 public enum UndefinedConstraintHandlingBehavior
 ```
 
-### I valori
+### Valori
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `0` | Il comportamento predefinito per il caricamento dal formato XER. Non viene intrapresa alcuna azione. Un tipo di vincolo di attività è impostato su "ConstraintType.Undefined". |
-| SubstituteWithStartNoEarlierThan | `1` | I vincoli con tipo 'ConstraintType.StartNoEarlierThan' e data = Inizio vengono aggiunti per le attività con vincolo 'Non definito'. |
+| None | `0` | Il comportamento predefinito per il caricamento dal formato XER. Non viene eseguita alcuna azione. Il tipo di vincolo di un'attività è impostato su 'ConstraintType.Undefined'. |
+| SubstituteWithStartNoEarlierThan | `1` | I vincoli con tipo 'ConstraintType.StartNoEarlierThan' e data = Start vengono aggiunti per le attività con vincolo 'Undefined'. |
 
-### Guarda anche
+### Vedi anche
 
-* spazio dei nomi [Aspose.Tasks](../../aspose.tasks/)
-* assemblea [Aspose.Tasks](../../)
+* namespace [Aspose.Tasks](../../aspose.tasks/)
+* assembly [Aspose.Tasks](../../)
 
 

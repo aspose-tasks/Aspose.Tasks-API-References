@@ -1,9 +1,9 @@
 ---
-title: Task.ManualDuration
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore di ManualDuration.
+title: "Task.ManualDuration"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene o imposta un valore di ManualDuration"
 type: docs
-weight: 830
+weight: 820
 url: /it/net/aspose.tasks/task/manualduration/
 ---
 ## Task.ManualDuration property
@@ -14,11 +14,11 @@ Ottiene o imposta un valore di ManualDuration.
 public Duration ManualDuration { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * struct [Duration](../../duration/)
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

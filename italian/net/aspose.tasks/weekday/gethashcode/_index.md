@@ -1,14 +1,14 @@
 ---
-title: WeekDay.GetHashCode
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: WeekDay metodo. Restituisce un valore di codice hash per listanza diWeekDay classe.
+title: "WeekDay.GetHashCode"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo WeekDay. Restituisce un valore di codice hash per l'istanza della classe WeekDay"
 type: docs
 weight: 100
 url: /it/net/aspose.tasks/weekday/gethashcode/
 ---
 ## WeekDay.GetHashCode method
 
-Restituisce un valore di codice hash per l'istanza di[`WeekDay`](../) classe.
+Restituisce un valore di codice hash per l'istanza della classe [`WeekDay`](../).
 
 ```csharp
 public override int GetHashCode()
@@ -16,12 +16,12 @@ public override int GetHashCode()
 
 ### Valore di ritorno
 
-restituisce un valore di codice hash per questo oggetto.
+restituisce un valore di hash per questo oggetto.
 
-### Guarda anche
+### Vedi anche
 
 * class [WeekDay](../)
-* spazio dei nomi [Aspose.Tasks](../../weekday/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../weekday/)
+* assembly [Aspose.Tasks](../../../)
 
 

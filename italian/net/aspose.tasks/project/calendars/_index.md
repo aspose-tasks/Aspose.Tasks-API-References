@@ -1,24 +1,53 @@
 ---
-title: Project.Calendars
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. OttieneCalendarCollection oggetto di questa istanza del progetto.
+title: "Project.Calendars"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Project. Ottiene l'oggetto CalendarCollection di questa istanza di Project."
 type: docs
-weight: 120
+weight: 130
 url: /it/net/aspose.tasks/project/calendars/
 ---
 ## Project.Calendars property
 
-Ottiene[`CalendarCollection`](../../calendarcollection/) oggetto di questa istanza del progetto.
+Ottiene l'oggetto [`CalendarCollection`](../../calendarcollection/) di questa istanza di Project.
 
 ```csharp
 public CalendarCollection Calendars { get; }
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere i calendari del progetto.
+
+```csharp
+var project = new Project(DataDir + "Project_GeneralCalendarProperties.xml");
+
+foreach (var calendar in project.Calendars)
+{
+    if (calendar.Name == null)
+    {
+        continue;
+    }
+
+    Console.WriteLine("UID : " + calendar.Uid + " Name: " + calendar.Name);
+
+    // Mostra se ha un calendario di base.
+    Console.Write("Base Calendar : ");
+    Console.WriteLine(calendar.IsBaseCalendar ? "Self" : calendar.BaseCalendar.Name);
+
+    // Ottieni il tempo in ore per ogni giorno lavorativo.
+    foreach (var wd in calendar.WeekDays)
+    {
+        var ts = wd.GetWorkingTime();
+        Console.WriteLine("Day Type: " + wd.DayType + " Hours: " + ts);
+    }
+}
+```
+
+### Vedi anche
 
 * class [CalendarCollection](../../calendarcollection/)
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

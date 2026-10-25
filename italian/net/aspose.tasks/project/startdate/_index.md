@@ -1,9 +1,9 @@
 ---
-title: Project.StartDate
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene o imposta un valore di StartDate.
+title: "Project.StartDate"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Project. Ottiene o imposta un valore di StartDate"
 type: docs
-weight: 840
+weight: 870
 url: /it/net/aspose.tasks/project/startdate/
 ---
 ## Project.StartDate property
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di StartDate.
 public DateTime StartDate { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

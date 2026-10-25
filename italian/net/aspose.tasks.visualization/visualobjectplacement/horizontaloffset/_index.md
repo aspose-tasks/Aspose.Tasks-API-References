@@ -1,23 +1,23 @@
 ---
-title: VisualObjectPlacement.HorizontalOffset
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: VisualObjectPlacement proprietà. Ottiene o imposta loffset orizzontale delloggetto visivo.
+title: "VisualObjectPlacement.HorizontalOffset"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà VisualObjectPlacement. Ottiene o imposta lo spostamento orizzontale dell'oggetto visivo"
 type: docs
 weight: 80
 url: /it/net/aspose.tasks.visualization/visualobjectplacement/horizontaloffset/
 ---
 ## VisualObjectPlacement.HorizontalOffset property
 
-Ottiene o imposta l'offset orizzontale dell'oggetto visivo.
+Ottiene o imposta lo spostamento orizzontale dell'oggetto visivo.
 
 ```csharp
 public double HorizontalOffset { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [VisualObjectPlacement](../)
-* spazio dei nomi [Aspose.Tasks.Visualization](../../visualobjectplacement/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Visualization](../../visualobjectplacement/)
+* assembly [Aspose.Tasks](../../../)
 
 

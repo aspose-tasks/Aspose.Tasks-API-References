@@ -1,9 +1,9 @@
 ---
-title: Project.NewTaskStartDate
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene o imposta un valore di NewTaskStartDate.
+title: "Project.NewTaskStartDate"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Project. Ottiene o imposta un valore di NewTaskStartDate."
 type: docs
-weight: 670
+weight: 690
 url: /it/net/aspose.tasks/project/newtaskstartdate/
 ---
 ## Project.NewTaskStartDate property
@@ -14,11 +14,11 @@ Ottiene o imposta un valore di NewTaskStartDate.
 public TaskStartDateType NewTaskStartDate { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * enum [TaskStartDateType](../../taskstartdatetype/)
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

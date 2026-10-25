@@ -1,9 +1,9 @@
 ---
-title: Project.WorkFormat
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project proprietà. Ottiene o imposta un valore di WorkFormat.
+title: "Project.WorkFormat"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà di Project. Ottiene o imposta un valore di WorkFormat"
 type: docs
-weight: 1020
+weight: 1050
 url: /it/net/aspose.tasks/project/workformat/
 ---
 ## Project.WorkFormat property
@@ -14,11 +14,11 @@ Ottiene o imposta un valore di WorkFormat.
 public TimeUnitType WorkFormat { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * enum [TimeUnitType](../../timeunittype/)
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

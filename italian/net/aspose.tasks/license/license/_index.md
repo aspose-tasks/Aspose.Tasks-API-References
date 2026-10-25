@@ -1,22 +1,22 @@
 ---
-title: License.License
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: License costruttore. Inizializza una nuova istanza diLicense classe.
+title: "License.License"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore License. Inizializza una nuova istanza della classe License"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks/license/license/
 ---
 ## License constructor
 
-Inizializza una nuova istanza di[`License`](../) classe.
+Inizializza una nuova istanza della classe [`License`](../).
 
 ```csharp
 public License()
 ```
 
-### Esempi
+## Esempi
 
-In questo esempio, verrà effettuato un tentativo di trovare un file di licenza denominato MyLicense.lic nella cartella che contiene  il componente, nella cartella che contiene l'assembly chiamante, nella cartella dell'assembly di entrata e poi nelle risorse embedded dell'assembly chiamante.
+In questo esempio, verrà tentato di trovare un file di licenza chiamato MyLicense.lic nella cartella che contiene il componente, nella cartella che contiene l'assembly chiamante, nella cartella dell'assembly di ingresso e poi nelle risorse incorporate dell'assembly chiamante.
 
 ```csharp
 [C#]
@@ -38,10 +38,17 @@ License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
-### Guarda anche
+Mostra come applicare una licenza di Aspose.Tasks.
+
+```csharp
+var license = new License();
+license.SetLicense("Aspose.Tasks.lic");
+```
+
+### Vedi anche
 
 * class [License](../)
-* spazio dei nomi [Aspose.Tasks](../../license/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../license/)
+* assembly [Aspose.Tasks](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Project.EnumerateAllChildTasks
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Project metodo. Enumera in modo ricorsivo tutte le attività del progetto inclusa lattività radice.
+title: "Project.EnumerateAllChildTasks"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Metodo del progetto. Enumera ricorsivamente tutte le attività del progetto includendo l'attività radice"
 type: docs
-weight: 1040
+weight: 1070
 url: /it/net/aspose.tasks/project/enumerateallchildtasks/
 ---
 ## Project.EnumerateAllChildTasks method
 
-Enumera in modo ricorsivo tutte le attività del progetto, inclusa l'attività radice.
+Enumera ricorsivamente tutte le attività del progetto, inclusa l'attività radice.
 
 ```csharp
 public IEnumerable<Task> EnumerateAllChildTasks()
@@ -16,17 +16,17 @@ public IEnumerable<Task> EnumerateAllChildTasks()
 
 ### Valore di ritorno
 
-IEnumerable che può essere utilizzato per iterare su tutte le attività del progetto.
+IEnumerable che può essere usato per iterare su tutte le attività del progetto.
 
-### Osservazioni
+## Osservazioni
 
-Fornisce un modo più semplice per scorrere le attività rispetto a[`SelectAllChildTasks`](../selectallchildtasks/) metodo in quanto non alloca memoria per tutte le attività.
+Fornisce un modo più leggero per iterare sulle attività rispetto al metodo [`SelectAllChildTasks`](../selectallchildtasks/), poiché non alloca memoria per tutte le attività.
 
-### Guarda anche
+### Vedi anche
 
 * class [Task](../../task/)
 * class [Project](../)
-* spazio dei nomi [Aspose.Tasks](../../project/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 

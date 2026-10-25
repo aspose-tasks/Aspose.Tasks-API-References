@@ -1,9 +1,9 @@
 ---
-title: Task.RemainingCost
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Task proprietà. Ottiene o imposta un valore di RemainingCost.
+title: "Task.RemainingCost"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Proprietà Task. Ottiene o imposta un valore di RemainingCost"
 type: docs
-weight: 1060
+weight: 1050
 url: /it/net/aspose.tasks/task/remainingcost/
 ---
 ## Task.RemainingCost property
@@ -14,10 +14,10 @@ Ottiene o imposta un valore di RemainingCost.
 public decimal RemainingCost { get; set; }
 ```
 
-### Guarda anche
+### Vedi anche
 
 * class [Task](../)
-* spazio dei nomi [Aspose.Tasks](../../task/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../task/)
+* assembly [Aspose.Tasks](../../../)
 
 

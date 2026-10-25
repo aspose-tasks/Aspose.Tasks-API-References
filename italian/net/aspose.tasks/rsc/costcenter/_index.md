@@ -1,25 +1,39 @@
 ---
-title: Rsc.CostCenter
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Rsc campo. Indica a quale centro di costo addebitare i costi maturati dalla risorsa.
+title: "Rsc.CostCenter"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Rsc. Indica a quale centro di costo devono essere addebitati i costi accumulati dalla risorsa"
 type: docs
 weight: 230
 url: /it/net/aspose.tasks/rsc/costcenter/
 ---
 ## Rsc.CostCenter field
 
-Indica a quale centro di costo addebitare i costi maturati dalla risorsa.
+Indica a quale centro di costo devono essere addebitati i costi accumulati dalla risorsa.
 
 ```csharp
 public static readonly Key<string, RscKey> CostCenter;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere/scrivere la proprietà Rsc.CostCenter.
+
+```csharp
+var project = new Project();
+
+var resource = project.Resources.Add("Resource");
+
+resource.Set(Rsc.CostCenter, "Center");
+
+Console.WriteLine("Cost Center: " + resource.Get(Rsc.CostCenter));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [RscKey](../../rsckey/)
 * class [Rsc](../)
-* spazio dei nomi [Aspose.Tasks](../../rsc/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../rsc/)
+* assembly [Aspose.Tasks](../../../)
 
 

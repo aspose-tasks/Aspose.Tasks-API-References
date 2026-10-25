@@ -1,9 +1,9 @@
 ---
-title: Prj.Subject
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Prj campo. Loggetto di un progetto.
+title: "Prj.Subject"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Prj. L'oggetto di un progetto"
 type: docs
-weight: 690
+weight: 700
 url: /it/net/aspose.tasks/prj/subject/
 ---
 ## Prj.Subject field
@@ -14,12 +14,24 @@ L'oggetto di un progetto.
 public static readonly Key<string, PrjKey> Subject;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere/scrivere la proprietà Prj.Subject.
+
+```csharp
+var project = new Project();
+
+project.Set(Prj.Subject, "Subject");
+
+Console.WriteLine("Subject: " + project.Get(Prj.Subject));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [PrjKey](../../prjkey/)
 * class [Prj](../)
-* spazio dei nomi [Aspose.Tasks](../../prj/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../prj/)
+* assembly [Aspose.Tasks](../../../)
 
 

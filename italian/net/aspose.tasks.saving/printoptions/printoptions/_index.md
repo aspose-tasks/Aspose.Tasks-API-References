@@ -1,23 +1,46 @@
 ---
-title: PrintOptions.PrintOptions
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: PrintOptions costruttore. Inizializza una nuova istanza diPrintOptions classe che può essere utilizzata per impostare diverse opzioni per stampare il progetto.
+title: "PrintOptions.PrintOptions"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Costruttore di PrintOptions. Inizializza una nuova istanza della classe PrintOptions che può essere usata per impostare diverse opzioni di stampa del progetto"
 type: docs
 weight: 10
 url: /it/net/aspose.tasks.saving/printoptions/printoptions/
 ---
 ## PrintOptions constructor
 
-Inizializza una nuova istanza di[`PrintOptions`](../) classe che può essere utilizzata per impostare diverse opzioni per stampare il progetto.
+Inizializza una nuova istanza della classe [`PrintOptions`](../) che può essere usata per impostare diverse opzioni di stampa del progetto.
 
 ```csharp
 public PrintOptions()
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come utilizzare le opzioni di stampa.
+
+```csharp
+try
+{
+    var project = new Project(DataDir + "Project2.mpp");
+    var options = new PrintOptions
+    {
+        Timescale = Timescale.ThirdsOfMonths
+    };
+    if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
+    {
+        project.Print(options);
+    }
+}
+catch (NoPrinterInstalledException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+```
+
+### Vedi anche
 
 * class [PrintOptions](../)
-* spazio dei nomi [Aspose.Tasks.Saving](../../printoptions/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks.Saving](../../printoptions/)
+* assembly [Aspose.Tasks](../../../)
 
 

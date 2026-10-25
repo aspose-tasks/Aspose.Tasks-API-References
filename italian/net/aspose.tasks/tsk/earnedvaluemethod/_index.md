@@ -1,26 +1,40 @@
 ---
-title: Tsk.EarnedValueMethod
-second_title: Riferimento all'API di Aspose.Tasks per .NET
-description: Tsk campo. Determina se il campo  completamento o  fisico completamento deve essere utilizzato per calcolare il costo preventivato del lavoro svolto BCWP.
+title: "Tsk.EarnedValueMethod"
+second_title: "Riferimento API di Aspose.Tasks per .NET"
+description: "Campo Tsk. Determina se il campo Complete o Physical Complete deve essere usato per calcolare il costo preventivato del lavoro eseguito (BCWP)"
 type: docs
-weight: 360
+weight: 350
 url: /it/net/aspose.tasks/tsk/earnedvaluemethod/
 ---
 ## Tsk.EarnedValueMethod field
 
-Determina se il campo % completamento o % fisico completamento deve essere utilizzato per calcolare il costo preventivato del lavoro svolto (BCWP).
+Determina se il campo % Completato o % Completato fisico deve essere usato per calcolare il costo preventivato del lavoro eseguito (BCWP).
 
 ```csharp
 public static readonly Key<EarnedValueMethodType, TaskKey> EarnedValueMethod;
 ```
 
-### Guarda anche
+## Esempi
+
+Mostra come leggere/scrivere la proprietà Tsk.EarnedValueMethod.
+
+```csharp
+var project = new Project();
+
+var task = project.RootTask.Children.Add("Task");
+
+task.Set(Tsk.EarnedValueMethod, EarnedValueMethodType.PercentComplete);
+
+Console.WriteLine("Earned Value Method: " + task.Get(Tsk.EarnedValueMethod));
+```
+
+### Vedi anche
 
 * struct [Key&lt;T,K&gt;](../../key-2/)
 * enum [EarnedValueMethodType](../../earnedvaluemethodtype/)
 * enum [TaskKey](../../taskkey/)
 * class [Tsk](../)
-* spazio dei nomi [Aspose.Tasks](../../tsk/)
-* assemblea [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../tsk/)
+* assembly [Aspose.Tasks](../../../)
 
 
