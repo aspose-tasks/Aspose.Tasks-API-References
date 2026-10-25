@@ -3,7 +3,7 @@ title: PrimaveraCriticalActivitiesDefiningMethod
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies the method for defining critical activities in Primavera.
 type: docs
-weight: 199
+weight: 200
 url: /java/com.aspose.tasks/primaveracriticalactivitiesdefiningmethod/
 ---
 

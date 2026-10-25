@@ -3,7 +3,7 @@ title: PrimaveraPercentCompleteType
 second_title: Aspose.Tasks for Java API Reference
 description: Specifies value of  Complete Type field for Primavera activities.
 type: docs
-weight: 203
+weight: 204
 url: /java/com.aspose.tasks/primaverapercentcompletetype/
 ---
 

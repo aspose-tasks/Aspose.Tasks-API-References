@@ -198,6 +198,7 @@ url: /java/com.aspose.tasks/
 | [PixelFormat](../com.aspose.tasks/pixelformat) | Specifies the format of the color data for each pixel in the image. |
 | [PresentationFormat](../com.aspose.tasks/presentationformat) | Enumeration for presentation format. |
 | [PrimaveraActivityType](../com.aspose.tasks/primaveraactivitytype) | Specifies type of Primavera activity. |
+| [PrimaveraAssignmentProperties](../com.aspose.tasks/primaveraassignmentproperties) | Represents Primavera-specific properties for a resource assignment read from Primavera files (XER or P6XML). |
 | [PrimaveraBaseReader](../com.aspose.tasks/primaverabasereader) | Represents a base reader which can be used to read Project UIDs from multi project Primavera XER or XML files. |
 | [PrimaveraCalendarProperties](../com.aspose.tasks/primaveracalendarproperties) | Represents Primavera-specific properties for a calendar read from Primavera files (XER of P6XML). |
 | [PrimaveraConstraintType](../com.aspose.tasks/primaveraconstrainttype) | Specifies a type of activity's constraint. |

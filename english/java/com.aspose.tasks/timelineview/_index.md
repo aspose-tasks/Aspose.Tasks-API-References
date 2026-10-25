@@ -3,7 +3,7 @@ title: TimelineView
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a timeline view of a project.
 type: docs
-weight: 320
+weight: 321
 url: /java/com.aspose.tasks/timelineview/
 ---
 

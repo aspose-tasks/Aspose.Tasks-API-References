@@ -3,7 +3,7 @@ title: IProgressNotificationCallback
 second_title: Aspose.Tasks for Java API Reference
 description: Represents a callback for receiving notifications during long-running project operations.
 type: docs
-weight: 384
+weight: 385
 url: /java/com.aspose.tasks/iprogressnotificationcallback/
 ---
 ```

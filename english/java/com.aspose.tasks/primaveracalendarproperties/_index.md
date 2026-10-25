@@ -3,7 +3,7 @@ title: PrimaveraCalendarProperties
 second_title: Aspose.Tasks for Java API Reference
 description: Represents Primavera-specific properties for a calendar read from Primavera files XER of P6XML.
 type: docs
-weight: 197
+weight: 198
 url: /java/com.aspose.tasks/primaveracalendarproperties/
 ---
 
