@@ -1,56 +1,44 @@
 ---
-title: Save
-second_title: .NET API 참조용 Aspose.Tasks
-description: 지정된 저장 옵션을 사용하여 문서를 mpp 파일 형식으로 저장합니다.
+title: "Project.Save"
+second_title: "Aspose.Tasks for .NET API 참조"
+description: "Project 메서드. 지정된 저장 옵션을 사용하여 문서를 파일에 저장합니다."
 type: docs
-weight: 1180
+weight: 1200
 url: /ko/net/aspose.tasks/project/save/
 ---
-## Save(string, MPPSaveOptions) {#save_4}
+## Save(string, SimpleSaveOptions) {#save_4}
 
-지정된 저장 옵션을 사용하여 문서를 mpp 파일 형식으로 저장합니다.
+지정된 저장 옵션을 사용하여 문서를 파일에 저장합니다.
 
 ```csharp
-public void Save(string filename, MPPSaveOptions options)
+public void Save(string filename, SimpleSaveOptions options)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| filename | String | 파일 이름입니다. |
-| options | MPPSaveOptions | 저장 옵션. |
+| 파일명 | 문자열 | 파일 이름. |
+| 옵션 | SimpleSaveOptions | 저장 옵션. |
 
-### 또한보십시오
+## 예제
 
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions/)
+프로젝트를 MPP 파일로 저장하는 방법을 보여줍니다.
+
+```csharp
+var project = new Project();
+SimpleSaveOptions options = new MPPSaveOptions();
+project.Save(OutDir + "EmptyProjectSaveStream_out.xml", options);
+```
+
+### 또 보기
+
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions/)
 * class [Project](../)
-* 네임스페이스 [Aspose.Tasks](../../project/)
-* 집회 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(string, SaveOptions) {#save_6}
-
-지정된 저장 옵션을 사용하여 문서를 파일로 저장합니다.
-
-```csharp
-public void Save(string filename, SaveOptions options)
-```
-
-| 모수 | 유형 | 설명 |
-| --- | --- | --- |
-| filename | String | 파일 이름입니다. |
-| options | SaveOptions | 저장 옵션. |
-
-### 또한보십시오
-
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
-* class [Project](../)
-* 네임스페이스 [Aspose.Tasks](../../project/)
-* 집회 [Aspose.Tasks](../../../)
-
----
-
-## Save(string, SaveFileFormat) {#save_5}
+## Save(string, SaveFileFormat) {#save_3}
 
 프로젝트 데이터를 파일에 저장합니다.
 
@@ -58,102 +46,134 @@ public void Save(string filename, SaveOptions options)
 public void Save(string filename, SaveFileFormat format)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| filename | String | 파일 이름입니다. |
-| format | SaveFileFormat | 저장 파일 형식입니다. |
+| 파일명 | 문자열 | 파일 이름. |
+| 형식 | SaveFileFormat | 저장 파일 형식. |
 
-### 또한보십시오
+## 예제
+
+MPP 템플릿 파일을 전달하지 않고 프로젝트를 생성하고 MPP 형식으로 저장하는 방법을 보여줍니다.
+
+```csharp
+var project = new Project();
+
+// 프로젝트는 내부 MPP 템플릿을 사용하여 MPP 형식으로 저장됩니다.
+project.Save(OutDir + "CreateEmptyProjectSaveMPP_out.mpp", SaveFileFormat.Mpp);
+```
+
+### 또 보기
 
 * enum [SaveFileFormat](../../../aspose.tasks.saving/savefileformat/)
 * class [Project](../)
-* 네임스페이스 [Aspose.Tasks](../../project/)
-* 집회 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(string) {#save_3}
+## Save(string) {#save_2}
 
-프로젝트 데이터를 mpp 형식의 파일로 저장합니다.
+프로젝트 데이터를 mpp 형식 파일에 저장합니다.
 
 ```csharp
 public void Save(string filename)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| filename | String | 파일 이름입니다. |
+| 파일명 | 문자열 | 파일 이름. |
 
-### 또한보십시오
+### 또 보기
 
 * class [Project](../)
-* 네임스페이스 [Aspose.Tasks](../../project/)
-* 집회 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(Stream, SaveOptions) {#save_2}
+## Save(Stream, SimpleSaveOptions) {#save_1}
 
 지정된 저장 옵션을 사용하여 프로젝트를 스트림에 저장합니다.
 
 ```csharp
-public void Save(Stream stream, SaveOptions options)
+public void Save(Stream stream, SimpleSaveOptions options)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| stream | Stream | 스트림. |
-| options | SaveOptions | 저장 옵션. |
+| 스트림 | 스트림 | 스트림. |
+| 옵션 | SimpleSaveOptions | 저장 옵션. |
 
-### 또한보십시오
+## 예제
 
-* class [SaveOptions](../../../aspose.tasks.saving/saveoptions/)
-* class [Project](../)
-* 네임스페이스 [Aspose.Tasks](../../project/)
-* 집회 [Aspose.Tasks](../../../)
-
----
-
-## Save(Stream, MPPSaveOptions) {#save}
-
-지정된 저장 옵션을 사용하여 프로젝트를 스트림에 저장합니다.
+MPP 저장 옵션을 사용하여 프로젝트를 스트림에 MPP 파일로 저장하는 방법을 보여줍니다.
 
 ```csharp
-public void Save(Stream stream, MPPSaveOptions options)
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var project = new Project();
+    SimpleSaveOptions options = new MPPSaveOptions();
+
+    // MPPSaveOptions를 사용하여 MPP 형식으로 저장합니다.
+    project.Save(stream, options);
+}
 ```
 
-| 모수 | 유형 | 설명 |
-| --- | --- | --- |
-| stream | Stream | 스트림. |
-| options | MPPSaveOptions | 저장 옵션. |
+프로젝트를 스트림에 이미지로 저장하고 이미지 옵션을 제어하는 방법을 보여줍니다.
 
-### 또한보십시오
+```csharp
+var project = new Project();
 
-* class [MPPSaveOptions](../../../aspose.tasks.saving/mppsaveoptions/)
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    var options = new ImageSaveOptions(SaveFileFormat.Png);
+
+    // ImageSaveOptions를 사용하여 프로젝트를 이미지 형식으로 저장합니다.
+    project.Save(stream, options);
+}
+```
+
+### 또 보기
+
+* class [SimpleSaveOptions](../../../aspose.tasks.saving/simplesaveoptions/)
 * class [Project](../)
-* 네임스페이스 [Aspose.Tasks](../../project/)
-* 집회 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
-## Save(Stream, SaveFileFormat) {#save_1}
+## Save(Stream, SaveFileFormat) {#save}
 
-스트림에 프로젝트 데이터를 저장합니다.
+프로젝트 데이터를 스트림에 저장합니다.
 
 ```csharp
 public void Save(Stream stream, SaveFileFormat format)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| stream | Stream | 스트림. |
+| 스트림 | 스트림 | 스트림. |
 | format | SaveFileFormat | 지정된 저장 파일 형식.[`SaveFileFormat`](../../../aspose.tasks.saving/savefileformat/) |
 
-### 또한보십시오
+## 예제
+
+프로젝트를 스트림에 XML MS Project 파일로 저장하는 방법을 보여줍니다.
+
+```csharp
+var project = new Project();
+
+using (var stream = new FileStream(OutDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
+{
+    // 스트림을 XML 형식으로 씁니다.
+    project.Save(stream, SaveFileFormat.Xml);
+}
+```
+
+### 또 보기
 
 * enum [SaveFileFormat](../../../aspose.tasks.saving/savefileformat/)
 * class [Project](../)
-* 네임스페이스 [Aspose.Tasks](../../project/)
-* 집회 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../project/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+

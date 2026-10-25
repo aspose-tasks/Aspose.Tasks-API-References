@@ -1,32 +1,32 @@
 ---
-title: CreateLookupResourceDefinition
-second_title: .NET API 참조용 Aspose.Tasks
-description: 조회를 통해 확장된 속성 정의를 생성하는 팩토리 메서드입니다. CalculationTypeaspose.tasks/extendedattributedefinition/calculationtype/ 와 같다Lookup 리소스에서만 사용할 수 있습니다. 지정해야 합니다.fieldId 그리고alias 이 메소드를 호출할 때. 필드 유형은 필드 id. 에서 유추됩니다.
+title: "ExtendedAttributeDefinition.CreateLookupResourceDefinition"
+second_title: "Aspose.Tasks for .NET API 참조"
+description: "ExtendedAttributeDefinition 메서드. 조회가 포함된 확장 속성 정의를 생성하는 팩터리 메서드입니다. CalculationType이 Lookup으로 설정되어 있으며 리소스에서만 사용할 수 있습니다. 이 메서드를 호출할 때 fieldId와 alias를 지정해야 합니다. 필드 유형은 field id에서 추론됩니다."
 type: docs
 weight: 10
 url: /ko/net/aspose.tasks/extendedattributedefinition/createlookupresourcedefinition/
 ---
 ## CreateLookupResourceDefinition(ExtendedAttributeResource, string) {#createlookupresourcedefinition_1}
 
-조회를 통해 확장된 속성 정의를 생성하는 팩토리 메서드입니다. [`CalculationType`](../calculationtype/) 와 같다Lookup 리소스에서만 사용할 수 있습니다. 지정해야 합니다.*fieldId* 그리고*alias* 이 메소드를 호출할 때. 필드 유형은 필드 id. 에서 유추됩니다.
+조회가 포함된 확장 속성 정의를 생성하는 팩터리 메서드입니다. [`CalculationType`](../calculationtype/)이 Lookup으로 설정되어 있으며 리소스에서만 사용할 수 있습니다. 이 메서드를 호출할 때 *fieldId*와 *alias*를 지정해야 합니다. 필드 유형은 field id에서 추론됩니다.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
     ExtendedAttributeResource fieldId, string alias)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| fieldId | ExtendedAttributeResource | 지정된[`ExtendedAttributeResource`](../../extendedattributeresource/) 필드 아이디. |
-| alias | String | 지정된String 별명. |
+| fieldId | ExtendedAttributeResource | 지정된 [`ExtendedAttributeResource`](../../extendedattributeresource/) 필드 ID입니다. |
+| 별칭 | 문자열 | 지정된 문자열 별칭입니다. |
 
 ### 반환 값
 
-의 생성된 인스턴스[`ExtendedAttributeDefinition`](../) 지정된 클래스*fieldId* 그리고*alias*.
+지정된 *fieldId*와 *alias*를 사용하여 [`ExtendedAttributeDefinition`](../) 클래스의 인스턴스를 생성했습니다.
 
-### 예
+## 예제
 
-이 예를 사용하여 조회가 있는 리소스에 대한 사용자 정의 필드 정의를 만든 다음 텍스트 값으로 채웁니다.
+이 예제를 사용하여 조회가 포함된 리소스용 사용자 정의 필드 정의를 만든 다음 텍스트 값으로 채워 보세요:
 
 ```csharp
 var resourceTextAttr = ExtendedAttributeDefinition.CreateLookupResourceDefinition(ExtendedAttributeResource.Text27, "My custom field");
@@ -35,37 +35,167 @@ resourceTextAttr.AddLookupValue(new Value { Id = 2, Val = "Text value 2", Descri
 project.ExtendedAttributes.Add(resourceTextAttr);
 ```
 
-### 또한보십시오
+업데이트된 확장 속성 정의를 작성하는 방법을 보여줍니다.
+
+```csharp
+var project = new Project(DataDir + "WriteUpdatedExtendedAttributeDefinitions.mpp");
+
+// lookup과 하나의 lookup 값을 가진 새로운 text3 확장 속성을 추가합니다
+var definition = ExtendedAttributeDefinition.CreateLookupTaskDefinition(ExtendedAttributeTask.Text3, "New text3 attribute");
+definition.ElementType = ElementType.Task;
+project.ExtendedAttributes.Add(definition);
+
+var textVal = new Value
+{
+    Id = 1,
+    Description = "Text value descr",
+    Val = "Text value1"
+};
+
+definition.AddLookupValue(textVal);
+
+// lookup과 두 개의 비용 값을 가진 새로운 cost1 확장 속성을 추가합니다
+var taskCostAttributeDefinition = ExtendedAttributeDefinition.CreateLookupTaskDefinition(ExtendedAttributeTask.Cost1, "New cost1 attribute");
+project.ExtendedAttributes.Add(taskCostAttributeDefinition);
+
+var costVal1 = new Value
+{
+    Id = 2,
+    Description = "Cost value 1 descr",
+    Val = "99900"
+};
+
+var costVal2 = new Value
+{
+    Id = 3,
+    Description = "Cost value 2 descr",
+    Val = "11100"
+};
+
+taskCostAttributeDefinition.AddLookupValue(costVal1);
+taskCostAttributeDefinition.AddLookupValue(costVal2);
+
+// 새 작업을 추가하고 속성 lookup 값을 할당합니다.
+var task = project.RootTask.Children.Add("New task");
+
+var taskAttr = taskCostAttributeDefinition.CreateExtendedAttribute(costVal1);
+task.ExtendedAttributes.Add(taskAttr);
+
+var taskStartAttributeDefinition = ExtendedAttributeDefinition.CreateLookupTaskDefinition(ExtendedAttributeTask.Start7, "New start 7 attribute");
+
+var startVal = new Value
+{
+    Id = 4,
+    DateTimeValue = DateTime.Now,
+    Description = "Start 7 value description"
+};
+
+taskStartAttributeDefinition.AddLookupValue(startVal);
+
+project.ExtendedAttributes.Add(taskStartAttributeDefinition);
+
+var taskFinishAttributeDefinition = ExtendedAttributeDefinition.CreateLookupTaskDefinition(ExtendedAttributeTask.Finish4, "New finish 4 attribute");
+
+var finishVal = new Value
+{
+    Id = 5,
+    DateTimeValue = DateTime.Now,
+    Description = "Finish 4 value description"
+};
+
+taskFinishAttributeDefinition.ValueList.Add(finishVal);
+
+project.ExtendedAttributes.Add(taskFinishAttributeDefinition);
+
+var numberAttributeDefinition = ExtendedAttributeDefinition.CreateLookupTaskDefinition(ExtendedAttributeTask.Number20, "New number attribute");
+
+var val1 = new Value
+{
+    Id = 6,
+    Val = "1",
+    Description = "Number 1 value"
+};
+var val2 = new Value
+{
+    Id = 7,
+    Val = "2",
+    Description = "Number 2 value"
+};
+var val3 = new Value();
+val2.Id = 8;
+val3.Val = "3";
+val3.Description = "Number 3 value";
+
+numberAttributeDefinition.AddLookupValue(val1);
+numberAttributeDefinition.AddLookupValue(val2);
+numberAttributeDefinition.AddLookupValue(val3);
+
+project.ExtendedAttributes.Add(numberAttributeDefinition);
+
+var rscStartAttributeDefinition = ExtendedAttributeDefinition.CreateLookupResourceDefinition(ExtendedAttributeResource.Start5, "New start5 attribute");
+
+var value = new Value
+{
+    Id = 9,
+    DateTimeValue = DateTime.Now,
+    Description = "this is start5 value descr"
+};
+
+rscStartAttributeDefinition.AddLookupValue(value);
+
+project.ExtendedAttributes.Add(rscStartAttributeDefinition);
+
+// lookup 없이 기간 속성을 정의합니다.
+var taskDurationAttributeDefinition = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Duration1, "New Duration");
+project.ExtendedAttributes.Add(taskDurationAttributeDefinition);
+
+// 새 작업을 추가하고 이전에 정의된 기간 속성에 기간 값을 할당합니다.
+var timeTask = project.RootTask.Children.Add("New task");
+
+var durationExtendedAttribute = taskDurationAttributeDefinition.CreateExtendedAttribute();
+
+durationExtendedAttribute.DurationValue = project.GetDuration(3.0, TimeUnitType.Hour);
+timeTask.ExtendedAttributes.Add(durationExtendedAttribute);
+
+var options = new MPPSaveOptions
+{
+    WriteViewData = true
+};
+
+project.Save(OutDir + "WriteUpdatedExtendedAttributeDefinitions_out.mpp", options);
+```
+
+### 또 보기
 
 * enum [ExtendedAttributeResource](../../extendedattributeresource/)
 * class [ExtendedAttributeDefinition](../)
-* 네임스페이스 [Aspose.Tasks](../../extendedattributedefinition/)
-* 집회 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
 ---
 
 ## CreateLookupResourceDefinition(CustomFieldType, ExtendedAttributeResource, string) {#createlookupresourcedefinition}
 
-조회를 통해 확장된 속성 정의를 생성하는 팩토리 메서드입니다. [`CalculationType`](../calculationtype/) 와 같다Lookup 리소스에서만 사용할 수 있습니다. 지정해야 합니다.*customFieldType* ,*fieldId* 그리고*alias* 이 메서드를 호출할 때.
+조회가 포함된 확장 속성 정의를 생성하는 팩터리 메서드입니다. [`CalculationType`](../calculationtype/)이 Lookup으로 설정되어 있으며 리소스에서만 사용할 수 있습니다. 이 메서드를 호출할 때 *customFieldType*, *fieldId*, *alias*를 지정해야 합니다.
 
 ```csharp
 public static ExtendedAttributeDefinition CreateLookupResourceDefinition(
     CustomFieldType customFieldType, ExtendedAttributeResource fieldId, string alias)
 ```
 
-| 모수 | 유형 | 설명 |
+| 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| customFieldType | CustomFieldType | 지정된[`CustomFieldType`](../../customfieldtype/) 유형. |
-| fieldId | ExtendedAttributeResource | 지정된[`ExtendedAttributeResource`](../../extendedattributeresource/) 필드 아이디. |
-| alias | String | 지정된String 별명. |
+| customFieldType | CustomFieldType | 지정된 [`CustomFieldType`](../../customfieldtype/) 유형입니다. |
+| fieldId | ExtendedAttributeResource | 지정된 [`ExtendedAttributeResource`](../../extendedattributeresource/) 필드 ID입니다. |
+| 별칭 | 문자열 | 지정된 문자열 별칭입니다. |
 
 ### 반환 값
 
-의 생성된 인스턴스[`ExtendedAttributeDefinition`](../) 지정된 클래스*customFieldType* ,*fieldId* 그리고*alias*.
+지정된 *customFieldType*, *fieldId*, *alias*를 사용하여 [`ExtendedAttributeDefinition`](../) 클래스의 인스턴스를 생성했습니다.
 
-### 예
+## 예제
 
-이 예를 사용하여 조회가 있는 리소스에 대한 사용자 정의 필드 정의를 만든 다음 텍스트 값으로 채웁니다.
+이 예제를 사용하여 조회가 포함된 리소스용 사용자 정의 필드 정의를 만든 다음 텍스트 값으로 채워 보세요:
 
 ```csharp
 var resourceTextAttr = ExtendedAttributeDefinition.CreateLookupResourceDefinition(CustomFieldType.Text, ExtendedAttributeResource.Text27, "My custom field");
@@ -74,12 +204,57 @@ resourceTextAttr.AddLookupValue(new Value { Id = 2, Val = "Text value 2", Descri
 project.ExtendedAttributes.Add(resourceTextAttr);
 ```
 
-### 또한보십시오
+할당에 대한 조회가 포함된 확장 속성을 추가하는 방법을 보여줍니다.
+
+```csharp
+var project = new Project(DataDir + "Blank2010.mpp");
+
+// 리소스 "1 TRG: Trade Group"을 "TASK 1"에 ResourceAssignment 객체를 생성하여 할당합니다.
+var resource = project.Resources.GetById(1);
+var task = project.RootTask.Children.GetById(1);
+var assignment = project.ResourceAssignments.Add(task, resource);
+
+// 조회가 포함된 사용자 정의 속성 정의를 생성합니다.
+var resExtendedAttributeDefinition = ExtendedAttributeDefinition.CreateLookupResourceDefinition(
+    CustomFieldType.Cost,
+    ExtendedAttributeResource.Cost5,
+    "My lookup resource cost");
+project.ExtendedAttributes.Add(resExtendedAttributeDefinition);
+
+var firstValue = new Value { NumericValue = 1500, Description = "Val 1", Id = 1, Val = "1500" };
+var secondValue = new Value { NumericValue = 2500, Description = "Val 2", Id = 2 };
+resExtendedAttributeDefinition.AddLookupValue(firstValue);
+resExtendedAttributeDefinition.AddLookupValue(secondValue);
+
+// 이 값은 MS Project의 "Resource usage" 보기에서 확인할 수 있습니다.
+var attributeValue = resExtendedAttributeDefinition.CreateExtendedAttribute(firstValue);
+assignment.ExtendedAttributes.Add(attributeValue);
+
+// 조회가 포함된 사용자 정의 속성 정의를 생성합니다.
+var taskCostAttr = ExtendedAttributeDefinition.CreateLookupTaskDefinition(CustomFieldType.Cost, ExtendedAttributeTask.Cost4, "My lookup task cost");
+project.ExtendedAttributes.Add(taskCostAttr);
+var taskFirstValue = new Value { NumericValue = 18, Description = "Task val 1", Id = 3, Val = "18" };
+var resSecondValue = new Value { NumericValue = 30, Description = "Task val 2", Id = 4 };
+var taskWrongValue = new Value { NumericValue = 99, Description = "Task val Wrong", Id = 5, Val = "18" };
+
+taskCostAttr.AddLookupValue(taskFirstValue);
+resExtendedAttributeDefinition.AddLookupValue(resSecondValue);
+
+// 이 값은 MS Project의 "Task usage" 보기에서 확인할 수 있습니다.
+assignment.ExtendedAttributes.Add(taskCostAttr.CreateExtendedAttribute(taskFirstValue));
+
+// 잘못된 값은 나중에 제거될 수 있습니다.
+taskCostAttr.RemoveLookupValue(taskWrongValue);
+
+// 프로젝트 작업 중...
+```
+
+### 또 보기
 
 * enum [CustomFieldType](../../customfieldtype/)
 * enum [ExtendedAttributeResource](../../extendedattributeresource/)
 * class [ExtendedAttributeDefinition](../)
-* 네임스페이스 [Aspose.Tasks](../../extendedattributedefinition/)
-* 집회 [Aspose.Tasks](../../../)
+* namespace [Aspose.Tasks](../../extendedattributedefinition/)
+* assembly [Aspose.Tasks](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Tasks.dll -->
+
