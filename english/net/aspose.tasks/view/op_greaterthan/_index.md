@@ -3,7 +3,7 @@ title: View.op_GreaterThan
 second_title: Aspose.Tasks for .NET API Reference
 description: View method. Returns a value indicating whether this instance is greater than a specified object
 type: docs
-weight: 180
+weight: 200
 url: /net/aspose.tasks/view/op_greaterthan/
 ---
 ## View GreaterThan operator

@@ -3,7 +3,7 @@ title: View.op_LessThan
 second_title: Aspose.Tasks for .NET API Reference
 description: View method. Returns a value indicating whether this instance is less than a specified object
 type: docs
-weight: 210
+weight: 230
 url: /net/aspose.tasks/view/op_lessthan/
 ---
 ## View LessThan operator

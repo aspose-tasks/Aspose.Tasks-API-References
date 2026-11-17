@@ -28,9 +28,9 @@ public enum TextItemType
 | TopTimescaleTier | `7` | Top timescale tier. |
 | BottomTimescaleTier | `8` | Bottom timescale tier. |
 | MiddleTimescaleTier | `9` | Middle timescale tier. |
-| Resources | `10` | Resource sheet. |
+| Resources | `10` | Resource (non overallocated) row. |
 | OverallocatedResources | `11` | Over allocated resources. |
-| TaskFilterHighlight | `12` | Task Filter Highlight text item. |
+| TaskFilterHighlight | `12` | Entity Filter Highlight text item. |
 | BarTextBottom | `13` | Bar Text Bottom text item. |
 | BarTextInside | `14` | Bar Text Inside text item. |
 | BarTextLeft | `15` | Bar Text Left text item. |

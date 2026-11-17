@@ -34,6 +34,8 @@ public class TaskUsageView : UsageView
 | [Screen](../../aspose.tasks/view/screen/) { get; } | Gets the screen type for the single view. Read-only [`ViewScreen`](../viewscreen/). |
 | [ShowInMenu](../../aspose.tasks/view/showinmenu/) { get; set; } | Gets or sets a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon. |
 | [Table](../../aspose.tasks/view/table/) { get; set; } | Gets or sets a table of the single view. |
+| [TableTextStyles](../../aspose.tasks/view/tabletextstyles/) { get; } | Gets a list of table text styles of the view. [`TableTextStyle`](../../aspose.tasks.visualization/tabletextstyle/). |
+| [TextStyles](../../aspose.tasks/view/textstyles/) { get; } | Gets or sets a list of [`TextStyle`](../../aspose.tasks.visualization/textstyle/) of the view. |
 | [TimescaleSizePercentage](../../aspose.tasks/usageview/timescalesizepercentage/) { get; set; } |  |
 | [TopTimescaleTier](../../aspose.tasks/usageview/toptimescaletier/) { get; set; } | Gets or sets settings of view's top timescale tier. [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/). |
 | [Type](../../aspose.tasks/view/type/) { get; } | Gets the type of item in the single view, such as tasks or resources. Read-only [`ItemType`](../itemtype/). |

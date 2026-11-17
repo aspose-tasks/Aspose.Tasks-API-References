@@ -3,7 +3,7 @@ title: View.Uid
 second_title: Aspose.Tasks for .NET API Reference
 description: View property. Gets the unique identifier of a view
 type: docs
-weight: 120
+weight: 140
 url: /net/aspose.tasks/view/uid/
 ---
 ## View.Uid property

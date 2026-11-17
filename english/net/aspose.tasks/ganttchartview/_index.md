@@ -47,8 +47,8 @@ public class GanttChartView : View
 | [ShowDrawings](../../aspose.tasks/ganttchartview/showdrawings/) { get; set; } | Gets or sets a value indicating whether drawings on the Gantt Chart must be shown. |
 | [ShowInMenu](../../aspose.tasks/view/showinmenu/) { get; set; } | Gets or sets a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon. |
 | [Table](../../aspose.tasks/view/table/) { get; set; } | Gets or sets a table of the single view. |
-| [TableTextStyles](../../aspose.tasks/ganttchartview/tabletextstyles/) { get; } | Gets a list of table text styles of the Gantt Chart view. [`TableTextStyle`](../../aspose.tasks.visualization/tabletextstyle/). |
-| [TextStyles](../../aspose.tasks/ganttchartview/textstyles/) { get; set; } | Gets or sets a list of [`TextStyle`](../../aspose.tasks.visualization/textstyle/) of the Gantt Chart view. |
+| [TableTextStyles](../../aspose.tasks/view/tabletextstyles/) { get; } | Gets a list of table text styles of the view. [`TableTextStyle`](../../aspose.tasks.visualization/tabletextstyle/). |
+| [TextStyles](../../aspose.tasks/view/textstyles/) { get; } | Gets or sets a list of [`TextStyle`](../../aspose.tasks.visualization/textstyle/) of the view. |
 | [TimescaleSizePercentage](../../aspose.tasks/ganttchartview/timescalesizepercentage/) { get; set; } |  |
 | [TopTimescaleTier](../../aspose.tasks/ganttchartview/toptimescaletier/) { get; set; } | Gets or sets settings of view's top timescale tier. [`TimescaleTier`](../../aspose.tasks.visualization/timescaletier/). |
 | [Type](../../aspose.tasks/view/type/) { get; } | Gets the type of item in the single view, such as tasks or resources. Read-only [`ItemType`](../itemtype/). |
