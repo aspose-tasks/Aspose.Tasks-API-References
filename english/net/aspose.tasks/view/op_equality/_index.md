@@ -3,7 +3,7 @@ title: View.op_Equality
 second_title: Aspose.Tasks for .NET API Reference
 description: View method. Returns a value indicating whether this instance is equal to a specified object
 type: docs
-weight: 170
+weight: 190
 url: /net/aspose.tasks/view/op_equality/
 ---
 ## View Equality operator

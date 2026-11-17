@@ -3,7 +3,7 @@ title: GanttChartView.TimescaleSizePercentage
 second_title: Aspose.Tasks for .NET API Reference
 description: GanttChartView property. 
 type: docs
-weight: 180
+weight: 160
 url: /net/aspose.tasks/ganttchartview/timescalesizepercentage/
 ---
 ## GanttChartView.TimescaleSizePercentage property

@@ -39,7 +39,9 @@ public class TimelineView : View
 | [ShowTimescale](../../aspose.tasks/timelineview/showtimescale/) { get; set; } | Gets or sets a value indicating whether to show timescale. |
 | [ShowToday](../../aspose.tasks/timelineview/showtoday/) { get; set; } | Gets or sets a value indicating whether to display a line representing today. |
 | [Table](../../aspose.tasks/view/table/) { get; set; } | Gets or sets a table of the single view. |
+| [TableTextStyles](../../aspose.tasks/view/tabletextstyles/) { get; } | Gets a list of table text styles of the view. [`TableTextStyle`](../../aspose.tasks.visualization/tabletextstyle/). |
 | [TextLinesCount](../../aspose.tasks/timelineview/textlinescount/) { get; set; } | Gets or sets a value indicating how many lines are used to display task in a timeline. |
+| [TextStyles](../../aspose.tasks/view/textstyles/) { get; } | Gets or sets a list of [`TextStyle`](../../aspose.tasks.visualization/textstyle/) of the view. |
 | [Type](../../aspose.tasks/view/type/) { get; } | Gets the type of item in the single view, such as tasks or resources. Read-only [`ItemType`](../itemtype/). |
 | [Uid](../../aspose.tasks/view/uid/) { get; } | Gets the unique identifier of a view. |
 | [VisualObjectsPlacements](../../aspose.tasks/view/visualobjectsplacements/) { get; } | Gets a collection of objects representing placement and appearance of [`OleObject`](../oleobject/) in the view. |

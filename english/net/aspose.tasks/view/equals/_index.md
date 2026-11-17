@@ -3,7 +3,7 @@ title: View.Equals
 second_title: Aspose.Tasks for .NET API Reference
 description: View method. Returns a value indicating whether this instance is equal to a specified object
 type: docs
-weight: 150
+weight: 170
 url: /net/aspose.tasks/view/equals/
 ---
 ## View.Equals method

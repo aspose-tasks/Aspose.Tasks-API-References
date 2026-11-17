@@ -3,7 +3,7 @@ title: View.CompareTo
 second_title: Aspose.Tasks for .NET API Reference
 description: View method. Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes follows or occurs in the same position in the sort order as the other object
 type: docs
-weight: 140
+weight: 160
 url: /net/aspose.tasks/view/compareto/
 ---
 ## View.CompareTo method

@@ -3,7 +3,7 @@ title: GanttChartView.TopTimescaleTier
 second_title: Aspose.Tasks for .NET API Reference
 description: GanttChartView property. Gets or sets settings of views top timescale tier. TimescaleTier
 type: docs
-weight: 190
+weight: 170
 url: /net/aspose.tasks/ganttchartview/toptimescaletier/
 ---
 ## GanttChartView.TopTimescaleTier property
