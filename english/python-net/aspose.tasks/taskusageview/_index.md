@@ -27,6 +27,8 @@ The TaskUsageView type exposes the following members:
 |show_in_menu|  |
 |page_info|  |
 |visual_objects_placements|  |
+|text_styles|  |
+|table_text_styles|  |
 |align_details_data|Gets or sets details data alignment.|
 |display_details_header_column|Gets or sets a value indicating whether to display details header column in the view or not.|
 |display_short_detail_header_names|Gets or sets a value indicating whether to display short detail header names or not.|
