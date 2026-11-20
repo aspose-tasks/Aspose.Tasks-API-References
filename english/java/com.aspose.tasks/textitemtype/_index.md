@@ -36,10 +36,10 @@ Item type to change a text style for.
 | [NoncriticalTasks](#NoncriticalTasks) | Noncritical tasks. |
 | [OverallocatedResources](#OverallocatedResources) | Over allocated resources. |
 | [ProjectSummary](#ProjectSummary) | Project summary task text item. |
-| [Resources](#Resources) | Resource sheet. |
+| [Resources](#Resources) | Resource (non overallocated) row. |
 | [RowColumnTitles](#RowColumnTitles) | Row and column titles. |
 | [SummaryTasks](#SummaryTasks) | Summary tasks. |
-| [TaskFilterHighlight](#TaskFilterHighlight) | Task Filter Highlight text item. |
+| [TaskFilterHighlight](#TaskFilterHighlight) | Entity Filter Highlight text item. |
 | [TopTimescaleTier](#TopTimescaleTier) | Top timescale tier. |
 ### Allocated {#Allocated}
 ```
@@ -191,7 +191,7 @@ public static final int Resources
 ```
 
 
-Resource sheet.
+Resource (non overallocated) row.
 
 ### RowColumnTitles {#RowColumnTitles}
 ```
@@ -215,7 +215,7 @@ public static final int TaskFilterHighlight
 ```
 
 
-Task Filter Highlight text item.
+Entity Filter Highlight text item.
 
 ### TopTimescaleTier {#TopTimescaleTier}
 ```
