@@ -38,6 +38,8 @@ Represents a view in Project.
 | [getScreen()](#getScreen--) | Gets the screen type for the single view. |
 | [getShowInMenu()](#getShowInMenu--) | Gets a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon. |
 | [getTable()](#getTable--) | Gets a table of the single view. |
+| [getTableTextStyles()](#getTableTextStyles--) | Gets a list of table text styles of the view. |
+| [getTextStyles()](#getTextStyles--) | Gets a list of [TextStyle](../../com.aspose.tasks/textstyle) of the view. |
 | [getType()](#getType--) | Gets the type of item in the single view, such as tasks or resources. |
 | [getUid()](#getUid--) | Gets the unique identifier of a view. |
 | [getVisualObjectsPlacements()](#getVisualObjectsPlacements--) | Gets a collection of objects representing placement and appearance of [OleObject](../../com.aspose.tasks/oleobject) in the view. |
@@ -54,6 +56,7 @@ Represents a view in Project.
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of a View object. |
 | [setShowInMenu(boolean value)](#setShowInMenu-boolean-) | Sets a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon. |
 | [setTable(Table value)](#setTable-com.aspose.tasks.Table-) | Sets a table of the single view. |
+| [setTextStyles(List&lt;TextStyle&gt; value)](#setTextStyles-java.util.List-com.aspose.tasks.TextStyle--) | Sets a list of [TextStyle](../../com.aspose.tasks/textstyle) of the view. |
 ### View() {#View--}
 ```
 public View()
@@ -197,6 +200,26 @@ Gets a table of the single view.
 
 **Returns:**
 [Table](../../com.aspose.tasks/table) - a table of the single view.
+### getTableTextStyles() {#getTableTextStyles--}
+```
+public final List<TableTextStyle> getTableTextStyles()
+```
+
+
+Gets a list of table text styles of the view.
+
+**Returns:**
+java.util.List&lt;com.aspose.tasks.TableTextStyle&gt; - a list of table text styles of the view.
+### getTextStyles() {#getTextStyles--}
+```
+public final List<TextStyle> getTextStyles()
+```
+
+
+Gets a list of [TextStyle](../../com.aspose.tasks/textstyle) of the view.
+
+**Returns:**
+java.util.List&lt;com.aspose.tasks.TextStyle&gt; - a list of [TextStyle](../../com.aspose.tasks/textstyle) of the view.
 ### getType() {#getType--}
 ```
 public final int getType()
@@ -410,4 +433,17 @@ Sets a table of the single view.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Table](../../com.aspose.tasks/table) | a table of the single view. |
+
+### setTextStyles(List&lt;TextStyle&gt; value) {#setTextStyles-java.util.List-com.aspose.tasks.TextStyle--}
+```
+public final void setTextStyles(List<TextStyle> value)
+```
+
+
+Sets a list of [TextStyle](../../com.aspose.tasks/textstyle) of the view.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.List&lt;com.aspose.tasks.TextStyle&gt; | a list of [TextStyle](../../com.aspose.tasks/textstyle) of the view. |
 

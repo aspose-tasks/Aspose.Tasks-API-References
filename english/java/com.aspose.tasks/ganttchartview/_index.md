@@ -40,8 +40,6 @@ Represents a GanttChart view.
 | [getRollUpGanttBars()](#getRollUpGanttBars--) | Gets a value indicating whether bars on the Gantt Chart must be rolled up. |
 | [getShowBarSplits()](#getShowBarSplits--) | Gets a value indicating whether task splits on the Gantt Chart must be shown. |
 | [getShowDrawings()](#getShowDrawings--) | Gets a value indicating whether drawings on the Gantt Chart must be shown. |
-| [getTableTextStyles()](#getTableTextStyles--) | Gets a list of table text styles of the Gantt Chart view. |
-| [getTextStyles()](#getTextStyles--) | Gets a list of [TextStyle](../../com.aspose.tasks/textstyle) of the Gantt Chart view. |
 | [getTimescaleSizePercentage()](#getTimescaleSizePercentage--) | \{@inheritDoc\} |
 | [getTopTimescaleTier()](#getTopTimescaleTier--) | Gets settings of view's top timescale tier. |
 | [setBarRounding(boolean value)](#setBarRounding-boolean-) | Sets a value indicating whether the bars round to the nearest day. |
@@ -55,7 +53,6 @@ Represents a GanttChart view.
 | [setRollUpGanttBars(boolean value)](#setRollUpGanttBars-boolean-) | Sets a value indicating whether bars on the Gantt Chart must be rolled up. |
 | [setShowBarSplits(boolean value)](#setShowBarSplits-boolean-) | Sets a value indicating whether task splits on the Gantt Chart must be shown. |
 | [setShowDrawings(boolean value)](#setShowDrawings-boolean-) | Sets a value indicating whether drawings on the Gantt Chart must be shown. |
-| [setTextStyles(List&lt;TextStyle&gt; value)](#setTextStyles-java.util.List-com.aspose.tasks.TextStyle--) | Sets a list of [TextStyle](../../com.aspose.tasks/textstyle) of the Gantt Chart view. |
 | [setTimescaleSizePercentage(int value)](#setTimescaleSizePercentage-int-) | \{@inheritDoc\} |
 | [setTopTimescaleTier(TimescaleTier value)](#setTopTimescaleTier-com.aspose.tasks.TimescaleTier-) | Sets settings of view's top timescale tier. |
 ### GanttChartView() {#GanttChartView--}
@@ -206,26 +203,6 @@ Gets a value indicating whether drawings on the Gantt Chart must be shown.
 
 **Returns:**
 boolean - a value indicating whether drawings on the Gantt Chart must be shown.
-### getTableTextStyles() {#getTableTextStyles--}
-```
-public final List<TableTextStyle> getTableTextStyles()
-```
-
-
-Gets a list of table text styles of the Gantt Chart view. [TableTextStyle](../../com.aspose.tasks/tabletextstyle).
-
-**Returns:**
-java.util.List&lt;com.aspose.tasks.TableTextStyle&gt; - a list of table text styles of the Gantt Chart view.
-### getTextStyles() {#getTextStyles--}
-```
-public final List<TextStyle> getTextStyles()
-```
-
-
-Gets a list of [TextStyle](../../com.aspose.tasks/textstyle) of the Gantt Chart view.
-
-**Returns:**
-java.util.List&lt;com.aspose.tasks.TextStyle&gt; - a list of [TextStyle](../../com.aspose.tasks/textstyle) of the Gantt Chart view.
 ### getTimescaleSizePercentage() {#getTimescaleSizePercentage--}
 ```
 public final int getTimescaleSizePercentage()
@@ -388,19 +365,6 @@ Sets a value indicating whether drawings on the Gantt Chart must be shown.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | a value indicating whether drawings on the Gantt Chart must be shown. |
-
-### setTextStyles(List&lt;TextStyle&gt; value) {#setTextStyles-java.util.List-com.aspose.tasks.TextStyle--}
-```
-public final void setTextStyles(List<TextStyle> value)
-```
-
-
-Sets a list of [TextStyle](../../com.aspose.tasks/textstyle) of the Gantt Chart view.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.List&lt;com.aspose.tasks.TextStyle&gt; | a list of [TextStyle](../../com.aspose.tasks/textstyle) of the Gantt Chart view. |
 
 ### setTimescaleSizePercentage(int value) {#setTimescaleSizePercentage-int-}
 ```
