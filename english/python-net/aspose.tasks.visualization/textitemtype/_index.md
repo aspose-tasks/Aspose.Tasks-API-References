@@ -24,9 +24,9 @@ Item type to change a text style for.
 |TOP_TIMESCALE_TIER|Top timescale tier.|
 |BOTTOM_TIMESCALE_TIER|Bottom timescale tier.|
 |MIDDLE_TIMESCALE_TIER|Middle timescale tier.|
-|RESOURCES|Resource sheet.|
+|RESOURCES|Resource (non overallocated) row.|
 |OVERALLOCATED_RESOURCES|Over allocated resources.|
-|TASK_FILTER_HIGHLIGHT|Task Filter Highlight text item.|
+|TASK_FILTER_HIGHLIGHT|Entity Filter Highlight text item.|
 |BAR_TEXT_BOTTOM|Bar Text Bottom text item.|
 |BAR_TEXT_INSIDE|Bar Text Inside text item.|
 |BAR_TEXT_LEFT|Bar Text Left text item.|

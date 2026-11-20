@@ -27,6 +27,8 @@ The UsageView type exposes the following members:
 |show_in_menu|Gets or sets a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon.|
 |page_info|Gets an instance of the [page_info](/tasks/python-net/aspose.tasks/view/) class. Represents page setup data which is present in mpp file format.|
 |visual_objects_placements|Gets a collection of objects representing placement and appearance of [OleObject](/tasks/python-net/aspose.tasks/oleobject/) in the view.|
+|text_styles|Gets or sets a list of [TextStyle](/tasks/python-net/aspose.tasks.visualization/textstyle/) of the view.|
+|table_text_styles|Gets a list of table text styles of the view.<br/>            [TableTextStyle](/tasks/python-net/aspose.tasks.visualization/tabletextstyle/).|
 |align_details_data|Gets or sets details data alignment.|
 |display_details_header_column|Gets or sets a value indicating whether to display details header column in the view or not.|
 |display_short_detail_header_names|Gets or sets a value indicating whether to display short detail header names or not.|

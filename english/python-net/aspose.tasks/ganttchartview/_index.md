@@ -31,9 +31,10 @@ The GanttChartView type exposes the following members:
 |show_in_menu|Gets or sets a value indicating whether Microsoft Project shows the single view name in the View or the Other Views drop-down lists in the Ribbon.|
 |page_info|Gets an instance of the [page_info](/tasks/python-net/aspose.tasks/view/) class. Represents page setup data which is present in mpp file format.|
 |visual_objects_placements|Gets a collection of objects representing placement and appearance of [OleObject](/tasks/python-net/aspose.tasks/oleobject/) in the view.|
+|text_styles|Gets or sets a list of [TextStyle](/tasks/python-net/aspose.tasks.visualization/textstyle/) of the view.|
+|table_text_styles|Gets a list of table text styles of the view.<br/>            [TableTextStyle](/tasks/python-net/aspose.tasks.visualization/tabletextstyle/).|
 |bar_size|Gets or sets the height, in points, of the Gantt bars in the Gantt Chart.|
 |gridlines|Gets or sets a list of [gridlines](/tasks/python-net/aspose.tasks/ganttchartview/) of the Gantt Chart view.|
-|text_styles|Gets or sets a list of [TextStyle](/tasks/python-net/aspose.tasks.visualization/textstyle/) of the Gantt Chart view.|
 |show_drawings|Gets or sets a value indicating whether drawings on the Gantt Chart must be shown.|
 |show_bar_splits|Gets or sets a value indicating whether task splits on the Gantt Chart must be shown.|
 |roll_up_gantt_bars|Gets or sets a value indicating whether bars on the Gantt Chart must be rolled up.|
@@ -45,7 +46,6 @@ The GanttChartView type exposes the following members:
 |hide_rollup_bars_when_summary_expanded|Gets or sets a value indicating whether rollup bars will be hidden when expanding summary task.|
 |progress_lines|Gets or sets progress lines for the Gantt Chart view.<br/>            [progress_lines](/tasks/python-net/aspose.tasks/ganttchartview/).|
 |auto_filters|Gets a list of auto filters of a Gantt Chart view.|
-|table_text_styles|Gets a list of table text styles of the Gantt Chart view.<br/>            [TableTextStyle](/tasks/python-net/aspose.tasks.visualization/tabletextstyle/).|
 |bar_styles|Gets a list of parent (common) bar styles of the Gantt Chart view.<br/>            [GanttBarStyle](/tasks/python-net/aspose.tasks.visualization/ganttbarstyle/).|
 |custom_bar_styles|Gets a list of custom task-specific bar styles of the Gantt Chart view.<br/>            [GanttBarStyle](/tasks/python-net/aspose.tasks.visualization/ganttbarstyle/).|
 |non_working_time_color|Gets or sets non-working time color.|
